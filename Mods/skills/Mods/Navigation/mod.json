@@ -16,7 +16,8 @@
 	],
 	"skills" : [
 		"config/skills/Navigation.json"
-	],
+	]
+,
 	"czech" : {
 		"translations" : [
 			"translation/czech.json"

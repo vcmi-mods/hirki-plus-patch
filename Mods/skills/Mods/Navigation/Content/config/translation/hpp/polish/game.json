@@ -1,0 +1,6 @@
+{
+  "skill.core.navigation.name": "Nawigacja",
+  "skill.core.navigation.description.basic": "{Podstawowa Nawigacja}\n\nZwiększa liczbę punktów ruchu bohatera na wodzie o 50%.\n\nPozwala wchodzić na okręt i schodzić z niego bez kończenia tury. Przy wejściu na okręt lub zejściu na ląd pozostały ruch bohatera jest przeliczany między ruchem lądowym i wodnym.",
+  "skill.core.navigation.description.advanced": "{Zaawansowana Nawigacja}\n\nZwiększa liczbę punktów ruchu bohatera na wodzie o 100%.\n\nPozwala wchodzić na okręt i schodzić z niego bez kończenia tury. Przy wejściu na okręt lub zejściu na ląd pozostały ruch bohatera jest przeliczany między ruchem lądowym i wodnym.",
+  "skill.core.navigation.description.expert": "{Ekspercka Nawigacja}\n\nZwiększa liczbę punktów ruchu bohatera na wodzie o 150%.\n\nPozwala wchodzić na okręt i schodzić z niego bez kończenia tury. Przy wejściu na okręt lub zejściu na ląd pozostały ruch bohatera jest przeliczany między ruchem lądowym i wodnym."
+}

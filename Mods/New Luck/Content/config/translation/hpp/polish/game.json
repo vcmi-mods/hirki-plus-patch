@@ -1,0 +1,8 @@
+{
+	"skill.core.luck.name": "Szczęście",
+	"skill.core.luck.description.basic": "{Podstawowe Szczęście}\n\nZwiększa szczęście wszystkich jednostek bohatera o 1, poprawiając ich szansę na zadanie podwójnych obrażeń przy szczęśliwym ataku.\n\nDodatnie szczęście może przyznać lub wzmocnić wybrane zdolności jednostek oparte na szansie. Ujemne szczęście może osłabić niektóre istniejące zdolności.",
+	"skill.core.luck.description.advanced": "{Zaawansowane Szczęście}\n\nZwiększa szczęście wszystkich jednostek bohatera o 2, poprawiając ich szansę na zadanie podwójnych obrażeń przy szczęśliwym ataku.\n\nDodatnie szczęście może przyznać lub wzmocnić wybrane zdolności jednostek oparte na szansie. Ujemne szczęście może osłabić niektóre istniejące zdolności.",
+	"skill.core.luck.description.expert": "{Eksperckie Szczęście}\n\nZwiększa szczęście wszystkich jednostek bohatera o 3, poprawiając ich szansę na zadanie podwójnych obrażeń przy szczęśliwym ataku.\n\nDodatnie szczęście może przyznać lub wzmocnić wybrane zdolności jednostek oparte na szansie. Ujemne szczęście może osłabić niektóre istniejące zdolności.",
+	"artifact.core.pendantOfCourage.name": "Znak Odwagi",
+	"artifact.core.pendantOfCourage.description": "{Znak Odwagi}\n\nNoszony przez bohatera, zapewnia jego oddziałom +2 do szczęścia oraz +2 do morale."
+}

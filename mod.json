@@ -1,27 +1,30 @@
 {
-	"name" : "Hirki Plus Patch (H.P.P.)",
-	"description" : "A modular gameplay and balance patch for Heroes of Might and Magic III on VCMI, designed for use with **Horn of the Abyss**.\n\nH.P.P. improves selected underused systems while preserving the classic feel of Heroes III. Its modules can be enabled separately, so players can choose the parts they want.\n\n## Current 1.2.0 Highlights\n\n* **Towns** — adds Elemental Ritual and weekly town-building rewards for resource and gold specialists.\n\n* **Spells** — reworks Slayer and Magic Mirror to give them clearer tactical roles.\n\n* **New Luck** — expands Magic Mirror interactions through Luck-based scaling.\n\n* **New Ranged** — updates Archery ammo support at Advanced and Expert mastery.\n\n* **Artifacts** — adds Diplomatic Artifacts, a focused rework of diplomacy-related artifacts and interactions.",
-	"author" : "bew_",
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
-	"contact" : "https://github.com/vcmi-mods/hirki-plus-patch/issues",
-	"version" : "1.2.0",
-	"modType" : "Expansion",
-	"compatibility" : {
-		"min" : "1.7.4"
+	"name": "Hirki Plus Patch (H.P.P.)",
+	"description": "A modular gameplay and balance patch for Heroes of Might and Magic III on VCMI, designed for use with **Horn of the Abyss**.\n\nH.P.P. improves selected underused systems while preserving the classic feel of Heroes III. Its modules can be enabled separately, so players can choose the parts they want.\n\n## Current 1.2.0 Highlights\n\n* **Towns** — adds Elemental Ritual and weekly town-building rewards for resource and gold specialists.\n\n* **Spells** — reworks Slayer and Magic Mirror to give them clearer tactical roles.\n\n* **New Luck** — expands Magic Mirror interactions through Luck-based scaling.\n\n* **New Ranged** — updates Archery ammo support at Advanced and Expert mastery.\n\n* **Artifacts** — adds Diplomatic Artifacts, a focused rework of diplomacy-related artifacts and interactions.",
+	"author": "bew_",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact": "https://github.com/vcmi-mods/hirki-plus-patch/issues",
+	"version": "1.2.1",
+	"modType": "Expansion",
+	"compatibility": {
+		"min": "1.7.4"
 	},
-	"depends" : [
+	"depends": [
 		"hota"
 	],
-	"polish" : {
-		"name" : "Hirki Plus Patch (H.P.P.)",
-		"description" : "Modularna poprawka rozgrywki i balansu dla Heroes of Might and Magic III na VCMI, przeznaczona do gry z **Horn of the Abyss**.\n\nH.P.P. rozwija wybrane, rzadziej używane elementy gry, zachowując klasyczny charakter Heroes III. Moduły można włączać osobno, dzięki czemu gracz może wybrać tylko te części, których chce używać.\n\n## Najważniejsze elementy 1.2.0\n\n* **Miasta** — dodaje Rytuał żywiołów oraz tygodniowe nagrody z budynków miast dla specjalistów surowców i złota.\n\n* **Czary** — przebudowuje Slayera i Magic Mirror, nadając im wyraźniejsze zastosowania taktyczne.\n\n* **Nowe szczęście** — rozszerza interakcje Magic Mirror przez skalowanie oparte na szczęściu.\n\n* **Nowe strzelanie** — aktualizuje wsparcie Archery dla amunicji na poziomie zaawansowanym i eksperckim.\n\n* **Artefakty** — dodaje Artefakty dyplomatyczne, czyli skupioną przebudowę artefaktów i interakcji związanych z Dyplomacją.",
-		"translations" : [
+	"polish": {
+		"name": "Hirki Plus Patch (H.P.P.)",
+		"description": "Modularna poprawka rozgrywki i balansu dla Heroes of Might and Magic III na VCMI, przeznaczona do gry z **Horn of the Abyss**.\n\nH.P.P. rozwija wybrane, rzadziej używane elementy gry, zachowując klasyczny charakter Heroes III. Moduły można włączać osobno, dzięki czemu gracz może wybrać tylko te części, których chce używać.\n\n## Najważniejsze elementy 1.2.0\n\n* **Miasta** — dodaje Rytuał żywiołów oraz tygodniowe nagrody z budynków miast dla specjalistów surowców i złota.\n\n* **Czary** — przebudowuje Slayera i Magic Mirror, nadając im wyraźniejsze zastosowania taktyczne.\n\n* **Nowe szczęście** — rozszerza interakcje Magic Mirror przez skalowanie oparte na szczęściu.\n\n* **Nowe strzelanie** — aktualizuje wsparcie Archery dla amunicji na poziomie zaawansowanym i eksperckim.\n\n* **Artefakty** — dodaje Artefakty dyplomatyczne, czyli skupioną przebudowę artefaktów i interakcji związanych z Dyplomacją.",
+		"translations": [
 			"translation/polish.json"
 		]
 	},
-	"changelog" : {
-		"1.2.0" : [
+	"changelog": {
+		"1.2.1": [
+			"Fixed Polish Slayer spell and Coronius specialty text appearing in the English version of the game."
+		],
+		"1.2.0": [
 			"Added Towns category with Elemental Ritual, Resource Specialist Silos and Gold Specialist Halls modules.",
 			"Added Slayer spell rework.",
 			"Added Magic Mirror spell rework.",
@@ -30,25 +33,25 @@
 			"Added Artifacts category with Diplomatic Artifacts module.",
 			"Updated selected Polish Launcher mastery wording."
 		],
-		"1.1.2" : [
+		"1.1.2": [
 			"Added initial Czech translation - all in game text is done, no Launcher related texts for now",
 			"Moved Polish translation files to proper structure"
 		],
-		"1.1.1" : [
+		"1.1.1": [
 			"Fixed Polish localization keys for selected HPP runtime IDs.",
 			"Added missing Polish fallback text for Trailblazer."
 		],
-		"1.1.0" : [
+		"1.1.0": [
 			"Added Polish localization.",
 			"Updated selected English descriptions.",
 			"Added and updated selected map object reward modules."
 		],
-		"1.0.0" : [
+		"1.0.0": [
 			"Initial release."
 		]
 	},
-	"czech" : {
-		"translations" : [
+	"czech": {
+		"translations": [
 			"translation/czech.json"
 		]
 	}

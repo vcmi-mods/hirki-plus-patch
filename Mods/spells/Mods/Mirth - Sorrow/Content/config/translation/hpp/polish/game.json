@@ -1,0 +1,10 @@
+{
+	"spell.core.mirth.description.none": "{Radość}\n\nPodnosi morale wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru morale tego oddziału nie może spaść poniżej {+1}.",
+	"spell.core.mirth.description.basic": "{Podstawowa Radość}\n\nPodnosi morale wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru morale tego oddziału nie może spaść poniżej {+1}.",
+	"spell.core.mirth.description.advanced": "{Zaawansowana Radość}\n\nPodnosi morale wybranego sojuszniczego oddziału o {2}.\n\nPrzez czas działania czaru morale tego oddziału nie może spaść poniżej {+2}.",
+	"spell.core.mirth.description.expert": "{Mistrzowska Radość}\n\nPodnosi morale wszystkich sojuszniczych oddziałów o {2}.\n\nPrzez czas działania czaru morale objętych oddziałów nie może spaść poniżej {+2}.",
+	"spell.core.sorrow.description.none": "{Przygnębienie}\n\nObniża morale wybranego wrogiego oddziału o {1}.\n\nPrzez czas działania czaru morale tego oddziału nie może wzrosnąć powyżej {-1}.",
+	"spell.core.sorrow.description.basic": "{Podstawowe Przygnębienie}\n\nObniża morale wybranego wrogiego oddziału o {1}.\n\nPrzez czas działania czaru morale tego oddziału nie może wzrosnąć powyżej {-1}.",
+	"spell.core.sorrow.description.advanced": "{Zaawansowane Przygnębienie}\n\nObniża morale wybranego wrogiego oddziału o {2}.\n\nPrzez czas działania czaru morale tego oddziału nie może wzrosnąć powyżej {-2}.",
+	"spell.core.sorrow.description.expert": "{Mistrzowskie Przygnębienie}\n\nObniża morale wszystkich wrogich oddziałów o {2}.\n\nPrzez czas działania czaru morale objętych oddziałów nie może wzrosnąć powyżej {-2}."
+}

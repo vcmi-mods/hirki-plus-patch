@@ -1,0 +1,11 @@
+{
+  "artifact.hirki-plus-patch-main.new ranged.hirkyAmmoCartArtifact.name": "Wóz z amunicją",
+  "artifact.hirki-plus-patch-main.new ranged.hirkyAmmoCartArtifact.description": "{Wóz z amunicją}\n\nTa machina wojenna zapewnia sojuszniczym jednostkom strzelającym +5 do maksymalnej liczby strzałów w bieżącej bitwie.",
+  "artifact.hirki-plus-patch-main.new ranged.hirkyAmmoCartArtifact.event": "Znajdujesz Wóz z amunicją. Może zaopatrzyć twoje jednostki strzelające w dodatkową amunicję, więc zabierasz go ze sobą.",
+  "creatures.hirki-plus-patch-main.new ranged.hirkyAmmoCart.name.singular": "Wóz z amunicją",
+  "creatures.hirki-plus-patch-main.new ranged.hirkyAmmoCart.name.plural": "Wozy z amunicją",
+  "creatures.hirki-plus-patch-main.new ranged.hirkyAmmoCart.bonus.inactive": "{Nieaktywny}\nWóz z amunicją jest wyłączony z kolejki tur i działa jako pasywna machina wojenna.",
+  "creatures.hirki-plus-patch-main.new ranged.hirkyAmmoCart.bonus.noLuck": "{Brak szczęścia}\nWóz z amunicją nie podlega wpływowi szczęścia.",
+  "creatures.hirki-plus-patch-main.new ranged.hirkyAmmoCart.bonus.siegeWeapon": "{Wóz z amunicją}\nPowiązany artefakt zapewnia sojuszniczym jednostkom strzelającym +5 do maksymalnej liczby strzałów w bieżącej bitwie.",
+  "artifact.core.goldenBow.description": "Oddziały strzelające bohatera nie otrzymują kar za odległość ani przeszkody przy atakach dystansowych."
+}

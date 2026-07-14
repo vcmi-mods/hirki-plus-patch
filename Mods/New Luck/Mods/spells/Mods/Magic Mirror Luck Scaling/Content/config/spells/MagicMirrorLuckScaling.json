@@ -1,326 +1,326 @@
 {
-	"core:magicMirror" : {
-		"levels" : {
-			"none" : {
-				"effects" : {
-					"magicMirrorLuckNoneNegative3OrLower" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMaxValue" : -3
-							}
-						]
-					},
-					"magicMirrorLuckNoneNegative2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -7,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -2,
-								"bonusMaxValue" : -2
-							}
-						]
-					},
-					"magicMirrorLuckNoneNegative1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -3,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -1,
-								"bonusMaxValue" : -1
-							}
-						]
-					},
-					"magicMirrorLuckNonePositive1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 1,
-								"bonusMaxValue" : 1
-							}
-						]
-					},
-					"magicMirrorLuckNonePositive2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 20,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 2,
-								"bonusMaxValue" : 2
-							}
-						]
-					},
-					"magicMirrorLuckNonePositive3OrHigher" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 30,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 3
-							}
-						]
-					}
-				}
-			},
-			"basic" : {
-				"effects" : {
-					"magicMirrorLuckBasicNegative3OrLower" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMaxValue" : -3
-							}
-						]
-					},
-					"magicMirrorLuckBasicNegative2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -7,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -2,
-								"bonusMaxValue" : -2
-							}
-						]
-					},
-					"magicMirrorLuckBasicNegative1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -3,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -1,
-								"bonusMaxValue" : -1
-							}
-						]
-					},
-					"magicMirrorLuckBasicPositive1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 1,
-								"bonusMaxValue" : 1
-							}
-						]
-					},
-					"magicMirrorLuckBasicPositive2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 20,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 2,
-								"bonusMaxValue" : 2
-							}
-						]
-					},
-					"magicMirrorLuckBasicPositive3OrHigher" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 30,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 3
-							}
-						]
-					}
-				}
-			},
-			"advanced" : {
-				"effects" : {
-					"magicMirrorLuckAdvancedNegative3OrLower" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMaxValue" : -3
-							}
-						]
-					},
-					"magicMirrorLuckAdvancedNegative2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -7,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -2,
-								"bonusMaxValue" : -2
-							}
-						]
-					},
-					"magicMirrorLuckAdvancedNegative1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -3,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -1,
-								"bonusMaxValue" : -1
-							}
-						]
-					},
-					"magicMirrorLuckAdvancedPositive1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 1,
-								"bonusMaxValue" : 1
-							}
-						]
-					},
-					"magicMirrorLuckAdvancedPositive2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 20,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 2,
-								"bonusMaxValue" : 2
-							}
-						]
-					},
-					"magicMirrorLuckAdvancedPositive3OrHigher" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 30,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 3
-							}
-						]
-					}
-				}
-			},
-			"expert" : {
-				"effects" : {
-					"magicMirrorLuckExpertNegative3OrLower" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMaxValue" : -3
-							}
-						]
-					},
-					"magicMirrorLuckExpertNegative2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -7,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -2,
-								"bonusMaxValue" : -2
-							}
-						]
-					},
-					"magicMirrorLuckExpertNegative1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : -3,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : -1,
-								"bonusMaxValue" : -1
-							}
-						]
-					},
-					"magicMirrorLuckExpertPositive1" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 10,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 1,
-								"bonusMaxValue" : 1
-							}
-						]
-					},
-					"magicMirrorLuckExpertPositive2" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 20,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 2,
-								"bonusMaxValue" : 2
-							}
-						]
-					},
-					"magicMirrorLuckExpertPositive3OrHigher" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"val" : 30,
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "LUCK",
-								"bonusMinValue" : 3
-							}
-						]
-					}
-				}
-			}
-		}
-	}
+  "core:magicMirror": {
+    "levels": {
+      "none": {
+        "effects": {
+          "magicMirrorLuckNoneNegative3OrLower": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMaxValue": -3
+              }
+            ]
+          },
+          "magicMirrorLuckNoneNegative2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -7,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -2,
+                "bonusMaxValue": -2
+              }
+            ]
+          },
+          "magicMirrorLuckNoneNegative1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -3,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -1,
+                "bonusMaxValue": -1
+              }
+            ]
+          },
+          "magicMirrorLuckNonePositive1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 1,
+                "bonusMaxValue": 1
+              }
+            ]
+          },
+          "magicMirrorLuckNonePositive2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 20,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 2,
+                "bonusMaxValue": 2
+              }
+            ]
+          },
+          "magicMirrorLuckNonePositive3OrHigher": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 30,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 3
+              }
+            ]
+          }
+        }
+      },
+      "basic": {
+        "effects": {
+          "magicMirrorLuckBasicNegative3OrLower": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMaxValue": -3
+              }
+            ]
+          },
+          "magicMirrorLuckBasicNegative2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -7,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -2,
+                "bonusMaxValue": -2
+              }
+            ]
+          },
+          "magicMirrorLuckBasicNegative1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -3,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -1,
+                "bonusMaxValue": -1
+              }
+            ]
+          },
+          "magicMirrorLuckBasicPositive1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 1,
+                "bonusMaxValue": 1
+              }
+            ]
+          },
+          "magicMirrorLuckBasicPositive2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 20,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 2,
+                "bonusMaxValue": 2
+              }
+            ]
+          },
+          "magicMirrorLuckBasicPositive3OrHigher": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 30,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 3
+              }
+            ]
+          }
+        }
+      },
+      "advanced": {
+        "effects": {
+          "magicMirrorLuckAdvancedNegative3OrLower": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMaxValue": -3
+              }
+            ]
+          },
+          "magicMirrorLuckAdvancedNegative2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -7,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -2,
+                "bonusMaxValue": -2
+              }
+            ]
+          },
+          "magicMirrorLuckAdvancedNegative1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -3,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -1,
+                "bonusMaxValue": -1
+              }
+            ]
+          },
+          "magicMirrorLuckAdvancedPositive1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 1,
+                "bonusMaxValue": 1
+              }
+            ]
+          },
+          "magicMirrorLuckAdvancedPositive2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 20,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 2,
+                "bonusMaxValue": 2
+              }
+            ]
+          },
+          "magicMirrorLuckAdvancedPositive3OrHigher": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 30,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 3
+              }
+            ]
+          }
+        }
+      },
+      "expert": {
+        "effects": {
+          "magicMirrorLuckExpertNegative3OrLower": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMaxValue": -3
+              }
+            ]
+          },
+          "magicMirrorLuckExpertNegative2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -7,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -2,
+                "bonusMaxValue": -2
+              }
+            ]
+          },
+          "magicMirrorLuckExpertNegative1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": -3,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": -1,
+                "bonusMaxValue": -1
+              }
+            ]
+          },
+          "magicMirrorLuckExpertPositive1": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 10,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 1,
+                "bonusMaxValue": 1
+              }
+            ]
+          },
+          "magicMirrorLuckExpertPositive2": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 20,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 2,
+                "bonusMaxValue": 2
+              }
+            ]
+          },
+          "magicMirrorLuckExpertPositive3OrHigher": {
+            "duration": "N_TURNS",
+            "type": "MAGIC_MIRROR",
+            "val": 30,
+            "limiters": [
+              {
+                "type": "HAS_ANOTHER_BONUS_LIMITER",
+                "bonusType": "LUCK",
+                "bonusMinValue": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }

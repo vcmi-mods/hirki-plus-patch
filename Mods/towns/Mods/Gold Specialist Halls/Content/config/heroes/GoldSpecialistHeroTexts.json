@@ -1,118 +1,118 @@
 {
-	"core:octavia" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:octavia": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:nagash" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:nagash": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:jenova" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:jenova": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:grindan" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:grindan": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:gelare" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:gelare": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:damacon" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:damacon": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:clavius" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:clavius": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:caitlin" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:caitlin": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:aine" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"core:aine": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"hota.cove:06leena" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"hota.cove:06leena": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"hota.factory:14bertram" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"hota.factory:14bertram": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"hota.bulwark:15vehr" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "+350 Gold",
-				"description" : "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
-				"tooltip" : "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
+	"hota.bulwark:15vehr": {
+		"texts": {
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
+				"tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	},
-	"core:lordHaart" : {
-		"texts" : {
-			"specialty" : {
-				"name" : "Estates",
-				"description" : "Increases the effect of {Estates} by {+5%} for each level gained.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart} as the only exception.",
-				"tooltip" : "Improves {Estates}; once per week, as the only exception, receives {+4000} gold from the visited {City Hall}."
+	"core:lordHaart": {
+		"texts": {
+			"specialty": {
+				"name": "Estates",
+				"description": "Increases the effect of {Estates} by {+5%} for each level gained.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart} as the only exception.",
+				"tooltip": "Improves {Estates}; once per week, as the only exception, receives {+4000} gold from the visited {City Hall}."
 			}
 		}
 	}

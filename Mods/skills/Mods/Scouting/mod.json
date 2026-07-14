@@ -21,7 +21,8 @@
 	},
 	"skills" : [
 		"config/skills/Scouting.json"
-	],
+	]
+,
 	"czech" : {
 		"translations" : [
 			"translation/czech.json"

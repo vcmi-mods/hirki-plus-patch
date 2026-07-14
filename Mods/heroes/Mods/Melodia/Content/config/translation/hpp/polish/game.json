@@ -1,0 +1,5 @@
+{
+	"hero.core.melodia.specialty.name": "Czyste Szczęście",
+	"hero.core.melodia.specialty.description": "{Czyste Szczęście}\n\nWszystkie jednostki w armii Melodii otrzymują {+1} do szczęścia. Zwykłe kary do szczęścia nie mogą sprowadzić szczęścia jej armii poniżej {+1}, ale czar {Pech} może przełamać tę ochronę, a efekty wyłączające dodatnie szczęście mogą zablokować ten bonus.",
+	"hero.core.melodia.specialty.tooltip": "Melodia daje swojej armii {+1} do szczęścia i pomaga utrzymać co najmniej {+1} mimo zwykłych kar."
+}
