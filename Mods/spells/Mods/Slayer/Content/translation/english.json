@@ -1,0 +1,10 @@
+{
+	"hero.core.coronius.specialty.description" : "Allows casting the {Slayer} spell with increased effect:\n{+20} for level 1–2 creatures;\n{+16} for level 3–4 creatures;\n{+12} for level 5–6 creatures;\n{+8} for level 7 creatures.",
+	"hero.core.coronius.specialty.name" : "Slayer",
+	"hero.core.coronius.specialty.tooltip" : "Special spell: Slayer",
+	"spell.core.slayer.description.advanced" : "{Slayer - Advanced level}\n\nThe selected allied stack deals {40%} more damage to level {7} and higher creatures. The effect stacks with repeated casts.",
+	"spell.core.slayer.description.basic" : "{Slayer - Basic level}\n\nThe selected allied stack deals {40%} more damage to level {7} and higher creatures.",
+	"spell.core.slayer.description.expert" : "{Slayer - Expert level}\n\nAll allied stacks deal {40%} more damage to level {7} and higher creatures. The effect stacks with repeated casts.",
+	"spell.core.slayer.description.none" : "{Slayer}\n\nIncreases the Attack skill of the selected allied stack when fighting Dragons, Behemoths and Hydras.",
+	"spell.core.slayer.name" : "Slayer"
+}
