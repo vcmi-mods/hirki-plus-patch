@@ -1,0 +1,6 @@
+{
+  "skill.core.sorcery.name": "T. magiczny",
+  "skill.core.sorcery.description.basic": "{Podstawowy T. magiczny}\n\nZwiększa Moc bohatera o 10% podczas walki.",
+  "skill.core.sorcery.description.advanced": "{Zaawansowany T. magiczny}\n\nZwiększa Moc bohatera o 20% podczas walki.",
+  "skill.core.sorcery.description.expert": "{Ekspercki T. magiczny}\n\nZwiększa Moc bohatera o 30% podczas walki."
+}

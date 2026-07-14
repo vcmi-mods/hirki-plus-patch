@@ -1,0 +1,6 @@
+{
+  "skill.core.firstAid.name": "Pierwsza pomoc",
+  "skill.core.firstAid.description.basic": "{Podstawowa Pierwsza pomoc}\n\nPozwala ręcznie kierować Namiotem medyka i zwiększa jego leczenie do 50 punktów życia.\n\nDopóki Namiot medyka pozostaje aktywny, sojusznicze jednostki otrzymują +5% do maks. liczby punktów życia.\n\nNamiot medyka nie może stracić więcej niż 40% swojej maks. liczby punktów życia od pojedynczego ataku.",
+  "skill.core.firstAid.description.advanced": "{Zaawansowana Pierwsza pomoc}\n\nPozwala ręcznie kierować Namiotem medyka i zwiększa jego leczenie do 75 punktów życia.\n\nDopóki Namiot medyka pozostaje aktywny, sojusznicze jednostki otrzymują +10% do maks. liczby punktów życia.\n\nNamiot medyka nie może stracić więcej niż 30% swojej maks. liczby punktów życia od pojedynczego ataku.",
+  "skill.core.firstAid.description.expert": "{Ekspercka Pierwsza pomoc}\n\nPozwala ręcznie kierować Namiotem medyka i zwiększa jego leczenie do 100 punktów życia.\n\nDopóki Namiot medyka pozostaje aktywny, sojusznicze jednostki otrzymują +15% do maks. liczby punktów życia.\n\nNamiot medyka i Wóz z amunicją nie mogą stracić więcej niż 20% swojej maks. liczby punktów życia od pojedynczego ataku."
+}

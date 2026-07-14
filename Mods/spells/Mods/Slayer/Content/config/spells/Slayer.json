@@ -1,91 +1,91 @@
 {
-	"core:slayer" : {
-		"name" : "Pogromca",
-		"school" : {
-			"fire" : true
+	"core:slayer": {
+		"name": "Slayer",
+		"school": {
+			"fire": true
 		},
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"animation" : {
-			"affect" : [
+		"type": "combat",
+		"targetType": "CREATURE",
+		"animation": {
+			"affect": [
 				"C13SPW0"
 			]
 		},
-		"sounds" : {
-			"cast" : "SLAYER"
+		"sounds": {
+			"cast": "SLAYER"
 		},
-		"flags" : {
-			"positive" : true
+		"flags": {
+			"positive": true
 		},
-		"levels" : {
-			"none" : {
-				"cost" : 16,
-				"power" : 8,
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
+		"levels": {
+			"none": {
+				"cost": 16,
+				"power": 8,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
 				},
-				"effects" : {
-					"slayer" : {
-						"type" : "SLAYER",
-						"val" : 0,
-						"duration" : "N_TURNS"
+				"effects": {
+					"slayer": {
+						"type": "SLAYER",
+						"val": 0,
+						"duration": "N_TURNS"
 					}
 				},
-				"description" : "{Pogromca}\n\nZwiększa siłę ataku wybranego oddziału podczas walki ze smokami, behemotami i hydrami."
+				"description": "{Slayer}\n\nIncreases the Attack skill of the selected allied stack when fighting Dragons, Behemoths and Hydras."
 			},
-			"basic" : {
-				"cost" : 14,
-				"power" : 0,
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
+			"basic": {
+				"cost": 14,
+				"power": 0,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
 				},
-				"effects" : {
-					"slayer" : {
-						"type" : "HATES_TRAIT",
-						"subtype" : "KING",
-						"val" : 40,
-						"duration" : "N_TURNS"
+				"effects": {
+					"slayer": {
+						"type": "HATES_TRAIT",
+						"subtype": "KING",
+						"val": 40,
+						"duration": "N_TURNS"
 					}
 				},
-				"description" : "{Pogromca - poziom podstawowy}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym."
+				"description": "{Slayer - Basic level}\n\nThe selected allied stack deals {40%} more damage to level {7} and higher creatures."
 			},
-			"advanced" : {
-				"cost" : 12,
-				"power" : 0,
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
+			"advanced": {
+				"cost": 12,
+				"power": 0,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
 				},
-				"effects" : null,
-				"cumulativeEffects" : {
-					"hatesKing" : {
-						"type" : "HATES_TRAIT",
-						"subtype" : "KING",
-						"val" : 40,
-						"duration" : "N_TURNS"
+				"effects": null,
+				"cumulativeEffects": {
+					"hatesKing": {
+						"type": "HATES_TRAIT",
+						"subtype": "KING",
+						"val": 40,
+						"duration": "N_TURNS"
 					}
 				},
-				"description" : "{Pogromca - poziom zaawansowany}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach."
+				"description": "{Slayer - Advanced level}\n\nThe selected allied stack deals {40%} more damage to level {7} and higher creatures. The effect stacks with repeated casts."
 			},
-			"expert" : {
-				"cost" : 10,
-				"power" : 0,
-				"range" : "X",
-				"targetModifier" : {
-					"smart" : true
+			"expert": {
+				"cost": 10,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": true
 				},
-				"effects" : null,
-				"cumulativeEffects" : {
-					"hatesKing" : {
-						"type" : "HATES_TRAIT",
-						"subtype" : "KING",
-						"val" : 40,
-						"duration" : "N_TURNS"
+				"effects": null,
+				"cumulativeEffects": {
+					"hatesKing": {
+						"type": "HATES_TRAIT",
+						"subtype": "KING",
+						"val": 40,
+						"duration": "N_TURNS"
 					}
 				},
-				"description" : "{Pogromca - poziom mistrzowski}\n\nWszystkie sprzymierzone oddziały zadają o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach."
+				"description": "{Slayer - Expert level}\n\nAll allied stacks deal {40%} more damage to level {7} and higher creatures. The effect stacks with repeated casts."
 			}
 		}
 	}

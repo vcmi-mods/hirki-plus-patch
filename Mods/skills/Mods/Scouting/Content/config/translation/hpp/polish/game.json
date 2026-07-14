@@ -1,0 +1,6 @@
+{
+  "skill.core.scouting.name": "Odkrywanie",
+  "skill.core.scouting.description.basic": "{Podstawowe Odkrywanie}\n\nZwiększa pole widzenia bohatera o 1.\n\nZwiększa zakres informacji o przeciwnikach dla właściciela bohatera i jego sojuszników, tak jakby drużyna dysponowała 1 dodatkową karczmą.",
+  "skill.core.scouting.description.advanced": "{Zaawansowane Odkrywanie}\n\nZwiększa pole widzenia bohatera o 2.\n\nZwiększa zakres informacji o przeciwnikach dla właściciela bohatera i jego sojuszników, tak jakby drużyna dysponowała 2 dodatkowymi karczmami.",
+  "skill.core.scouting.description.expert": "{Eksperckie Odkrywanie}\n\nZwiększa pole widzenia bohatera o 3.\n\nZwiększa zakres informacji o przeciwnikach dla właściciela bohatera i jego sojuszników, tak jakby drużyna dysponowała 3 dodatkowymi karczmami."
+}

@@ -1,0 +1,8 @@
+{
+	"spell.core.precision.name": "Precyzja",
+	"spell.core.precision.description.base": "{Precyzja}\n\nZwiększa atak wybranego sojuszniczego strzelca o {+3} tylko przy atakach dystansowych.",
+	"spell.core.precision.description.none": "{Precyzja}\n\nZwiększa atak wybranego sojuszniczego strzelca o {+3} tylko przy atakach dystansowych.",
+	"spell.core.precision.description.basic": "{Podstawowa Precyzja}\n\nZwiększa atak wybranego sojuszniczego strzelca o {+3} tylko przy atakach dystansowych.",
+	"spell.core.precision.description.advanced": "{Zaawansowana Precyzja}\n\nZwiększa atak wybranego sojuszniczego strzelca o {+6} tylko przy atakach dystansowych.\n\nDodatkowo zwiększa zasięg strzału bez kary za odległość o 1 heks, maksymalnie do 11 heksów, oraz daje {+1} do szybkości na czas działania czaru.",
+	"spell.core.precision.description.expert": "{Mistrzowska Precyzja}\n\nZwiększa atak wszystkich sojuszniczych strzelców o {+6} tylko przy atakach dystansowych.\n\nDodatkowo zwiększa ich zasięg strzału bez kary za odległość o 2 heksy, maksymalnie do 12 heksów, oraz daje {+1} do szybkości na czas działania czaru."
+}

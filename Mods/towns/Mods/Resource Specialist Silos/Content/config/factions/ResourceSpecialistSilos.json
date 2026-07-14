@@ -1,21 +1,21 @@
 {
-	"core:castle" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:castle": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -23,10 +23,10 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.castleWoodOre",
-								"resources" : {
-									"wood" : 5,
-									"ore" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.castleWoodOre",
+								"resources": {
+									"wood": 5,
+									"ore": 5
 								}
 							}
 						]
@@ -35,23 +35,23 @@
 			}
 		}
 	},
-	"core:rampart" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:rampart": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -59,9 +59,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.rampartCrystal",
-								"resources" : {
-									"crystal" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.rampartCrystal",
+								"resources": {
+									"crystal": 5
 								}
 							}
 						]
@@ -70,23 +70,23 @@
 			}
 		}
 	},
-	"core:tower" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:tower": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -94,9 +94,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.towerGems",
-								"resources" : {
-									"gems" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.towerGems",
+								"resources": {
+									"gems": 5
 								}
 							}
 						]
@@ -105,23 +105,23 @@
 			}
 		}
 	},
-	"core:inferno" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:inferno": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -129,9 +129,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.infernoMercury",
-								"resources" : {
-									"mercury" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.infernoMercury",
+								"resources": {
+									"mercury": 5
 								}
 							}
 						]
@@ -140,23 +140,23 @@
 			}
 		}
 	},
-	"core:necropolis" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:necropolis": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -164,10 +164,10 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.necropolisWoodOre",
-								"resources" : {
-									"wood" : 5,
-									"ore" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.necropolisWoodOre",
+								"resources": {
+									"wood": 5,
+									"ore": 5
 								}
 							}
 						]
@@ -176,23 +176,23 @@
 			}
 		}
 	},
-	"core:dungeon" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:dungeon": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -200,9 +200,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.dungeonSulfur",
-								"resources" : {
-									"sulfur" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.dungeonSulfur",
+								"resources": {
+									"sulfur": 5
 								}
 							}
 						]
@@ -211,23 +211,23 @@
 			}
 		}
 	},
-	"core:stronghold" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:stronghold": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -235,10 +235,10 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.strongholdWoodOre",
-								"resources" : {
-									"wood" : 5,
-									"ore" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.strongholdWoodOre",
+								"resources": {
+									"wood": 5,
+									"ore": 5
 								}
 							}
 						]
@@ -247,23 +247,23 @@
 			}
 		}
 	},
-	"core:fortress" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:fortress": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -271,10 +271,10 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.fortressWoodOre",
-								"resources" : {
-									"wood" : 5,
-									"ore" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.fortressWoodOre",
+								"resources": {
+									"wood": 5,
+									"ore": 5
 								}
 							}
 						]
@@ -283,23 +283,23 @@
 			}
 		}
 	},
-	"core:conflux" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"core:conflux": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -307,9 +307,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.confluxMercury",
-								"resources" : {
-									"mercury" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.confluxMercury",
+								"resources": {
+									"mercury": 5
 								}
 							}
 						]
@@ -318,23 +318,23 @@
 			}
 		}
 	},
-	"hota.cove:cove" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"hota.cove:cove": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -342,9 +342,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.coveSulfur",
-								"resources" : {
-									"sulfur" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.coveSulfur",
+								"resources": {
+									"sulfur": 5
 								}
 							}
 						]
@@ -353,23 +353,23 @@
 			}
 		}
 	},
-	"hota.factory:factory" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"hota.factory:factory": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -377,9 +377,9 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.factoryCrystal",
-								"resources" : {
-									"crystal" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.factoryCrystal",
+								"resources": {
+									"crystal": 5
 								}
 							}
 						]
@@ -388,23 +388,23 @@
 			}
 		}
 	},
-	"hota.bulwark:bulwark" : {
-		"town" : {
-			"buildings" : {
-				"resourceSilo" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectFirst",
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
+	"hota.bulwark:bulwark": {
+		"town": {
+			"buildings": {
+				"resourceSilo": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"rewards" : [
+						"onEmptyMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"rewards": [
 							{
-								"limiter" : {
-									"heroes" : [
+								"limiter": {
+									"heroes": [
 										"calid",
 										"rissa",
 										"saurug",
@@ -412,10 +412,10 @@
 										"15andal"
 									]
 								},
-								"message" : "@hpp.towns.resourceSpecialistSilos.bulwarkWoodOre",
-								"resources" : {
-									"wood" : 5,
-									"ore" : 5
+								"message": "@hpp.towns.resourceSpecialistSilos.bulwarkWoodOre",
+								"resources": {
+									"wood": 5,
+									"ore": 5
 								}
 							}
 						]

@@ -1,21 +1,21 @@
 {
-	"name" : "Artifacts",
-	"description" : "Artifact modules for Hirki Plus Patch (H.P.P.).\n\nThis parent module groups optional artifact reworks and item-related gameplay improvements. These modules aim to make selected artifacts more useful, more thematic and more meaningful to equip, while preserving their original identity whenever possible.\n\nDetailed mechanics, requirements and compatibility notes are described in the individual child modules.\n\n## Current Artifact Modules\n\n* **Diplomatic Artifacts** — reworks Diplomat's Cloak, its components, Shackles of War and related Diplomacy interactions.",
-	"author" : "bew_",
-	"version" : "1.0.0",
-	"modType" : "Artifacts",
-	"depends" : [
+	"name": "Artifacts",
+	"description": "Artifact modules for Hirki Plus Patch (H.P.P.).\n\nThis parent module groups optional artifact reworks and item-related gameplay improvements. These modules aim to make selected artifacts more useful, more thematic and more meaningful to equip, while preserving their original identity whenever possible.\n\nDetailed mechanics, requirements and compatibility notes are described in the individual child modules.\n\n## Current Artifact Modules\n\n* **Diplomatic Artifacts** — reworks Diplomat's Cloak, its components, Shackles of War and related Diplomacy interactions.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Artifacts",
+	"depends": [
 		"hota"
 	],
-	"compatibility" : {
-		"min" : "1.7.4"
+	"compatibility": {
+		"min": "1.7.4"
 	},
-	"polish" : {
-		"name" : "Artefakty",
-		"description" : "Moduły artefaktów dla Hirki Plus Patch (H.P.P.).\n\nTen moduł nadrzędny grupuje opcjonalne przebudowy artefaktów i powiązane usprawnienia rozgrywki. Zmiany mają zwiększać użyteczność, tematykę i sensowność wybranych artefaktów, zachowując ich pierwotną tożsamość.\n\nSzczegółowe mechaniki, wymagania i informacje o kompatybilności znajdują się w opisach modułów podrzędnych.\n\n## Aktualne moduły artefaktów\n\n* **Artefakty dyplomatyczne** — przebudowują Płaszcz Dyplomaty, jego komponenty, Kajdany Wojny oraz powiązane interakcje z Dyplomacją."
+	"polish": {
+		"name": "Artefakty",
+		"description": "Moduły artefaktów dla Hirki Plus Patch (H.P.P.).\n\nTen moduł nadrzędny grupuje opcjonalne przebudowy artefaktów i powiązane usprawnienia rozgrywki. Zmiany mają zwiększać użyteczność, tematykę i sensowność wybranych artefaktów, zachowując ich pierwotną tożsamość.\n\nSzczegółowe mechaniki, wymagania i informacje o kompatybilności znajdują się w opisach modułów podrzędnych.\n\n## Aktualne moduły artefaktów\n\n* **Artefakty dyplomatyczne** — przebudowują Płaszcz Dyplomaty, jego komponenty, Kajdany Wojny oraz powiązane interakcje z Dyplomacją."
 	},
-	"changelog" : {
-		"1.0.0" : [
+	"changelog": {
+		"1.0.0": [
 			"Initial release."
 		]
 	}

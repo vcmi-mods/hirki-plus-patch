@@ -1,0 +1,10 @@
+{
+	"spell.core.fortune.description.none": "{Fortuna}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+1}.",
+	"spell.core.fortune.description.basic": "{Podstawowa Fortuna}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+1}.",
+	"spell.core.fortune.description.advanced": "{Zaawansowana Fortuna}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {2}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+2}.",
+	"spell.core.fortune.description.expert": "{Mistrzowska Fortuna}\n\nPodnosi szczęście wszystkich sojuszniczych oddziałów o {2}.\n\nPrzez czas działania czaru szczęście objętych oddziałów nie może spaść poniżej {+2}.",
+	"spell.core.misfortune.description.none": "{Pech}\n\nObniża szczęście wybranego wrogiego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może wzrosnąć powyżej {-1}.",
+	"spell.core.misfortune.description.basic": "{Podstawowy Pech}\n\nObniża szczęście wybranego wrogiego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może wzrosnąć powyżej {-1}.",
+	"spell.core.misfortune.description.advanced": "{Zaawansowany Pech}\n\nObniża szczęście wybranego wrogiego oddziału o {2}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może wzrosnąć powyżej {-2}.",
+	"spell.core.misfortune.description.expert": "{Mistrzowski Pech}\n\nObniża szczęście wszystkich wrogich oddziałów o {2}.\n\nPrzez czas działania czaru szczęście objętych oddziałów nie może wzrosnąć powyżej {-2}."
+}

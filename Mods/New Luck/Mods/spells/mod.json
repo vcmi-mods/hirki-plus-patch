@@ -1,22 +1,22 @@
 {
-	"name" : "Luck Spells",
-	"description" : "Spell modules tied to the reworked luck system in Hirki Plus Patch (H.P.P.).\n\nModules in this category aim to make luck-control spells more practical, more reliable, and better integrated with the New Luck system, while preserving their original tactical role.\n\n## Included Spell Changes\n\n* **Fortune** — increases Luck and sets a minimum positive Luck result for affected allied units while the spell lasts. Luck-reducing artifacts and effects cannot bring affected units below that minimum. The artifact **Hourglass of the Evil Hour** can still suppress positive Luck entirely.\n\n* **Misfortune** — decreases Luck and sets a maximum negative Luck result for affected enemy units while the spell lasts. Luck-raising artifacts and effects cannot raise affected units above that cap.\n\n* **Magic Mirror** — allows Luck to affect the spell reflection chance of Magic Mirror. Positive Luck increases the chance to reflect hostile spells, while negative Luck reduces it. This module can work together with the **Magic Mirror** rework from the spell category, allowing protected stacks to receive controlled Luck-based bonuses to spell reflection chance when both modules are enabled.\n\n**Fortune** and **Misfortune** use reduced mana costs and remain direct counters to each other.",
-	"polish" : {
-		"name" : "Czary szczęścia",
-		"description" : "Moduły czarów powiązane z przebudowanym systemem szczęścia w Hirki Plus Patch (H.P.P.).\n\nModuły z tej kategorii mają sprawić, że czary kontroli szczęścia będą praktyczniejsze, bardziej niezawodne i lepiej zintegrowane z systemem New Luck, przy zachowaniu ich pierwotnej roli taktycznej.\n\n## Zmienione czary\n\n* **Fortuna** — podnosi szczęście i wyznacza minimalny dodatni wynik szczęścia dla objętych nią sojuszniczych oddziałów na czas działania czaru. Artefakty oraz efekty obniżające szczęście nie mogą sprowadzić objętych oddziałów poniżej tego minimum. Artefakt **Klepsydra Diabelskiej Godziny** nadal może całkowicie zablokować dodatnie szczęście.\n\n* **Pech** — obniża szczęście i wyznacza maksymalny ujemny wynik szczęścia dla objętych nim wrogich oddziałów na czas działania czaru. Artefakty oraz efekty podnoszące szczęście nie mogą podnieść objętych oddziałów powyżej tego limitu.\n\n* **Magiczne zwierciadło** — sprawia, że szczęście wpływa na szansę odbicia zaklęcia przez Magiczne zwierciadło. Dodatnie szczęście zwiększa szansę odbicia wrogich zaklęć, a ujemne szczęście ją zmniejsza. Moduł może współpracować z reworkiem **Magicznego zwierciadła** z kategorii czarów, pozwalając chronionym oddziałom otrzymywać kontrolowane premie do szansy odbicia zaklęcia, gdy oba moduły są włączone.\n\n**Fortuna** i **Pech** mają obniżone koszty many i nadal pozostają swoimi bezpośrednimi kontrami."
-	},
-	"author" : "bew_",
-	"version" : "1.2.0",
-	"modType" : "Spells",
-	"depends" : [
-		"hota"
-	],
-	"changelog" : {
-		"1.2.0" : [
-			"Added Magic Mirror Luck scaling."
-		],
-		"1.0.0" : [
-			"Initial release."
-		]
-	}
+  "name": "Luck Spells",
+  "description": "Spell modules tied to the reworked luck system in Hirki Plus Patch (H.P.P.).\n\nModules in this category aim to make luck-control spells more practical, more reliable, and better integrated with the New Luck system, while preserving their original tactical role.\n\n## Included Spell Changes\n\n* **Fortune** — increases Luck and sets a minimum positive Luck result for affected allied units while the spell lasts. Luck-reducing artifacts and effects cannot bring affected units below that minimum. The artifact **Hourglass of the Evil Hour** can still suppress positive Luck entirely.\n\n* **Misfortune** — decreases Luck and sets a maximum negative Luck result for affected enemy units while the spell lasts. Luck-raising artifacts and effects cannot raise affected units above that cap.\n\n* **Magic Mirror** — allows Luck to affect the spell reflection chance of Magic Mirror. Positive Luck increases the chance to reflect hostile spells, while negative Luck reduces it. This module can work together with the **Magic Mirror** rework from the spell category, allowing protected stacks to receive controlled Luck-based bonuses to spell reflection chance when both modules are enabled.\n\n**Fortune** and **Misfortune** use reduced mana costs and remain direct counters to each other.",
+  "polish": {
+    "name": "Czary szczęścia",
+    "description": "Moduły czarów powiązane z przebudowanym systemem szczęścia w Hirki Plus Patch (H.P.P.).\n\nModuły z tej kategorii mają sprawić, że czary kontroli szczęścia będą praktyczniejsze, bardziej niezawodne i lepiej zintegrowane z systemem New Luck, przy zachowaniu ich pierwotnej roli taktycznej.\n\n## Zmienione czary\n\n* **Fortuna** — podnosi szczęście i wyznacza minimalny dodatni wynik szczęścia dla objętych nią sojuszniczych oddziałów na czas działania czaru. Artefakty oraz efekty obniżające szczęście nie mogą sprowadzić objętych oddziałów poniżej tego minimum. Artefakt **Klepsydra Diabelskiej Godziny** nadal może całkowicie zablokować dodatnie szczęście.\n\n* **Pech** — obniża szczęście i wyznacza maksymalny ujemny wynik szczęścia dla objętych nim wrogich oddziałów na czas działania czaru. Artefakty oraz efekty podnoszące szczęście nie mogą podnieść objętych oddziałów powyżej tego limitu.\n\n* **Magiczne zwierciadło** — sprawia, że szczęście wpływa na szansę odbicia zaklęcia przez Magiczne zwierciadło. Dodatnie szczęście zwiększa szansę odbicia wrogich zaklęć, a ujemne szczęście ją zmniejsza. Moduł może współpracować z reworkiem **Magicznego zwierciadła** z kategorii czarów, pozwalając chronionym oddziałom otrzymywać kontrolowane premie do szansy odbicia zaklęcia, gdy oba moduły są włączone.\n\n**Fortuna** i **Pech** mają obniżone koszty many i nadal pozostają swoimi bezpośrednimi kontrami."
+  },
+  "author": "bew_",
+  "version": "1.2.0",
+  "modType": "Spells",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.2.0": [
+      "Added Magic Mirror Luck scaling."
+    ],
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
 }

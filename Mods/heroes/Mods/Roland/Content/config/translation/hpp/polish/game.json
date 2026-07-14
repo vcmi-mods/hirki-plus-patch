@@ -1,0 +1,12 @@
+{
+  "hero.hirki-plus-patch-main.heroes.roland.rolland.name": "Roland",
+  "hero.hirki-plus-patch-main.heroes.roland.rolland.biography": "Niedawno odbity z niewoli Kreegan, Roland z szacunkiem służy jako generał w armii umiłowanej żony, Katarzyny. Niebawem wojny się zakończą, a oni powrócą do Enroth. Jednak wcześniej muszą zdecydować, co stanie się z Erathią i jej tronem.",
+  "hero.hirki-plus-patch-main.heroes.roland.rolland.specialty.name": "Majestat Króla",
+  "hero.hirki-plus-patch-main.heroes.roland.rolland.specialty.description": "{Majestat Króla}\n\nWszystkie jednostki w armii Rolanda otrzymują {+1} do morale. Zwykłe kary do morale nie mogą sprowadzić morale jego armii poniżej {+1}, ale czar {Przygnębienie} może przełamać tę ochronę, a efekty wyłączające dodatnie morale mogą zablokować ten bonus.",
+  "hero.hirki-plus-patch-main.heroes.roland.rolland.specialty.tooltip": "Roland daje swojej armii {+1} do morale i pomaga utrzymać co najmniej {+1} mimo zwykłych kar.",
+  "hero.hirki-plus-patch-main.heroes.roland.Rolland.name": "Roland",
+  "hero.hirki-plus-patch-main.heroes.roland.Rolland.biography": "Niedawno odbity z niewoli Kreegan, Roland z szacunkiem służy jako generał w armii umiłowanej żony, Katarzyny. Niebawem wojny się zakończą, a oni powrócą do Enroth. Jednak wcześniej muszą zdecydować, co stanie się z Erathią i jej tronem.",
+  "hero.hirki-plus-patch-main.heroes.roland.Rolland.specialty.name": "Majestat Króla",
+  "hero.hirki-plus-patch-main.heroes.roland.Rolland.specialty.description": "{Majestat Króla}\n\nWszystkie jednostki w armii Rolanda otrzymują {+1} do morale. Zwykłe kary do morale nie mogą sprowadzić morale jego armii poniżej {+1}, ale czar {Przygnębienie} może przełamać tę ochronę, a efekty wyłączające dodatnie morale mogą zablokować ten bonus.",
+  "hero.hirki-plus-patch-main.heroes.roland.Rolland.specialty.tooltip": "Roland daje swojej armii {+1} do morale i pomaga utrzymać co najmniej {+1} mimo zwykłych kar."
+}

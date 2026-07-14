@@ -1,0 +1,10 @@
+{
+	"spell.core.slayer.name": "Pogromca",
+	"spell.core.slayer.description.none": "{Pogromca}\n\nZwiększa siłę ataku wybranego oddziału podczas walki ze smokami, behemotami i hydrami.",
+	"spell.core.slayer.description.basic": "{Pogromca - poziom podstawowy}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym.",
+	"spell.core.slayer.description.advanced": "{Pogromca - poziom zaawansowany}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach.",
+	"spell.core.slayer.description.expert": "{Pogromca - poziom mistrzowski}\n\nWszystkie sprzymierzone oddziały zadają o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach.",
+	"hero.core.coronius.specialty.name": "Pogromca",
+	"hero.core.coronius.specialty.description": "Pozwala rzucać zaklęcie {Pogromca} ze zwiększoną skutecznością:\n{+20} dla jednostek poziomu 1–2;\n{+16} dla jednostek poziomu 3–4;\n{+12} dla jednostek poziomu 5–6;\n{+8} dla jednostek poziomu 7.",
+	"hero.core.coronius.specialty.tooltip": "Specjalne zaklęcie: Pogromca"
+}

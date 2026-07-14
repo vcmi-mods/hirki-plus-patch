@@ -1,0 +1,6 @@
+{
+	"skill.core.archery.name": "Łucznictwo",
+	"skill.core.archery.description.basic": "{Podstawowe Łucznictwo}\n\nZwiększa obrażenia zadawane przez jednostki strzelające o 15% i zwiększa ich maksymalną liczbę strzałów o 1.\n\nW połączeniu z Artylerią, Balista i Działo mogą otrzymać odpowiadające premie Łucznictwa zależne od poziomu obu umiejętności.",
+	"skill.core.archery.description.advanced": "{Zaawansowane Łucznictwo}\n\nZwiększa obrażenia zadawane przez jednostki strzelające o 25%, zwiększa ich maksymalną liczbę strzałów o 2 i zwiększa zasięg strzału bez kary za odległość o 1 heks.\n\nW połączeniu z Artylerią, Balista i Działo mogą otrzymać odpowiadające premie Łucznictwa zależne od poziomu obu umiejętności.",
+	"skill.core.archery.description.expert": "{Eksperckie Łucznictwo}\n\nZwiększa obrażenia zadawane przez jednostki strzelające o 50%, zwiększa ich maksymalną liczbę strzałów o 3, zwiększa zasięg strzału bez kary za odległość o 1 heks i sprawia, że ich ataki dystansowe nakładają na cel podstawowe Zapomnienie.\n\nW połączeniu z Artylerią, Balista i Działo mogą otrzymać odpowiadające premie Łucznictwa zależne od poziomu obu umiejętności."
+}
