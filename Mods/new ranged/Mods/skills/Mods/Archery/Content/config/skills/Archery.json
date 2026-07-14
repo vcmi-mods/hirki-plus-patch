@@ -1,6 +1,6 @@
 {
-	"core:archery": {
-		"specialty": [
+	"core:archery" : {
+		"specialty" : [
 			"main_halfling",
 			"main_halflingGrenadier",
 			"main_masterGremlin",
@@ -25,3262 +25,3262 @@
 			"main_enchanter",
 			"main_titan"
 		],
-		"basic": {
-			"description": "{Basic Archery}\n\nBasic Archery increases damage dealt by ranged creatures by 15% and increases their maximum shots by 1.\n\nWith Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
-			"effects": {
-				"main_halfling": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+		"basic" : {
+			"description" : "{Basic Archery}\n\nBasic Archery increases damage dealt by ranged creatures by 15% and increases their maximum shots by 1.\n\nWith Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
+			"effects" : {
+				"main_halfling" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"shots_halfling": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_halfling" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"main_halflingGrenadier": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_halflingGrenadier" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"shots_halflingGrenadier": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_halflingGrenadier" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"main_masterGremlin": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_masterGremlin" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"shots_masterGremlin": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_masterGremlin" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"main_archer": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_archer" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_archer": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_archer" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_lizardman": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_lizardman" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_lizardman": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_lizardman" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_orc": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_orc" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_orc": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_orc" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_woodElf": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_woodElf" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_woodElf": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_woodElf" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_snowElf": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_snowElf" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_snowElf": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_snowElf" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_gog": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_gog" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_gog": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_gog" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_stormElemental": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_stormElemental" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_stormElemental": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_stormElemental" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_pirate": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_pirate" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_pirate": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_pirate" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_gunslinger": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_gunslinger" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_gunslinger": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_gunslinger" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_mage": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_mage" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_mage": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_mage" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_beholder": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_beholder" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_beholder": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_beholder" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_medusa": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_medusa" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_medusa": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_medusa" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_monk": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_monk" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_monk": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_monk" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_shaman": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_shaman" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_shaman": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_shaman" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_seaWitch": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_seaWitch" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_seaWitch": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_seaWitch" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_lich": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_lich" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_lich": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_lich" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_cyclop": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_cyclop" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_cyclop": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_cyclop" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_sharpshooter": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_sharpshooter" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"shots_sharpshooter": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_sharpshooter" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"main_enchanter": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_enchanter" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"shots_enchanter": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_enchanter" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"main_titan": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"main_titan" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"shots_titan": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"shots_titan" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"machineMain_basic_ballista_art1plus": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"machineMain_basic_ballista_art1plus" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1
 						}
 					]
 				},
-				"machineShots_basic_ballista_art1plus": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"machineShots_basic_ballista_art1plus" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1
 						}
 					]
 				},
-				"machineMain_basic_cannon_art1plus": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"machineMain_basic_cannon_art1plus" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1
 						}
 					]
 				},
-				"machineShots_basic_cannon_art1plus": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"machineShots_basic_cannon_art1plus" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1
 						}
 					]
 				}
 			}
 		},
-		"advanced": {
-			"description": "{Advanced Archery}\n\nAdvanced Archery increases damage dealt by ranged creatures by 25%, increases their maximum shots by 3, and extends full-damage shooting range by 1 hex.\n\nWith Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
-			"effects": {
-				"main_halfling": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+		"advanced" : {
+			"description" : "{Advanced Archery}\n\nAdvanced Archery increases damage dealt by ranged creatures by 25%, increases their maximum shots by 3, and extends full-damage shooting range by 1 hex.\n\nWith Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
+			"effects" : {
+				"main_halfling" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"shots_halfling": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_halfling" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"range_halfling": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_halfling" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"main_halflingGrenadier": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_halflingGrenadier" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"shots_halflingGrenadier": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_halflingGrenadier" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"main_masterGremlin": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_masterGremlin" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"shots_masterGremlin": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_masterGremlin" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"range_masterGremlin": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_masterGremlin" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"range_halflingGrenadier": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_halflingGrenadier" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"main_archer": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_archer" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_archer": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_archer" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_archer": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_archer" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_lizardman": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_lizardman" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_lizardman": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_lizardman" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_lizardman": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_lizardman" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_orc": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_orc" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_orc": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_orc" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_orc": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_orc" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_woodElf": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_woodElf" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_woodElf": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_woodElf" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_woodElf": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_woodElf" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_snowElf": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_snowElf" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_snowElf": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_snowElf" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_snowElf": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_snowElf" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_gog": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_gog" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_gog": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_gog" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_gog": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_gog" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_stormElemental": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_stormElemental" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_stormElemental": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_stormElemental" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_stormElemental": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_stormElemental" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_pirate": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_pirate" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_pirate": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_pirate" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_gunslinger": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_gunslinger" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_gunslinger": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_gunslinger" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_gunslinger": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_gunslinger" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_pirate": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_pirate" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_mage": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_mage" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_mage": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_mage" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_mage": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_mage" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_beholder": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_beholder" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_beholder": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_beholder" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_beholder": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_beholder" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_medusa": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_medusa" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_medusa": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_medusa" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_medusa": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_medusa" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_monk": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_monk" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_monk": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_monk" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_monk": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_monk" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_shaman": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_shaman" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_shaman": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_shaman" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_shaman": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_shaman" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_seaWitch": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_seaWitch" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_seaWitch": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_seaWitch" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_seaWitch": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_seaWitch" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_lich": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_lich" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_lich": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_lich" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_lich": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_lich" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_cyclop": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_cyclop" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_cyclop": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_cyclop" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_cyclop": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_cyclop" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_sharpshooter": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_sharpshooter" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"shots_sharpshooter": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_sharpshooter" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"range_sharpshooter": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_sharpshooter" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"main_enchanter": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_enchanter" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"shots_enchanter": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_enchanter" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"main_titan": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"main_titan" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"shots_titan": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"shots_titan" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"range_titan": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_titan" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"range_enchanter": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_enchanter" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"machineMain_basic_ballista_art1to1": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"machineMain_basic_ballista_art1to1" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineShots_basic_ballista_art1to1": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"machineShots_basic_ballista_art1to1" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineMain_advanced_ballista_art2plus": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"machineMain_advanced_ballista_art2plus" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2
 						}
 					]
 				},
-				"machineShots_advanced_ballista_art2plus": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"machineShots_advanced_ballista_art2plus" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2
 						}
 					]
 				},
-				"machineRange_advanced_ballista_art2plus": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"machineRange_advanced_ballista_art2plus" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2
 						}
 					]
 				},
-				"machineMain_basic_cannon_art1to1": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"machineMain_basic_cannon_art1to1" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineShots_basic_cannon_art1to1": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"machineShots_basic_cannon_art1to1" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineMain_advanced_cannon_art2plus": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"machineMain_advanced_cannon_art2plus" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2
 						}
 					]
 				},
-				"machineShots_advanced_cannon_art2plus": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"machineShots_advanced_cannon_art2plus" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2
 						}
 					]
 				},
-				"machineRange_advanced_cannon_art2plus": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"machineRange_advanced_cannon_art2plus" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2
 						}
 					]
 				}
 			}
 		},
-		"expert": {
-			"description": "{Expert Archery}\n\nExpert Archery increases damage dealt by ranged creatures by 50%, increases their maximum shots by 5, extends full-damage shooting range by 1 hex, and makes their ranged attacks inflict Basic Forgetfulness on the target.\n\nWith Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
-			"effects": {
-				"main_halfling": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+		"expert" : {
+			"description" : "{Expert Archery}\n\nExpert Archery increases damage dealt by ranged creatures by 50%, increases their maximum shots by 5, extends full-damage shooting range by 1 hex, and makes their ranged attacks inflict Basic Forgetfulness on the target.\n\nWith Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
+			"effects" : {
+				"main_halfling" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"shots_halfling": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_halfling" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"range_halfling": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_halfling" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"forgetfulness_halfling": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_halfling" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:halfling"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:halfling"
 						}
 					]
 				},
-				"main_halflingGrenadier": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_halflingGrenadier" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"shots_halflingGrenadier": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_halflingGrenadier" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"main_masterGremlin": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_masterGremlin" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"shots_masterGremlin": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_masterGremlin" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"range_masterGremlin": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_masterGremlin" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"forgetfulness_masterGremlin": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_masterGremlin" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:masterGremlin"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:masterGremlin"
 						}
 					]
 				},
-				"range_halflingGrenadier": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_halflingGrenadier" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"forgetfulness_halflingGrenadier": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_halflingGrenadier" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:halflingGrenadier"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:halflingGrenadier"
 						}
 					]
 				},
-				"main_archer": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_archer" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_archer": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_archer" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_archer": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_archer" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_archer": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_archer" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:archer",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:archer",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_lizardman": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_lizardman" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_lizardman": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_lizardman" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_lizardman": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_lizardman" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_lizardman": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_lizardman" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lizardman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lizardman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_orc": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_orc" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_orc": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_orc" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_orc": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_orc" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_orc": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_orc" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:orc",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:orc",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_woodElf": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_woodElf" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_woodElf": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_woodElf" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_woodElf": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_woodElf" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_woodElf": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_woodElf" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:woodElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:woodElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_snowElf": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_snowElf" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_snowElf": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_snowElf" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_snowElf": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_snowElf" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_snowElf": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_snowElf" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:snowElf",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:snowElf",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_gog": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_gog" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_gog": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_gog" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_gog": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_gog" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_gog": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_gog" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:gog",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:gog",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_stormElemental": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_stormElemental" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_stormElemental": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_stormElemental" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_stormElemental": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_stormElemental" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_stormElemental": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_stormElemental" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:stormElemental",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:stormElemental",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_pirate": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_pirate" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_pirate": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_pirate" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_gunslinger": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_gunslinger" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_gunslinger": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_gunslinger" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_gunslinger": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_gunslinger" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_gunslinger": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_gunslinger" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.factory:gunslinger",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:gunslinger",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_pirate": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_pirate" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_pirate": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_pirate" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:pirate",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:pirate",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_mage": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_mage" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_mage": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_mage" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_mage": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_mage" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_mage": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_mage" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:mage",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:mage",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_beholder": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_beholder" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_beholder": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_beholder" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_beholder": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_beholder" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_beholder": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_beholder" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:beholder",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:beholder",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_medusa": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_medusa" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_medusa": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_medusa" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_medusa": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_medusa" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_medusa": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_medusa" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:medusa",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:medusa",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_monk": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_monk" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_monk": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_monk" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_monk": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_monk" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_monk": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_monk" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:monk",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:monk",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_shaman": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_shaman" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_shaman": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_shaman" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_shaman": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_shaman" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_shaman": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_shaman" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.bulwark:shaman",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.bulwark:shaman",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_seaWitch": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_seaWitch" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_seaWitch": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_seaWitch" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_seaWitch": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_seaWitch" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_seaWitch": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_seaWitch" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cove:seaWitch",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:seaWitch",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_lich": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_lich" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_lich": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_lich" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_lich": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_lich" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_lich": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_lich" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:lich",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:lich",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_cyclop": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_cyclop" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"shots_cyclop": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_cyclop" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"range_cyclop": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_cyclop" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"forgetfulness_cyclop": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_cyclop" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:cyclop",
-							"includeUpgrades": true
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:cyclop",
+							"includeUpgrades" : true
 						}
 					]
 				},
-				"main_sharpshooter": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_sharpshooter" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"shots_sharpshooter": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_sharpshooter" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"range_sharpshooter": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_sharpshooter" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"forgetfulness_sharpshooter": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_sharpshooter" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:sharpshooter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:sharpshooter"
 						}
 					]
 				},
-				"main_enchanter": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_enchanter" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"shots_enchanter": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_enchanter" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"main_titan": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"main_titan" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"shots_titan": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"shots_titan" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"range_titan": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_titan" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"forgetfulness_titan": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_titan" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:titan"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:titan"
 						}
 					]
 				},
-				"range_enchanter": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"range_enchanter" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"forgetfulness_enchanter": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"forgetfulness_enchanter" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:enchanter"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:enchanter"
 						}
 					]
 				},
-				"machineMain_basic_ballista_art1to1": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"machineMain_basic_ballista_art1to1" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineShots_basic_ballista_art1to1": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"machineShots_basic_ballista_art1to1" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineMain_advanced_ballista_art2to2": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"machineMain_advanced_ballista_art2to2" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2,
-							"bonusMaxValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2,
+							"bonusMaxValue" : 2
 						}
 					]
 				},
-				"machineShots_advanced_ballista_art2to2": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"machineShots_advanced_ballista_art2to2" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2,
-							"bonusMaxValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2,
+							"bonusMaxValue" : 2
 						}
 					]
 				},
-				"machineRange_advanced_ballista_art2to2": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"machineRange_advanced_ballista_art2to2" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2,
-							"bonusMaxValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2,
+							"bonusMaxValue" : 2
 						}
 					]
 				},
-				"machineMain_expert_ballista_art3plus": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"machineMain_expert_ballista_art3plus" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineShots_expert_ballista_art3plus": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"machineShots_expert_ballista_art3plus" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineRange_expert_ballista_art3plus": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"machineRange_expert_ballista_art3plus" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineForgetfulness_expert_ballista_art3plus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"machineForgetfulness_expert_ballista_art3plus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "core:ballista"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "core:ballista"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineMain_basic_cannon_art1to1": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 15,
-					"limiters": [
+				"machineMain_basic_cannon_art1to1" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 15,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineShots_basic_cannon_art1to1": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 1,
-					"limiters": [
+				"machineShots_basic_cannon_art1to1" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 1,
-							"bonusMaxValue": 1
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 1,
+							"bonusMaxValue" : 1
 						}
 					]
 				},
-				"machineMain_advanced_cannon_art2to2": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 25,
-					"limiters": [
+				"machineMain_advanced_cannon_art2to2" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 25,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2,
-							"bonusMaxValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2,
+							"bonusMaxValue" : 2
 						}
 					]
 				},
-				"machineShots_advanced_cannon_art2to2": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 3,
-					"limiters": [
+				"machineShots_advanced_cannon_art2to2" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 3,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2,
-							"bonusMaxValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2,
+							"bonusMaxValue" : 2
 						}
 					]
 				},
-				"machineRange_advanced_cannon_art2to2": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"machineRange_advanced_cannon_art2to2" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 2,
-							"bonusMaxValue": 2
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 2,
+							"bonusMaxValue" : 2
 						}
 					]
 				},
-				"machineMain_expert_cannon_art3plus": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"val": 50,
-					"limiters": [
+				"machineMain_expert_cannon_art3plus" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 50,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineShots_expert_cannon_art3plus": {
-					"type": "SHOTS",
-					"valueType": "ADDITIVE_VALUE",
-					"val": 5,
-					"limiters": [
+				"machineShots_expert_cannon_art3plus" : {
+					"type" : "SHOTS",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5,
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineRange_expert_cannon_art3plus": {
-					"type": "LIMITED_SHOOTING_RANGE",
-					"val": 99,
-					"addInfo": 11,
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"machineRange_expert_cannon_art3plus" : {
+					"type" : "LIMITED_SHOOTING_RANGE",
+					"val" : 99,
+					"addInfo" : 11,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				},
-				"machineForgetfulness_expert_cannon_art3plus": {
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.forgetfulness",
-					"val": 100,
-					"addInfo": [
+				"machineForgetfulness_expert_cannon_art3plus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.forgetfulness",
+					"val" : 100,
+					"addInfo" : [
 						1,
 						1,
 						0
 					],
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "hota.cannon:cannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon"
 						},
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "MAGIC_SCHOOL_SKILL",
-							"bonusSubtype": "spellSchool.air",
-							"bonusMinValue": 3
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype" : "spellSchool.air",
+							"bonusMinValue" : 3
 						}
 					]
 				}

@@ -21,8 +21,7 @@
 	],
 	"depends" : [
 		"hota"
-	]
-,
+	],
 	"czech" : {
 		"translations" : [
 			"translation/czech.json"

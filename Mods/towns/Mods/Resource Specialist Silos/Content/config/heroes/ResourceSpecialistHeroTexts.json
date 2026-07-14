@@ -1,46 +1,46 @@
 {
-	"core:calid": {
-		"texts": {
-			"specialty": {
-				"name": "+1 Sulfur",
-				"description": "Increases kingdom's sulfur production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
-				"tooltip": "{+1} sulfur per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
+	"core:calid" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Sulfur",
+				"description" : "Increases kingdom's sulfur production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
+				"tooltip" : "{+1} sulfur per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
 			}
 		}
 	},
-	"core:rissa": {
-		"texts": {
-			"specialty": {
-				"name": "+1 Mercury",
-				"description": "Increases kingdom's mercury production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
-				"tooltip": "{+1} mercury per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
+	"core:rissa" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Mercury",
+				"description" : "Increases kingdom's mercury production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
+				"tooltip" : "{+1} mercury per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
 			}
 		}
 	},
-	"core:saurug": {
-		"texts": {
-			"specialty": {
-				"name": "+1 Gems",
-				"description": "Increases kingdom's gems production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
-				"tooltip": "{+1} gems per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
+	"core:saurug" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Gems",
+				"description" : "Increases kingdom's gems production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
+				"tooltip" : "{+1} gems per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
 			}
 		}
 	},
-	"core:sephinroth": {
-		"texts": {
-			"specialty": {
-				"name": "+1 Crystal",
-				"description": "Increases kingdom's crystal production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
-				"tooltip": "{+1} crystal per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
+	"core:sephinroth" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Crystal",
+				"description" : "Increases kingdom's crystal production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
+				"tooltip" : "{+1} crystal per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
 			}
 		}
 	},
-	"hota.cove:15andal": {
-		"texts": {
-			"specialty": {
-				"name": "+1 Crystal",
-				"description": "Increases kingdom's crystal production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
-				"tooltip": "{+1} crystal per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
+	"hota.cove:15andal" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Crystal",
+				"description" : "Increases kingdom's crystal production by {+1} per day.\n\n{Additionally}: once per week, each {Resource Silo} automatically grants its bonus only to the first visiting rare-resource production specialist: {+5} of each resource produced by the visited {Resource Silo}.",
+				"tooltip" : "{+1} crystal per day; once per week, the first rare-resource specialist receives {+5} of each resource from the visited {Resource Silo}."
 			}
 		}
 	}

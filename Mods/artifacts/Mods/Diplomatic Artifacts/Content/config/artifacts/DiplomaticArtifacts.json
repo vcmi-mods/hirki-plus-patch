@@ -1,77 +1,77 @@
 {
-	"core:statesmansMedal": {
-		"text": {
-			"description": "{Statesman's Medal}\n\nThis artifact reduces the cost of surrendering by 15% while worn."
+	"core:statesmansMedal" : {
+		"text" : {
+			"description" : "{Statesman's Medal}\n\nThis artifact reduces the cost of surrendering by 15% while worn."
 		},
-		"bonuses": {
-			"diplomacy": {
-				"type": "SURRENDER_DISCOUNT",
-				"val": 15,
-				"valueType": "BASE_NUMBER"
+		"bonuses" : {
+			"diplomacy" : {
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 15,
+				"valueType" : "BASE_NUMBER"
 			}
 		}
 	},
-	"core:diplomatsRing": {
-		"text": {
-			"description": "{Diplomat's Ring}\n\nThis artifact reduces the cost of surrendering by 15% while worn."
+	"core:diplomatsRing" : {
+		"text" : {
+			"description" : "{Diplomat's Ring}\n\nThis artifact reduces the cost of surrendering by 15% while worn."
 		},
-		"bonuses": {
-			"diplomacy": {
-				"type": "SURRENDER_DISCOUNT",
-				"val": 15,
-				"valueType": "BASE_NUMBER"
+		"bonuses" : {
+			"diplomacy" : {
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 15,
+				"valueType" : "BASE_NUMBER"
 			}
 		}
 	},
-	"core:ambassadorsSash": {
-		"text": {
-			"description": "{Ambassador's Sash}\n\nThis artifact reduces the cost of surrendering by 15% while worn."
+	"core:ambassadorsSash" : {
+		"text" : {
+			"description" : "{Ambassador's Sash}\n\nThis artifact reduces the cost of surrendering by 15% while worn."
 		},
-		"bonuses": {
-			"diplomacy": {
-				"type": "SURRENDER_DISCOUNT",
-				"val": 15,
-				"valueType": "BASE_NUMBER"
+		"bonuses" : {
+			"diplomacy" : {
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 15,
+				"valueType" : "BASE_NUMBER"
 			}
 		}
 	},
-	"hota.artifacts:diplomatsCloak": {
-		"fusedComponents": true,
-		"text": {
-			"description": "{Diplomat's Cloak}\n\nA fused diplomatic relic. Reduces surrender cost by {50%} and increases the chance that neutral creatures will join the hero's army.\n\nAdditionally, on the adventure map it acts as the Expert-level {Disguise} spell: enemies see a falsified composition of the hero's army.\n\nIt also allows the hero to retreat or surrender despite {Shackles of War}, as long as that battle normally allows retreat or surrender.\n\nComponents are {consumed} during assembly and cannot be recovered."
+	"hota.artifacts:diplomatsCloak" : {
+		"fusedComponents" : true,
+		"text" : {
+			"description" : "{Diplomat's Cloak}\n\nA fused diplomatic relic. Reduces surrender cost by {50%} and increases the chance that neutral creatures will join the hero's army.\n\nAdditionally, on the adventure map it acts as the Expert-level {Disguise} spell: enemies see a falsified composition of the hero's army.\n\nIt also allows the hero to retreat or surrender despite {Shackles of War}, as long as that battle normally allows retreat or surrender.\n\nComponents are {consumed} during assembly and cannot be recovered."
 		},
-		"bonuses": {
-			"hppDiplomatsCloakSurrenderDiscount": {
-				"type": "SURRENDER_DISCOUNT",
-				"val": 50,
-				"valueType": "BASE_NUMBER"
+		"bonuses" : {
+			"hppDiplomatsCloakSurrenderDiscount" : {
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
 			},
-			"hppDiplomatsCloakJoinBonus": {
-				"type": "WANDERING_CREATURES_JOIN_BONUS",
-				"val": 3,
-				"valueType": "BASE_NUMBER"
+			"hppDiplomatsCloakJoinBonus" : {
+				"type" : "WANDERING_CREATURES_JOIN_BONUS",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
 			},
-			"hppDiplomatsCloakDisguise": {
-				"type": "DISGUISED",
-				"val": 3,
-				"valueType": "INDEPENDENT_MAX"
+			"hppDiplomatsCloakDisguise" : {
+				"type" : "DISGUISED",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
 			}
 		}
 	},
-	"core:shacklesOfWar": {
-		"text": {
-			"description": "{Shackles of War}\n\nThis artifact prevents heroes from retreating or surrendering.\n\n{Exception:} A hero with Expert Diplomacy or Diplomat's Cloak neutralizes this artifact's effect in battles where retreat or surrender is normally available."
+	"core:shacklesOfWar" : {
+		"text" : {
+			"description" : "{Shackles of War}\n\nThis artifact prevents heroes from retreating or surrendering.\n\n{Exception:} A hero with Expert Diplomacy or Diplomat's Cloak neutralizes this artifact's effect in battles where retreat or surrender is normally available."
 		},
-		"bonuses": {
-			"noRetreat": {
-				"propagator": "BATTLE_WIDE",
-				"type": "BATTLE_NO_FLEEING",
-				"limiters": [
+		"bonuses" : {
+			"noRetreat" : {
+				"propagator" : "BATTLE_WIDE",
+				"type" : "BATTLE_NO_FLEEING",
+				"limiters" : [
 					"noneOf",
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "WANDERING_CREATURES_JOIN_BONUS",
-						"bonusMinValue": 3
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "WANDERING_CREATURES_JOIN_BONUS",
+						"bonusMinValue" : 3
 					}
 				]
 			}

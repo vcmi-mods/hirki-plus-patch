@@ -1,25 +1,25 @@
 {
-  "name": "Magic Mirror",
-  "description": "A base rework of Magic Mirror prepared for later integration with New Luck.\n\nThis module adjusts the spell's mana costs, adds a chance to resist hostile spells at higher Air Magic mastery levels, and turns the Expert version into a mass defensive spell. Luck-based scaling is intentionally left for a separate New Luck module.\n\n## Spell Changes\n\n* **Magic Mirror** — reflects hostile spells and, at higher mastery levels, also grants a chance to resist hostile spells.\n  * **No mastery**: keeps the original behavior, 20% reflection chance, 25 mana.\n  * **Basic**: keeps the original Basic behavior, 20% reflection chance, 20 mana.\n  * **Advanced**: 25% reflection chance and 15% chance to resist hostile spells, 18 mana.\n  * **Expert**: affects all allied stacks, 25% reflection chance and 20% chance to resist hostile spells, 24 mana.",
-  "polish": {
-    "name": "Magiczne zwierciadło",
-    "description": "Bazowa przebudowa Magicznego zwierciadła, przygotowana do współpracy z modułami Czarów szczęścia.\n\nTen moduł dostosowuje koszty many, dodaje szansę na odparcie wrogich zaklęć na wyższych poziomach Magii Powietrza i zmienia wersję mistrzowską w masowy czar defensywny. Skalowanie przez Szczęście jest obsługiwane przez osobny moduł Czarów szczęścia.\n\n## Zmiany czaru\n\n* **Magiczne zwierciadło** — odbija wrogie zaklęcia, a na wyższych poziomach biegłości zapewnia także szansę na odparcie wrogich zaklęć.\n  * **Brak biegłości**: zachowuje oryginalne działanie, 20% szansy odbicia, 25 many.\n  * **Podstawowa**: zachowuje oryginalne działanie poziomu podstawowego, 20% szansy odbicia, 20 many.\n  * **Zaawansowana**: 25% szansy odbicia i 15% szans na odparcie wrogich zaklęć, 18 many.\n  * **Mistrzowska**: działa na wszystkie sojusznicze oddziały, 25% szansy odbicia i 20% szans na odparcie wrogich zaklęć, 24 many.",
-    "translations": [
-      "translation/polish.json"
-    ]
-  },
-  "author": "bew_",
-  "version": "1.0.0",
-  "modType": "Spells",
-  "depends": [
-    "hota"
-  ],
-  "spells": [
-    "config/spells/MagicMirror.json"
-  ],
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  }
+	"name" : "Magic Mirror",
+	"description" : "A base rework of Magic Mirror prepared for later integration with New Luck.\n\nThis module adjusts the spell's mana costs, adds a chance to resist hostile spells at higher Air Magic mastery levels, and turns the Expert version into a mass defensive spell. Luck-based scaling is intentionally left for a separate New Luck module.\n\n## Spell Changes\n\n* **Magic Mirror** — reflects hostile spells and, at higher mastery levels, also grants a chance to resist hostile spells.\n  * **No mastery**: keeps the original behavior, 20% reflection chance, 25 mana.\n  * **Basic**: keeps the original Basic behavior, 20% reflection chance, 20 mana.\n  * **Advanced**: 25% reflection chance and 15% chance to resist hostile spells, 18 mana.\n  * **Expert**: affects all allied stacks, 25% reflection chance and 20% chance to resist hostile spells, 24 mana.",
+	"polish" : {
+		"name" : "Magiczne zwierciadło",
+		"description" : "Bazowa przebudowa Magicznego zwierciadła, przygotowana do współpracy z modułami Czarów szczęścia.\n\nTen moduł dostosowuje koszty many, dodaje szansę na odparcie wrogich zaklęć na wyższych poziomach Magii Powietrza i zmienia wersję mistrzowską w masowy czar defensywny. Skalowanie przez Szczęście jest obsługiwane przez osobny moduł Czarów szczęścia.\n\n## Zmiany czaru\n\n* **Magiczne zwierciadło** — odbija wrogie zaklęcia, a na wyższych poziomach biegłości zapewnia także szansę na odparcie wrogich zaklęć.\n  * **Brak biegłości**: zachowuje oryginalne działanie, 20% szansy odbicia, 25 many.\n  * **Podstawowa**: zachowuje oryginalne działanie poziomu podstawowego, 20% szansy odbicia, 20 many.\n  * **Zaawansowana**: 25% szansy odbicia i 15% szans na odparcie wrogich zaklęć, 18 many.\n  * **Mistrzowska**: działa na wszystkie sojusznicze oddziały, 25% szansy odbicia i 20% szans na odparcie wrogich zaklęć, 24 many.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"author" : "bew_",
+	"version" : "1.0.0",
+	"modType" : "Spells",
+	"depends" : [
+		"hota"
+	],
+	"spells" : [
+		"config/spells/MagicMirror.json"
+	],
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release."
+		]
+	}
 }

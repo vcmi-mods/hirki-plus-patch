@@ -1,32 +1,32 @@
 {
-	"core:diplomacy": {
-		"basic": {
-			"description": "{Diplomacy - basic level}\n\nAllows negotiations with neutral creatures so they may join the hero's army and reduces surrender cost by {15%}.",
-			"effects": {
-				"surr": {
-					"type": "SURRENDER_DISCOUNT",
-					"val": 15,
-					"valueType": "BASE_NUMBER"
+	"core:diplomacy" : {
+		"basic" : {
+			"description" : "{Diplomacy - basic level}\n\nAllows negotiations with neutral creatures so they may join the hero's army and reduces surrender cost by {15%}.",
+			"effects" : {
+				"surr" : {
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 15,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
-		"advanced": {
-			"description": "{Diplomacy - advanced level}\n\nAllows negotiations with neutral creatures so they may join the hero's army and reduces surrender cost by {25%}.",
-			"effects": {
-				"surr": {
-					"type": "SURRENDER_DISCOUNT",
-					"val": 25,
-					"valueType": "BASE_NUMBER"
+		"advanced" : {
+			"description" : "{Diplomacy - advanced level}\n\nAllows negotiations with neutral creatures so they may join the hero's army and reduces surrender cost by {25%}.",
+			"effects" : {
+				"surr" : {
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 25,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
-		"expert": {
-			"description": "{Diplomacy - expert level}\n\nAllows negotiations with neutral creatures so they may join the hero's army and reduces surrender cost by {50%}.\n\nIt also allows the hero to retreat or surrender despite {Shackles of War}, as long as that battle normally allows retreat or surrender.",
-			"effects": {
-				"surr": {
-					"type": "SURRENDER_DISCOUNT",
-					"val": 50,
-					"valueType": "BASE_NUMBER"
+		"expert" : {
+			"description" : "{Diplomacy - expert level}\n\nAllows negotiations with neutral creatures so they may join the hero's army and reduces surrender cost by {50%}.\n\nIt also allows the hero to retreat or surrender despite {Shackles of War}, as long as that battle normally allows retreat or surrender.",
+			"effects" : {
+				"surr" : {
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		}
