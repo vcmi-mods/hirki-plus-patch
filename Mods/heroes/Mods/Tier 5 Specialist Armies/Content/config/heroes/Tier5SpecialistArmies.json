@@ -1,0 +1,268 @@
+{
+	"core:ingham": {
+		"army": [
+			{
+				"creature": "monk",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "pikeman",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "griffin",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:ryland": {
+		"army": [
+			{
+				"creature": "dendroidGuard",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "centaur",
+				"min": 12,
+				"max": 24
+			},
+			{
+				"creature": "dwarf",
+				"min": 5,
+				"max": 7
+			}
+		]
+	},
+	"core:thane": {
+		"army": [
+			{
+				"creature": "genie",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:iona": {
+		"army": [
+			{
+				"creature": "genie",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:nymus": {
+		"army": [
+			{
+				"creature": "pitFiend",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "imp",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:moandor": {
+		"army": [
+			{
+				"creature": "lich",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "walkingDead",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "walkingDead",
+				"min": 6,
+				"max": 8
+			}
+		]
+	},
+	"core:dace": {
+		"army": [
+			{
+				"creature": "minotaur",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "troglodyte",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "beholder",
+				"min": 3,
+				"max": 4
+			}
+		]
+	},
+	"core:shiva": {
+		"army": [
+			{
+				"creature": "roc",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "goblinWolfRider",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "orc",
+				"min": 5,
+				"max": 6
+			}
+		]
+	},
+	"core:alkin": {
+		"army": [
+			{
+				"creature": "gorgon",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "gnoll",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "serpentFly",
+				"min": 3,
+				"max": 4
+			}
+		]
+	},
+	"core:thunar": {
+		"army": [
+			{
+				"creature": "earthElemental",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "pixie",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "waterElemental",
+				"min": 3,
+				"max": 5
+			}
+		]
+	},
+	"core:erdamon": {
+		"army": [
+			{
+				"creature": "earthElemental",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "pixie",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "waterElemental",
+				"min": 3,
+				"max": 5
+			}
+		]
+	},
+	"hota.cove:12casmetra": {
+		"army": [
+			{
+				"creature": "hota.cove:seaWitch",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "hota.cove:nymph",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "hota.cove:crewmate",
+				"min": 6,
+				"max": 9
+			}
+		]
+	},
+	"hota.factory:13agar": {
+		"army": [
+			{
+				"creature": "hota.factory:sandworm",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "hota.factory:hotaMechanic",
+				"min": 7,
+				"max": 9
+			},
+			{
+				"creature": "hota.factory:armadillo",
+				"min": 4,
+				"max": 6
+			}
+		]
+	},
+	"hota.bulwark:09kriv": {
+		"army": [
+			{
+				"creature": "hota.bulwark:shaman",
+				"min": 2,
+				"max": 2
+			},
+			{
+				"creature": "hota.bulwark:kobold",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "hota.bulwark:mountainRam",
+				"min": 6,
+				"max": 8
+			}
+		]
+	}
+}

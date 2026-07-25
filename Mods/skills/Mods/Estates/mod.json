@@ -1,29 +1,32 @@
 {
-	"name" : "Estates",
-	"description" : "Improves **Estates** into a stronger economic support skill.\n\nEstates keeps the daily gold income from Horn of the Abyss and additionally improves Marketplace exchange rates for the hero's team. In solo games, the owner receives the full benefit; in allied games, the same benefits are shared across the team.\n\nBenefits from multiple Estates heroes on the same team can stack, making the skill much more valuable while preserving its economic identity.\n\n## Skill Effects\n\n* **Basic Estates:** +250 gold per day and better Marketplace exchange rates, as if the hero's team had 1 additional Marketplace\n* **Advanced Estates:** +500 gold per day and better Marketplace exchange rates, as if the hero's team had 2 additional Marketplaces\n* **Expert Estates:** +1000 gold per day and better Marketplace exchange rates, as if the hero's team had 3 additional Marketplaces\n\n## Specialist Interaction\n\nLord Haart's Estates specialty increases the shared gold income, but does not increase Marketplace exchange rates.",
-	"author" : "bew_",
-	"version" : "1.1.0",
-	"modType" : "Skills",
-	"polish" : {
-		"name" : "Finanse",
-		"description" : "Wzmacnia **Finanse** jako umiejętność ekonomicznego wsparcia.\n\nFinanse zachowują dzienny dochód w złocie z Horn of the Abyss, a dodatkowo poprawiają kursy wymiany w Targowisku dla drużyny bohatera. W grze solo pełną korzyść otrzymuje właściciel bohatera; w grach sojuszniczych te same korzyści są współdzielone przez całą drużynę.\n\nPremie od wielu bohaterów z Finansami w tej samej drużynie mogą się kumulować, dzięki czemu umiejętność staje się znacznie bardziej wartościowa, zachowując swoją ekonomiczną tożsamość.\n\n## Efekty umiejętności\n\n* **Podstawowe Finanse:** +250 złota dziennie i lepsze kursy wymiany w Targowisku, jak za 1 dodatkowe Targowisko, dla drużyny bohatera\n* **Zaawansowane Finanse:** +500 złota dziennie i lepsze kursy wymiany w Targowisku, jak za 2 dodatkowe Targowiska, dla drużyny bohatera\n* **Mistrzowskie Finanse:** +1000 złota dziennie i lepsze kursy wymiany w Targowisku, jak za 3 dodatkowe Targowiska, dla drużyny bohatera\n\n## Interakcja ze specjalistą\n\nSpecjalność Lorda Haarta zwiększa współdzielony dochód w złocie, ale nie poprawia dodatkowo kursów wymiany w Targowisku.",
-		"translations" : [
+	"name": "Estates",
+	"description": "Improves **Estates** into a stronger economic support skill.\n\nEstates preserves the daily gold income from Horn of the Abyss for the hero's owner and additionally improves Marketplace exchange rates for the entire team.\n\nGold income from multiple Estates heroes stacks for their respective owners, while their Marketplace bonuses support the whole team.\n\n## Skill Effects\n\n* **Basic Estates:** +250 gold per day for the owning player; team exchange rates as if it had 1 additional Marketplace\n* **Advanced Estates:** +500 gold per day for the owning player; team exchange rates as if it had 2 additional Marketplaces\n* **Expert Estates:** +1000 gold per day for the owning player; team exchange rates as if it had 3 additional Marketplaces\n\n## Specialist Interaction\n\nLord Haart's Estates specialty increases the gold income generated for his owner, but does not further improve Marketplace exchange rates.",
+	"author": "bew_",
+	"version": "1.1.1",
+	"modType": "Skills",
+	"polish": {
+		"name": "Finanse",
+		"description": "Wzmacnia **Finanse** jako umiejętność ekonomicznego wsparcia.\n\nFinanse zachowują dzienny dochód w złocie z Horn of the Abyss dla właściciela bohatera, a dodatkowo poprawiają kursy wymiany w Targowiskach całej drużyny.\n\nDochód w złocie od wielu bohaterów z Finansami kumuluje się dla ich odpowiednich graczy, natomiast premie do Targowisk wspierają całą drużynę.\n\n## Efekty umiejętności\n\n* **Podstawowe Finanse:** +250 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 1 dodatkowe Targowisko\n* **Zaawansowane Finanse:** +500 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 2 dodatkowe Targowiska\n* **Mistrzowskie Finanse:** +1000 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 3 dodatkowe Targowiska\n\n## Interakcja ze specjalistą\n\nSpecjalność Lorda Haarta zwiększa dochód w złocie generowany dla jego gracza, ale nie poprawia dodatkowo kursów wymiany w Targowiskach.",
+		"translations": [
 			"translation/polish.json"
 		]
 	},
-	"changelog" : {
-		"1.0.0" : [
+	"changelog": {
+		"1.0.0": [
 			"Initial release"
+		],
+		"1.1.1": [
+			"Corrected misleading Estates descriptions."
 		]
 	},
-	"skills" : [
+	"skills": [
 		"config/skills/Estates.json"
 	],
-	"depends" : [
+	"depends": [
 		"hota"
 	],
-	"czech" : {
-		"translations" : [
+	"czech": {
+		"translations": [
 			"translation/czech.json"
 		]
 	}

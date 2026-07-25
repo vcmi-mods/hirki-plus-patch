@@ -1,0 +1,246 @@
+{
+	"core:cornucopia": {
+		"instanceBonuses": {
+			"teamMercuryForMercurySpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.mercury",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.mercury",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamMercuryForSulfurSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.mercury",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.sulfur",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamMercuryForCrystalSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.mercury",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.crystal",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamMercuryForGemsSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.mercury",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.gems",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamSulfurForMercurySpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.sulfur",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.mercury",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamSulfurForSulfurSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.sulfur",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.sulfur",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamSulfurForCrystalSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.sulfur",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.crystal",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamSulfurForGemsSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.sulfur",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.gems",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamCrystalForMercurySpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.crystal",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.mercury",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamCrystalForSulfurSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.crystal",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.sulfur",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamCrystalForCrystalSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.crystal",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.crystal",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamCrystalForGemsSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.crystal",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.gems",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamGemsForMercurySpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gems",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.mercury",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamGemsForSulfurSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gems",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.sulfur",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamGemsForCrystalSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gems",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.crystal",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			},
+			"teamGemsForGemsSpecialist": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gems",
+				"val": 4,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "GENERATE_RESOURCE",
+						"bonusSubtype": "resource.gems",
+						"bonusSourceType": "HERO_SPECIAL"
+					}
+				]
+			}
+		}
+	}
+}

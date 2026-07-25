@@ -1,0 +1,44 @@
+{
+	"core:endlessPurseOfGold": {
+		"class": "TREASURE"
+	},
+	"core:endlessBagOfGold": {
+		"class": "MINOR"
+	},
+	"core:endlessSackOfGold": {
+		"class": "MAJOR"
+	},
+	"hota.artifacts:goldenGoose": {
+		"class": "RELIC",
+		"bonuses": {
+			"gold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "gold",
+				"val": 3000,
+				"valueType": "BASE_NUMBER",
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.estates"
+					}
+				]
+			},
+			"estatesTeamGold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "gold",
+				"val": 3000,
+				"valueType": "BASE_NUMBER",
+				"propagator": "TEAM",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.estates"
+					}
+				]
+			}
+		}
+	}
+}

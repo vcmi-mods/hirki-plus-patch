@@ -1,0 +1,17 @@
+{
+	"core:dispel": {
+		"counters": {
+			"acidBurst": true,
+			"acidBurstStage2": true,
+			"acidBurstStage3": true,
+			"acidBurstStage4": true,
+			"acidBurstStage5": true,
+			"acidBurstStage6": true,
+			"acidBurstStage7": true,
+			"acidBurstStage8": true,
+			"acidBurstStage9": true,
+			"acidBurstStage10": true,
+			"acidBurstAttackMode": true
+		}
+	}
+}

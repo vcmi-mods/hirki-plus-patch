@@ -1,0 +1,34 @@
+{
+	"name": "Cornucopia",
+	"description": "Enhances **Cornucopia** with a stacking per-hero synergy for allied rare-resource production specialists.\n\n## Artifact Changes\n\n- Counting component effects, **Cornucopia** provides its owner's kingdom with **+5 mercury, sulfur, crystal and gems per day**.\n- While the artifact is carried by a hero, each allied hero with a rare-resource production specialty provides that hero's owner with an additional **+4 of every rare resource per day**.\n- A specialist carrying **Cornucopia** receives both effects, for a total of **+9 of every rare resource per day**.\n- Bonuses from multiple specialists stack.\n\nThe synergy applies to **Calid, Rissa, Saurug, Sephinroth and Andal**.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Artifacts",
+	"depends": [
+		"hota",
+		"hota.cove"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"artifacts": [
+		"config/artifacts/Cornucopia.json"
+	],
+	"english": {
+		"translations": [
+			"translation/english.json"
+		]
+	},
+	"polish": {
+		"description": "Rozszerza działanie **Miasta dobrobytu** o kumulującą się synergię z każdym sprzymierzonym specjalistą w produkcji rzadkich zasobów.\n\n## Zmiany artefaktu\n\n- Łącznie z efektami artefaktów składowych **Miasto dobrobytu** zapewnia królestwu właściciela **+5 rtęci, siarki, kryształów i klejnotów dziennie**.\n- Gdy artefakt jest noszony przez bohatera, każdy sprzymierzony bohater ze specjalizacją w produkcji rzadkiego zasobu zapewnia kontrolującemu go graczowi dodatkowo **+4 każdego rzadkiego zasobu dziennie**.\n- Specjalista noszący **Miasto dobrobytu** otrzymuje oba efekty, łącznie **+9 każdego rzadkiego zasobu dziennie**.\n- Bonusy za wielu specjalistów kumulują się.\n\nSynergia obejmuje bohaterów:\n\n- **Calid**\n- **Rissa**\n- **Saurug**\n- **Sephinroth**\n- **Andal**",
+		"translations": [
+			"translation/polish.json"
+		],
+		"name": "Miasto dobrobytu"
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

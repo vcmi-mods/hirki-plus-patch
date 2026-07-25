@@ -1,0 +1,29 @@
+{
+	"name": "Tier 3 Specialist Armies",
+	"description": "Adjusts the starting army order of heroes specializing in tier 3 creatures.\n\nEach affected hero begins with both stacks of their specialty creature in the **first and second army slots**, while the faction's level 1 stack is moved to the **third slot**. After retreating from battle, these heroes return to the Tavern with **1 creature from their specialty** instead of a level 1 creature from their faction.\n\nThe module changes **only the order of starting armies**. It does not change their composition, stack sizes, or how hero specialties work.\n\n## Affected Heroes\n\n* **Edric**\n* **Ivor**\n* **Josephine**\n* **Fiona**\n* **Charna**\n* **Ajit**\n* **Jabarkas**\n* **Korbac**\n* **Kalt**\n* **Lacus**\n* **Anabel**\n* **Celestine**\n* **Dhuin**",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Heroes",
+	"depends": [
+		"hota",
+		"hota.gamebalance.startingsarmies",
+		"hota.cove",
+		"hota.factory",
+		"hota.bulwark"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"heroes": [
+		"config/heroes/Tier3SpecialistArmies.json"
+	],
+	"polish": {
+		"name": "Specjaliści jednostek 3. poziomu",
+		"description": "Dostosowuje kolejność armii początkowych bohaterów specjalizujących się w jednostkach 3. poziomu.\n\nKażdy objęty zmianą bohater zaczyna z dwoma oddziałami jednostki swojej specjalizacji na **pierwszym i drugim slocie armii**, a oddział jednostki 1. poziomu danej frakcji zostaje przeniesiony na **trzeci slot**. Po ucieczce z bitwy bohaterowie ci wracają do Karczmy z **1 jednostką swojej specjalizacji** zamiast jednostki 1. poziomu z frakcji, do której należą.\n\nModuł zmienia **wyłącznie kolejność armii początkowej**. Nie zmienia jej składu, liczebności oddziałów ani działania specjalności bohaterów.\n\n## Bohaterowie objęci zmianą\n\n* **Edric**\n* **Ivor**\n* **Josephine**\n* **Fiona**\n* **Charna**\n* **Ajit**\n* **Jabarkas**\n* **Korbac**\n* **Kalt**\n* **Lacus**\n* **Anabel**\n* **Celestine**\n* **Dhuin**"
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

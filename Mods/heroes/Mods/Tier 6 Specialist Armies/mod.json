@@ -1,0 +1,28 @@
+{
+	"name": "Tier 6 Specialist Armies",
+	"description": "Adjusts the starting armies of heroes specializing in tier 6 creatures.\n\nEach affected hero begins with exactly **1 creature from their specialty** in the **first army slot**. After retreating from battle, these heroes return to the Tavern with **1 creature from their specialty** instead of a level 1 creature from their faction.\n\nThe module changes **only the composition and order of starting armies**. It does not change how hero specialties work.\n\n## Starting Armies\n\n* **Tyris** — 1 Cavalier and two stacks of 5–10 Pikemen.\n* **Clancy** — 1 Unicorn and two stacks of 6–12 Centaurs.\n* **Fafner** — 1 Naga and two stacks of 15–20 Apprentice Gremlins.\n* **Rashka** — 1 Efreet and two stacks of 10–15 Imps.\n* **Tamika** — 1 Black Knight and two stacks of 4–6 Walking Dead.\n* **Synca** — 1 Manticore and two stacks of 10–15 Troglodytes.\n* **Yog** — 1 Cyclops and two stacks of 3–4 Wolf Riders.\n* **Broghild** — 1 Wyvern and two stacks of 8–13 Gnolls.\n* **Pasis** — 1 Psychic Elemental and two stacks of 7–12 Pixies.\n* **Monere** — 1 Psychic Elemental and two stacks of 7–12 Pixies.\n* **Tancred** — 1 Gunslinger and two stacks of 4–5 Mechanics.\n* **Creyle** — 1 Mammoth and two stacks of 10–15 Kobolds.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Heroes",
+	"depends": [
+		"hota",
+		"hota.gamebalance.startingsarmies",
+		"hota.factory",
+		"hota.bulwark"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"heroes": [
+		"config/heroes/Tier6SpecialistArmies.json"
+	],
+	"polish": {
+		"name": "Specjaliści jednostek 6. poziomu",
+		"description": "Dostosowuje armie początkowe bohaterów specjalizujących się w jednostkach 6. poziomu.\n\nKażdy objęty zmianą bohater zaczyna z dokładnie **1 jednostką swojej specjalizacji** na **pierwszym slocie armii**. Po ucieczce z bitwy bohaterowie ci wracają do Karczmy z **1 jednostką swojej specjalizacji** zamiast jednostki 1. poziomu z frakcji, do której należą.\n\nModuł zmienia **wyłącznie skład i kolejność armii początkowej**. Nie zmienia działania specjalności bohaterów.\n\n## Armie początkowe\n\n* **Tyris** — 1 Kawalerzysta oraz dwa oddziały po 5–10 Pikinierów.\n* **Clancy** — 1 Jednorożec oraz dwa oddziały po 6–12 Centaurów.\n* **Fafner** — 1 Naga oraz dwa oddziały po 15–20 Gremlinów.\n* **Rashka** — 1 Ifryt oraz dwa oddziały po 10–15 Chochlików.\n* **Tamika** — 1 Czarny rycerz oraz dwa oddziały po 4–6 Ożywieńców.\n* **Synca** — 1 Mantikora oraz dwa oddziały po 10–15 Troglodytów.\n* **Yog** — 1 Cyklop oraz dwa oddziały po 3–4 Wilczych jeźdźców.\n* **Broghild** — 1 Wiwerna oraz dwa oddziały po 8–13 Gnolli.\n* **Pasis** — 1 Żywiołak umysłu oraz dwa oddziały po 7–12 Nimf.\n* **Monere** — 1 Żywiołak umysłu oraz dwa oddziały po 7–12 Nimf.\n* **Tancred** — 1 Najemnik oraz dwa oddziały po 4–5 Mechaników.\n* **Creyle** — 1 Mamut oraz dwa oddziały po 10–15 Koboldów."
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

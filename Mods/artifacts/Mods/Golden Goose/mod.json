@@ -1,0 +1,35 @@
+{
+	"name": "Golden Goose",
+	"description": "Enhances **Golden Goose** with a stacking per-hero synergy for allied heroes with **Estates** and rebalances the classes of its component artifacts.\n\n## Artifact Changes\n\n- Counting component effects, **Golden Goose** provides its owner's kingdom with **+5250 gold per day**.\n- While the artifact is carried by a hero, each allied hero with **Estates** provides the player controlling that hero with an additional **+3000 gold per day**.\n- A bearer with **Estates** receives both effects, for a total of **+8250 gold per day**.\n- Bonuses from multiple heroes with **Estates** stack.\n\n## Artifact Classes\n\n- **Endless Purse of Gold** — Treasure\n- **Endless Bag of Gold** — Minor\n- **Endless Sack of Gold** — Major\n- **Golden Goose** — Relic",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Artifacts",
+	"depends": [
+		"hota",
+		"hota.artifacts",
+		"hirki-plus-patch.skills.estates"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"artifacts": [
+		"config/artifacts/GoldenGoose.json"
+	],
+	"english": {
+		"translations": [
+			"translation/english.json"
+		]
+	},
+	"polish": {
+		"name": "Złota Gęś",
+		"description": "Rozszerza działanie **Złotej Gęsi** o kumulującą się synergię z każdym sprzymierzonym bohaterem posiadającym **Finanse** oraz porządkuje klasy jej artefaktów składowych.\n\n## Zmiany artefaktu\n\n- Łącznie z efektami artefaktów składowych **Złota Gęś** zapewnia królestwu właściciela **+5250 sztuk złota dziennie**.\n- Gdy artefakt jest noszony przez bohatera, każdy sprzymierzony bohater z **Finansami** zapewnia kontrolującemu go graczowi dodatkowe **+3000 sztuk złota dziennie**.\n- Nosiciel z **Finansami** otrzymuje oba efekty, łącznie **+8250 sztuk złota dziennie**.\n- Bonusy za wielu bohaterów z **Finansami** kumulują się.\n\n## Klasy artefaktów\n\n- **Sakiewka nieskończonego złota** — Skarb\n- **Torba nieskończonego złota** — pomniejszy artefakt\n- **Worek nieskończonego złota** — potężny artefakt\n- **Złota Gęś** — Relikt",
+		"translations": [
+			"translation/polish.json"
+		]
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

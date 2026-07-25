@@ -1,0 +1,29 @@
+{
+	"name": "Tier 4 Specialist Armies",
+	"description": "Adjusts the starting armies of heroes specializing in tier 4 creatures.\n\nEach affected hero begins with a creature from their specialty in the **first army slot**. After retreating from battle, these heroes return to the Tavern with **1 creature from their specialty** instead of a level 1 creature from their faction.\n\nThe module changes **only the composition and order of starting armies**. It does not change how hero specialties work.\n\n## Starting Armies\n\n* **Sorsha** — 3–5 Swordsmen, 10–20 Pikemen, 4–5 Griffins.\n* **Aeris** — 3–5 Pegasi, 12–24 Centaurs, 5–7 Dwarves.\n* **Theodorus** — 3–5 Magi, 5–7 Stone Gargoyles, 4–5 Stone Golems.\n* **Marius** — 3–5 Demons, 20–30 Imps, 4–5 Hell Hounds.\n* **Vokial** — 2–4 Vampires and two stacks of 6–8 Walking Dead.\n* **Vey** — 3–5 Ogres, 20–30 Goblins, 5–6 Orcs.\n* **Bron** — 3–5 Basilisks, 15–25 Gnolls, 3–4 Serpent Flies.\n* **Ignissa** — 3–5 Fire Elementals, 15–25 Pixies, 3–5 Water Elementals.\n* **Fiur** — 3–5 Fire Elementals, 15–25 Pixies, 3–5 Water Elementals.\n* **Illor** — 3–5 Stormbirds, 15–25 Nymphs, 4–7 Pirates.\n* **Todd** — 3–5 Automatons, 15–25 Halflings, 4–6 Armadillos.\n* **Spadum** — 2–4 Yeti, 20–30 Kobolds, 6–8 Mountain Rams.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Heroes",
+	"depends": [
+		"hota",
+		"hota.gamebalance.startingsarmies",
+		"hota.cove",
+		"hota.factory",
+		"hota.bulwark"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"heroes": [
+		"config/heroes/Tier4SpecialistArmies.json"
+	],
+	"polish": {
+		"name": "Specjaliści jednostek 4. poziomu",
+		"description": "Dostosowuje armie początkowe bohaterów specjalizujących się w jednostkach 4. poziomu.\n\nKażdy objęty zmianą bohater zaczyna z jednostką swojej specjalizacji na **pierwszym slocie armii**. Po ucieczce z bitwy bohaterowie ci wracają do Karczmy z **1 jednostką swojej specjalizacji** zamiast jednostki 1. poziomu z frakcji, do której należą.\n\nModuł zmienia **wyłącznie skład i kolejność armii początkowej**. Nie zmienia działania specjalności bohaterów.\n\n## Armie początkowe\n\n* **Sorsha** — 3–5 Zbrojnych, 10–20 Pikinierów, 4–5 Gryfów.\n* **Aeris** — 3–5 Pegazów, 12–24 Centaurów, 5–7 Krasnoludów.\n* **Theodorus** — 3–5 Magów, 5–7 Kamiennych gargulców, 4–5 Kamiennych golemów.\n* **Marius** — 3–5 Demonów, 20–30 Chochlików, 4–5 Piekielnych ogarów.\n* **Vokial** — 2–4 Wampirów oraz dwa oddziały po 6–8 Ożywieńców.\n* **Vey** — 3–5 Ogrów, 20–30 Goblinów, 5–6 Orków.\n* **Bron** — 3–5 Bazyliszków, 15–25 Gnolli, 3–4 Ważek.\n* **Ignissa** — 3–5 Żywiołaków ognia, 15–25 Nimf, 3–5 Żywiołaków wody.\n* **Fiur** — 3–5 Żywiołaków ognia, 15–25 Nimf, 3–5 Żywiołaków wody.\n* **Illor** — 3–5 Bestii sztormów, 15–25 Nereid, 4–7 Piratów.\n* **Todd** — 3–5 Automatonów, 15–25 Niziołków, 4–6 Pancerników.\n* **Spadum** — 2–4 Yeti, 20–30 Koboldów, 6–8 Koziorożców."
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

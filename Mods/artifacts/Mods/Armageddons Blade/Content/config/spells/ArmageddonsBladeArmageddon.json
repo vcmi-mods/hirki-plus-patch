@@ -1,0 +1,90 @@
+{
+	"hppArmageddonsBladeArmageddon": {
+		"animation": {
+			"hit": [
+				"C06SPF0"
+			]
+		},
+		"flags": {
+			"damage": true,
+			"negative": true
+		},
+		"defaultGainChance": 0,
+		"gainChance": {},
+		"level": 4,
+		"levels": {
+			"advanced": {
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					}
+				},
+				"cost": 0,
+				"description": "{Armag. Blade - Advanced}\n\nA {0}-mana Armageddon granted by Armageddon's Blade. Rains fire and brimstone over the battlefield, dealing increased damage to every creature.",
+				"power": 60,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			},
+			"basic": {
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					}
+				},
+				"cost": 0,
+				"description": "{Armag. Blade - Basic}\n\nA {0}-mana Armageddon granted by Armageddon's Blade. Rains fire and brimstone over the battlefield, damaging every creature.",
+				"power": 30,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			},
+			"expert": {
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					}
+				},
+				"cost": 0,
+				"description": "{Armag. Blade - Expert}\n\nA {0}-mana Armageddon granted by Armageddon's Blade. Rains fire and brimstone over the battlefield, dealing greatly increased damage to every creature.",
+				"power": 120,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			},
+			"none": {
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					}
+				},
+				"cost": 0,
+				"description": "{Armag. Blade}\n\nA {0}-mana Armageddon granted by Armageddon's Blade. Rains fire and brimstone over the battlefield, damaging every creature.",
+				"power": 30,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			}
+		},
+		"name": "Armag. Blade",
+		"power": 40,
+		"school": {
+			"fire": true
+		},
+		"sounds": {
+			"cast": "ARMGEDN"
+		},
+		"targetCondition": {},
+		"targetType": "CREATURE",
+		"type": "combat",
+		"graphics": {
+			"iconEffect": "arma_blade_spell_effect.png",
+			"iconBook": "arma_blade_spell_icon.png",
+			"iconScroll": "arma_blade_spell_scroll.png"
+		}
+	}
+}

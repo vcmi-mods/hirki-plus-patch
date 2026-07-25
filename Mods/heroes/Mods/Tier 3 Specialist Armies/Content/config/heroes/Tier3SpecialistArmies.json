@@ -1,0 +1,249 @@
+{
+	"core:edric": {
+		"army": [
+			{
+				"creature": "griffin",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "griffin",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "pikeman",
+				"min": 10,
+				"max": 20
+			}
+		]
+	},
+	"core:ivor": {
+		"army": [
+			{
+				"creature": "woodElf",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"creature": "woodElf",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"creature": "centaur",
+				"min": 12,
+				"max": 24
+			}
+		]
+	},
+	"core:josephine": {
+		"army": [
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			}
+		]
+	},
+	"core:fiona": {
+		"army": [
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "imp",
+				"min": 20,
+				"max": 30
+			}
+		]
+	},
+	"core:charna": {
+		"army": [
+			{
+				"creature": "wight",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "wight",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "skeleton",
+				"min": 20,
+				"max": 30
+			}
+		]
+	},
+	"core:ajit": {
+		"army": [
+			{
+				"creature": "beholder",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "beholder",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "troglodyte",
+				"min": 20,
+				"max": 30
+			}
+		]
+	},
+	"core:jabarkas": {
+		"army": [
+			{
+				"creature": "orc",
+				"min": 5,
+				"max": 6
+			},
+			{
+				"creature": "orc",
+				"min": 5,
+				"max": 6
+			},
+			{
+				"creature": "goblin",
+				"min": 20,
+				"max": 30
+			}
+		]
+	},
+	"core:korbac": {
+		"army": [
+			{
+				"creature": "serpentFly",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "serpentFly",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "gnoll",
+				"min": 15,
+				"max": 25
+			}
+		]
+	},
+	"core:kalt": {
+		"army": [
+			{
+				"creature": "waterElemental",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "waterElemental",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "pixie",
+				"min": 15,
+				"max": 25
+			}
+		]
+	},
+	"core:lacus": {
+		"army": [
+			{
+				"creature": "waterElemental",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "waterElemental",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "pixie",
+				"min": 15,
+				"max": 25
+			}
+		]
+	},
+	"hota.cove:07anabel": {
+		"army": [
+			{
+				"creature": "hota.cove:pirate",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "hota.cove:pirate",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "hota.cove:nymph",
+				"min": 15,
+				"max": 25
+			}
+		]
+	},
+	"hota.factory:11celestine": {
+		"army": [
+			{
+				"creature": "hota.factory:armadillo",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "hota.factory:armadillo",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "core:halfling",
+				"min": 15,
+				"max": 25
+			}
+		]
+	},
+	"hota.bulwark:01dhuin": {
+		"army": [
+			{
+				"creature": "hota.bulwark:snowElf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "hota.bulwark:snowElf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "hota.bulwark:kobold",
+				"min": 20,
+				"max": 30
+			}
+		]
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"core:armageddonsBlade": {
+		"components": [
+			"core:swordOfHellfire",
+			"core:hellstormHelmet",
+			"core:breastplateOfBrimstone",
+			"core:shieldOfTheDamned",
+			"core:eversmokingRingOfSulfur",
+			"core:orbOfTempestuousFire"
+		],
+		"fusedComponents": false,
+		"bonuses": {
+			"attack": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 4,
+				"valueType": "BASE_NUMBER"
+			},
+			"defence": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 4,
+				"valueType": "BASE_NUMBER"
+			},
+			"spellpower": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val": 5,
+				"valueType": "BASE_NUMBER"
+			},
+			"knowledge": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val": 5,
+				"valueType": "BASE_NUMBER"
+			},
+			"armageddon": null,
+			"immnunity": null,
+			"hppBladeArmageddon": {
+				"type": "SPELL",
+				"subtype": "spell.hppArmageddonsBladeArmageddon",
+				"val": 3,
+				"valueType": "INDEPENDENT_MAX"
+			},
+			"hppFireProtection": {
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"subtype": "spellSchool.fire",
+				"val": 75,
+				"valueType": "INDEPENDENT_MAX",
+				"propagator": "BATTLE_WIDE",
+				"limiters": [
+					"noneOf",
+					"OPPOSITE_SIDE"
+				]
+			}
+		},
+		"text": {
+			"description": "{Armageddon's Blade}\n\nAdds {+10} to all primary skills.\n\nA hero with a Spell Book can cast {Armag. Blade}, a special Armageddon spell that costs {0} mana.\n\nIncreases damage dealt by fire spells by {50%}.\n\nAll allied creatures take {75%} less damage from fire spells.\n\nGenerates {+1} sulfur per day."
+		}
+	}
+}

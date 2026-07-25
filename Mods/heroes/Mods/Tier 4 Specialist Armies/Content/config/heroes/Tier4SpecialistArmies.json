@@ -1,0 +1,230 @@
+{
+	"core:sorsha": {
+		"army": [
+			{
+				"creature": "swordsman",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "pikeman",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "griffin",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:aeris": {
+		"army": [
+			{
+				"creature": "pegasus",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "centaur",
+				"min": 12,
+				"max": 24
+			},
+			{
+				"creature": "dwarf",
+				"min": 5,
+				"max": 7
+			}
+		]
+	},
+	"core:theodorus": {
+		"army": [
+			{
+				"creature": "mage",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:marius": {
+		"army": [
+			{
+				"creature": "demon",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "imp",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:vokial": {
+		"army": [
+			{
+				"creature": "vampire",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"creature": "walkingDead",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "walkingDead",
+				"min": 6,
+				"max": 8
+			}
+		]
+	},
+	"core:vey": {
+		"army": [
+			{
+				"creature": "ogre",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "goblin",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "orc",
+				"min": 5,
+				"max": 6
+			}
+		]
+	},
+	"core:bron": {
+		"army": [
+			{
+				"creature": "basilisk",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "gnoll",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "serpentFly",
+				"min": 3,
+				"max": 4
+			}
+		]
+	},
+	"core:ignissa": {
+		"army": [
+			{
+				"creature": "fireElemental",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "pixie",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "waterElemental",
+				"min": 3,
+				"max": 5
+			}
+		]
+	},
+	"core:fiur": {
+		"army": [
+			{
+				"creature": "fireElemental",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "pixie",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "waterElemental",
+				"min": 3,
+				"max": 5
+			}
+		]
+	},
+	"hota.cove:03illor": {
+		"army": [
+			{
+				"creature": "hota.cove:stormbird",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "hota.cove:nymph",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "hota.cove:pirate",
+				"min": 4,
+				"max": 7
+			}
+		]
+	},
+	"hota.factory:12todd": {
+		"army": [
+			{
+				"creature": "hota.factory:automaton",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "core:halfling",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "hota.factory:armadillo",
+				"min": 4,
+				"max": 6
+			}
+		]
+	},
+	"hota.bulwark:06spadum": {
+		"army": [
+			{
+				"creature": "hota.bulwark:yeti",
+				"min": 2,
+				"max": 4
+			},
+			{
+				"creature": "hota.bulwark:kobold",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "hota.bulwark:mountainRam",
+				"min": 6,
+				"max": 8
+			}
+		]
+	}
+}
