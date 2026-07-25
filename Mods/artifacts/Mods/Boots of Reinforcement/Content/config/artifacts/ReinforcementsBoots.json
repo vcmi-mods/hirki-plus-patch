@@ -1,0 +1,110 @@
+{
+	"reinforcementsBoots": {
+		"type": [
+			"HERO"
+		],
+		"class": "RELIC",
+		"slot": [
+			"FEET"
+		],
+		"value": 40000,
+		"components": [
+			"core:bootsOfSpeed",
+			"core:equestriansGloves",
+			"hota.artifacts:wayfarerBoots",
+			"core:angelWings"
+		],
+		"fusedComponents": true,
+		"graphics": {
+			"image": "reinforcements_boots_inventory.png",
+			"map": "reinforcements_boots_map.def",
+			"scenarioBonus": "reinforcements_boots_scenario_bonus.png"
+		},
+		"text": {
+			"name": "Boots of Reinforcement",
+			"description": "{Boots of Reinforcement}\n\nWhen worn, these boots allow the hero to travel across all terrain without additional movement penalties.\n\nA hero with a Spell Book can cast {Reinforcements} once per day. The spell's effects depend on the hero's mastery of Fire Magic.",
+			"event": "The boots, gloves, and wings flare with magical light before merging into a single pair of extraordinary boots. No road now seems too long, and your armies stand ready to answer your call from the farthest reaches of the kingdom."
+		},
+		"bonuses": {
+			"terrain": {
+				"type": "ROUGH_TERRAIN_DISCOUNT",
+				"val": 100,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"reinforcementsSpell": {
+				"type": "SPELL",
+				"subtype": "spell.reinforcements",
+				"val": 0,
+				"valueType": "INDEPENDENT_MAX",
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "SPECIFIC_SPELL_POWER",
+						"bonusSubtype": "spell.reinforcements",
+						"bonusMinValue": 1
+					}
+				]
+			},
+			"basicReinforcementsMovement": {
+				"type": "MOVEMENT",
+				"subtype": "heroMovementLand",
+				"val": 200,
+				"valueType": "ADDITIVE_VALUE",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "SPECIFIC_SPELL_POWER",
+						"bonusSubtype": "spell.reinforcements",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"advancedReinforcementsMovement": {
+				"type": "MOVEMENT",
+				"subtype": "heroMovementLand",
+				"val": 600,
+				"valueType": "ADDITIVE_VALUE",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "SPECIFIC_SPELL_POWER",
+						"bonusSubtype": "spell.reinforcements",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"expertReinforcementsMovement": {
+				"type": "MOVEMENT",
+				"subtype": "heroMovementLand",
+				"val": 600,
+				"valueType": "ADDITIVE_VALUE",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "SPECIFIC_SPELL_POWER",
+						"bonusSubtype": "spell.reinforcements",
+						"bonusMinValue": 3,
+						"bonusMaxValue": 3
+					}
+				]
+			},
+			"expertReinforcementsNextDayFlight": {
+				"type": "FLYING_MOVEMENT",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "SPECIFIC_SPELL_POWER",
+						"bonusSubtype": "spell.reinforcementsFlightMarker",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			}
+		}
+	}
+}

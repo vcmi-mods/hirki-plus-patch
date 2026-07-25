@@ -1,19 +1,22 @@
 {
-	"name" : "Heroes",
-	"description" : "A collection of hero additions and specialty improvements designed for use with Horn of the Abyss on VCMI.\n\nThese modules aim to give selected heroes clearer battlefield roles, stronger identity, and more practical specialties while preserving their original theme whenever possible.\n\n## Included Hero Changes\n\n* **Melodia** — reworks her into a Luck support hero with Basic Wisdom, Basic Luck, Fortune, and a **specialty that grants +1 Luck** while protecting her army from ordinary Luck penalties.\n* **Roland** — adds a **regular playable** version of Roland as a Morale support hero with Basic Leadership, Basic Armorer, and a **specialty that grants +1 Morale** while protecting his army from ordinary Morale penalties.",
-	"author" : "bew_",
-	"version" : "1.1.0",
-	"modType" : "Heroes",
-	"changelog" : {
-		"1.0" : [
+	"name": "Heroes",
+	"description": "A collection of hero additions, specialty improvements, and starting-army adjustments designed for use with Horn of the Abyss on VCMI.\n\nThese modules aim to give selected heroes clearer battlefield roles, stronger identity, and more practical specialties while preserving their original theme whenever possible.\n\n## Included Hero Changes\n\n* **Melodia** — reworks her into a Luck support hero with Basic Wisdom, Basic Luck, Fortune, and a **specialty that grants +1 Luck** while protecting her army from ordinary Luck penalties.\n* **Roland** — adds a **regular playable** version of Roland as a Morale support hero with Basic Leadership, Basic Armorer, and a **specialty that grants +1 Morale** while protecting his army from ordinary Morale penalties.\n\n## Specialist Starting Armies\n\nThe specialist army modules make creature-specialist heroes begin with a creature from their specialty in the first army slot. After retreating from battle, affected heroes return to the Tavern with **1 creature from their specialty** instead of a level 1 creature from their faction.\n\nThe changes apply only to standard heroes specializing in creatures of tiers **3–6**. Tier **1, 2 and 7** creature specialists and campaign heroes have been intentionally excluded.\n\nThe modules change only the composition and order of starting armies. They do not modify how hero specialties work.",
+	"author": "bew_",
+	"version": "1.2.0",
+	"modType": "Heroes",
+	"changelog": {
+		"1.2.0": [
+			"Added starting-army modules for standard tier 3–6 creature specialists."
+		],
+		"1.0": [
 			"Initial release"
 		]
 	},
-	"depends" : [
+	"depends": [
 		"hota"
 	],
-	"polish" : {
-		"name" : "Bohaterowie",
-		"description" : "Zbiór dodatków i usprawnień bohaterów, przygotowany do gry z Horn of the Abyss na VCMI.\n\nModuły z tej kategorii mają nadać wybranym bohaterom wyraźniejsze role bitewne, silniejszą tożsamość i praktyczniejsze specjalności, przy zachowaniu ich pierwotnego charakteru, gdy tylko jest to możliwe.\n\n## Zmienieni bohaterowie\n\n* **Melodia** — rozwija Melodię jako bohaterkę wspierającą szczęście. Zaczyna z Podstawową Mądrością, Podstawowym Szczęściem i czarem Fortuna, a jej specjalność **Czyste Szczęście** daje +1 do szczęścia i chroni armię przed zwykłymi karami do szczęścia.\n\n* **Roland** — dodaje regularnie grywalną wersję Rolanda jako bohatera wspierającego morale. Zaczyna z Podstawowym Dowodzeniem i Podstawowym Płatnerzem, a jego specjalność **Majestat Króla** daje +1 do morale i chroni armię przed zwykłymi karami do morale."
+	"polish": {
+		"name": "Bohaterowie",
+		"description": "Zbiór dodatków, usprawnień specjalności oraz zmian armii początkowych bohaterów, przygotowany do gry z Horn of the Abyss na VCMI.\n\nModuły z tej kategorii mają nadać wybranym bohaterom wyraźniejsze role bitewne, silniejszą tożsamość i praktyczniejsze specjalności, przy zachowaniu ich pierwotnego charakteru, gdy tylko jest to możliwe.\n\n## Zmienieni bohaterowie\n\n* **Melodia** — rozwija Melodię jako bohaterkę wspierającą szczęście. Zaczyna z Podstawową Mądrością, Podstawowym Szczęściem i czarem Fortuna, a jej specjalność **Czyste Szczęście** daje +1 do szczęścia i chroni armię przed zwykłymi karami do szczęścia.\n\n* **Roland** — dodaje regularnie grywalną wersję Rolanda jako bohatera wspierającego morale. Zaczyna z Podstawowym Dowodzeniem i Podstawowym Płatnerzem, a jego specjalność **Majestat Króla** daje +1 do morale i chroni armię przed zwykłymi karami do morale.\n\n## Armie początkowe specjalistów\n\nModuły armii specjalistów sprawiają, że bohaterowie specjalizujący się w jednostkach zaczynają z jednostką swojej specjalizacji na pierwszym slocie armii. Po ucieczce z bitwy objęci zmianą bohaterowie wracają do Karczmy z **1 jednostką swojej specjalizacji** zamiast jednostki 1. poziomu z frakcji, do której należą.\n\nZmiany obejmują wyłącznie standardowych bohaterów specjalizujących się w jednostkach poziomów **3–6**. Specjaliści jednostek poziomu **1, 2 i 7** oraz bohaterowie kampanijni zostali celowo pominięci.\n\nModuły zmieniają wyłącznie skład i kolejność armii początkowych. Nie zmieniają mechaniki specjalności bohaterów."
 	}
 }

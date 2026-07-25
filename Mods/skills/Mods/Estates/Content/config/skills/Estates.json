@@ -1,50 +1,50 @@
 {
-	"core:estates" : {
-		"base" : {
-			"effects" : {
-				"main" : {
-					"type" : "GENERATE_RESOURCE",
-					"subtype" : "gold"
+	"core:estates": {
+		"base": {
+			"effects": {
+				"main": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "gold"
 				},
-				"market" : {
-					"type" : "MARKETPLACE_ACCESS",
-					"propagator" : "TEAM"
+				"market": {
+					"type": "MARKETPLACE_ACCESS",
+					"propagator": "TEAM"
 				},
-				"additional_market" : {
-					"type" : "MARKETPLACE_ACCESS"
+				"additional_market": {
+					"type": "MARKETPLACE_ACCESS"
 				}
 			}
 		},
-		"basic" : {
-			"description" : "{Basic Estates}\n\nWith Basic Estates, a hero contributes 250 gold per day to the team's economy and improves Marketplace exchange rates as if the hero's team had 1 additional Marketplace.",
-			"effects" : {
-				"main" : {
-					"val" : 250
+		"basic": {
+			"description": "{Basic Estates}\n\nThe hero generates {250} gold per day for the owning player. In addition, the hero improves Marketplace exchange rates for the entire team as if it had {1} additional Marketplace.",
+			"effects": {
+				"main": {
+					"val": 250
 				},
-				"market" : {
-					"val" : 1
+				"market": {
+					"val": 1
 				}
 			}
 		},
-		"advanced" : {
-			"description" : "{Advanced Estates}\n\nWith Advanced Estates, a hero contributes 500 gold per day to the team's economy and improves Marketplace exchange rates as if the hero's team had 2 additional Marketplaces.",
-			"effects" : {
-				"main" : {
-					"val" : 500
+		"advanced": {
+			"description": "{Advanced Estates}\n\nThe hero generates {500} gold per day for the owning player. In addition, the hero improves Marketplace exchange rates for the entire team as if it had {2} additional Marketplaces.",
+			"effects": {
+				"main": {
+					"val": 500
 				},
-				"market" : {
-					"val" : 2
+				"market": {
+					"val": 2
 				}
 			}
 		},
-		"expert" : {
-			"description" : "{Expert Estates}\n\nWith Expert Estates, a hero contributes 1000 gold per day to the team's economy and improves Marketplace exchange rates as if the hero's team had 3 additional Marketplaces.",
-			"effects" : {
-				"main" : {
-					"val" : 1000
+		"expert": {
+			"description": "{Expert Estates}\n\nThe hero generates {1000} gold per day for the owning player. In addition, the hero improves Marketplace exchange rates for the entire team as if it had {3} additional Marketplaces.",
+			"effects": {
+				"main": {
+					"val": 1000
 				},
-				"market" : {
-					"val" : 3
+				"market": {
+					"val": 3
 				}
 			}
 		}

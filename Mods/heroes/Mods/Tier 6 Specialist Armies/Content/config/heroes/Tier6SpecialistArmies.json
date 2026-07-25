@@ -1,0 +1,230 @@
+{
+	"core:tyris": {
+		"army": [
+			{
+				"creature": "cavalier",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "pikeman",
+				"min": 5,
+				"max": 10
+			},
+			{
+				"creature": "pikeman",
+				"min": 5,
+				"max": 10
+			}
+		]
+	},
+	"core:clancy": {
+		"army": [
+			{
+				"creature": "unicorn",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "centaur",
+				"min": 6,
+				"max": 12
+			},
+			{
+				"creature": "centaur",
+				"min": 6,
+				"max": 12
+			}
+		]
+	},
+	"core:fafner": {
+		"army": [
+			{
+				"creature": "naga",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "apprenticeGremlin",
+				"min": 15,
+				"max": 20
+			},
+			{
+				"creature": "apprenticeGremlin",
+				"min": 15,
+				"max": 20
+			}
+		]
+	},
+	"core:rashka": {
+		"army": [
+			{
+				"creature": "efreet",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "imp",
+				"min": 10,
+				"max": 15
+			},
+			{
+				"creature": "imp",
+				"min": 10,
+				"max": 15
+			}
+		]
+	},
+	"core:tamika": {
+		"army": [
+			{
+				"creature": "blackKnight",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "walkingDead",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "walkingDead",
+				"min": 4,
+				"max": 6
+			}
+		]
+	},
+	"core:synca": {
+		"army": [
+			{
+				"creature": "manticore",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "troglodyte",
+				"min": 10,
+				"max": 15
+			},
+			{
+				"creature": "troglodyte",
+				"min": 10,
+				"max": 15
+			}
+		]
+	},
+	"core:yog": {
+		"army": [
+			{
+				"creature": "cyclop",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "goblinWolfRider",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "goblinWolfRider",
+				"min": 3,
+				"max": 4
+			}
+		]
+	},
+	"core:broghild": {
+		"army": [
+			{
+				"creature": "wyvern",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "gnoll",
+				"min": 8,
+				"max": 13
+			},
+			{
+				"creature": "gnoll",
+				"min": 8,
+				"max": 13
+			}
+		]
+	},
+	"core:pasis": {
+		"army": [
+			{
+				"creature": "psychicElemental",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "pixie",
+				"min": 7,
+				"max": 12
+			},
+			{
+				"creature": "pixie",
+				"min": 7,
+				"max": 12
+			}
+		]
+	},
+	"core:monere": {
+		"army": [
+			{
+				"creature": "psychicElemental",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "pixie",
+				"min": 7,
+				"max": 12
+			},
+			{
+				"creature": "pixie",
+				"min": 7,
+				"max": 12
+			}
+		]
+	},
+	"hota.factory:03tancred": {
+		"army": [
+			{
+				"creature": "hota.factory:gunslinger",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "hota.factory:hotaMechanic",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "hota.factory:hotaMechanic",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"hota.bulwark:05creyle": {
+		"army": [
+			{
+				"creature": "hota.bulwark:mammoth",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "hota.bulwark:kobold",
+				"min": 10,
+				"max": 15
+			},
+			{
+				"creature": "hota.bulwark:kobold",
+				"min": 10,
+				"max": 15
+			}
+		]
+	}
+}

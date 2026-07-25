@@ -1,0 +1,212 @@
+{
+	"reinforcements": {
+		"type": "adventure",
+		"name": "Reinforcements",
+		"school": {
+			"fire": true
+		},
+		"level": 5,
+		"power": 0,
+		"defaultGainChance": 0,
+		"gainChance": {},
+		"flags": {
+			"indifferent": true,
+			"positive": true,
+			"special": true
+		},
+		"graphics": {
+			"iconBook": "reinforcements_spell_icon.png",
+			"iconEffect": "reinforcements_spell_effect.png",
+			"iconScroll": "reinforcements_spell_scroll.png",
+			"iconScenarioBonus": "reinforcements_spell_scroll.png"
+		},
+		"targetType": "NO_TARGET",
+		"levels": {
+			"base": {
+				"adventureEffect": {
+					"casterInTown": "Reinforcements cannot be cast while the hero is visiting a town.",
+					"selectTownTitle": "Reinforcements",
+					"selectTownDescription": "Select one of your towns to exchange creatures with.",
+					"garrisonTitle": "Reinforcements"
+				}
+			},
+			"none": {
+				"description": "{Reinforcements}\n\nAllows the hero to exchange recruited creatures with the garrison of the nearest owned town.\n\nThe spell can be cast once per day.",
+				"cost": 30,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				},
+				"adventureEffect": {
+					"type": "reinforcements",
+					"allowTownSelection": false,
+					"castsPerDay": 0,
+					"castsPerDayXL": 0,
+					"bonuses": {
+						"reinforcementsNoneCooldownMarker": {
+							"type": "SPECIFIC_SPELL_POWER",
+							"subtype": "spell.reinforcements",
+							"val": 4,
+							"valueType": "ADDITIVE_VALUE",
+							"duration": "N_DAYS",
+							"turns": 1
+						}
+					}
+				}
+			},
+			"basic": {
+				"description": "{Basic Reinforcements}\n\nAllows the hero to exchange recruited creatures with the garrison of the nearest owned town.\n\nIf the hero is still wearing the Boots of Reinforcement on the next day, they receive an additional {+200} land movement points.\n\nThe spell can be cast once per day.",
+				"cost": 24,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				},
+				"adventureEffect": {
+					"type": "reinforcements",
+					"allowTownSelection": false,
+					"castsPerDay": 0,
+					"castsPerDayXL": 0,
+					"bonuses": {
+						"reinforcementsBasicMovementMarker": {
+							"type": "SPECIFIC_SPELL_POWER",
+							"subtype": "spell.reinforcements",
+							"val": 1,
+							"valueType": "ADDITIVE_VALUE",
+							"duration": "N_DAYS",
+							"turns": 1
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Reinforcements}\n\nAllows the hero to select an owned town and exchange creatures with its garrison.\n\nIf the hero is still wearing the Boots of Reinforcement on the next day, they receive an additional {+600} land movement points.\n\nThe spell can be cast once per day.",
+				"cost": 20,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				},
+				"adventureEffect": {
+					"type": "reinforcements",
+					"allowTownSelection": true,
+					"castsPerDay": 0,
+					"castsPerDayXL": 0,
+					"bonuses": {
+						"reinforcementsAdvancedMovementMarker": {
+							"type": "SPECIFIC_SPELL_POWER",
+							"subtype": "spell.reinforcements",
+							"val": 2,
+							"valueType": "ADDITIVE_VALUE",
+							"duration": "N_DAYS",
+							"turns": 1
+						}
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Reinforcements}\n\nAllows the hero to select an owned town and exchange creatures with its garrison.\n\nThe hero can fly at full efficiency, as if wearing Angel Wings, until the end of the current day. If the hero is still wearing the Boots of Reinforcement on the next day, they receive an additional {+600} land movement points and retain full flying movement throughout that day.\n\nThe spell can be cast once per day.",
+				"cost": 16,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				},
+				"adventureEffect": {
+					"type": "reinforcements",
+					"allowTownSelection": true,
+					"castsPerDay": 0,
+					"castsPerDayXL": 0,
+					"bonuses": {
+						"reinforcementsExpertMovementMarker": {
+							"type": "SPECIFIC_SPELL_POWER",
+							"subtype": "spell.reinforcements",
+							"val": 3,
+							"valueType": "ADDITIVE_VALUE",
+							"duration": "N_DAYS",
+							"turns": 1
+						},
+						"angelWingsFlight": {
+							"type": "FLYING_MOVEMENT",
+							"val": 0,
+							"valueType": "INDEPENDENT_MIN",
+							"duration": "N_DAYS",
+							"turns": 1
+						},
+						"reinforcementsFlightMarker": {
+							"type": "SPECIFIC_SPELL_POWER",
+							"subtype": "spell.reinforcementsFlightMarker",
+							"val": 1,
+							"valueType": "ADDITIVE_VALUE",
+							"duration": "N_DAYS",
+							"turns": 2
+						}
+					}
+				}
+			}
+		}
+	},
+	"reinforcementsFlightMarker": {
+		"type": "adventure",
+		"name": "Reinforcements Flight Marker",
+		"school": {
+			"fire": true
+		},
+		"level": 5,
+		"power": 0,
+		"defaultGainChance": 0,
+		"gainChance": {},
+		"flags": {
+			"indifferent": true,
+			"positive": true,
+			"special": true
+		},
+		"graphics": {
+			"iconBook": "reinforcements_spell_icon.png",
+			"iconEffect": "reinforcements_spell_effect.png",
+			"iconScroll": "reinforcements_spell_scroll.png",
+			"iconScenarioBonus": "reinforcements_spell_scroll.png"
+		},
+		"targetType": "NO_TARGET",
+		"levels": {
+			"base": {},
+			"none": {
+				"description": "Technical marker. Not intended for direct use.",
+				"cost": 0,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			},
+			"basic": {
+				"description": "Technical marker. Not intended for direct use.",
+				"cost": 0,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			},
+			"advanced": {
+				"description": "Technical marker. Not intended for direct use.",
+				"cost": 0,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			},
+			"expert": {
+				"description": "Technical marker. Not intended for direct use.",
+				"cost": 0,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Armageddon's Blade",
+	"description": "Reworks Armageddon's Blade as a six-component combination artifact and replaces its full immunity with strong protection from fire magic.\n\n## Artifact Changes\n\n- After assembly, all six components remain equipped and keep their own effects.\n- Together with its components, the completed set provides a total of **+10** to all primary skills.\n- A hero with a Spell Book can cast **Armag. Blade**, a special **0-mana Armageddon spell**.\n- Fire spells deal **50% more damage**.\n- All allied creatures take **75% less damage from fire spells**.\n- The completed set generates **+1 sulfur per day**.\n\nArmageddon's Blade does not grant a Spell Book automatically.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Artifacts",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"artifacts": [
+		"config/artifacts/ArmageddonsBlade.json"
+	],
+	"spells": [
+		"config/spells/ArmageddonsBladeArmageddon.json"
+	],
+	"english": {
+		"translations": [
+			"translation/english.json"
+		]
+	},
+	"polish": {
+		"name": "Ostrze Armagedonu",
+		"description": "Przebudowuje Ostrze Armagedonu jako artefakt składany z sześciu komponentów i zastępuje jego pełną odporność silną ochroną przed magią ognia.\n\n## Zmiany artefaktu\n\n- Po złożeniu wszystkie sześć komponentów pozostaje założonych i zachowuje własne efekty.\n- Razem z komponentami ukończony zestaw dodaje łącznie **+10** do wszystkich podstawowych umiejętności.\n- Bohater posiadający księgę czarów może rzucać **Armag. Blade**, specjalny Armagedon za **0 many**.\n- Czary magii ognia zadają **o 50% więcej obrażeń**.\n- Wszystkie własne jednostki otrzymują **o 75% mniej obrażeń od czarów magii ognia**.\n- Ukończony zestaw generuje **+1 siarki dziennie**.\n\nOstrze Armagedonu nie zapewnia automatycznie księgi czarów.",
+		"translations": [
+			"translation/polish.json"
+		]
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

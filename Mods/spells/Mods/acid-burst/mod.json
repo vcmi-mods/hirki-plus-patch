@@ -1,0 +1,29 @@
+{
+	"name": "Acid Burst",
+	"description": "Adds **Acid Burst**, a level 4 Water Magic spell designed to gradually corrode enemy forces during prolonged battles.\n\nThe spell begins with a small penalty that increases by another point at the start of each subsequent turn. Its duration depends on the hero's Spell Power, while repeated casts refresh the duration without resetting the accumulated penalty.\n\n## Spell Effects\n\n* **Acid Burst** — progressively reduces enemy Defence and, at higher mastery levels, also Attack, up to a maximum reduction of 10 points for each affected stat.\n  * **No mastery**: reduces the Defence of one enemy stack, 16 mana.\n  * **Basic**: keeps the same effect, 12 mana.\n  * **Advanced**: reduces the Attack and Defence of one enemy stack, 12 mana.\n  * **Expert**: reduces the Attack and Defence of all enemy stacks, 12 mana.\n\nAcid Burst can appear in the Mage Guilds of Cove, Conflux, Tower and Necropolis.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Spells",
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"depends": [
+		"hota"
+	],
+	"spells": [
+		"config/spells/AcidBurstTenStageLadder.json",
+		"config/spells/AcidBurstDispelOverride.json"
+	],
+	"polish": {
+		"name": "Żrący rozbryzg",
+		"description": "Dodaje **Żrący rozbryzg**, czar Magii Wody 4. poziomu, który stopniowo osłabia siły przeciwnika podczas długich bitew.\n\nCzar rozpoczyna działanie od niewielkiej kary, która zwiększa się o kolejny punkt na początku każdej następnej tury. Czas działania zależy od Mocy bohatera, a ponowne rzucenie odświeża ten czas bez resetowania nagromadzonej kary.\n\n## Działanie czaru\n\n* **Żrący rozbryzg** — stopniowo obniża Obronę wrogich jednostek, a na wyższych poziomach biegłości również ich Atak, maksymalnie o 10 punktów dla każdej objętej efektem statystyki.\n  * **Brak biegłości**: obniża Obronę jednego wrogiego oddziału, 16 many.\n  * **Podstawowa**: zachowuje to samo działanie, 12 many.\n  * **Zaawansowana**: obniża Atak i Obronę jednego wrogiego oddziału, 12 many.\n  * **Mistrzowska**: obniża Atak i Obronę wszystkich wrogich oddziałów, 12 many.\n\nŻrący rozbryzg może pojawić się w Gildiach Magów Przystani, Wrót Żywiołów, Fortecy i Nekropolii.",
+		"translations": [
+			"translation/polish.json"
+		]
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

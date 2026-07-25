@@ -1,0 +1,10 @@
+{
+	"core:equestriansGloves": {
+		"class": "MAJOR",
+		"value": 5000
+	},
+	"core:bootsOfSpeed": {
+		"class": "RELIC",
+		"value": 10000
+	}
+}

@@ -13,7 +13,7 @@ H.P.P. is built to work alongside **Horn of the Abyss** on VCMI and uses the con
 Several secondary skills have been reworked or improved to make them more useful while keeping their original theme.
 
 * **Sorcery** now increases the hero's **Spell Power during combat**, serving as a direct Spell Power counterpart to **Interference**.
-* **Estates** provides gold income and better **Marketplace exchange rates** to the owning player and allies, with benefits stacking across multiple Estates heroes.
+* **Estates** provides daily gold income to each hero's owner and improves **Marketplace exchange rates** for the entire team, with Marketplace bonuses stacking across multiple Estates heroes.
 * **First Aid** preserves the First Aid Tent's creature maximum health bonus while improving Tent durability with stronger damage cap protection.
 * **Navigation** keeps its original water movement bonus and adds free ship boarding and disembarking, with remaining movement converted between land and water.
 * **Mysticism** keeps HotA-style spell point regeneration and adds **Mystic Momentum**, granting additional movement on the next day after successfully casting adventure-map control spells.
@@ -58,6 +58,7 @@ The spell package focuses on narrow or underused spells that can gain clearer ta
 * **Mirth** and **Sorrow** are reworked into stronger morale-control spells with reduced mana costs. Mirth protects affected units from ordinary Morale penalties, while Sorrow prevents ordinary Morale bonuses from raising affected units above its negative cap. The two spells remain direct counters to each other.
 * **Slayer** becomes a more practical anti-elite combat spell. Without Fire Magic, it keeps its original behavior. **Basic Fire Magic** expands it to all level 7 and higher creatures, **Advanced Fire Magic** allows repeated casts to stack on the same allied stack, and **Expert Fire Magic** turns it into a mass spell. The module also includes a HotA-like correction for **Coronius**, updating his Slayer specialty and description.
 * **Magic Mirror** becomes a more flexible defensive spell. Higher levels of **Air Magic** add a chance to resist hostile spells, while **Expert Air Magic** turns it into a mass spell.
+* **Acid Burst** adds a new level 4 Water Magic debuff spell designed for prolonged battles. Higher mastery levels strengthen its effects, ultimately affecting all enemy stacks.
 
 ## Heroes
 
@@ -65,6 +66,14 @@ Selected heroes receive clearer battlefield roles and more practical specialties
 
 * **Melodia** becomes a Luck support hero with Basic Wisdom, Basic Luck, Fortune, and a specialty that grants +1 Luck while protecting her army from ordinary Luck penalties.
 * **Roland** is added as a regular playable Morale support hero with Basic Leadership, Basic Armorer, and a specialty that grants +1 Morale while protecting his army from ordinary Morale penalties.
+
+### Specialist Starting Armies
+
+The specialist army modules make creature-specialist heroes begin with a creature from their specialty in the first army slot. After retreating from battle, affected heroes return to the Tavern with **1 creature from their specialty** instead of a level 1 creature from their faction.
+
+The changes apply only to standard heroes specializing in creatures of tiers **3–6**. Tier **1, 2 and 7** creature specialists and campaign heroes have been intentionally excluded.
+
+The modules change only the composition and order of starting armies. They do not modify how hero specialties work.
 
 ## Creature Abilities
 
@@ -97,7 +106,11 @@ The town package expands selected town buildings with additional thematic intera
 
 The artifact package improves selected artifacts and artifact-related interactions while preserving their original theme and strategic role.
 
-* **Diplomatic Artifacts** reworks **Diplomat's Cloak**, its components, **Shackles of War**, and related **Diplomacy** interactions. The completed cloak becomes a fused diplomatic relic, improves surrender economy, helps with neutral-creature diplomacy, acts on the adventure map like the **Disguise** spell at Expert level, and can neutralize **Shackles of War** in battles where fleeing or surrendering is normally available.
+- **Diplomatic Artifacts** reworks **Diplomat's Cloak**, its components, **Shackles of War**, and related **Diplomacy** interactions. The completed cloak becomes a fused diplomatic relic, improves surrender economy, helps with neutral-creature diplomacy, acts on the adventure map like the **Disguise** spell at Expert level, and can neutralize **Shackles of War** in battles where fleeing or surrendering is normally available.
+- **Armageddon's Blade** is reworked as a combination set made from six components. The components remain equipped and keep their own effects. Together, the completed set grants **+10 to all primary skills**, increases fire spell damage, protects allied creatures from fire spell damage, generates **+1 sulfur per day**, and allows heroes with a Spell Book to cast a special **0-mana Armageddon spell**. A Spell Book is still required.
+- **Boots of Reinforcement** add a new four-component **Relic** combination artifact assembled from **Boots of Speed**, **Equestrian's Gloves**, **Wayfarer's Boots**, and **Angel Wings**. All four components are consumed during assembly. The completed artifact removes additional movement penalties from rough terrain and allows heroes with a **Spell Book** to cast the custom **Reinforcements** spell once per day, exchanging already recruited creatures with an owned town. **Fire Magic** improves the spell with next-day land movement, town selection, and, at Expert mastery, full flying movement. **Equestrian's Gloves** are reclassified as a Major artifact, while **Boots of Speed** become a Relic.
+- **Golden Goose** is reworked into a stronger economy set. Counting component effects, it increases the daily income of the bearer's owner by **5,250 gold**. In addition, each hero on the team with **Estates** increases the daily income of the player controlling that hero by another **3,000 gold**. The bearer also qualifies for this bonus, and bonuses from multiple Estates heroes stack. Its components are reclassified as **Treasure**, **Minor**, and **Major** artifacts, while **Golden Goose** remains a **Relic**.
+- **Cornucopia** keeps its combined component income of **+5 mercury, sulfur, crystal, and gems per day** for the bearer's owner. In addition, each hero on the team with a rare-resource production specialty provides the player controlling that hero with **+4 of every rare resource per day**. The bearer also qualifies when they have such a specialty, and bonuses from multiple specialists stack.
 
 ## Compatibility and Localization
 

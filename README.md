@@ -19,18 +19,20 @@ The mod focuses on making underused creatures, skills, spells, heroes, war machi
 - selected hero updates
 - selected artifact reworks and related interactions
 - creature ability modules
-- town building and ritual modules
+- town building modules
 - map object reward modules
 - English wording cleanup
 - Polish localization
 
-## Version 1.2.0 highlights
+## Version 1.3.0 highlights
 
-- **Towns** — adds Elemental Ritual and weekly town-building rewards for resource and gold specialists.
-- **Spells** — reworks Slayer and Magic Mirror to give them clearer tactical roles.
-- **New Luck** — expands Magic Mirror interactions through Luck-based scaling.
-- **New Ranged** — updates Archery ammo support at Advanced and Expert mastery.
-- **Artifacts** — adds Diplomatic Artifacts, a focused rework of diplomacy-related artifacts and interactions.
+- **Artifacts** — reworked **Armageddon's Blade**.
+- **Artifacts** — added **Boots of Reinforcement**, a new four-component **Relic** combination artifact.
+- **Artifacts** — reworked **Golden Goose** with stacking income bonuses for each allied hero with **Estates**.
+- **Artifacts** — reworked **Cornucopia** with stacking rare-resource bonuses for each allied rare-resource production specialist.
+- **Spells** — added **Acid Burst**, a new level 4 Water Magic debuff spell.
+- **Heroes** — added starting-army modules for standard tier 3–6 creature specialists.
+- **Skills** — corrected misleading **Estates** descriptions.
 
 ## Modular design
 
@@ -72,13 +74,15 @@ You can also contact me on the VCMI Discord server as `@bew_`, especially for qu
 
 HPP zawiera polską lokalizację opisów Launchera oraz wybranych tekstów w grze.
 
-Wersja 1.2.0 rozwija kilka kategorii modułów:
+## Najważniejsze elementy wersji 1.3.0
 
-- **Miasta** — dodaje Rytuał żywiołów oraz tygodniowe nagrody z budynków miast dla specjalistów surowców i złota.
-- **Czary** — przebudowuje Slayera i Magic Mirror, nadając im wyraźniejsze zastosowania taktyczne.
-- **Nowe szczęście** — rozszerza interakcje Magic Mirror przez skalowanie oparte na szczęściu.
-- **Nowe strzelanie** — aktualizuje wsparcie Archery dla amunicji na poziomie zaawansowanym i eksperckim.
-- **Artefakty** — dodaje Artefakty dyplomatyczne, czyli skupioną przebudowę artefaktów i interakcji związanych z Dyplomacją.
+- **Artefakty** — przebudowano **Ostrze Armagedonu**.
+- **Artefakty** — dodano **Buty Odsieczy**, nowy czteroelementowy artefakt składany klasy **Relikt**.
+- **Artefakty** — przebudowano **Złotą Gęś**, dodając kumulującą się premię za każdego sprzymierzonego bohatera posiadającego **Finanse**.
+- **Artefakty** — przebudowano **Miasto dobrobytu**, dodając kumulującą się premię za każdego sprzymierzonego **specjalistę w produkcji rzadkich surowców**.
+- **Czary** — dodano **Żrący rozbryzg**, nowy osłabiający czar Magii Wody 4. poziomu.
+- **Bohaterowie** — dodano moduły armii początkowych dla standardowych specjalistów jednostek poziomów 3–6.
+- **Umiejętności** — poprawiono mylące opisy **Finansów**.
 
 Polskie opisy są widoczne w VCMI Launcherze po wybraniu języka polskiego. Lokalizacja została przygotowana z myślą o stylu i terminologii klasycznego polskiego tłumaczenia Heroes III, o ile było to możliwe.
 

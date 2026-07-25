@@ -1,0 +1,33 @@
+{
+	"name": "Boots of Reinforcement",
+	"description": "Adds **Boots of Reinforcement**, a fused combination artifact focused on army logistics and adventure-map mobility.\n\n## Artifact Changes\n\n- **Boots of Reinforcement** are assembled from **Boots of Speed**, **Equestrian's Gloves**, **Wayfarer's Boots** and **Angel Wings**.\n- All four components are consumed during assembly.\n- The completed artifact is classified as a **Relic**.\n- The hero moves across rough terrain without additional movement point penalties.\n- A hero with a **Spell Book** can cast **Reinforcements** once per day while wearing the artifact.\n- **Reinforcements** allows the hero to exchange already recruited creatures with an owned town.\n- **Fire Magic** improves the spell, granting additional land movement on the next day, town selection and, at Expert level, full flying movement.\n- Next-day movement and flying effects require the hero to continue wearing the artifact.\n\n## Component Changes\n\n- **Equestrian's Gloves** are reclassified as a **Major artifact**.\n- **Boots of Speed** are reclassified as a **Relic**.\n\nThe artifact does not automatically grant a **Spell Book**.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Artifacts",
+	"depends": [
+		"hota",
+		"hota.artifacts"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"artifacts": [
+		"config/artifacts/MovementArtifactClassOverrides.json",
+		"config/artifacts/ReinforcementsBoots.json"
+	],
+	"spells": [
+		"config/spells/Reinforcements.json"
+	],
+	"polish": {
+		"name": "Buty Odsieczy",
+		"description": "Dodaje **Buty Odsieczy**, scalony artefakt składany skupiony na logistyce armii i mobilności na mapie przygody.\n\n## Zmiany artefaktów\n\n- **Buty Odsieczy** powstają z **Butów przyśpieszenia**, **Rękawic jeźdźca**, **Butów wędrowca** oraz **Skrzydeł anioła**.\n- Wszystkie cztery komponenty zostają zużyte podczas składania.\n- Ukończony artefakt należy do klasy **Relikt**.\n- Bohater porusza się po trudnym terenie bez dodatkowych kar do punktów ruchu.\n- Bohater posiadający **Księgę czarów** może raz dziennie rzucić czar **Odsiecz**, o ile nosi artefakt.\n- **Odsiecz** pozwala wymieniać już zrekrutowane jednostki z garnizonem własnego miasta.\n- **Magia Ognia** wzmacnia działanie czaru, zapewniając dodatkowe punkty ruchu lądowego następnego dnia, możliwość wyboru miasta, a na poziomie mistrzowskim także pełną zdolność lotu.\n- Efekty ruchu i lotu następnego dnia wymagają dalszego noszenia artefaktu.\n\n## Zmiany komponentów\n\n- **Rękawice jeźdźca** zostają przeniesione do klasy **Potężny artefakt**.\n- **Buty przyśpieszenia** zostają przeniesione do klasy **Relikt**.\n\nArtefakt nie zapewnia automatycznie **Księgi czarów**.",
+		"translations": [
+			"translation/polish.json"
+		]
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}

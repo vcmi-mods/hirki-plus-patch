@@ -1,6 +1,6 @@
 {
-  "skill.core.estates.name": "Finanse",
-  "skill.core.estates.description.basic": "{Finanse - poziom podstawowy}\n\nBohater dostarcza gospodarce drużyny 250 sztuk złota dziennie i poprawia jej kursy wymiany w Targowisku, jak za 1 dodatkowe Targowisko.",
-  "skill.core.estates.description.advanced": "{Finanse - poziom zaawansowany}\n\nBohater dostarcza gospodarce drużyny 500 sztuk złota dziennie i poprawia jej kursy wymiany w Targowisku, jak za 2 dodatkowe Targowiska.",
-  "skill.core.estates.description.expert": "{Finanse - poziom mistrzowski}\n\nBohater dostarcza gospodarce drużyny 1000 sztuk złota dziennie i poprawia jej kursy wymiany w Targowisku, jak za 3 dodatkowe Targowiska."
+	"skill.core.estates.name": "Finanse",
+	"skill.core.estates.description.basic": "{Finanse - poziom podstawowy}\n\nBohater generuje {250} sztuk złota dziennie dla swojego gracza. Ponadto poprawia kursy wymiany w Targowiskach całej drużyny tak, jakby posiadała ona {1} dodatkowe Targowisko.",
+	"skill.core.estates.description.advanced": "{Finanse - poziom zaawansowany}\n\nBohater generuje {500} sztuk złota dziennie dla swojego gracza. Ponadto poprawia kursy wymiany w Targowiskach całej drużyny tak, jakby posiadała ona {2} dodatkowe Targowiska.",
+	"skill.core.estates.description.expert": "{Finanse - poziom mistrzowski}\n\nBohater generuje {1000} sztuk złota dziennie dla swojego gracza. Ponadto poprawia kursy wymiany w Targowiskach całej drużyny tak, jakby posiadała ona {3} dodatkowe Targowiska."
 }

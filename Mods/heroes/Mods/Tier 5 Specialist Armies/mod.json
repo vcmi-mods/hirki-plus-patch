@@ -1,0 +1,29 @@
+{
+	"name": "Tier 5 Specialist Armies",
+	"description": "Adjusts the starting armies of heroes specializing in tier 5 creatures.\n\nEach affected hero begins with exactly **2 creatures from their specialty** in the **first army slot**. After retreating from battle, these heroes return to the Tavern with **1 creature from their specialty** instead of a level 1 creature from their faction.\n\nThe module changes **only the composition and order of starting armies**. It does not change how hero specialties work.\n\n## Starting Armies\n\n* **Ingham** — 2 Monks, 10–20 Pikemen, 4–5 Griffins.\n* **Ryland** — 2 Dendroid Guards, 12–24 Centaurs, 5–7 Dwarves.\n* **Thane** — 2 Genies, 30–40 Gremlins, 4–5 Stone Golems.\n* **Iona** — 2 Genies, 30–40 Gremlins, 4–5 Stone Golems.\n* **Nymus** — 2 Pit Fiends, 20–30 Imps, 4–5 Hell Hounds.\n* **Moandor** — 2 Liches and two stacks of 6–8 Walking Dead.\n* **Dace** — 2 Minotaurs, 20–30 Troglodytes, 3–4 Beholders.\n* **Shiva** — 2 Rocs, 5–7 Wolf Riders, 5–6 Orcs.\n* **Alkin** — 2 Gorgons, 15–25 Gnolls, 3–4 Serpent Flies.\n* **Thunar** — 2 Earth Elementals, 15–25 Pixies, 3–5 Water Elementals.\n* **Erdamon** — 2 Earth Elementals, 15–25 Pixies, 3–5 Water Elementals.\n* **Casmetra** — 2 Sea Witches, 15–25 Nymphs, 6–9 Crew Mates.\n* **Agar** — 2 Sandworms, 7–9 Mechanics, 4–6 Armadillos.\n* **Kriv** — 2 Shamans, 20–30 Kobolds, 6–8 Mountain Rams.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Heroes",
+	"depends": [
+		"hota",
+		"hota.gamebalance.startingsarmies",
+		"hota.cove",
+		"hota.factory",
+		"hota.bulwark"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"heroes": [
+		"config/heroes/Tier5SpecialistArmies.json"
+	],
+	"polish": {
+		"name": "Specjaliści jednostek 5. poziomu",
+		"description": "Dostosowuje armie początkowe bohaterów specjalizujących się w jednostkach 5. poziomu.\n\nKażdy objęty zmianą bohater zaczyna z dokładnie **2 jednostkami swojej specjalizacji** na **pierwszym slocie armii**. Po ucieczce z bitwy bohaterowie ci wracają do Karczmy z **1 jednostką swojej specjalizacji** zamiast jednostki 1. poziomu z frakcji, do której należą.\n\nModuł zmienia **wyłącznie skład i kolejność armii początkowej**. Nie zmienia działania specjalności bohaterów.\n\n## Armie początkowe\n\n* **Ingham** — 2 Mnichów, 10–20 Pikinierów, 4–5 Gryfów.\n* **Ryland** — 2 Drzewce, 12–24 Centaurów, 5–7 Krasnoludów.\n* **Thane** — 2 Dżinny, 30–40 Gremlinów, 4–5 Kamiennych golemów.\n* **Iona** — 2 Dżinny, 30–40 Gremlinów, 4–5 Kamiennych golemów.\n* **Nymus** — 2 Czarty, 20–30 Chochlików, 4–5 Piekielnych ogarów.\n* **Moandor** — 2 Lisze oraz dwa oddziały po 6–8 Ożywieńców.\n* **Dace** — 2 Minotaury, 20–30 Troglodytów, 3–4 Obserwatorów.\n* **Shiva** — 2 Roki, 5–7 Wilczych jeźdźców, 5–6 Orków.\n* **Alkin** — 2 Gorgony, 15–25 Gnolli, 3–4 Ważki.\n* **Thunar** — 2 Żywiołaki ziemi, 15–25 Nimf, 3–5 Żywiołaków wody.\n* **Erdamon** — 2 Żywiołaki ziemi, 15–25 Nimf, 3–5 Żywiołaków wody.\n* **Casmetra** — 2 Zaklinaczki, 15–25 Nereid, 6–9 Marynarzy.\n* **Agar** — 2 Czerwie pustynne, 7–9 Mechaników, 4–6 Pancerników.\n* **Kriv** — 2 Szamanów, 20–30 Koboldów, 6–8 Koziorożców."
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
+}
