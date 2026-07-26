@@ -1,0 +1,3 @@
+{
+	"artifact.core.cornucopia.description": "{Cornucopia}\n\nCounting component effects, {Cornucopia} increases its owner's daily production of mercury, sulfur, crystal, and gems by {5} of each resource.\n\nIn addition, each allied hero with a rare-resource production specialty provides the player controlling that hero with an additional {4} of every rare resource per day.\n\nIf the bearer of {Cornucopia} has such a specialty, both bonuses apply.\n\nAdditional bonuses from further specialists stack."
+}

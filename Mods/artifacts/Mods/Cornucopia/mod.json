@@ -16,7 +16,7 @@
 	],
 	"english" : {
 		"translations" : [
-			"translation/english.json"
+			"config/translation/hpp/english/game.json"
 		]
 	},
 	"polish" : {
