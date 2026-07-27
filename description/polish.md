@@ -28,9 +28,9 @@ były bardziej użyteczne, przy zachowaniu ich pierwotnego motywu.
 
 * **Talent magiczny** zwiększa **Moc bohatera podczas walki**, działając jako
   ofensywny odpowiednik umiejętności osłabiających Moc przeciwnika.
-* **Estates** provides daily gold income to each hero's owner and improves
-  **Marketplace exchange rates** for the entire team, with Marketplace bonuses
-  stacking across multiple Estates heroes.
+* **Finanse** zapewniają codzienny dochód w złocie właścicielowi każdego
+  bohatera oraz poprawiają **kursy wymiany na Targowisku** dla całej drużyny.
+  Premie Targowiska kumulują się w przypadku wielu bohaterów z Finansami.
 * **Pierwsza pomoc** zachowuje premię Namiotu medyka do maks. liczby punktów
   życia jednostek, a jednocześnie zwiększa wytrzymałość Namiotu dzięki
   silniejszej ochronie przed dużymi pojedynczymi atakami.
@@ -122,9 +122,9 @@ zyskać wyraźniejszą tożsamość taktyczną bez utraty swojej pierwotnej roli
 * **Magiczne zwierciadło** staje się elastyczniejszym czarem defensywnym. Na
   wyższych poziomach **Magii Powietrza** dodaje szansę na odparcie wrogich
   zaklęć, a **Mistrzowska Magia Powietrza** zmienia go w czar masowy.
-* **Acid Burst** adds a new level 4 Water Magic debuff spell designed for
-  prolonged battles. Higher mastery levels strengthen its effects, ultimately
-  affecting all enemy stacks.
+* **Żrący rozbryzg** dodaje nowy osłabiający czar Magii Wody 4. poziomu
+  przeznaczony do długich bitew. Wyższe poziomy biegłości wzmacniają jego
+  działanie, aż do objęcia wszystkich wrogich oddziałów.
 
 ## Bohaterowie
 
@@ -138,19 +138,19 @@ specjalności.
   Podstawowym Dowodzeniem, Podstawowym Płatnerstwem i specjalnością, która daje
   +1 Morale oraz chroni jego armię przed zwykłymi karami do morale.
 
-### Specialist Starting Armies
+### Armie początkowe specjalistów
 
-The specialist army modules make creature-specialist heroes begin with a
-creature from their specialty in the first army slot. After retreating from
-battle, affected heroes return to the Tavern with **1 creature from their
-specialty** instead of a level 1 creature from their faction.
+Moduły armii specjalistów sprawiają, że bohaterowie specjalizujący się w
+jednostkach rozpoczynają grę z jednostką swojej specjalizacji w pierwszym slocie
+armii. Po ucieczce z bitwy objęci zmianą bohaterowie wracają do Karczmy z **1
+jednostką swojej specjalizacji** zamiast jednostki 1. poziomu ze swojej frakcji.
 
-The changes apply only to standard heroes specializing in creatures of tiers
-**3–6**. Tier **1, 2 and 7** creature specialists and campaign heroes have been
-intentionally excluded.
+Zmiany obejmują wyłącznie standardowych bohaterów specjalizujących się w
+jednostkach poziomów **3–6**. Specjaliści jednostek poziomu **1, 2 i 7** oraz
+bohaterowie kampanijni zostali celowo pominięci.
 
-The modules change only the composition and order of starting armies. They do
-not modify how hero specialties work.
+Moduły zmieniają wyłącznie skład i kolejność armii początkowych. Nie modyfikują
+działania specjalizacji bohaterów.
 
 ## Zdolności jednostek
 
@@ -219,35 +219,39 @@ zachowując ich pierwotny motyw i strategiczną rolę.
   na mapie przygody jak czar **Ukrycie** na poziomie mistrzowskim i może
   neutralizować **Kajdany Wojny** w bitwach, w których ucieczka lub poddanie się
   są normalnie dostępne.
-- **Armageddon's Blade** is reworked as a combination set made from six
-  components. The components remain equipped and keep their own effects.
-  Together, the completed set grants **+10 to all primary skills**, increases
-  fire spell damage, protects allied creatures from fire spell damage, generates
-  **+1 sulfur per day**, and allows heroes with a Spell Book to cast a special
-  **0-mana Armageddon spell**. A Spell Book is still required.
-- **Boots of Reinforcement** add a new four-component **Relic** combination
-  artifact assembled from **Boots of Speed**, **Equestrian's Gloves**,
-  **Wayfarer's Boots**, and **Angel Wings**. All four components are consumed
-  during assembly. The completed artifact removes additional movement penalties
-  from rough terrain and allows heroes with a **Spell Book** to cast the custom
-  **Reinforcements** spell once per day, exchanging already recruited creatures
-  with an owned town. **Fire Magic** improves the spell with next-day land
-  movement, town selection, and, at Expert mastery, full flying movement.
-  **Equestrian's Gloves** are reclassified as a Major artifact, while **Boots of
-  Speed** become a Relic.
-- **Golden Goose** is reworked into a stronger economy set. Counting component
-  effects, it increases the daily income of the bearer's owner by **5,250
-  gold**. In addition, each hero on the team with **Estates** increases the
-  daily income of the player controlling that hero by another **3,000 gold**.
-  The bearer also qualifies for this bonus, and bonuses from multiple Estates
-  heroes stack. Its components are reclassified as **Treasure**, **Minor**, and
-  **Major** artifacts, while **Golden Goose** remains a **Relic**.
-- **Cornucopia** keeps its combined component income of **+5 mercury, sulfur,
-  crystal, and gems per day** for the bearer's owner. In addition, each hero on
-  the team with a rare-resource production specialty provides the player
-  controlling that hero with **+4 of every rare resource per day**. The bearer
-  also qualifies when they have such a specialty, and bonuses from multiple
-  specialists stack.
+- **Ostrze Armagedonu** zostało przebudowane jako zestaw składany z sześciu
+  komponentów. Komponenty pozostają założone i zachowują własne efekty.
+  Skompletowany zestaw zapewnia **+10 do wszystkich podstawowych umiejętności**,
+  zwiększa obrażenia czarów ognia, chroni sojusznicze jednostki przed
+  obrażeniami od czarów ognia, zapewnia **+1 siarki dziennie** oraz pozwala
+  bohaterom posiadającym Księgę Zaklęć rzucać specjalny czar **Armagedon o
+  koszcie 0 many**. Księga Zaklęć nadal jest wymagana.
+- **Buty Odsieczy** dodają nowy czteroelementowy artefakt składany klasy
+  **Relikt**, tworzony z **Butów przyśpieszenia**, **Rękawic jeźdźca**, **Butów
+  wędrowca** oraz **Skrzydeł anioła**. Wszystkie cztery komponenty zostają
+  zużyte podczas składania. Gotowy artefakt usuwa dodatkowe kary do ruchu na
+  trudnym terenie i pozwala bohaterom posiadającym **Księgę czarów** raz
+  dziennie rzucać własny czar **Odsiecz**, służący do wymiany już zrekrutowanych
+  jednostek z własnym miastem. **Magia Ognia** wzmacnia działanie czaru,
+  zapewniając dodatkowy ruch lądowy następnego dnia, możliwość wyboru miasta, a
+  na poziomie mistrzowskim także pełną zdolność lotu. **Rękawice jeźdźca**
+  zostają przeniesione do klasy Potężny artefakt, a **Buty przyśpieszenia** do
+  klasy Relikt.
+- **Złota Gęś** została przebudowana jako potężniejszy zestaw ekonomiczny.
+  Łącznie z efektami komponentów zwiększa dzienny dochód właściciela nosiciela o
+  **5250 sztuk złota**. Dodatkowo każdy bohater w drużynie posiadający
+  **Finanse** zwiększa dzienny dochód gracza kontrolującego tego bohatera o
+  kolejne **3000 sztuk złota**. Nosiciel również kwalifikuje się do tej premii,
+  a bonusy od wielu bohaterów z Finansami kumulują się. Komponenty zestawu
+  zostają przeniesione odpowiednio do klas **Skarb**, **Pomniejszy artefakt** i
+  **Potężny artefakt**, natomiast **Złota Gęś** pozostaje **Reliktem**.
+- **Miasto dobrobytu** zachowuje łączny dochód artefaktów składowych wynoszący
+  po **5 jednostek rtęci, siarki, kryształów i klejnotów dziennie** dla
+  właściciela nosiciela. Ponadto każdy bohater w drużynie posiadający
+  specjalizację w produkcji rzadkiego zasobu zapewnia kontrolującemu go graczowi
+  dodatkowo po **4 jednostki każdego rzadkiego zasobu dziennie**. Nosiciel
+  również otrzymuje ten bonus, jeśli ma taką specjalizację, a premie za wielu
+  specjalistów kumulują się.
 
 ## Kompatybilność i lokalizacja
 
