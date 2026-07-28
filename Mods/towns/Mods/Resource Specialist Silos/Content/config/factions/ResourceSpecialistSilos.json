@@ -10,8 +10,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -46,8 +46,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -81,8 +81,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -116,8 +116,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -151,8 +151,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -187,8 +187,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -222,8 +222,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -258,8 +258,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -294,8 +294,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -329,8 +329,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -364,8 +364,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -399,8 +399,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.resourceSpecialistSilos.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
