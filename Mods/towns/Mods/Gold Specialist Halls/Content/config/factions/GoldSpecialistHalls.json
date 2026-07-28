@@ -10,8 +10,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -53,8 +53,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -96,8 +96,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -139,8 +139,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -182,8 +182,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -225,8 +225,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -268,8 +268,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -311,8 +311,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -354,8 +354,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -397,8 +397,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -440,8 +440,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {
@@ -483,8 +483,8 @@
 							"period" : 7,
 							"visitors" : true
 						},
-						"onEmptyMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
-						"onVisitedMessage" : "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
 						"rewards" : [
 							{
 								"limiter" : {

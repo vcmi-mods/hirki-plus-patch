@@ -24,6 +24,10 @@ The mod focuses on making underused creatures, skills, spells, heroes, war machi
 - English wording cleanup
 - Polish localization
 
+## Version 1.3.1 hotfix
+
+- Fixed unresolved and empty town-building fallback messages in **Gold Specialist Halls**, **Resource Specialist Silos** and **Elemental Ritual**.
+
 ## Version 1.3.0 highlights
 
 - **Artifacts** — reworked **Armageddon's Blade**.
@@ -50,7 +54,13 @@ The Polish localization is written to stay close to the style and terminology of
 
 The recommended installation method is through the VCMI Launcher after the mod is available in the VCMI mods repository.
 
-For manual installation, download the repository as a ZIP and place the extracted mod folder in your VCMI Mods directory.
+For manual installation, use a packaged ZIP from **GitHub Releases** when available. After extraction, make sure the installation path is:
+
+```text
+Mods/hirki-plus-patch/mod.json
+```
+
+GitHub's **Code → Download ZIP** source archives add the branch name to the extracted folder. If the folder is named, for example, `hirki-plus-patch-main` or `hirki-plus-patch-vcmi-1.7`, rename it to `hirki-plus-patch` before placing it in the VCMI `Mods` directory.
 
 ## Updates and compatibility
 
@@ -73,6 +83,10 @@ You can also contact me on the VCMI Discord server as `@bew_`, especially for qu
 ## Polska wersja
 
 HPP zawiera polską lokalizację opisów Launchera oraz wybranych tekstów w grze.
+
+## Hotfix 1.3.1
+
+- Naprawiono nierozwiązane i puste komunikaty awaryjne budynków miejskich w modułach **Specjaliści złota i Ratusze**, **Specjaliści rzadkich surowców i Magazyny zasobów** oraz **Rytuał żywiołów**.
 
 ## Najważniejsze elementy wersji 1.3.0
 

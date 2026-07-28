@@ -2,7 +2,7 @@
 	"name" : "Elemental Ritual",
 	"description" : "Adds access to **Elemental Rituals** in the **Mage Guild Level 3** building in selected towns:\n\n- **Conflux** — **Fire**, **Water** or **Air**.\n- **Tower** — **Water** or **Air**.\n- **Castle** and **Stronghold** — **Air**.\n- **Rampart**, **Fortress**, **Cove** and **Bulwark** — **Water**.\n- **Inferno**, **Dungeon** and **Factory** — **Fire**.\n\nA hero visiting the town may sacrifice a complete **Fire**, **Water** or **Air** creature set to receive the matching **elemental Tome** and **elemental Orb**.\n\nRequired creature sets:\n\n**Fire set:**\n- **2 Firebirds**\n- **2 Phoenixes**\n- **4 Efreets**\n- **4 Efreet Sultans**\n- **10 Fire Elementals**\n- **10 Energy Elementals**\n- Requires also **1 Magic Elemental** as the catalyst.\n\n**Water set:**\n- **12 Water Elementals**\n- **12 Ice Elementals**\n- **32 Nymphs**\n- **32 Oceanids**\n- **2 Jotunns**\n- **2 Jotunn Warlords**\n- Requires also **1 Magic Elemental** as the catalyst.\n\n**Air set:**\n- **12 Air Elementals**\n- **12 Storm Elementals**\n- **2 Angels**\n- **2 Archangels**\n- **6 Rocs**\n- **6 Thunderbirds**\n- Requires also **1 Magic Elemental** as the catalyst.\n\nFull set bonus:\n- a hero carrying a complete elemental set temporarily gains **all spells of the matching magic school** in their spell book;\n- the hero also receives at least **Advanced mastery** of that magic school;\n- the bonus lasts only while the required creatures remain in the army.\n\nLimits:\n- each town can perform its **Elemental Ritual** only once;\n- **Conflux** and **Tower** can perform only one of their available rituals.\n\nIntentionally excluded:\n- **Earth Magic** — not supported because it is too strong and universally useful;\n- **Necropolis** — excluded because it would most naturally fit Earth Magic, which this module deliberately avoids strengthening.",
 	"author" : "bew_",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"modType" : "Town",
 	"depends" : [
 		"hota",
@@ -29,6 +29,9 @@
 		]
 	},
 	"changelog" : {
+		"1.0.1" : [
+			"Fixed unresolved and empty Mage Guild fallback messages."
+		],
 		"1.0.0" : [
 			"Initial release."
 		]
