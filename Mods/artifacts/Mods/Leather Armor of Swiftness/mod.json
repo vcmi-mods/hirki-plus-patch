@@ -1,27 +1,27 @@
 {
-	"name" : "Leather Armor of Swiftness",
-	"description" : "Adds **Leather Armor of Swiftness**, a fused speed relic created from three movement artifacts:\n\n- **Necklace of Swiftness** — grants **+1 Speed**\n- **Ring of the Wayfarer** — grants **+1 Speed**\n- **Cape of Velocity** — grants **+2 Speed**\n\nCompleted relic effects:\n\n- The bearer’s army receives **+2 Speed**.\n- All heroes on the bearer’s team receive **+1 Speed** for their armies, including the bearer.\n- Components are consumed during assembly and cannot be recovered.\n\nStacking:\n\n- The team-wide **+1 Speed** bonus from **Leather Armor of Swiftness** does not stack with the same team-wide bonus from another **Leather Armor of Swiftness**.\n- This limit applies only to this artifact’s team-wide bonus. It can still stack with other Speed modifiers.",
-	"author" : "bew_",
-	"version" : "1.0.0",
-	"modType" : "Artifacts",
-	"artifacts" : [
+	"name": "Leather Armor of Swiftness",
+	"description": "Adds **Leather Armor of Swiftness**, a fused speed relic created from three movement artifacts:\n\n- **Necklace of Swiftness** — grants **+1 Speed**\n- **Ring of the Wayfarer** — grants **+1 Speed**\n- **Cape of Velocity** — grants **+2 Speed**\n\nCompleted relic effects:\n\n- The bearer’s army receives **+2 Speed**.\n- All heroes on the bearer’s team receive **+1 Speed** for their armies, including the bearer.\n- Components are consumed during assembly and cannot be recovered.\n\nStacking:\n\n- The team-wide **+1 Speed** bonus from **Leather Armor of Swiftness** does not stack with the same team-wide bonus from another **Leather Armor of Swiftness**.\n- This limit applies only to this artifact’s team-wide bonus. It can still stack with other Speed modifiers.",
+	"author": "bew_",
+	"version": "1.0.0",
+	"modType": "Artifacts",
+	"artifacts": [
 		"config/artifacts/LeatherArmorOfSwiftness.json"
 	],
-	"depends" : [
+	"depends": [
 		"hota"
 	],
-	"compatibility" : {
-		"min" : "1.7.4"
+	"compatibility": {
+		"min": "1.7.4"
 	},
-	"changelog" : {
-		"1.0.0" : [
+	"changelog": {
+		"1.0.0": [
 			"Initial release."
 		]
 	},
-	"polish" : {
-		"name" : "Skórzana Zbroja Szybkości",
-		"description" : "Dodaje **Skórzaną Zbroję Szybkości**, złożoną relikwię szybkości tworzoną z trzech artefaktów ruchu:\n\n- **Naszyjnika Przyspieszenia** — zapewnia **+1 do szybkości**\n- **Pierścienia Wędrowca** — zapewnia **+1 do szybkości**\n- **Płaszcza Zwinności** — zapewnia **+2 do szybkości**\n\nEfekty ukończonej relikwii:\n\n- Armia noszącego otrzymuje **+2 do szybkości**.\n- Wszyscy bohaterowie w drużynie noszącego otrzymują **+1 do szybkości** dla swoich armii, włącznie z noszącym.\n- Komponenty zostają zużyte podczas złożenia i nie można ich odzyskać.\n\nStackowanie:\n\n- Drużynowa premia **+1 do szybkości** ze **Skórzanej Zbroi Szybkości** nie stackuje się z taką samą drużynową premią z drugiej **Skórzanej Zbroi Szybkości**.\n- To ograniczenie dotyczy tylko drużynowej premii tego artefaktu. Nadal może ona stackować się z innymi modyfikatorami szybkości.",
-		"translations" : [
+	"polish": {
+		"name": "Skórzana Zbroja Szybkości",
+		"description": "Dodaje **Skórzaną Zbroję Szybkości**, złożoną relikwię szybkości tworzoną z trzech artefaktów ruchu:\n\n- **Naszyjnika Przyspieszenia** — zapewnia **+1 do szybkości**\n- **Pierścienia Wędrowca** — zapewnia **+1 do szybkości**\n- **Płaszcza Zwinności** — zapewnia **+2 do szybkości**\n\nEfekty ukończonej relikwii:\n\n- Armia noszącego otrzymuje **+2 do szybkości**.\n- Wszyscy bohaterowie w drużynie noszącego otrzymują **+1 do szybkości** dla swoich armii, włącznie z noszącym.\n- Komponenty zostają zużyte podczas złożenia i nie można ich odzyskać.\n\nStackowanie:\n\n- Drużynowa premia **+1 do szybkości** ze **Skórzanej Zbroi Szybkości** nie stackuje się z taką samą drużynową premią z drugiej **Skórzanej Zbroi Szybkości**.\n- To ograniczenie dotyczy tylko drużynowej premii tego artefaktu. Nadal może ona stackować się z innymi modyfikatorami szybkości.",
+		"translations": [
 			"translation/polish.json"
 		]
 	}
