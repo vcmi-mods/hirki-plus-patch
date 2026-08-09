@@ -18,11 +18,6 @@
 			"Initial release."
 		]
 	},
-	"english" : {
-		"translations" : [
-			"translation/english.json"
-		]
-	},
 	"polish" : {
 		"name" : "Skórzana Zbroja Szybkości",
 		"description" : "Dodaje **Skórzaną Zbroję Szybkości**, złożoną relikwię szybkości tworzoną z trzech artefaktów ruchu:\n\n- **Naszyjnika Przyspieszenia** — zapewnia **+1 do szybkości**\n- **Pierścienia Wędrowca** — zapewnia **+1 do szybkości**\n- **Płaszcza Zwinności** — zapewnia **+2 do szybkości**\n\nEfekty ukończonej relikwii:\n\n- Armia noszącego otrzymuje **+2 do szybkości**.\n- Wszyscy bohaterowie w drużynie noszącego otrzymują **+1 do szybkości** dla swoich armii, włącznie z noszącym.\n- Komponenty zostają zużyte podczas złożenia i nie można ich odzyskać.\n\nStackowanie:\n\n- Drużynowa premia **+1 do szybkości** ze **Skórzanej Zbroi Szybkości** nie stackuje się z taką samą drużynową premią z drugiej **Skórzanej Zbroi Szybkości**.\n- To ograniczenie dotyczy tylko drużynowej premii tego artefaktu. Nadal może ona stackować się z innymi modyfikatorami szybkości.",

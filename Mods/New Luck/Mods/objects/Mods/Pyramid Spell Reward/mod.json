@@ -16,11 +16,6 @@
 	"objects" : [
 		"config/objects/PyramidSpellReward.json"
 	],
-	"english" : {
-		"translations" : [
-			"translation/english.json"
-		]
-	},
 	"polish" : {
 		"name" : "Nagroda Piramidy wzmocniona przez Szczęście",
 		"description" : "Wzmacnia **nagrodę Piramidy** zależnie od poziomu umiejętności dodatkowej **Szczęście** odwiedzającego bohatera.\n\nNatywny **losowy czar 5. poziomu**, strażnicy, jednorazowa wizyta oraz kara za wejście do pustej Piramidy pozostają bez zmian. Jeżeli bohater może nauczyć się czaru 5. poziomu, **podstawowe / zaawansowane / mistrzowskie Szczęście** zapewnia **25% / 50% / 75% szansy** na odkrycie **dodatkowego losowego czaru 4. poziomu**.\n\nNa tę nagrodę wpływa wyłącznie **poziom umiejętności Szczęście** bohatera. Szczęście z artefaktów, czarów, obiektów mapy i efektów tymczasowych nie jest uwzględniane.",

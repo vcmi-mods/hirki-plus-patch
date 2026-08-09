@@ -22,11 +22,6 @@
 		"config/objects/RedTowerLuckScaling.json",
 		"config/objects/WolfRaiderPicketLuckScaling.json"
 	],
-	"english" : {
-		"translations" : [
-			"translation/english.json"
-		]
-	},
 	"polish" : {
 		"name" : "Banki stworzeń — jednostki",
 		"description" : "Opcjonalny moduł Szczęścia dla banków stworzeń przyznających jednostki. Natywne poziomy banków, składy strażników, rozkład 30% / 30% / 30% / 10%, układy, zasady wizyt i ustawienia RMG pozostają bez zmian. Szczęście wpływa wyłącznie na liczbę jednostek otrzymywanych po zwycięstwie. Sprawdzany jest wyłącznie poziom umiejętności dodatkowej Szczęście odwiedzającego bohatera; artefakty, czary i tymczasowe modyfikatory Szczęścia nie wpływają na te nagrody.\n\n## Skalowanie nagród\n\n* **Rój ważek** — 4 / 6 / 8 / 12 Wyvern może wzrosnąć do 6 / 8 / 10 / 14.\n* **Konserwatorium gryfów** — 1 / 2 / 3 / 4 Angel może wzrosnąć do 2 / 3 / 4 / 5.\n* **Warsztat eksperymentalny** — 1 / 2 / 3 / 4 Giant może wzrosnąć do 2 / 3 / 4 / 5.\n* **Wieża z kości słoniowej** — 3 / 6 / 9 / 12 Enchanter może wzrosnąć do 4 / 7 / 11 / 14.\n* **Jaskinia piratów** — 1 / 2 / 3 / 4 Sea Serpent może wzrosnąć do 2 / 3 / 4 / 5.\n* **Czerwona wieża** — 1 / 2 / 3 / 4 Firebird może wzrosnąć do 2 / 3 / 4 / 5.\n* **Posterunek wilczych rycerzy** — 4 / 6 / 8 / 12 Cyclop może wzrosnąć do 6 / 8 / 10 / 14.\n\nSzanse ulepszenia wynoszą **25% / 50% / 75%** dla podstawowego / zaawansowanego / mistrzowskiego Szczęścia. Brak Szczęścia zachowuje natywną nagrodę jednostkową. Barłóg jest celowo pominięty.",
