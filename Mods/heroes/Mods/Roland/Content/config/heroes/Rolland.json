@@ -59,8 +59,8 @@
 			"biography" : "Recently freed from the Kreegans, Roland respectfully serves as a general in Erathia's military under his wife Catherine. Someday soon these conflicts will end, and he and Catherine will return to Enroth. However, both must decide what will happen to the Erathian throne.",
 			"specialty" : {
 				"name" : "The King",
-				"description" : "{The King}\n\nAll creatures in Roland's army receive +1 Morale. Ordinary Morale penalties cannot reduce his army below +1 Morale, but the Sorrow spell can still overcome this protection, and effects that disable positive Morale can suppress this bonus.",
-				"tooltip" : "Roland grants his army +1 Morale and helps maintain at least +1 Morale, unless stronger effects reduce it further."
+				"description" : "{The King}\n\nAll creatures in Roland's army receive {+1 Morale}. {Ordinary Morale penalties} cannot reduce his army below {+1 Morale}, but the {Sorrow} spell can still overcome this protection, and {effects that disable positive Morale} can suppress this bonus.",
+				"tooltip" : "Roland grants his army {+1 Morale} and helps maintain at least {+1 Morale}, unless stronger effects reduce it further."
 			}
 		}
 	}

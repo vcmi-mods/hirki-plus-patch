@@ -125,7 +125,7 @@
 					]
 				}
 			},
-			"description" : "{Basic Artillery}\n\nGives the hero control of the Ballista. Ballista shots have a 50% chance to deal double damage.\n\nWith Archery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.\n\nAdditionally, Ballista and its Ammo Cart cannot lose more than 50% of their Health from a single attack; Cannon and its Ammo Cart cannot lose more than 40%."
+			"description" : "{Basic Artillery}\n\nGives the hero control of the {Ballista}. {Ballista} shots have a {50%} chance to deal double damage.\n\nWith {Archery}, {Ballista} and {Cannon} can receive matching {Archery} bonuses based on both skill levels.\n\nAdditionally, {Ballista} and its {Ammo Cart} cannot lose more than {50%} of their Health from a single attack; {Cannon} and its {Ammo Cart} cannot lose more than {40%}."
 		},
 		"advanced" : {
 			"effects" : {
@@ -207,7 +207,7 @@
 					]
 				}
 			},
-			"description" : "{Advanced Artillery}\n\nGives the hero control of the Ballista. The Ballista shoots twice per round, and its shots have a 75% chance to deal double damage.\n\nWith Archery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.\n\nAdditionally, Ballista and its Ammo Cart cannot lose more than 40% of their Health from a single attack; Cannon and its Ammo Cart cannot lose more than 30%."
+			"description" : "{Advanced Artillery}\n\nGives the hero control of the {Ballista}. The {Ballista} {shoots twice per round}, and its shots have a {75%} chance to deal double damage.\n\nWith {Archery}, {Ballista} and {Cannon} can receive matching {Archery} bonuses based on both skill levels.\n\nAdditionally, {Ballista} and its {Ammo Cart} cannot lose more than {40%} of their Health from a single attack; {Cannon} and its {Ammo Cart} cannot lose more than {30%}."
 		},
 		"expert" : {
 			"effects" : {
@@ -289,7 +289,7 @@
 					]
 				}
 			},
-			"description" : "{Expert Artillery}\n\nGives the hero control of the Ballista. The Ballista shoots twice per round, and its shots always deal double damage.\n\nWith Archery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.\n\nAdditionally, Ballista and its Ammo Cart cannot lose more than 30% of their Health from a single attack; Cannon and its Ammo Cart cannot lose more than 20%."
+			"description" : "{Expert Artillery}\n\nGives the hero control of the {Ballista}. The {Ballista} {shoots twice per round}, and its shots {always deal double damage}.\n\nWith {Archery}, {Ballista} and {Cannon} can receive matching {Archery} bonuses based on both skill levels.\n\nAdditionally, {Ballista} and its {Ammo Cart} cannot lose more than {30%} of their Health from a single attack; {Cannon} and its {Ammo Cart} cannot lose more than {20%}."
 		}
 	}
 }

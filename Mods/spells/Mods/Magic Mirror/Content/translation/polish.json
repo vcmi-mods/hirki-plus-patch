@@ -1,6 +1,7 @@
 {
-	"spell.core.magicMirror.description.none": "{Magiczne zwierciadło}\n\nOdwraca działanie wrogich zaklęć, odsyłając je w kierunku losowej jednostki wroga. Szansa powodzenia wynosi {20%}.",
-	"spell.core.magicMirror.description.basic": "{Magiczne zwierciadło - poziom podstawowy}\n\nOdwraca działanie wrogich zaklęć, odsyłając je w kierunku losowej jednostki wroga. Szansa powodzenia wynosi {20%}.",
-	"spell.core.magicMirror.description.advanced": "{Magiczne zwierciadło - poziom zaawansowany}\n\nOdwraca działanie wrogich zaklęć, odsyłając je w kierunku losowej jednostki wroga. Szansa powodzenia wynosi {25%}. Oddział otrzymuje także {15%} szans na odparcie wrogiego zaklęcia.",
-	"spell.core.magicMirror.description.expert": "{Magiczne zwierciadło - poziom mistrzowski}\n\nWszystkie sprzymierzone oddziały odwracają działanie wrogich zaklęć, odsyłając je w kierunku losowej jednostki wroga. Szansa powodzenia wynosi {25%}. Oddziały otrzymują także {20%} szans na odparcie wrogiego zaklęcia."
+	"spell.core.magicMirror.name": "Magiczne zwierciadło",
+"spell.core.magicMirror.description.none": "{Magiczne zwierciadło}\n\n{Odwraca działanie wrogich zaklęć}, odsyłając je w kierunku {losowej jednostki wroga}. Szansa powodzenia wynosi {20%}.",
+	"spell.core.magicMirror.description.basic": "{Magiczne zwierciadło - poziom podstawowy}\n\n{Odwraca działanie wrogich zaklęć}, odsyłając je w kierunku {losowej jednostki wroga}. Szansa powodzenia wynosi {20%}.",
+	"spell.core.magicMirror.description.advanced": "{Magiczne zwierciadło - poziom zaawansowany}\n\n{Odwraca działanie wrogich zaklęć}, odsyłając je w kierunku {losowej jednostki wroga}. Szansa powodzenia wynosi {25%}. Oddział otrzymuje także {15% szans na odparcie wrogiego zaklęcia}.",
+	"spell.core.magicMirror.description.expert": "{Magiczne zwierciadło - poziom mistrzowski}\n\n{Wszystkie sprzymierzone oddziały} odwracają działanie wrogich zaklęć, odsyłając je w kierunku {losowej jednostki wroga}. Szansa powodzenia wynosi {25%}. Oddziały otrzymują także {20% szans na odparcie wrogiego zaklęcia}."
 }

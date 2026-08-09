@@ -1,85 +1,85 @@
 {
-	"core:coronius" : {
-		"specialty" : {
-			"bonuses" : {
-				"coroniusSlayerHatesKingLevel12" : {
-					"type" : "HATES_TRAIT",
-					"subtype" : "KING",
-					"val" : 100,
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+	"core:coronius": {
+		"specialty": {
+			"bonuses": {
+				"coroniusSlayerHatesKingLevel12": {
+					"type": "HATES_TRAIT",
+					"subtype": "KING",
+					"val": 100,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceID" : "spell.slayer",
-							"bonusSourceType" : "SPELL_EFFECT"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceID": "spell.slayer",
+							"bonusSourceType": "SPELL_EFFECT"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"maxlevel" : 3
+							"type": "CREATURE_LEVEL_LIMITER",
+							"maxlevel": 3
 						}
 					]
 				},
-				"coroniusSlayerHatesKingLevel34" : {
-					"type" : "HATES_TRAIT",
-					"subtype" : "KING",
-					"val" : 80,
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"coroniusSlayerHatesKingLevel34": {
+					"type": "HATES_TRAIT",
+					"subtype": "KING",
+					"val": 80,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceID" : "spell.slayer",
-							"bonusSourceType" : "SPELL_EFFECT"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceID": "spell.slayer",
+							"bonusSourceType": "SPELL_EFFECT"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 5
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 5
 						}
 					]
 				},
-				"coroniusSlayerHatesKingLevel56" : {
-					"type" : "HATES_TRAIT",
-					"subtype" : "KING",
-					"val" : 60,
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"coroniusSlayerHatesKingLevel56": {
+					"type": "HATES_TRAIT",
+					"subtype": "KING",
+					"val": 60,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceID" : "spell.slayer",
-							"bonusSourceType" : "SPELL_EFFECT"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceID": "spell.slayer",
+							"bonusSourceType": "SPELL_EFFECT"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 7
 						}
 					]
 				},
-				"slayer" : {
-					"type" : "HATES_TRAIT",
-					"subtype" : "KING",
-					"val" : 40,
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"slayer": {
+					"type": "HATES_TRAIT",
+					"subtype": "KING",
+					"val": 40,
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceID" : "spell.slayer",
-							"bonusSourceType" : "SPELL_EFFECT"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceID": "spell.slayer",
+							"bonusSourceType": "SPELL_EFFECT"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7
 						}
 					],
-					"addInfo" : null
+					"addInfo": null
 				}
 			}
 		},
-		"texts" : {
-			"specialty" : {
-				"name" : "Slayer",
-				"description" : "Allows casting the {Slayer} spell with increased effect:\n{+20} for level 1–2 creatures;\n{+16} for level 3–4 creatures;\n{+12} for level 5–6 creatures;\n{+8} for level 7 creatures.",
-				"tooltip" : "Special spell: Slayer"
+		"texts": {
+			"specialty": {
+				"name": "Slayer",
+				"description": "Allows casting the {Slayer} spell with increased effect:\n{+20} for {level 1–2 creatures};\n{+16} for {level 3–4 creatures};\n{+12} for {level 5–6 creatures};\n{+8} for {level 7 creatures}.",
+				"tooltip": "Special spell: {Slayer}"
 			}
 		}
 	}

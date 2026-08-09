@@ -1,0 +1,1595 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"medusaStore": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 4,
+								"type": "medusa"
+							},
+							{
+								"amount": 4,
+								"type": "medusa"
+							},
+							{
+								"amount": 4,
+								"type": "medusa",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 4,
+								"type": "medusa"
+							},
+							{
+								"amount": 4,
+								"type": "medusa"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000,
+							"sulfur": 5
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 6,
+								"type": "medusa"
+							},
+							{
+								"amount": 6,
+								"type": "medusa"
+							},
+							{
+								"amount": 6,
+								"type": "medusa",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 6,
+								"type": "medusa"
+							},
+							{
+								"amount": 6,
+								"type": "medusa"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000,
+							"sulfur": 6
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 8,
+								"type": "medusa"
+							},
+							{
+								"amount": 8,
+								"type": "medusa"
+							},
+							{
+								"amount": 8,
+								"type": "medusa",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 8,
+								"type": "medusa"
+							},
+							{
+								"amount": 8,
+								"type": "medusa"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000,
+							"sulfur": 8
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 10,
+								"type": "medusa"
+							},
+							{
+								"amount": 10,
+								"type": "medusa"
+							},
+							{
+								"amount": 10,
+								"type": "medusa",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 10,
+								"type": "medusa"
+							},
+							{
+								"amount": 10,
+								"type": "medusa"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000,
+							"sulfur": 12
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000,
+							"sulfur": 12
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000,
+							"sulfur": 12
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000,
+							"sulfur": 10
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000,
+							"sulfur": 12
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000,
+							"sulfur": 12
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000,
+							"sulfur": 12
+						},
+						"message": "@creatureBanksResources.medusaStores.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

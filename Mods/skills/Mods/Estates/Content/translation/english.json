@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced" : "{Advanced Estates}\n\nThe hero generates {500} gold per day for the owning player. In addition, the hero improves Marketplace exchange rates for the entire team as if it had {2} additional Marketplaces.",
-	"skill.core.estates.description.basic" : "{Basic Estates}\n\nThe hero generates {250} gold per day for the owning player. In addition, the hero improves Marketplace exchange rates for the entire team as if it had {1} additional Marketplace.",
-	"skill.core.estates.description.expert" : "{Expert Estates}\n\nThe hero generates {1000} gold per day for the owning player. In addition, the hero improves Marketplace exchange rates for the entire team as if it had {3} additional Marketplaces."
+	"skill.core.estates.description.advanced": "{Advanced Estates}\n\nThe hero generates {500} gold per day {for the owning player}. In addition, the hero improves {Marketplace exchange rates for the entire team} as if it had {2} additional Marketplaces.",
+	"skill.core.estates.description.basic": "{Basic Estates}\n\nThe hero generates {250} gold per day {for the owning player}. In addition, the hero improves {Marketplace exchange rates for the entire team} as if it had {1} additional Marketplace.",
+	"skill.core.estates.description.expert": "{Expert Estates}\n\nThe hero generates {1000} gold per day {for the owning player}. In addition, the hero improves {Marketplace exchange rates for the entire team} as if it had {3} additional Marketplaces."
 }

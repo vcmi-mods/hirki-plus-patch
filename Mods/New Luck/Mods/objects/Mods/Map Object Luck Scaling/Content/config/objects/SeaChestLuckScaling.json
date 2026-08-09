@@ -1,0 +1,221 @@
+{
+  "core:seaChest": {
+    "types": {
+      "seaChest": {
+        "selectMode": "selectFirst",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 50
+            },
+            "mapDice": 1,
+            "message": 118,
+            "removeObject": true,
+            "resources": {
+              "gold": 1500
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 50,
+              "max": 100
+            },
+            "mapDice": 2,
+            "message": 117,
+            "removeObject": true,
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "resources": {
+              "gold": 1000
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 5
+            },
+            "mapDice": 0,
+            "message": 116,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 5,
+              "max": 65
+            },
+            "mapDice": 1,
+            "message": 118,
+            "removeObject": true,
+            "resources": {
+              "gold": 1500
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 65,
+              "max": 100
+            },
+            "mapDice": 2,
+            "message": 117,
+            "removeObject": true,
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "resources": {
+              "gold": 1000
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 10
+            },
+            "mapDice": 0,
+            "message": 116,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 10,
+              "max": 80
+            },
+            "mapDice": 1,
+            "message": 118,
+            "removeObject": true,
+            "resources": {
+              "gold": 1500
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 80,
+              "max": 100
+            },
+            "mapDice": 2,
+            "message": 117,
+            "removeObject": true,
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "resources": {
+              "gold": 1000
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 20
+            },
+            "mapDice": 0,
+            "message": 116,
+            "removeObject": true
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 20,
+              "max": 90
+            },
+            "mapDice": 1,
+            "message": 118,
+            "removeObject": true,
+            "resources": {
+              "gold": 1500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 90,
+              "max": 100
+            },
+            "mapDice": 2,
+            "message": 117,
+            "removeObject": true,
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "resources": {
+              "gold": 1000
+            }
+          }
+        ]
+      }
+    }
+  }
+}

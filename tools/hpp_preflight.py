@@ -2,13 +2,25 @@
 r"""
 HPP preflight checker.
 
-Uruchom z katalogu głównego repo:
-    py tools\hpp_preflight.py
+Obsługiwane wejścia:
 
-Opcjonalnie można wskazać inny folder moda:
-    py tools\hpp_preflight.py "C:\ścieżka\do\hirki-plus-patch"
+1. Pełny source/repo HPP:
+       py tools\hpp_preflight.py
+       py tools\hpp_preflight.py "C:\sciezka\do\hirki-plus-patch"
 
-Skrypt używa wyłącznie standardowej biblioteki Pythona.
+2. Folder zainstalowany przez VCMI Launcher:
+       py tools\hpp_preflight.py --launcher-package \
+          "C:\Users\ja\Documents\My Games\vcmi\Mods\hirki-plus-patch"
+
+3. ZIP utworzony z folderu Launchera:
+       py tools\hpp_preflight.py --launcher-package \
+          "C:\sciezka\do\hirki-plus-patch.zip"
+
+Domyslny tryb ``auto`` rozpoznaje source albo paczke Launchera.
+W trybie Launcher skrypt rozpakowuje zagniezdzone ``content.zip`` tylko do
+katalogu tymczasowego. Nie zmienia instalacji moda ani badanego archiwum.
+
+Skrypt uzywa wylacznie standardowej biblioteki Pythona.
 """
 
 from __future__ import annotations
@@ -16,13 +28,19 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shutil
 import sys
+import tempfile
+import zipfile
+from contextlib import contextmanager
 from dataclasses import dataclass, field
-from pathlib import Path
-from typing import Any, Iterable
+from pathlib import Path, PurePosixPath
+from typing import Any, Iterable, Iterator, Literal
 
 
 EXPECTED_ROOT_NAME = "hirki-plus-patch"
+Mode = Literal["auto", "source", "launcher"]
+ResolvedMode = Literal["source", "launcher"]
 
 FILE_LIST_KEYS = {
     "artifacts",
@@ -42,12 +60,6 @@ TEXT_EXTENSIONS = {
     ".yaml",
     ".yml",
 }
-
-CONFLICT_MARKERS = (
-    "<<<<<<<",
-    "=======",
-    ">>>>>>>",
-)
 
 TOWN_RULES = (
     {
@@ -82,7 +94,6 @@ TOWN_RULES = (
 GOLDEN_GOOSE_MOD = Path("Mods/artifacts/Mods/Golden Goose/mod.json")
 ESTATES_MOD = Path("Mods/skills/Mods/Estates/mod.json")
 ESTATES_DEPENDENCY = "hirki-plus-patch.skills.estates"
-
 
 PIPELINE_SAFE_TOWN_TRANSLATIONS = (
     {
@@ -129,6 +140,20 @@ class Report:
         self.passed.append(message)
 
 
+@dataclass(frozen=True)
+class LauncherArchiveStats:
+    archives: int = 0
+    extracted_files: int = 0
+
+
+@dataclass(frozen=True)
+class PreparedRoot:
+    input_path: Path
+    root: Path
+    mode: ResolvedMode
+    launcher_stats: LauncherArchiveStats | None = None
+
+
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
@@ -144,44 +169,247 @@ def iter_values(value: Any) -> Iterable[Any]:
             yield from iter_values(child)
 
 
-def find_nearest_module_root(path: Path, repo_root: Path) -> Path | None:
-    current = path.parent
-    while True:
-        if (current / "mod.json").is_file():
-            return current
-        if current == repo_root:
-            break
-        if repo_root not in current.parents:
-            break
-        current = current.parent
-    return None
+def _validate_zip_member_name(name: str) -> PurePosixPath:
+    normalized = name.replace("\\", "/")
+    member = PurePosixPath(normalized)
+
+    if not normalized:
+        return member
+    if member.is_absolute():
+        raise ValueError(f"Niedozwolona absolutna sciezka w ZIP: {name}")
+    if any(part in {"", ".", ".."} for part in member.parts):
+        raise ValueError(f"Niedozwolona sciezka w ZIP: {name}")
+    if member.parts and member.parts[0].endswith(":"):
+        raise ValueError(f"Niedozwolona sciezka dysku w ZIP: {name}")
+
+    return member
 
 
-def check_root(root: Path, report: Report) -> None:
+def safe_extract_zip(archive: zipfile.ZipFile, destination: Path) -> int:
+    """Safely extract an archive and return the number of regular files."""
+
+    destination.mkdir(parents=True, exist_ok=True)
+    destination_resolved = destination.resolve()
+    seen: set[str] = set()
+    file_count = 0
+
+    for info in archive.infolist():
+        member = _validate_zip_member_name(info.filename)
+        normalized = member.as_posix().rstrip("/")
+        if normalized in seen:
+            raise ValueError(f"Powtorzony wpis w ZIP: {info.filename}")
+        seen.add(normalized)
+
+        if not normalized:
+            continue
+
+        target = (destination / Path(*member.parts)).resolve()
+        if target != destination_resolved and destination_resolved not in target.parents:
+            raise ValueError(f"Proba wyjscia poza katalog docelowy: {info.filename}")
+
+        if info.is_dir() or info.filename.endswith("/"):
+            target.mkdir(parents=True, exist_ok=True)
+            continue
+
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with archive.open(info, "r") as source, target.open("wb") as output:
+            shutil.copyfileobj(source, output)
+        file_count += 1
+
+    return file_count
+
+
+def find_hpp_root(extracted_root: Path) -> Path:
+    direct = extracted_root
+    if (direct / "mod.json").is_file() and (direct / "Mods").is_dir():
+        return direct
+
+    candidates: list[Path] = []
+    for mod_path in extracted_root.rglob("mod.json"):
+        candidate = mod_path.parent
+        if (candidate / "Mods").is_dir():
+            candidates.append(candidate)
+
+    if not candidates:
+        raise ValueError("Nie znaleziono root HPP z mod.json i folderem Mods.")
+
+    minimum_depth = min(len(path.relative_to(extracted_root).parts) for path in candidates)
+    shallowest = [
+        path
+        for path in candidates
+        if len(path.relative_to(extracted_root).parts) == minimum_depth
+    ]
+
+    preferred = [path for path in shallowest if path.name == EXPECTED_ROOT_NAME]
+    if len(preferred) == 1:
+        return preferred[0]
+    if len(shallowest) == 1:
+        return shallowest[0]
+
+    choices = ", ".join(str(path.relative_to(extracted_root)) for path in shallowest)
+    raise ValueError(f"Niejednoznaczny root HPP w archiwum: {choices}")
+
+
+def detect_mode(root: Path) -> ResolvedMode:
+    has_source_content = (root / "Content").is_dir()
+    content_archives = list(root.rglob("content.zip"))
+
+    if has_source_content and content_archives:
+        raise ValueError(
+            "Niejednoznaczna struktura: znaleziono jednoczesnie root Content "
+            "i content.zip. Uzyj jawnie --source albo --launcher-package."
+        )
+    if has_source_content:
+        return "source"
+    if content_archives:
+        return "launcher"
+
+    raise ValueError(
+        "Nie mozna rozpoznac typu paczki: brak root Content oraz content.zip."
+    )
+
+
+def materialize_launcher_content(root: Path) -> LauncherArchiveStats:
+    archives = sorted(root.rglob("content.zip"))
+    if not archives:
+        raise ValueError("Tryb Launcher: nie znaleziono zadnego content.zip.")
+
+    extracted_files = 0
+    for archive_path in archives:
+        module_root = archive_path.parent
+        content_root = module_root / "Content"
+
+        if content_root.exists() and any(content_root.iterdir()):
+            raise ValueError(
+                "Tryb Launcher: jednoczesnie istnieja Content i content.zip w: "
+                f"{module_root.relative_to(root)}"
+            )
+
+        try:
+            with zipfile.ZipFile(archive_path, "r") as archive:
+                bad_member = archive.testzip()
+                if bad_member is not None:
+                    raise ValueError(
+                        f"Uszkodzony wpis {bad_member} w "
+                        f"{archive_path.relative_to(root)}"
+                    )
+                extracted_files += safe_extract_zip(archive, content_root)
+        except zipfile.BadZipFile as exc:
+            raise ValueError(
+                f"Niepoprawny content.zip: {archive_path.relative_to(root)}: {exc}"
+            ) from exc
+
+    return LauncherArchiveStats(
+        archives=len(archives),
+        extracted_files=extracted_files,
+    )
+
+
+@contextmanager
+def prepare_root(input_path: Path, requested_mode: Mode) -> Iterator[PreparedRoot]:
+    input_path = input_path.expanduser().resolve()
+
+    with tempfile.TemporaryDirectory(prefix="hpp_preflight_") as temp_name:
+        temp_root = Path(temp_name)
+
+        if input_path.is_file():
+            if input_path.suffix.lower() != ".zip":
+                raise ValueError(
+                    f"Plik wejsciowy nie jest archiwum ZIP: {input_path}"
+                )
+            outer_root = temp_root / "outer"
+            try:
+                with zipfile.ZipFile(input_path, "r") as archive:
+                    bad_member = archive.testzip()
+                    if bad_member is not None:
+                        raise ValueError(f"Uszkodzony wpis w ZIP: {bad_member}")
+                    safe_extract_zip(archive, outer_root)
+            except zipfile.BadZipFile as exc:
+                raise ValueError(f"Niepoprawny ZIP: {input_path}: {exc}") from exc
+            working_root = find_hpp_root(outer_root)
+            mode: ResolvedMode = (
+                detect_mode(working_root)
+                if requested_mode == "auto"
+                else requested_mode
+            )
+
+        elif input_path.is_dir():
+            mode = (
+                detect_mode(input_path)
+                if requested_mode == "auto"
+                else requested_mode
+            )
+
+            if mode == "source":
+                # Source validation is read-only, so avoid copying a potentially
+                # large repository (especially its .git directory).
+                working_root = input_path
+            else:
+                copied_parent = temp_root / "directory"
+                copied_parent.mkdir(parents=True, exist_ok=True)
+                working_root = copied_parent / input_path.name
+                shutil.copytree(
+                    input_path,
+                    working_root,
+                    ignore=shutil.ignore_patterns(".git", "__pycache__"),
+                )
+
+        else:
+            raise ValueError(f"Nie istnieje sciezka: {input_path}")
+
+        launcher_stats: LauncherArchiveStats | None = None
+        if mode == "launcher":
+            launcher_stats = materialize_launcher_content(working_root)
+
+        yield PreparedRoot(
+            input_path=input_path,
+            root=working_root,
+            mode=mode,
+            launcher_stats=launcher_stats,
+        )
+
+
+def check_launcher_archives(
+    stats: LauncherArchiveStats | None,
+    report: Report,
+) -> None:
+    if stats is None:
+        return
+    report.ok(
+        "Paczka Launchera: wszystkie content.zip sa poprawne "
+        f"({stats.archives}); odczytano {stats.extracted_files} plikow."
+    )
+
+
+def check_root(root: Path, mode: ResolvedMode, report: Report) -> None:
     required = ("mod.json", "Content", "Mods")
     missing = [name for name in required if not (root / name).exists()]
     if missing:
         report.error(
-            "Folder nie wygląda jak root HPP. Brakuje: " + ", ".join(missing)
+            "Folder nie wyglada jak znormalizowany root HPP. Brakuje: "
+            + ", ".join(missing)
         )
         return
 
     if root.name != EXPECTED_ROOT_NAME:
         report.warning(
             f'Nazwa folderu root to "{root.name}", a instalacyjna nazwa HPP '
-            f'powinna brzmieć "{EXPECTED_ROOT_NAME}". '
-            "Może to zmienić ID child modów w ręcznej instalacji."
+            f'powinna brzmiec "{EXPECTED_ROOT_NAME}". '
+            "Moze to zmienic ID child modow w recznej instalacji."
         )
     else:
-        report.ok("Root moda ma prawidłową nazwę hirki-plus-patch.")
+        report.ok("Root moda ma prawidlowa nazwe hirki-plus-patch.")
+
+    if mode == "launcher":
+        report.ok(
+            "Tryb Launcher dziala na tymczasowo znormalizowanej zawartosci; "
+            "oryginalna paczka nie zostala zmieniona."
+        )
 
 
 def check_conflict_markers(root: Path, report: Report) -> None:
     found: list[str] = []
-
-    marker_pattern = re.compile(
-        r"^(?:<<<<<<<(?: .+)?|=======|>>>>>>>(?: .+)?)$"
-    )
+    marker_pattern = re.compile(r"^(?:<<<<<<<(?: .+)?|=======|>>>>>>>(?: .+)?)$")
 
     for path in root.rglob("*"):
         if ".git" in path.parts:
@@ -204,7 +432,7 @@ def check_conflict_markers(root: Path, report: Report) -> None:
             "Znaleziono znaczniki konfliktu Git:\n  - " + "\n  - ".join(found)
         )
     else:
-        report.ok("Brak znaczników konfliktu Git.")
+        report.ok("Brak znacznikow konfliktu Git.")
 
 
 def check_json_files(root: Path, report: Report) -> dict[Path, Any]:
@@ -219,11 +447,9 @@ def check_json_files(root: Path, report: Report) -> dict[Path, Any]:
             failures.append(f"{path.relative_to(root)}: {exc}")
 
     if failures:
-        report.error(
-            "Niepoprawne pliki JSON:\n  - " + "\n  - ".join(failures)
-        )
+        report.error("Niepoprawne pliki JSON:\n  - " + "\n  - ".join(failures))
     else:
-        report.ok(f"Wszystkie pliki JSON są poprawne ({len(json_paths)}).")
+        report.ok(f"Wszystkie pliki JSON sa poprawne ({len(json_paths)}).")
 
     return parsed
 
@@ -250,15 +476,15 @@ def check_mod_file_references(
                 continue
             if not isinstance(values, list):
                 missing.append(
-                    f"{mod_path.relative_to(root)}: pole {key} nie jest listą"
+                    f"{mod_path.relative_to(root)}: pole {key} nie jest lista"
                 )
                 continue
 
             for relative in values:
                 if not isinstance(relative, str):
                     missing.append(
-                        f"{mod_path.relative_to(root)}: {key} zawiera wartość "
-                        "niebędącą stringiem"
+                        f"{mod_path.relative_to(root)}: {key} zawiera wartosc "
+                        "niebedaca stringiem"
                     )
                     continue
                 checked += 1
@@ -268,7 +494,6 @@ def check_mod_file_references(
                         f"{mod_path.relative_to(root)}: {key} -> {relative}"
                     )
 
-        # translation paths can occur inside language objects
         def walk_translation_nodes(node: Any) -> None:
             nonlocal checked
             if isinstance(node, dict):
@@ -276,14 +501,14 @@ def check_mod_file_references(
                 if translations is not None:
                     if not isinstance(translations, list):
                         missing.append(
-                            f"{mod_path.relative_to(root)}: translations nie jest listą"
+                            f"{mod_path.relative_to(root)}: translations nie jest lista"
                         )
                     else:
                         for relative in translations:
                             if not isinstance(relative, str):
                                 missing.append(
                                     f"{mod_path.relative_to(root)}: translations "
-                                    "zawiera wartość niebędącą stringiem"
+                                    "zawiera wartosc niebedaca stringiem"
                                 )
                                 continue
                             checked += 1
@@ -304,12 +529,12 @@ def check_mod_file_references(
 
     if missing:
         report.error(
-            "Brakujące lub niepoprawne referencje plikowe w mod.json:\n  - "
+            "Brakujace lub niepoprawne referencje plikowe w mod.json:\n  - "
             + "\n  - ".join(missing)
         )
     else:
         report.ok(
-            f"Wszystkie referencje plikowe z mod.json istnieją ({checked})."
+            f"Wszystkie referencje plikowe z mod.json istnieja ({checked})."
         )
 
 
@@ -375,20 +600,19 @@ def check_translation_references(
 ) -> None:
     languages = collect_translation_keys(root, parsed)
     references = collect_hpp_translation_references(root, parsed)
-
     errors: list[str] = []
 
     for language in ("english", "polish"):
         keys = languages.get(language)
         if keys is None:
-            errors.append(f"Brak zestawu tłumaczeń: {language}.json")
+            errors.append(f"Brak zestawu tlumaczen: {language}.json")
             continue
 
         for key, source_paths in sorted(references.items()):
             if key not in keys:
                 locations = ", ".join(str(path) for path in sorted(source_paths))
                 errors.append(
-                    f"{language}: brak klucza {key} użytego w: {locations}"
+                    f"{language}: brak klucza {key} uzytego w: {locations}"
                 )
                 continue
 
@@ -396,18 +620,18 @@ def check_translation_references(
             if values and all(value == "" for value in values):
                 locations = ", ".join(str(path) for path in sorted(source_paths))
                 errors.append(
-                    f"{language}: używany klucz {key} ma pustą wartość "
-                    f"(ryzyko pipeline), źródła: {locations}"
+                    f"{language}: uzywany klucz {key} ma pusta wartosc "
+                    f"(ryzyko pipeline), zrodla: {locations}"
                 )
 
     if errors:
         report.error(
-            "Problemy z referencjami tłumaczeń @hpp.*:\n  - "
+            "Problemy z referencjami tlumaczen @hpp.*:\n  - "
             + "\n  - ".join(errors)
         )
     else:
         report.ok(
-            f"Referencje @hpp.* są kompletne i niepuste w EN/PL "
+            f"Referencje @hpp.* sa kompletne i niepuste w EN/PL "
             f"({len(references)} unikalnych kluczy)."
         )
 
@@ -436,9 +660,7 @@ def get_building_configuration(
     if not isinstance(faction_data, dict):
         return None
     try:
-        configuration = (
-            faction_data["town"]["buildings"][building]["configuration"]
-        )
+        configuration = faction_data["town"]["buildings"][building]["configuration"]
     except (KeyError, TypeError):
         return None
     return configuration if isinstance(configuration, dict) else None
@@ -476,12 +698,12 @@ def check_town_rewardables(
 
             if configuration.get("onEmptyMessage") != "":
                 errors.append(
-                    f'{rule["name"]}: {faction_id} ma onEmptyMessage inne niż ""'
+                    f'{rule["name"]}: {faction_id} ma onEmptyMessage inne niz ""'
                 )
 
             if configuration.get("onVisitedMessage") != "":
                 errors.append(
-                    f'{rule["name"]}: {faction_id} ma onVisitedMessage inne niż ""'
+                    f'{rule["name"]}: {faction_id} ma onVisitedMessage inne niz ""'
                 )
 
             rewards = configuration.get("rewards")
@@ -498,12 +720,12 @@ def check_town_rewardables(
 
     if errors:
         report.error(
-            "Town rewardables nie spełniają finalnego wzorca fallbacków:\n  - "
+            "Town rewardables nie spelniaja finalnego wzorca fallbackow:\n  - "
             + "\n  - ".join(errors)
         )
     else:
         report.ok(
-            "Town rewardables mają literalne puste onEmptyMessage i "
+            "Town rewardables maja literalne puste onEmptyMessage i "
             "onVisitedMessage: Gold 12, Silos 12, Ritual 11."
         )
 
@@ -515,7 +737,6 @@ def check_golden_goose_estates(
 ) -> None:
     goose_path = root / GOLDEN_GOOSE_MOD
     estates_path = root / ESTATES_MOD
-
     errors: list[str] = []
 
     goose = parsed.get(goose_path)
@@ -529,25 +750,23 @@ def check_golden_goose_estates(
     if isinstance(goose, dict):
         depends = goose.get("depends")
         if not isinstance(depends, list):
-            errors.append("Golden Goose: depends nie jest listą")
+            errors.append("Golden Goose: depends nie jest lista")
         elif ESTATES_DEPENDENCY not in depends:
             errors.append(
-                "Golden Goose nie zależy od "
+                "Golden Goose nie zalezy od "
                 f"{ESTATES_DEPENDENCY}"
             )
 
     if errors:
         report.error(
-            "Problem zależności Golden Goose -> Estates:\n  - "
+            "Problem zaleznosci Golden Goose -> Estates:\n  - "
             + "\n  - ".join(errors)
         )
     else:
         report.ok(
-            "Golden Goose poprawnie zależy od "
-            "hirki-plus-patch.skills.estates, a moduł Estates istnieje."
+            "Golden Goose poprawnie zalezy od "
+            "hirki-plus-patch.skills.estates, a modul Estates istnieje."
         )
-
-
 
 
 def check_pipeline_safe_town_runtime_translations(
@@ -597,11 +816,11 @@ def check_pipeline_safe_town_runtime_translations(
 
         if expected_english not in english_paths:
             errors.append(
-                f'{rule["name"]}: English game.json nie jest ładowany przez mod.json'
+                f'{rule["name"]}: English game.json nie jest ladowany przez mod.json'
             )
         if expected_polish not in polish_paths:
             errors.append(
-                f'{rule["name"]}: Polish game.json nie jest ładowany przez mod.json'
+                f'{rule["name"]}: Polish game.json nie jest ladowany przez mod.json'
             )
 
         if not isinstance(english_game, dict):
@@ -627,42 +846,72 @@ def check_pipeline_safe_town_runtime_translations(
                 )
             if key in english_legacy:
                 errors.append(
-                    f'{rule["name"]}: EN runtime key {key} pozostał w legacy translation'
+                    f'{rule["name"]}: EN runtime key {key} pozostal w legacy translation'
                 )
             if key in polish_legacy:
                 errors.append(
-                    f'{rule["name"]}: PL runtime key {key} pozostał w legacy translation'
+                    f'{rule["name"]}: PL runtime key {key} pozostal w legacy translation'
                 )
 
     if errors:
         report.error(
-            "Customowe komunikaty nagród Towns nie są pipeline-safe:\n  - "
+            "Customowe komunikaty nagrod Towns nie sa pipeline-safe:\n  - "
             + "\n  - ".join(errors)
         )
     else:
         report.ok(
-            "Runtime translations Gold Halls i Resource Silos są odseparowane "
+            "Runtime translations Gold Halls i Resource Silos sa odseparowane "
             "od pipeline-managed hero texts w EN/PL."
         )
 
-def normalize_launcher_description(text: str) -> str:
+
+def normalize_launcher_description(text: Any) -> str:
+    if not isinstance(text, str):
+        return ""
     return text.replace("\r\n", "\n").replace("\r", "\n").strip()
 
 
 def check_root_launcher_descriptions(
     root: Path,
     parsed: dict[Path, Any],
+    mode: ResolvedMode,
     report: Report,
 ) -> None:
     root_mod_path = root / "mod.json"
+    root_mod = parsed.get(root_mod_path)
+    errors: list[str] = []
+
+    if not isinstance(root_mod, dict):
+        report.error("Problem z rootowymi opisami Launchera: brak root mod.json")
+        return
+
+    english_runtime = normalize_launcher_description(root_mod.get("description"))
+    polish_block = root_mod.get("polish")
+    polish_runtime = normalize_launcher_description(
+        polish_block.get("description") if isinstance(polish_block, dict) else ""
+    )
+
+    if mode == "launcher":
+        if not english_runtime:
+            errors.append("root mod.json nie zawiera finalnego opisu English")
+        if not polish_runtime:
+            errors.append("root mod.json nie zawiera finalnego opisu Polish")
+
+        if errors:
+            report.error(
+                "Problem z finalnymi opisami Launchera:\n  - "
+                + "\n  - ".join(errors)
+            )
+        else:
+            report.ok(
+                "Paczka Launchera zawiera niepuste finalne opisy root EN/PL "
+                "w mod.json; source-only description/*.md nie sa wymagane."
+            )
+        return
+
     english_path = root / "description/english.md"
     polish_path = root / "description/polish.md"
 
-    errors: list[str] = []
-
-    root_mod = parsed.get(root_mod_path)
-    if not isinstance(root_mod, dict):
-        errors.append("Brak lub niepoprawny root mod.json")
     if not english_path.is_file():
         errors.append("Brak description/english.md")
     if not polish_path.is_file():
@@ -682,52 +931,39 @@ def check_root_launcher_descriptions(
         polish_path.read_text(encoding="utf-8-sig")
     )
 
-    english_runtime = normalize_launcher_description(
-        root_mod.get("description", "")
-    )
-
-    polish_block = root_mod.get("polish")
-    if not isinstance(polish_block, dict):
-        polish_runtime = ""
-    else:
-        polish_runtime = normalize_launcher_description(
-            polish_block.get("description", "")
-        )
-
     if english_runtime != english_source:
         errors.append(
-            "root mod.json description różni się od description/english.md"
+            "root mod.json description rozni sie od description/english.md"
         )
-
     if polish_runtime != polish_source:
         errors.append(
-            "root mod.json polish.description różni się od "
-            "description/polish.md"
+            "root mod.json polish.description rozni sie od description/polish.md"
         )
 
     if errors:
         report.error(
-            "Rootowe opisy Launchera nie są zsynchronizowane:\n  - "
+            "Rootowe opisy Launchera nie sa zsynchronizowane:\n  - "
             + "\n  - ".join(errors)
         )
     else:
         report.ok(
-            "Rootowe opisy Launchera EN/PL są zgodne z "
+            "Rootowe opisy Launchera EN/PL sa zgodne z "
             "description/english.md i description/polish.md."
         )
 
-def print_report(root: Path, report: Report) -> int:
+
+def print_report(prepared: PreparedRoot, report: Report) -> int:
     print("=" * 72)
     print("HPP PREFLIGHT")
-    print(f"Root: {root}")
+    print(f"Input: {prepared.input_path}")
+    print(f"Mode:  {prepared.mode}")
+    print(f"Root:  {prepared.root}")
     print("=" * 72)
 
     for message in report.passed:
         print(f"[OK]   {message}")
-
     for message in report.warnings:
         print(f"[WARN] {message}")
-
     for message in report.errors:
         print(f"[FAIL] {message}")
 
@@ -748,17 +984,43 @@ def print_report(root: Path, report: Report) -> int:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Walidacja struktury i krytycznych regresji HPP."
+        description=(
+            "Walidacja source HPP oraz folderow/ZIP-ow instalowanych przez "
+            "VCMI Launcher."
+        )
     )
     parser.add_argument(
         "root",
         nargs="?",
         type=Path,
         help=(
-            "Folder root HPP. Domyślnie katalog nadrzędny folderu tools, "
-            "w którym znajduje się ten skrypt."
+            "Folder root HPP albo ZIP folderu Launchera. Domyslnie katalog "
+            "nadrzedny folderu tools, w ktorym znajduje sie ten skrypt."
         ),
     )
+
+    mode_group = parser.add_mutually_exclusive_group()
+    mode_group.add_argument(
+        "--launcher-package",
+        dest="mode",
+        action="store_const",
+        const="launcher",
+        help="Wymus odczyt zagniezdzonych content.zip paczki Launchera.",
+    )
+    mode_group.add_argument(
+        "--source",
+        dest="mode",
+        action="store_const",
+        const="source",
+        help="Wymus walidacje pelnego source/repo.",
+    )
+    mode_group.add_argument(
+        "--mode",
+        dest="mode",
+        choices=("auto", "source", "launcher"),
+        help="Jawnie wybierz tryb; domyslnie auto.",
+    )
+    parser.set_defaults(mode="auto")
     return parser.parse_args()
 
 
@@ -766,30 +1028,48 @@ def main() -> int:
     args = parse_args()
 
     if args.root is None:
-        root = Path(__file__).resolve().parent.parent
+        input_path = Path(__file__).resolve().parent.parent
     else:
-        root = args.root.expanduser().resolve()
+        input_path = args.root
 
-    report = Report()
+    try:
+        with prepare_root(input_path, args.mode) as prepared:
+            report = Report()
 
-    if not root.is_dir():
-        report.error(f"Nie istnieje folder: {root}")
-        return print_report(root, report)
+            check_launcher_archives(prepared.launcher_stats, report)
+            check_root(prepared.root, prepared.mode, report)
+            check_conflict_markers(prepared.root, report)
 
-    check_root(root, report)
-    check_conflict_markers(root, report)
+            parsed = check_json_files(prepared.root, report)
+            if parsed:
+                check_mod_file_references(prepared.root, parsed, report)
+                check_translation_references(prepared.root, parsed, report)
+                check_forbidden_silent_empty(prepared.root, report)
+                check_town_rewardables(prepared.root, parsed, report)
+                check_golden_goose_estates(prepared.root, parsed, report)
+                check_root_launcher_descriptions(
+                    prepared.root,
+                    parsed,
+                    prepared.mode,
+                    report,
+                )
+                check_pipeline_safe_town_runtime_translations(
+                    prepared.root,
+                    parsed,
+                    report,
+                )
 
-    parsed = check_json_files(root, report)
-    if parsed:
-        check_mod_file_references(root, parsed, report)
-        check_translation_references(root, parsed, report)
-        check_forbidden_silent_empty(root, report)
-        check_town_rewardables(root, parsed, report)
-        check_golden_goose_estates(root, parsed, report)
-        check_root_launcher_descriptions(root, parsed, report)
-        check_pipeline_safe_town_runtime_translations(root, parsed, report)
+            return print_report(prepared, report)
 
-    return print_report(root, report)
+    except (OSError, ValueError, zipfile.BadZipFile) as exc:
+        fallback = PreparedRoot(
+            input_path=input_path.expanduser().resolve(),
+            root=input_path.expanduser().resolve(),
+            mode="launcher" if args.mode == "launcher" else "source",
+        )
+        report = Report()
+        report.error(str(exc))
+        return print_report(fallback, report)
 
 
 if __name__ == "__main__":

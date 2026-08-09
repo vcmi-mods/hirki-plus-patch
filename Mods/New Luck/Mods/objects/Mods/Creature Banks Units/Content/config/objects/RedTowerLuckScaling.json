@@ -1,0 +1,1699 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"redTower": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 7,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 7,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 7,
+								"type": "fireElemental",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 7,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 7,
+								"type": "fireElemental"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.redTower.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 14,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 14,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 14,
+								"type": "fireElemental",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 14,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 14,
+								"type": "fireElemental"
+							}
+						],
+						"mapDice": 1,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.redTower.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 21,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 21,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 21,
+								"type": "fireElemental",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 21,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 21,
+								"type": "fireElemental"
+							}
+						],
+						"mapDice": 2,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.redTower.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 28,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 28,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 28,
+								"type": "fireElemental",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 28,
+								"type": "fireElemental"
+							},
+							{
+								"amount": 28,
+								"type": "fireElemental"
+							}
+						],
+						"mapDice": 3,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.redTower.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "firebird"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

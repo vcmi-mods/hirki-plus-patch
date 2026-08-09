@@ -1,32 +1,32 @@
 {
-	"name" : "Estates",
-	"description" : "Improves **Estates** into a stronger economic support skill.\n\nEstates preserves the daily gold income from Horn of the Abyss for the hero's owner and additionally improves Marketplace exchange rates for the entire team.\n\nGold income from multiple Estates heroes stacks for their respective owners, while their Marketplace bonuses support the whole team.\n\n## Skill Effects\n\n* **Basic Estates:** +250 gold per day for the owning player; team exchange rates as if it had 1 additional Marketplace\n* **Advanced Estates:** +500 gold per day for the owning player; team exchange rates as if it had 2 additional Marketplaces\n* **Expert Estates:** +1000 gold per day for the owning player; team exchange rates as if it had 3 additional Marketplaces\n\n## Specialist Interaction\n\nLord Haart's Estates specialty increases the gold income generated for his owner, but does not further improve Marketplace exchange rates.",
-	"author" : "bew_",
-	"version" : "1.1.1",
-	"modType" : "Skills",
-	"polish" : {
-		"name" : "Finanse",
-		"description" : "Wzmacnia **Finanse** jako umiejętność ekonomicznego wsparcia.\n\nFinanse zachowują dzienny dochód w złocie z Horn of the Abyss dla właściciela bohatera, a dodatkowo poprawiają kursy wymiany w Targowiskach całej drużyny.\n\nDochód w złocie od wielu bohaterów z Finansami kumuluje się dla ich odpowiednich graczy, natomiast premie do Targowisk wspierają całą drużynę.\n\n## Efekty umiejętności\n\n* **Podstawowe Finanse:** +250 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 1 dodatkowe Targowisko\n* **Zaawansowane Finanse:** +500 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 2 dodatkowe Targowiska\n* **Mistrzowskie Finanse:** +1000 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 3 dodatkowe Targowiska\n\n## Interakcja ze specjalistą\n\nSpecjalność Lorda Haarta zwiększa dochód w złocie generowany dla jego gracza, ale nie poprawia dodatkowo kursów wymiany w Targowiskach.",
-		"translations" : [
+	"name": "Estates",
+	"description": "Improves **Estates** into a stronger economic support skill.\n\nEstates preserves the daily gold income from Horn of the Abyss for the hero's owner and additionally improves Marketplace exchange rates for the entire team.\n\nGold income from multiple Estates heroes stacks for their respective owners, while their Marketplace bonuses support the whole team.\n\n## Skill Effects\n\n* **Basic Estates:** +250 gold per day for the owning player; team exchange rates as if it had 1 additional Marketplace\n* **Advanced Estates:** +500 gold per day for the owning player; team exchange rates as if it had 2 additional Marketplaces\n* **Expert Estates:** +1000 gold per day for the owning player; team exchange rates as if it had 3 additional Marketplaces\n\n## Specialist Interaction\n\nLord Haart's Estates specialty increases the gold income generated for his owner, but does not further improve Marketplace exchange rates.",
+	"author": "bew_",
+	"version": "1.1.1",
+	"modType": "Skills",
+	"polish": {
+		"name": "Finanse",
+		"description": "Wzmacnia **Finanse** jako umiejętność ekonomicznego wsparcia.\n\nFinanse zachowują dzienny dochód w złocie z Horn of the Abyss dla właściciela bohatera, a dodatkowo poprawiają kursy wymiany w Targowiskach całej drużyny.\n\nDochód w złocie od wielu bohaterów z Finansami kumuluje się dla ich odpowiednich graczy, natomiast premie do Targowisk wspierają całą drużynę.\n\n## Efekty umiejętności\n\n* **Podstawowe Finanse:** +250 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 1 dodatkowe Targowisko\n* **Zaawansowane Finanse:** +500 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 2 dodatkowe Targowiska\n* **Mistrzowskie Finanse:** +1000 złota dziennie dla właściciela bohatera; drużynowe kursy wymiany jak za 3 dodatkowe Targowiska\n\n## Interakcja ze specjalistą\n\nSpecjalność Lorda Haarta zwiększa dochód w złocie generowany dla jego gracza, ale nie poprawia dodatkowo kursów wymiany w Targowiskach.",
+		"translations": [
 			"translation/polish.json"
 		]
 	},
-	"changelog" : {
-		"1.0.0" : [
+	"changelog": {
+		"1.0.0": [
 			"Initial release"
 		],
-		"1.1.1" : [
+		"1.1.1": [
 			"Corrected misleading Estates descriptions."
 		]
 	},
-	"skills" : [
+	"skills": [
 		"config/skills/Estates.json"
 	],
-	"depends" : [
+	"depends": [
 		"hota"
 	],
-	"czech" : {
-		"translations" : [
+	"czech": {
+		"translations": [
 			"translation/czech.json"
 		]
 	}

@@ -1,0 +1,1595 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"nagaBank": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 2,
+								"type": "naga"
+							},
+							{
+								"amount": 2,
+								"type": "naga"
+							},
+							{
+								"amount": 2,
+								"type": "naga",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 2,
+								"type": "naga"
+							},
+							{
+								"amount": 2,
+								"type": "naga"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 8,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 3,
+								"type": "naga"
+							},
+							{
+								"amount": 3,
+								"type": "naga"
+							},
+							{
+								"amount": 3,
+								"type": "naga",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 3,
+								"type": "naga"
+							},
+							{
+								"amount": 3,
+								"type": "naga"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 12,
+							"gold": 6000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 4,
+								"type": "naga"
+							},
+							{
+								"amount": 4,
+								"type": "naga"
+							},
+							{
+								"amount": 4,
+								"type": "naga",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 4,
+								"type": "naga"
+							},
+							{
+								"amount": 4,
+								"type": "naga"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 16,
+							"gold": 8000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 6,
+								"type": "naga"
+							},
+							{
+								"amount": 6,
+								"type": "naga"
+							},
+							{
+								"amount": 6,
+								"type": "naga",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 6,
+								"type": "naga"
+							},
+							{
+								"amount": 6,
+								"type": "naga"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 32,
+							"gold": 16000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 32,
+							"gold": 16000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 32,
+							"gold": 16000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 24,
+							"gold": 12000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 32,
+							"gold": 16000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 32,
+							"gold": 16000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gems": 32,
+							"gold": 16000
+						},
+						"message": "@creatureBanksResources.nagaBank.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

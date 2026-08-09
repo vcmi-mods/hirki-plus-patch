@@ -3,7 +3,7 @@
 		"class" : "RELIC",
 		"value" : 18000,
 		"text" : {
-			"description" : "Eliminates range and obstacle penalties for the hero's ranged troops."
+			"description" : "Eliminates {range and obstacle penalties} for the hero's ranged troops."
 		},
 		"bonuses" : {
 			"noDistancePenalty" : {

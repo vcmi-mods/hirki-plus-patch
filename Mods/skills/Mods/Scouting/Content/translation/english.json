@@ -1,5 +1,5 @@
 {
-	"skill.core.scouting.description.advanced" : "{Advanced Scouting}\n\nAdvanced Scouting increases the hero's scouting radius by 2 tiles.\n\nIt reveals additional information about the foes in the tavern for the hero's owner and allies, as if the team had 2 additional Taverns.",
-	"skill.core.scouting.description.basic" : "{Basic Scouting}\n\nBasic Scouting increases the hero's scouting radius by 1 tile.\n\nIt reveals additional information about the foes in the tavern for the hero's owner and allies, as if the team had 1 additional Tavern.",
-	"skill.core.scouting.description.expert" : "{Expert Scouting}\n\nExpert Scouting increases the hero's scouting radius by 3 tiles.\n\nIt reveals additional information about the foes in the tavern for the hero's owner and allies, as if the team had 3 additional Taverns."
+	"skill.core.scouting.description.advanced" : "{Advanced Scouting}\n\nAdvanced Scouting increases the hero's {scouting radius by 2 tiles}.\n\nIt reveals {additional information about the foes in the tavern} for {the hero's owner and allies}, as if the team had {2 additional Taverns}.",
+	"skill.core.scouting.description.basic" : "{Basic Scouting}\n\nBasic Scouting increases the hero's {scouting radius by 1 tile}.\n\nIt reveals {additional information about the foes in the tavern} for {the hero's owner and allies}, as if the team had {1 additional Tavern}.",
+	"skill.core.scouting.description.expert" : "{Expert Scouting}\n\nExpert Scouting increases the hero's {scouting radius by 3 tiles}.\n\nIt reveals {additional information about the foes in the tavern} for {the hero's owner and allies}, as if the team had {3 additional Taverns}."
 }

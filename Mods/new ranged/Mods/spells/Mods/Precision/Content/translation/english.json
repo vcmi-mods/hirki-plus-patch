@@ -1,6 +1,6 @@
 {
-	"spell.core.precision.description.advanced" : "{Precision - Advanced}\n\nIncreases the selected allied shooter's Attack by +6 for ranged attacks only.\n\nAdditionally, extends its full-damage shooting range by 1 hex, up to 11 hexes, and grants +1 Speed for spell duration.",
-	"spell.core.precision.description.basic" : "{Precision - Basic}\n\nIncreases the selected allied shooter's Attack by +3 for ranged attacks only.",
-	"spell.core.precision.description.expert" : "{Precision - Expert}\n\nIncreases all allied shooters' Attack by +6 for ranged attacks only.\n\nAdditionally, extends their full-damage shooting range by 2 hexes, up to 12 hexes, and grants +1 Speed for spell duration.",
-	"spell.core.precision.description.none" : "{Precision}\n\nIncreases the selected allied shooter's Attack by +3 for ranged attacks only."
+	"spell.core.precision.description.advanced" : "{Precision - Advanced}\n\nIncreases the selected allied shooter's Attack by {+6} for ranged attacks only.\n\nAdditionally, extends its full-damage shooting range by {1 hex}, up to {11 hexes}, and grants {+1 Speed} for spell duration.",
+	"spell.core.precision.description.basic" : "{Precision - Basic}\n\nIncreases the selected allied shooter's Attack by {+3} for ranged attacks only.",
+	"spell.core.precision.description.expert" : "{Precision - Expert}\n\nIncreases all allied shooters' Attack by {+6} for ranged attacks only.\n\nAdditionally, extends their full-damage shooting range by {2 hexes}, up to {12 hexes}, and grants {+1 Speed} for spell duration.",
+	"spell.core.precision.description.none" : "{Precision}\n\nIncreases the selected allied shooter's Attack by {+3} for ranged attacks only."
 }

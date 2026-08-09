@@ -11,3 +11,4 @@ Detailed mechanics, requirements and compatibility notes are described in the in
 - **Boots of Reinforcement** — a new four-component **Relic** artifact focused on army logistics and adventure-map mobility, together with its own **Reinforcements** spell.
 - **Golden Goose** — reworks Golden Goose and its gold-producing components, providing income to the bearer and a stacking per-hero synergy with allied heroes who have {Estates}.
 - **Cornucopia** — expands Cornucopia with a stacking per-hero synergy for allied {rare-resource production specialists}.
+- **Leather Armor of Swiftness** — a new three-component **Relic** combining **Necklace of Swiftness**, **Ring of the Wayfarer** and **Cape of Velocity**, granting additional Speed to the bearer’s army and a smaller team-wide Speed bonus to allied heroes.

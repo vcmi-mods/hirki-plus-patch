@@ -1,5 +1,6 @@
 {
 	"core:mirth" : {
+		"name" : "Mirth",
 		"targetType" : "CREATURE",
 		"animation" : {
 			"affect" : [
@@ -38,7 +39,7 @@
 						"val" : 1
 					}
 				},
-				"description" : "{Mirth}\n\nIncreases Morale of target allied unit by +1.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +1 Morale."
+				"description" : "{Mirth}\n\nIncreases {Morale} of the {target allied unit} by {+1}.\n\n{While Mirth lasts}, Morale penalties cannot reduce that unit below {+1 Morale}."
 			},
 			"basic" : {
 				"cost" : 5,
@@ -50,7 +51,7 @@
 						"val" : 1
 					}
 				},
-				"description" : "{Basic Mirth}\n\nIncreases Morale of target allied unit by +1.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +1 Morale."
+				"description" : "{Basic Mirth}\n\nIncreases {Morale} of the {target allied unit} by {+1}.\n\n{While Mirth lasts}, Morale penalties cannot reduce that unit below {+1 Morale}."
 			},
 			"advanced" : {
 				"cost" : 4,
@@ -62,7 +63,7 @@
 						"val" : 2
 					}
 				},
-				"description" : "{Advanced Mirth}\n\nIncreases Morale of target allied unit by +2.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +2 Morale."
+				"description" : "{Advanced Mirth}\n\nIncreases {Morale} of the {target allied unit} by {+2}.\n\n{While Mirth lasts}, Morale penalties cannot reduce that unit below {+2 Morale}."
 			},
 			"expert" : {
 				"cost" : 3,
@@ -75,7 +76,7 @@
 						"val" : 2
 					}
 				},
-				"description" : "{Expert Mirth}\n\nIncreases Morale of all allied units by +2.\n\nWhile Mirth lasts, Morale penalties cannot reduce affected units below +2 Morale."
+				"description" : "{Expert Mirth}\n\nIncreases {Morale} of {all allied units} by {+2}.\n\n{While Mirth lasts}, Morale penalties cannot reduce affected units below {+2 Morale}."
 			}
 		},
 		"counters" : {

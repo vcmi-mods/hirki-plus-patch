@@ -14,4 +14,6 @@ These modules aim to make underused or overly narrow spells more practical, more
 
 * **Acid Burst** — adds a new level 4 Water Magic debuff spell designed for prolonged battles. Higher mastery levels strengthen its effects, ultimately affecting all enemy stacks.
 
+* **Ice Storm** — adds a new level 4 Water Magic battlefield spell that damages every creature. On Snow terrain, non-native stacks may freeze before their turns for 2 turns, with the chance scaling through Water Magic mastery.
+
 The **Slayer** module also includes a HotA-like correction for **Coronius**, updating his Slayer specialty and description.

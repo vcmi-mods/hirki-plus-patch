@@ -1,5 +1,5 @@
 {
-	"skill.core.sorcery.description.advanced" : "{Advanced Sorcery}\n\nAdvanced Sorcery increases the hero's Spell Power by 20% in combat.",
-	"skill.core.sorcery.description.basic" : "{Basic Sorcery}\n\nBasic Sorcery increases the hero's Spell Power by 10% in combat.",
-	"skill.core.sorcery.description.expert" : "{Expert Sorcery}\n\nExpert Sorcery increases the hero's Spell Power by 30% in combat."
+	"skill.core.sorcery.description.advanced" : "{Advanced Sorcery}\n\nAdvanced Sorcery increases the hero's {Spell Power} by {20% in combat}.",
+	"skill.core.sorcery.description.basic" : "{Basic Sorcery}\n\nBasic Sorcery increases the hero's {Spell Power} by {10% in combat}.",
+	"skill.core.sorcery.description.expert" : "{Expert Sorcery}\n\nExpert Sorcery increases the hero's {Spell Power} by {30% in combat}."
 }

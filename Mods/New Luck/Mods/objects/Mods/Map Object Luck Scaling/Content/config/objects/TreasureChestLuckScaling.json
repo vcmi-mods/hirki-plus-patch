@@ -1,0 +1,681 @@
+{
+  "core:treasureChest": {
+    "types": {
+      "treasureChest": {
+        "selectMode": "selectPlayer",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 25
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 25
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "heroExperience": 1000
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 25,
+              "max": 85
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "resources": {
+              "gold": 2000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 25,
+              "max": 85
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "heroExperience": 1500
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 85,
+              "max": 100
+            },
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "mapDice": 3,
+            "message": 145,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 10
+            },
+            "mapDice": 0,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 10
+            },
+            "mapDice": 0,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 500
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 10,
+              "max": 40
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 10,
+              "max": 40
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 1000
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 40,
+              "max": 90
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 2000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 40,
+              "max": 90
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 1500
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 90,
+              "max": 100
+            },
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "mapDice": 3,
+            "message": 145,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "mapDice": 0,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "mapDice": 0,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 500
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 55
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 55
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 1000
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 55,
+              "max": 93
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 2000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 55,
+              "max": 93
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 1500
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 93,
+              "max": 100
+            },
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "mapDice": 3,
+            "message": 145,
+            "removeObject": true,
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 32
+            },
+            "mapDice": 0,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 32
+            },
+            "mapDice": 0,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 500
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 32,
+              "max": 64
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 32,
+              "max": 64
+            },
+            "mapDice": 1,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 1000
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 64,
+              "max": 95
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "gold": 2000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 64,
+              "max": 95
+            },
+            "mapDice": 2,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "heroExperience": 1500
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 95,
+              "max": 100
+            },
+            "artifacts": [
+              "@gainedArtifact"
+            ],
+            "mapDice": 3,
+            "message": 145,
+            "removeObject": true,
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

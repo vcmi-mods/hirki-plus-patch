@@ -1,0 +1,1699 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"griffinConservatory": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 10,
+								"type": "griffin"
+							},
+							{
+								"amount": 10,
+								"type": "griffin"
+							},
+							{
+								"amount": 10,
+								"type": "griffin",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 10,
+								"type": "griffin"
+							},
+							{
+								"amount": 10,
+								"type": "griffin"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 1,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.griffinConservatory.t1.success",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 20,
+								"type": "griffin"
+							},
+							{
+								"amount": 20,
+								"type": "griffin"
+							},
+							{
+								"amount": 20,
+								"type": "griffin",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 20,
+								"type": "griffin"
+							},
+							{
+								"amount": 20,
+								"type": "griffin"
+							}
+						],
+						"mapDice": 1,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 2,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.griffinConservatory.t2.success",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 30,
+								"type": "griffin"
+							},
+							{
+								"amount": 30,
+								"type": "griffin"
+							},
+							{
+								"amount": 30,
+								"type": "griffin",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 30,
+								"type": "griffin"
+							},
+							{
+								"amount": 30,
+								"type": "griffin"
+							}
+						],
+						"mapDice": 2,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 3,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.griffinConservatory.t3.success",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 40,
+								"type": "griffin"
+							},
+							{
+								"amount": 40,
+								"type": "griffin"
+							},
+							{
+								"amount": 40,
+								"type": "griffin",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 40,
+								"type": "griffin"
+							},
+							{
+								"amount": 40,
+								"type": "griffin"
+							}
+						],
+						"mapDice": 3,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.griffinConservatory.t4.success",
+						"creatures": [
+							{
+								"amount": 5,
+								"type": "angel"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

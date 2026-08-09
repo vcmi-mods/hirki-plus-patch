@@ -1,0 +1,5 @@
+{
+	"hpp.artifacts.leatherArmorOfSwiftness.name": "Leather Armor of Swiftness",
+	"hpp.artifacts.leatherArmorOfSwiftness.description": "{Leather Armor of Swiftness}\n\nA fused relic shaped from {Necklace of Swiftness}, {Ring of the Wayfarer}, and {Cape of Velocity}.\n\nThe bearer's army gains {+2} Speed.\n\nAll heroes on the bearer's {team} gain {+1} Speed for their armies, including the bearer.\n\nThe components are {consumed} during assembly and cannot be recovered.",
+	"hpp.artifacts.leatherArmorOfSwiftness.event": "The necklace, ring, and cape bind themselves into a light leather armor traced with pale gold. It moves as if carried by the wind, urging every allied army to answer with impossible speed."
+}

@@ -1,1096 +1,1096 @@
 {
-	"core:conflux" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:conflux": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "firebird",
-											"amount" : 2
+											"type": "firebird",
+											"amount": 2
 										},
 										{
-											"type" : "phoenix",
-											"amount" : 2
+											"type": "phoenix",
+											"amount": 2
 										},
 										{
-											"type" : "efreet",
-											"amount" : 4
+											"type": "efreet",
+											"amount": 4
 										},
 										{
-											"type" : "efreetSultan",
-											"amount" : 4
+											"type": "efreetSultan",
+											"amount": 4
 										},
 										{
-											"type" : "fireElemental",
-											"amount" : 10
+											"type": "fireElemental",
+											"amount": 10
 										},
 										{
-											"type" : "energyElemental",
-											"amount" : 10
+											"type": "energyElemental",
+											"amount": 10
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.fire",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.fire",
+								"takenCreatures": [
 									{
-										"type" : "firebird",
-										"amount" : 2
+										"type": "firebird",
+										"amount": 2
 									},
 									{
-										"type" : "phoenix",
-										"amount" : 2
+										"type": "phoenix",
+										"amount": 2
 									},
 									{
-										"type" : "efreet",
-										"amount" : 4
+										"type": "efreet",
+										"amount": 4
 									},
 									{
-										"type" : "efreetSultan",
-										"amount" : 4
+										"type": "efreetSultan",
+										"amount": 4
 									},
 									{
-										"type" : "fireElemental",
-										"amount" : 10
+										"type": "fireElemental",
+										"amount": 10
 									},
 									{
-										"type" : "energyElemental",
-										"amount" : 10
+										"type": "energyElemental",
+										"amount": 10
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfFireMagic",
 									"orbOfTempestuousFire"
 								]
 							},
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "waterElemental",
-											"amount" : 12
+											"type": "waterElemental",
+											"amount": 12
 										},
 										{
-											"type" : "iceElemental",
-											"amount" : 12
+											"type": "iceElemental",
+											"amount": 12
 										},
 										{
-											"type" : "nymph",
-											"amount" : 32
+											"type": "nymph",
+											"amount": 32
 										},
 										{
-											"type" : "oceanid",
-											"amount" : 32
+											"type": "oceanid",
+											"amount": 32
 										},
 										{
-											"type" : "jotunn",
-											"amount" : 2
+											"type": "jotunn",
+											"amount": 2
 										},
 										{
-											"type" : "jotunnWarlord",
-											"amount" : 2
+											"type": "jotunnWarlord",
+											"amount": 2
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.water",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.water",
+								"takenCreatures": [
 									{
-										"type" : "waterElemental",
-										"amount" : 12
+										"type": "waterElemental",
+										"amount": 12
 									},
 									{
-										"type" : "iceElemental",
-										"amount" : 12
+										"type": "iceElemental",
+										"amount": 12
 									},
 									{
-										"type" : "nymph",
-										"amount" : 32
+										"type": "nymph",
+										"amount": 32
 									},
 									{
-										"type" : "oceanid",
-										"amount" : 32
+										"type": "oceanid",
+										"amount": 32
 									},
 									{
-										"type" : "jotunn",
-										"amount" : 2
+										"type": "jotunn",
+										"amount": 2
 									},
 									{
-										"type" : "jotunnWarlord",
-										"amount" : 2
+										"type": "jotunnWarlord",
+										"amount": 2
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfWaterMagic",
 									"orbOfDrivingRain"
 								]
 							},
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "airElemental",
-											"amount" : 12
+											"type": "airElemental",
+											"amount": 12
 										},
 										{
-											"type" : "stormElemental",
-											"amount" : 12
+											"type": "stormElemental",
+											"amount": 12
 										},
 										{
-											"type" : "angel",
-											"amount" : 2
+											"type": "angel",
+											"amount": 2
 										},
 										{
-											"type" : "archangel",
-											"amount" : 2
+											"type": "archangel",
+											"amount": 2
 										},
 										{
-											"type" : "roc",
-											"amount" : 6
+											"type": "roc",
+											"amount": 6
 										},
 										{
-											"type" : "thunderbird",
-											"amount" : 6
+											"type": "thunderbird",
+											"amount": 6
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.air",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.air",
+								"takenCreatures": [
 									{
-										"type" : "airElemental",
-										"amount" : 12
+										"type": "airElemental",
+										"amount": 12
 									},
 									{
-										"type" : "stormElemental",
-										"amount" : 12
+										"type": "stormElemental",
+										"amount": 12
 									},
 									{
-										"type" : "angel",
-										"amount" : 2
+										"type": "angel",
+										"amount": 2
 									},
 									{
-										"type" : "archangel",
-										"amount" : 2
+										"type": "archangel",
+										"amount": 2
 									},
 									{
-										"type" : "roc",
-										"amount" : 6
+										"type": "roc",
+										"amount": 6
 									},
 									{
-										"type" : "thunderbird",
-										"amount" : 6
+										"type": "thunderbird",
+										"amount": 6
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfAirMagic",
 									"orbOfTheFirmament"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:inferno" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:inferno": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "firebird",
-											"amount" : 2
+											"type": "firebird",
+											"amount": 2
 										},
 										{
-											"type" : "phoenix",
-											"amount" : 2
+											"type": "phoenix",
+											"amount": 2
 										},
 										{
-											"type" : "efreet",
-											"amount" : 4
+											"type": "efreet",
+											"amount": 4
 										},
 										{
-											"type" : "efreetSultan",
-											"amount" : 4
+											"type": "efreetSultan",
+											"amount": 4
 										},
 										{
-											"type" : "fireElemental",
-											"amount" : 10
+											"type": "fireElemental",
+											"amount": 10
 										},
 										{
-											"type" : "energyElemental",
-											"amount" : 10
+											"type": "energyElemental",
+											"amount": 10
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.inferno.fire",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.inferno.fire",
+								"takenCreatures": [
 									{
-										"type" : "firebird",
-										"amount" : 2
+										"type": "firebird",
+										"amount": 2
 									},
 									{
-										"type" : "phoenix",
-										"amount" : 2
+										"type": "phoenix",
+										"amount": 2
 									},
 									{
-										"type" : "efreet",
-										"amount" : 4
+										"type": "efreet",
+										"amount": 4
 									},
 									{
-										"type" : "efreetSultan",
-										"amount" : 4
+										"type": "efreetSultan",
+										"amount": 4
 									},
 									{
-										"type" : "fireElemental",
-										"amount" : 10
+										"type": "fireElemental",
+										"amount": 10
 									},
 									{
-										"type" : "energyElemental",
-										"amount" : 10
+										"type": "energyElemental",
+										"amount": 10
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfFireMagic",
 									"orbOfTempestuousFire"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:castle" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:castle": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "airElemental",
-											"amount" : 12
+											"type": "airElemental",
+											"amount": 12
 										},
 										{
-											"type" : "stormElemental",
-											"amount" : 12
+											"type": "stormElemental",
+											"amount": 12
 										},
 										{
-											"type" : "angel",
-											"amount" : 2
+											"type": "angel",
+											"amount": 2
 										},
 										{
-											"type" : "archangel",
-											"amount" : 2
+											"type": "archangel",
+											"amount": 2
 										},
 										{
-											"type" : "roc",
-											"amount" : 6
+											"type": "roc",
+											"amount": 6
 										},
 										{
-											"type" : "thunderbird",
-											"amount" : 6
+											"type": "thunderbird",
+											"amount": 6
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.castle.air",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.castle.air",
+								"takenCreatures": [
 									{
-										"type" : "airElemental",
-										"amount" : 12
+										"type": "airElemental",
+										"amount": 12
 									},
 									{
-										"type" : "stormElemental",
-										"amount" : 12
+										"type": "stormElemental",
+										"amount": 12
 									},
 									{
-										"type" : "angel",
-										"amount" : 2
+										"type": "angel",
+										"amount": 2
 									},
 									{
-										"type" : "archangel",
-										"amount" : 2
+										"type": "archangel",
+										"amount": 2
 									},
 									{
-										"type" : "roc",
-										"amount" : 6
+										"type": "roc",
+										"amount": 6
 									},
 									{
-										"type" : "thunderbird",
-										"amount" : 6
+										"type": "thunderbird",
+										"amount": 6
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfAirMagic",
 									"orbOfTheFirmament"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:rampart" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:rampart": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "waterElemental",
-											"amount" : 12
+											"type": "waterElemental",
+											"amount": 12
 										},
 										{
-											"type" : "iceElemental",
-											"amount" : 12
+											"type": "iceElemental",
+											"amount": 12
 										},
 										{
-											"type" : "nymph",
-											"amount" : 32
+											"type": "nymph",
+											"amount": 32
 										},
 										{
-											"type" : "oceanid",
-											"amount" : 32
+											"type": "oceanid",
+											"amount": 32
 										},
 										{
-											"type" : "jotunn",
-											"amount" : 2
+											"type": "jotunn",
+											"amount": 2
 										},
 										{
-											"type" : "jotunnWarlord",
-											"amount" : 2
+											"type": "jotunnWarlord",
+											"amount": 2
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.rampart.water",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.rampart.water",
+								"takenCreatures": [
 									{
-										"type" : "waterElemental",
-										"amount" : 12
+										"type": "waterElemental",
+										"amount": 12
 									},
 									{
-										"type" : "iceElemental",
-										"amount" : 12
+										"type": "iceElemental",
+										"amount": 12
 									},
 									{
-										"type" : "nymph",
-										"amount" : 32
+										"type": "nymph",
+										"amount": 32
 									},
 									{
-										"type" : "oceanid",
-										"amount" : 32
+										"type": "oceanid",
+										"amount": 32
 									},
 									{
-										"type" : "jotunn",
-										"amount" : 2
+										"type": "jotunn",
+										"amount": 2
 									},
 									{
-										"type" : "jotunnWarlord",
-										"amount" : 2
+										"type": "jotunnWarlord",
+										"amount": 2
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfWaterMagic",
 									"orbOfDrivingRain"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:tower" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:tower": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "waterElemental",
-											"amount" : 12
+											"type": "waterElemental",
+											"amount": 12
 										},
 										{
-											"type" : "iceElemental",
-											"amount" : 12
+											"type": "iceElemental",
+											"amount": 12
 										},
 										{
-											"type" : "nymph",
-											"amount" : 32
+											"type": "nymph",
+											"amount": 32
 										},
 										{
-											"type" : "oceanid",
-											"amount" : 32
+											"type": "oceanid",
+											"amount": 32
 										},
 										{
-											"type" : "jotunn",
-											"amount" : 2
+											"type": "jotunn",
+											"amount": 2
 										},
 										{
-											"type" : "jotunnWarlord",
-											"amount" : 2
+											"type": "jotunnWarlord",
+											"amount": 2
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.tower.water",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.tower.water",
+								"takenCreatures": [
 									{
-										"type" : "waterElemental",
-										"amount" : 12
+										"type": "waterElemental",
+										"amount": 12
 									},
 									{
-										"type" : "iceElemental",
-										"amount" : 12
+										"type": "iceElemental",
+										"amount": 12
 									},
 									{
-										"type" : "nymph",
-										"amount" : 32
+										"type": "nymph",
+										"amount": 32
 									},
 									{
-										"type" : "oceanid",
-										"amount" : 32
+										"type": "oceanid",
+										"amount": 32
 									},
 									{
-										"type" : "jotunn",
-										"amount" : 2
+										"type": "jotunn",
+										"amount": 2
 									},
 									{
-										"type" : "jotunnWarlord",
-										"amount" : 2
+										"type": "jotunnWarlord",
+										"amount": 2
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfWaterMagic",
 									"orbOfDrivingRain"
 								]
 							},
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "airElemental",
-											"amount" : 12
+											"type": "airElemental",
+											"amount": 12
 										},
 										{
-											"type" : "stormElemental",
-											"amount" : 12
+											"type": "stormElemental",
+											"amount": 12
 										},
 										{
-											"type" : "angel",
-											"amount" : 2
+											"type": "angel",
+											"amount": 2
 										},
 										{
-											"type" : "archangel",
-											"amount" : 2
+											"type": "archangel",
+											"amount": 2
 										},
 										{
-											"type" : "roc",
-											"amount" : 6
+											"type": "roc",
+											"amount": 6
 										},
 										{
-											"type" : "thunderbird",
-											"amount" : 6
+											"type": "thunderbird",
+											"amount": 6
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.tower.air",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.tower.air",
+								"takenCreatures": [
 									{
-										"type" : "airElemental",
-										"amount" : 12
+										"type": "airElemental",
+										"amount": 12
 									},
 									{
-										"type" : "stormElemental",
-										"amount" : 12
+										"type": "stormElemental",
+										"amount": 12
 									},
 									{
-										"type" : "angel",
-										"amount" : 2
+										"type": "angel",
+										"amount": 2
 									},
 									{
-										"type" : "archangel",
-										"amount" : 2
+										"type": "archangel",
+										"amount": 2
 									},
 									{
-										"type" : "roc",
-										"amount" : 6
+										"type": "roc",
+										"amount": 6
 									},
 									{
-										"type" : "thunderbird",
-										"amount" : 6
+										"type": "thunderbird",
+										"amount": 6
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfAirMagic",
 									"orbOfTheFirmament"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:dungeon" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:dungeon": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "firebird",
-											"amount" : 2
+											"type": "firebird",
+											"amount": 2
 										},
 										{
-											"type" : "phoenix",
-											"amount" : 2
+											"type": "phoenix",
+											"amount": 2
 										},
 										{
-											"type" : "efreet",
-											"amount" : 4
+											"type": "efreet",
+											"amount": 4
 										},
 										{
-											"type" : "efreetSultan",
-											"amount" : 4
+											"type": "efreetSultan",
+											"amount": 4
 										},
 										{
-											"type" : "fireElemental",
-											"amount" : 10
+											"type": "fireElemental",
+											"amount": 10
 										},
 										{
-											"type" : "energyElemental",
-											"amount" : 10
+											"type": "energyElemental",
+											"amount": 10
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.dungeon.fire",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.dungeon.fire",
+								"takenCreatures": [
 									{
-										"type" : "firebird",
-										"amount" : 2
+										"type": "firebird",
+										"amount": 2
 									},
 									{
-										"type" : "phoenix",
-										"amount" : 2
+										"type": "phoenix",
+										"amount": 2
 									},
 									{
-										"type" : "efreet",
-										"amount" : 4
+										"type": "efreet",
+										"amount": 4
 									},
 									{
-										"type" : "efreetSultan",
-										"amount" : 4
+										"type": "efreetSultan",
+										"amount": 4
 									},
 									{
-										"type" : "fireElemental",
-										"amount" : 10
+										"type": "fireElemental",
+										"amount": 10
 									},
 									{
-										"type" : "energyElemental",
-										"amount" : 10
+										"type": "energyElemental",
+										"amount": 10
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfFireMagic",
 									"orbOfTempestuousFire"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:stronghold" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:stronghold": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "airElemental",
-											"amount" : 12
+											"type": "airElemental",
+											"amount": 12
 										},
 										{
-											"type" : "stormElemental",
-											"amount" : 12
+											"type": "stormElemental",
+											"amount": 12
 										},
 										{
-											"type" : "angel",
-											"amount" : 2
+											"type": "angel",
+											"amount": 2
 										},
 										{
-											"type" : "archangel",
-											"amount" : 2
+											"type": "archangel",
+											"amount": 2
 										},
 										{
-											"type" : "roc",
-											"amount" : 6
+											"type": "roc",
+											"amount": 6
 										},
 										{
-											"type" : "thunderbird",
-											"amount" : 6
+											"type": "thunderbird",
+											"amount": 6
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.stronghold.air",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.stronghold.air",
+								"takenCreatures": [
 									{
-										"type" : "airElemental",
-										"amount" : 12
+										"type": "airElemental",
+										"amount": 12
 									},
 									{
-										"type" : "stormElemental",
-										"amount" : 12
+										"type": "stormElemental",
+										"amount": 12
 									},
 									{
-										"type" : "angel",
-										"amount" : 2
+										"type": "angel",
+										"amount": 2
 									},
 									{
-										"type" : "archangel",
-										"amount" : 2
+										"type": "archangel",
+										"amount": 2
 									},
 									{
-										"type" : "roc",
-										"amount" : 6
+										"type": "roc",
+										"amount": 6
 									},
 									{
-										"type" : "thunderbird",
-										"amount" : 6
+										"type": "thunderbird",
+										"amount": 6
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfAirMagic",
 									"orbOfTheFirmament"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"core:fortress" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"core:fortress": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "waterElemental",
-											"amount" : 12
+											"type": "waterElemental",
+											"amount": 12
 										},
 										{
-											"type" : "iceElemental",
-											"amount" : 12
+											"type": "iceElemental",
+											"amount": 12
 										},
 										{
-											"type" : "nymph",
-											"amount" : 32
+											"type": "nymph",
+											"amount": 32
 										},
 										{
-											"type" : "oceanid",
-											"amount" : 32
+											"type": "oceanid",
+											"amount": 32
 										},
 										{
-											"type" : "jotunn",
-											"amount" : 2
+											"type": "jotunn",
+											"amount": 2
 										},
 										{
-											"type" : "jotunnWarlord",
-											"amount" : 2
+											"type": "jotunnWarlord",
+											"amount": 2
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.fortress.water",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.fortress.water",
+								"takenCreatures": [
 									{
-										"type" : "waterElemental",
-										"amount" : 12
+										"type": "waterElemental",
+										"amount": 12
 									},
 									{
-										"type" : "iceElemental",
-										"amount" : 12
+										"type": "iceElemental",
+										"amount": 12
 									},
 									{
-										"type" : "nymph",
-										"amount" : 32
+										"type": "nymph",
+										"amount": 32
 									},
 									{
-										"type" : "oceanid",
-										"amount" : 32
+										"type": "oceanid",
+										"amount": 32
 									},
 									{
-										"type" : "jotunn",
-										"amount" : 2
+										"type": "jotunn",
+										"amount": 2
 									},
 									{
-										"type" : "jotunnWarlord",
-										"amount" : 2
+										"type": "jotunnWarlord",
+										"amount": 2
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfWaterMagic",
 									"orbOfDrivingRain"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"hota.cove:cove" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"hota.cove:cove": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "waterElemental",
-											"amount" : 12
+											"type": "waterElemental",
+											"amount": 12
 										},
 										{
-											"type" : "iceElemental",
-											"amount" : 12
+											"type": "iceElemental",
+											"amount": 12
 										},
 										{
-											"type" : "nymph",
-											"amount" : 32
+											"type": "nymph",
+											"amount": 32
 										},
 										{
-											"type" : "oceanid",
-											"amount" : 32
+											"type": "oceanid",
+											"amount": 32
 										},
 										{
-											"type" : "jotunn",
-											"amount" : 2
+											"type": "jotunn",
+											"amount": 2
 										},
 										{
-											"type" : "jotunnWarlord",
-											"amount" : 2
+											"type": "jotunnWarlord",
+											"amount": 2
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.cove.water",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.cove.water",
+								"takenCreatures": [
 									{
-										"type" : "waterElemental",
-										"amount" : 12
+										"type": "waterElemental",
+										"amount": 12
 									},
 									{
-										"type" : "iceElemental",
-										"amount" : 12
+										"type": "iceElemental",
+										"amount": 12
 									},
 									{
-										"type" : "nymph",
-										"amount" : 32
+										"type": "nymph",
+										"amount": 32
 									},
 									{
-										"type" : "oceanid",
-										"amount" : 32
+										"type": "oceanid",
+										"amount": 32
 									},
 									{
-										"type" : "jotunn",
-										"amount" : 2
+										"type": "jotunn",
+										"amount": 2
 									},
 									{
-										"type" : "jotunnWarlord",
-										"amount" : 2
+										"type": "jotunnWarlord",
+										"amount": 2
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfWaterMagic",
 									"orbOfDrivingRain"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"hota.factory:factory" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"hota.factory:factory": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "firebird",
-											"amount" : 2
+											"type": "firebird",
+											"amount": 2
 										},
 										{
-											"type" : "phoenix",
-											"amount" : 2
+											"type": "phoenix",
+											"amount": 2
 										},
 										{
-											"type" : "efreet",
-											"amount" : 4
+											"type": "efreet",
+											"amount": 4
 										},
 										{
-											"type" : "efreetSultan",
-											"amount" : 4
+											"type": "efreetSultan",
+											"amount": 4
 										},
 										{
-											"type" : "fireElemental",
-											"amount" : 10
+											"type": "fireElemental",
+											"amount": 10
 										},
 										{
-											"type" : "energyElemental",
-											"amount" : 10
+											"type": "energyElemental",
+											"amount": 10
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.factory.fire",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.factory.fire",
+								"takenCreatures": [
 									{
-										"type" : "firebird",
-										"amount" : 2
+										"type": "firebird",
+										"amount": 2
 									},
 									{
-										"type" : "phoenix",
-										"amount" : 2
+										"type": "phoenix",
+										"amount": 2
 									},
 									{
-										"type" : "efreet",
-										"amount" : 4
+										"type": "efreet",
+										"amount": 4
 									},
 									{
-										"type" : "efreetSultan",
-										"amount" : 4
+										"type": "efreetSultan",
+										"amount": 4
 									},
 									{
-										"type" : "fireElemental",
-										"amount" : 10
+										"type": "fireElemental",
+										"amount": 10
 									},
 									{
-										"type" : "energyElemental",
-										"amount" : 10
+										"type": "energyElemental",
+										"amount": 10
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfFireMagic",
 									"orbOfTempestuousFire"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}
 		}
 	},
-	"hota.bulwark:bulwark" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild3" : {
-					"configuration" : {
-						"visitMode" : "once",
-						"selectMode" : "selectPlayer",
-						"onEmptyMessage" : "",
-						"onVisitedMessage" : "",
-						"rewards" : [
+	"hota.bulwark:bulwark": {
+		"town": {
+			"buildings": {
+				"mageGuild3": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectPlayer",
+						"onEmptyMessage": "",
+						"onVisitedMessage": "",
+						"rewards": [
 							{
-								"limiter" : {
-									"creatures" : [
+								"limiter": {
+									"creatures": [
 										{
-											"type" : "waterElemental",
-											"amount" : 12
+											"type": "waterElemental",
+											"amount": 12
 										},
 										{
-											"type" : "iceElemental",
-											"amount" : 12
+											"type": "iceElemental",
+											"amount": 12
 										},
 										{
-											"type" : "nymph",
-											"amount" : 32
+											"type": "nymph",
+											"amount": 32
 										},
 										{
-											"type" : "oceanid",
-											"amount" : 32
+											"type": "oceanid",
+											"amount": 32
 										},
 										{
-											"type" : "jotunn",
-											"amount" : 2
+											"type": "jotunn",
+											"amount": 2
 										},
 										{
-											"type" : "jotunnWarlord",
-											"amount" : 2
+											"type": "jotunnWarlord",
+											"amount": 2
 										},
 										{
-											"type" : "magicElemental",
-											"amount" : 1
+											"type": "magicElemental",
+											"amount": 1
 										}
 									]
 								},
-								"message" : "@hpp.towns.elementalRitual.bulwark.water",
-								"takenCreatures" : [
+								"message": "@hpp.towns.elementalRitual.bulwark.water",
+								"takenCreatures": [
 									{
-										"type" : "waterElemental",
-										"amount" : 12
+										"type": "waterElemental",
+										"amount": 12
 									},
 									{
-										"type" : "iceElemental",
-										"amount" : 12
+										"type": "iceElemental",
+										"amount": 12
 									},
 									{
-										"type" : "nymph",
-										"amount" : 32
+										"type": "nymph",
+										"amount": 32
 									},
 									{
-										"type" : "oceanid",
-										"amount" : 32
+										"type": "oceanid",
+										"amount": 32
 									},
 									{
-										"type" : "jotunn",
-										"amount" : 2
+										"type": "jotunn",
+										"amount": 2
 									},
 									{
-										"type" : "jotunnWarlord",
-										"amount" : 2
+										"type": "jotunnWarlord",
+										"amount": 2
 									}
 								],
-								"artifacts" : [
+								"artifacts": [
 									"tomeOfWaterMagic",
 									"orbOfDrivingRain"
 								]
 							}
 						],
-						"canRefuse" : true
+						"canRefuse": true
 					}
 				}
 			}

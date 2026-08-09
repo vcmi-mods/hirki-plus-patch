@@ -1,0 +1,34 @@
+{
+	"core:waterElemental" : {
+		"abilities" : {
+			"immuneToIceStorm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceStorm"
+			}
+		}
+	},
+	"core:iceElemental" : {
+		"abilities" : {
+			"immuneToIceStorm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceStorm"
+			}
+		}
+	},
+	"hota.cove:nymph" : {
+		"abilities" : {
+			"immuneToIceStorm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceStorm"
+			}
+		}
+	},
+	"hota.cove:oceanid" : {
+		"abilities" : {
+			"immuneToIceStorm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceStorm"
+			}
+		}
+	}
+}

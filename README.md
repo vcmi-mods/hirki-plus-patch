@@ -24,6 +24,21 @@ The mod focuses on making underused creatures, skills, spells, heroes, war machi
 - English wording cleanup
 - Polish localization
 
+## Version 1.4.0 highlights
+
+- **Spells** — added **Ice Storm**, a level 4 Water Magic spell that damages all creatures and can freeze units that are not native to Snow terrain.
+- **Skills** — added the **Leadership** module with **Inspired March**, granting additional movement after visiting adventure map objects that provide positive Morale for the next battle.
+- **Luck Objects** — added four optional modules that allow the hero's **Luck** mastery to improve rewards from adventure map objects and creature banks covered by the modules:
+  - **Luck Scaling for Adventure Map Objects**
+  - **Creature Banks Resources**
+  - **Creature Banks Units**
+  - **Luck-Enhanced Pyramid Reward**
+- **In-game descriptions** — improved formatting and emphasis across multiple existing modules for better readability.
+- **Spell Book localization** — fixed the English names of **Mirth**, **Sorrow**, **Fortune**, **Misfortune**, and **Magic Mirror**, and moved their localized names to the appropriate child modules.
+- **Leather Armor of Swiftness** — added a new fused **Relic** combining **Necklace of Swiftness**, **Ring of the Wayfarer**, and **Cape of Velocity**, providing Speed bonuses to the bearer and allied heroes.
+- **Main mod description** — reorganized and rewrote the main description to present the scope of individual modules more clearly.
+- **Screenshots** — added a Launcher gallery showcasing selected HPP changes and new content.
+
 ## Version 1.3.1 hotfix
 
 - Fixed unresolved and empty town-building fallback messages in **Gold Specialist Halls**, **Resource Specialist Silos** and **Elemental Ritual**.
@@ -84,6 +99,21 @@ You can also contact me on the VCMI Discord server as `@bew_`, especially for qu
 
 HPP zawiera polską lokalizację opisów Launchera oraz wybranych tekstów w grze.
 
+## Najważniejsze elementy wersji 1.4.0
+
+- **Czary** — dodano **Lodową burzę**, czar Magii Wody 4. poziomu, który zadaje obrażenia wszystkim jednostkom i może zamrażać oddziały nienatywne dla terenu Śnieg.
+- **Umiejętności** — dodano moduł **Dowodzenia** z **Natchnionym marszem**, dającym dodatkowe punkty ruchu po odwiedzeniu obiektów na mapie przygody, które zapewniają dodatnie morale na następną bitwę.
+- **Obiekty szczęścia** — dodano cztery opcjonalne moduły, dzięki którym poziom **Szczęścia** bohatera może ulepszać nagrody z obiektów mapy przygody i banków stworzeń objętych modułami:
+  - **Skalowanie obiektów mapy przygody przez Szczęście**
+  - **Banki stworzeń — zasoby**
+  - **Banki stworzeń — jednostki**
+  - **Nagroda Piramidy wzmocniona przez Szczęście**
+- **Opisy w grze** — ujednolicono formatowanie i wyróżnienia w opisach wielu istniejących modułów, poprawiając ich czytelność.
+- **Lokalizacja Księgi zaklęć** — poprawiono przełączanie nazw czarów **Mirth**, **Sorrow**, **Fortune**, **Misfortune** i **Magic Mirror** między językiem angielskim i polskim oraz przeniesiono ich tłumaczenia do właściwych childmodów.
+- **Skórzana Zbroja Szybkości** — dodano nowy złożony artefakt klasy **Relikt**, łączący **Naszyjnik Przyspieszenia**, **Pierścień Wędrowca** i **Płaszcz Zwinności**, zapewniający premie do szybkości noszącemu i sprzymierzonym bohaterom.
+- **Główny opis moda** — przeorganizowano i przepisano główny opis, aby czytelniej przedstawiał zakres poszczególnych modułów.
+- **Zrzuty ekranu** — dodano galerię Launchera prezentującą wybrane zmiany i nową zawartość HPP.
+
 ## Hotfix 1.3.1
 
 - Naprawiono nierozwiązane i puste komunikaty awaryjne budynków miejskich w modułach **Specjaliści złota i Ratusze**, **Specjaliści rzadkich surowców i Magazyny zasobów** oraz **Rytuał żywiołów**.
@@ -112,9 +142,10 @@ https://github.com/vcmi-mods/hirki-plus-patch/issues
 
 Można też kontaktować się ze mną na serwerze Discord VCMI jako `@bew_`, szczególnie w przypadku szybkich pytań albo innych nieprawidłowości z modem.
 
-## License
+## Reuse
 
-Hirki Plus Patch is licensed under **Creative Commons Attribution-ShareAlike**.
+Feel free to reuse or adapt HPP-created content in your own VCMI mods — just credit Hirki Plus Patch.
 
-License details:  
-https://creativecommons.org/licenses/by-sa/4.0/
+This does not apply to third-party or game-derived material listed in `THIRD_PARTY_ASSETS.md`.
+
+VCMI maintainers are welcome to make compatibility, translation, and repository-maintenance changes when needed.

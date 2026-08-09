@@ -1,5 +1,7 @@
 {
-  "spell.core.fortune.description.none": "{Fortuna}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+1}.",
+  "spell.core.fortune.name": "Fortuna",
+  "spell.core.misfortune.name": "Pech",
+"spell.core.fortune.description.none": "{Fortuna}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+1}.",
   "spell.core.fortune.description.basic": "{Fortuna - poziom podstawowy}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {1}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+1}.",
   "spell.core.fortune.description.advanced": "{Fortuna - poziom zaawansowany}\n\nPodnosi szczęście wybranego sojuszniczego oddziału o {2}.\n\nPrzez czas działania czaru szczęście tego oddziału nie może spaść poniżej {+2}.",
   "spell.core.fortune.description.expert": "{Fortuna - poziom mistrzowski}\n\nPodnosi szczęście wszystkich sojuszniczych oddziałów o {2}.\n\nPrzez czas działania czaru szczęście objętych oddziałów nie może spaść poniżej {+2}.",

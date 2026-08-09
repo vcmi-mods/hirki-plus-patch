@@ -1,0 +1,1595 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"dwarvenTreasury": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 10,
+								"type": "dwarf"
+							},
+							{
+								"amount": 10,
+								"type": "dwarf"
+							},
+							{
+								"amount": 10,
+								"type": "dwarf",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 10,
+								"type": "dwarf"
+							},
+							{
+								"amount": 10,
+								"type": "dwarf"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 2,
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 15,
+								"type": "dwarf"
+							},
+							{
+								"amount": 15,
+								"type": "dwarf"
+							},
+							{
+								"amount": 15,
+								"type": "dwarf",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 15,
+								"type": "dwarf"
+							},
+							{
+								"amount": 15,
+								"type": "dwarf"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 3,
+							"gold": 4000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 20,
+								"type": "dwarf"
+							},
+							{
+								"amount": 20,
+								"type": "dwarf"
+							},
+							{
+								"amount": 20,
+								"type": "dwarf",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 20,
+								"type": "dwarf"
+							},
+							{
+								"amount": 20,
+								"type": "dwarf"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 5,
+							"gold": 5000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 30,
+								"type": "dwarf"
+							},
+							{
+								"amount": 30,
+								"type": "dwarf"
+							},
+							{
+								"amount": 30,
+								"type": "dwarf",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 30,
+								"type": "dwarf"
+							},
+							{
+								"amount": 30,
+								"type": "dwarf"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 15,
+							"gold": 10000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 15,
+							"gold": 10000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 15,
+							"gold": 10000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 10,
+							"gold": 7500
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 15,
+							"gold": 10000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 15,
+							"gold": 10000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"crystal": 15,
+							"gold": 10000
+						},
+						"message": "@creatureBanksResources.dwarvenTreasury.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

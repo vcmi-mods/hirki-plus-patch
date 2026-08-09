@@ -1,5 +1,6 @@
 {
 	"core:misfortune" : {
+		"name" : "Misfortune",
 		"targetType" : "CREATURE",
 		"levels" : {
 			"base" : {
@@ -30,7 +31,7 @@
 						"val" : -1
 					}
 				},
-				"description" : "{Misfortune}\n\nDecreases Luck of target enemy unit by -1.\n\nWhile Misfortune lasts, Luck bonuses cannot raise that unit above -1 Luck."
+				"description" : "{Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-1}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-1 Luck}."
 			},
 			"basic" : {
 				"cost" : 5,
@@ -42,7 +43,7 @@
 						"val" : -1
 					}
 				},
-				"description" : "{Basic Misfortune}\n\nDecreases Luck of target enemy unit by -1.\n\nWhile Misfortune lasts, Luck bonuses cannot raise that unit above -1 Luck."
+				"description" : "{Basic Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-1}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-1 Luck}."
 			},
 			"advanced" : {
 				"cost" : 4,
@@ -54,7 +55,7 @@
 						"val" : -2
 					}
 				},
-				"description" : "{Advanced Misfortune}\n\nDecreases Luck of target enemy unit by -2.\n\nWhile Misfortune lasts, Luck bonuses cannot raise that unit above -2 Luck."
+				"description" : "{Advanced Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-2}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-2 Luck}."
 			},
 			"expert" : {
 				"cost" : 3,
@@ -67,7 +68,7 @@
 						"val" : -2
 					}
 				},
-				"description" : "{Expert Misfortune}\n\nDecreases Luck of all enemy units by -2.\n\nWhile Misfortune lasts, Luck bonuses cannot raise affected units above -2 Luck."
+				"description" : "{Expert Misfortune}\n\nDecreases {Luck} of {all enemy units} by {-2}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise affected units above {-2 Luck}."
 			}
 		},
 		"counters" : {

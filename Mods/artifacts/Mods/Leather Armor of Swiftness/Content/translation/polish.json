@@ -1,0 +1,5 @@
+{
+	"hpp.artifacts.leatherArmorOfSwiftness.name": "Skórzana Zbroja Szybkości",
+	"hpp.artifacts.leatherArmorOfSwiftness.description": "{Skórzana Zbroja Szybkości}\n\nZłożona relikwia ukształtowana z {Naszyjnika Przyspieszenia}, {Pierścienia Wędrowca} i {Płaszcza Zwinności}.\n\nArmia noszącego otrzymuje {+2} do szybkości.\n\nWszyscy bohaterowie w {drużynie} noszącego otrzymują {+1} do szybkości dla swoich armii, włącznie z noszącym.\n\nKomponenty zostają {zużyte} podczas złożenia i nie można ich odzyskać.",
+	"hpp.artifacts.leatherArmorOfSwiftness.event": "Naszyjnik, pierścień i płaszcz łączą się w lekką skórzaną zbroję przeciętą bladym złotem. Porusza się, jakby niósł ją wiatr, popychając każdą sojuszniczą armię ku niemożliwej szybkości."
+}

@@ -1,0 +1,191 @@
+{
+  "core:leanTo": {
+    "types": {
+      "leanTo": {
+        "selectMode": "selectFirst",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 100
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 7,
+                "type": "@gainedResource"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 100
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 5,
+                "type": "@gainedResource"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 33
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 3,
+                "type": "@gainedResource"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 33,
+              "max": 66
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 4,
+                "type": "@gainedResource"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 66,
+              "max": 100
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 5,
+                "type": "@gainedResource"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 20
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 1,
+                "type": "@gainedResource"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 20,
+              "max": 40
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 2,
+                "type": "@gainedResource"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 40,
+              "max": 60
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 3,
+                "type": "@gainedResource"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 60,
+              "max": 80
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 4,
+                "type": "@gainedResource"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 80,
+              "max": 100
+            },
+            "message": 64,
+            "resources": [
+              {
+                "amount": 5,
+                "type": "@gainedResource"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

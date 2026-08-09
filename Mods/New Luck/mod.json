@@ -1,36 +1,39 @@
 {
-	"name" : "New Luck",
-	"description" : "A dedicated Luck rework designed for use with Horn of the Abyss on VCMI.\n\nThis module keeps the original Luck skill values and expands Luck into a broader gameplay system:\n\n* **Basic Luck** — increases Luck by 1. Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities.\n* **Advanced Luck** — increases Luck by 2. Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities.\n* **Expert Luck** — increases Luck by 3. Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities.\n\nLuck-based creature ability scaling is handled through separate optional creature modules. Luck-based spell interactions are handled through optional spell modules. Exact affected creatures, spells, thresholds and values are listed in each individual module description.\n\n## Included Systems\n\n* **Pendant of Courage** — changes Pendant of Courage to **relic class**, increases its value and reduces its bonus from +3 Luck and +3 Morale to +2 Luck and +2 Morale.\n\n* **Luck Spells** — includes reworked **Fortune and Misfortune**. These spells use reduced mana costs and act as direct counters to each other while controlling positive and negative Luck more reliably. This category also includes **Magic Mirror Luck Scaling**, which can work together with the **Magic Mirror** rework from the spell category, allowing Luck to affect spell reflection chance when the relevant modules are enabled.\n\n* **Luck Creature Abilities** — adds **Luck scaling** to selected creature abilities. Some creatures **gain a new** positive Luck unlock, while others have existing abilities modified by positive and negative Luck.",
-	"author" : "bew_",
-	"version" : "1.2.0",
-	"modType" : "Expansion",
-	"depends" : [
-		"hota"
-	],
-	"skills" : [
-		"config/skills/Luck.json"
-	],
-	"artifacts" : [
-		"config/artifacts/PendantOfCourage.json"
-	],
-	"changelog" : {
-		"1.2.0" : [
-			"Added Magic Mirror Luck scaling to Luck Spells."
-		],
-		"1.0.0" : [
-			"Initial release."
-		]
-	},
-	"polish" : {
-		"name" : "Nowe Szczęście",
-		"description" : "Przebudowa systemu szczęścia, przygotowana do gry z Horn of the Abyss na VCMI.\n\nTen moduł zachowuje oryginalne wartości umiejętności **Szczęście**, ale rozszerza szczęście w szerszy system rozgrywki:\n\n* **Podstawowe Szczęście** — zwiększa szczęście o 1. Dodatnie szczęście może **przyznać lub wzmocnić** wybrane zdolności jednostek oparte na szansie, a ujemne szczęście może osłabić niektóre istniejące zdolności.\n* **Zaawansowane Szczęście** — zwiększa szczęście o 2. Dodatnie szczęście może **przyznać lub wzmocnić** wybrane zdolności jednostek oparte na szansie, a ujemne szczęście może osłabić niektóre istniejące zdolności.\n* **Mistrzowskie Szczęście** — zwiększa szczęście o 3. Dodatnie szczęście może **przyznać lub wzmocnić** wybrane zdolności jednostek oparte na szansie, a ujemne szczęście może osłabić niektóre istniejące zdolności.\n\nSkalowanie zdolności jednostek przez szczęście jest obsługiwane przez osobne, opcjonalne moduły jednostek. Interakcje czarów ze szczęściem są obsługiwane przez opcjonalne moduły czarów. Dokładne jednostki, czary, progi i wartości są opisane w opisach poszczególnych modułów.\n\n## Zawarte systemy\n\n* **Znak Odwagi** — zmienia **Znak Odwagi** w artefakt klasy **relikt**, zwiększa jego wartość i zmniejsza premię z +3 szczęścia i +3 morale do +2 szczęścia i +2 morale.\n\n* **Czary szczęścia** — obejmują przebudowane czary **Fortuna** i **Pech**. Czary te mają obniżone koszty many i pozostają swoimi bezpośrednimi kontrami, jednocześnie pozwalając bardziej niezawodnie kontrolować dodatnie i ujemne szczęście. Ta kategoria obejmuje także moduł **Magiczne zwierciadło**, który może współpracować z reworkiem **Magicznego zwierciadła** z kategorii czarów, pozwalając szczęściu wpływać na szansę odbicia zaklęcia, gdy odpowiednie moduły są włączone.\n\n* **Zdolności jednostek — szczęście** — dodają **skalowanie szczęściem** do wybranych zdolności jednostek. Niektóre jednostki **zyskują nową** szansę aktywacji przy dodatnim szczęściu, a inne mają istniejące zdolności modyfikowane przez dodatnie i ujemne szczęście.",
-		"translations" : [
-			"translation/polish.json"
-		]
-	},
-	"czech" : {
-		"translations" : [
-			"translation/czech.json"
-		]
-	}
+  "name": "New Luck",
+  "description": "A dedicated Luck rework designed for use with Horn of the Abyss on VCMI.\n\nThis module keeps the original Luck skill values and expands Luck into a broader gameplay system:\n\n* **Basic Luck** — increases the Luck of all hero's creatures by **1**, improving their chance to deal double damage with lucky strikes. **Positive Luck** can grant or improve chance-based creature abilities. **Negative Luck** can weaken such abilities. Additionally, it increases the chance of better rewards from adventure map objects. In creature banks, at this level it provides a **25%** chance for an upgraded reward. In the Pyramid, it provides a **25%** chance to discover an additional random level 4 spell if the hero has **Expert Wisdom**.\n* **Advanced Luck** — increases the Luck of all hero's creatures by **2**, improving their chance to deal double damage with lucky strikes. **Positive Luck** can grant or improve chance-based creature abilities. **Negative Luck** can weaken such abilities. Additionally, it increases the chance of better rewards from adventure map objects. In creature banks, at this level it provides a **50%** chance for an upgraded reward. In the Pyramid, it provides a **50%** chance to discover an additional random level 4 spell if the hero has **Expert Wisdom**.\n* **Expert Luck** — increases the Luck of all hero's creatures by **3**, improving their chance to deal double damage with lucky strikes. **Positive Luck** can grant or improve chance-based creature abilities. **Negative Luck** can weaken such abilities. Additionally, it increases the chance of better rewards from adventure map objects. In creature banks, at this level it provides a **75%** chance for an upgraded reward. In the Pyramid, it provides a **75%** chance to discover an additional random level 4 spell if the hero has **Expert Wisdom**.\n\nLuck-based creature ability scaling is handled through separate optional creature modules. Luck-based spell interactions are handled through optional spell modules. Luck-based adventure map object interactions are handled through optional object modules. Exact affected creatures, spells, objects, thresholds and values are listed in each individual module description.\n\n## Included Systems\n\n* **Pendant of Courage** — changes Pendant of Courage to **relic class**, increases its value and reduces its bonus from +3 Luck and +3 Morale to +2 Luck and +2 Morale.\n\n* **Luck Spells** — includes reworked **Fortune and Misfortune**. These spells use reduced mana costs and act as direct counters to each other while controlling positive and negative Luck more reliably. This category also includes **Magic Mirror Luck Scaling**, which can work together with the **Magic Mirror** rework from the spell category, allowing Luck to affect spell reflection chance when the relevant modules are enabled.\n\n* **Luck Creature Abilities** — adds **Luck scaling** to selected creature abilities. Some creatures **gain a new** positive Luck unlock, while others have existing abilities modified by positive and negative Luck.\n\n* **Luck Objects** — adds optional Luck scaling for adventure map rewards, creature banks and the Pyramid. Exact supported objects, reward tables, chances and preserved native behavior are listed in the four child module descriptions.",
+  "author": "bew_",
+  "version": "1.3.0",
+  "modType": "Expansion",
+  "depends": [
+    "hota"
+  ],
+  "skills": [
+    "config/skills/Luck.json"
+  ],
+  "artifacts": [
+    "config/artifacts/PendantOfCourage.json"
+  ],
+  "changelog": {
+    "1.3.0": [
+      "Added Luck Objects module."
+    ],
+    "1.2.0": [
+      "Added Magic Mirror Luck scaling to Luck Spells."
+    ],
+    "1.0.0": [
+      "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Nowe Szczęście",
+    "description": "Przebudowa systemu szczęścia, przygotowana do gry z Horn of the Abyss na VCMI.\n\nTen moduł zachowuje oryginalne wartości umiejętności **Szczęście**, ale rozszerza szczęście w szerszy system rozgrywki:\n\n* **Szczęście - poziom podstawowy** — zwiększa szczęście wszystkich jednostek bohatera o **1**, poprawiając ich szansę na zadanie podwójnych obrażeń przy szczęśliwym ataku. **Dodatnie szczęście** może przyznać lub wzmocnić zdolności jednostek oparte na szansie. **Ujemne szczęście** może osłabić takie zdolności. Dodatkowo zwiększa szansę na lepsze nagrody z obiektów na mapie przygody. W bankach stworzeń na tym poziomie zapewnia **25%** szansy na ulepszoną nagrodę. W Piramidzie zapewnia **25%** szansy na odkrycie dodatkowego losowego czaru 4. poziomu, jeżeli bohater posiada **Mądrość** na poziomie **mistrzowskim**.\n* **Szczęście - poziom zaawansowany** — zwiększa szczęście wszystkich jednostek bohatera o **2**, poprawiając ich szansę na zadanie podwójnych obrażeń przy szczęśliwym ataku. **Dodatnie szczęście** może przyznać lub wzmocnić zdolności jednostek oparte na szansie. **Ujemne szczęście** może osłabić takie zdolności. Dodatkowo zwiększa szansę na lepsze nagrody z obiektów na mapie przygody. W bankach stworzeń na tym poziomie zapewnia **50%** szansy na ulepszoną nagrodę. W Piramidzie zapewnia **50%** szansy na odkrycie dodatkowego losowego czaru 4. poziomu, jeżeli bohater posiada **Mądrość** na poziomie **mistrzowskim**.\n* **Szczęście - poziom mistrzowski** — zwiększa szczęście wszystkich jednostek bohatera o **3**, poprawiając ich szansę na zadanie podwójnych obrażeń przy szczęśliwym ataku. **Dodatnie szczęście** może przyznać lub wzmocnić zdolności jednostek oparte na szansie. **Ujemne szczęście** może osłabić takie zdolności. Dodatkowo zwiększa szansę na lepsze nagrody z obiektów na mapie przygody. W bankach stworzeń na tym poziomie zapewnia **75%** szansy na ulepszoną nagrodę. W Piramidzie zapewnia **75%** szansy na odkrycie dodatkowego losowego czaru 4. poziomu, jeżeli bohater posiada **Mądrość** na poziomie **mistrzowskim**.\n\nSkalowanie zdolności jednostek przez szczęście jest obsługiwane przez osobne, opcjonalne moduły jednostek. Interakcje czarów ze szczęściem są obsługiwane przez opcjonalne moduły czarów. Interakcje obiektów mapy przygody ze szczęściem są obsługiwane przez opcjonalne moduły obiektów. Dokładne jednostki, czary, obiekty, progi i wartości są opisane w opisach poszczególnych modułów.\n\n## Zawarte systemy\n\n* **Znak Odwagi** — zmienia **Znak Odwagi** w artefakt klasy **relikt**, zwiększa jego wartość i zmniejsza premię z +3 szczęścia i +3 morale do +2 szczęścia i +2 morale.\n\n* **Czary szczęścia** — obejmują przebudowane czary **Fortuna** i **Pech**. Czary te mają obniżone koszty many i pozostają swoimi bezpośrednimi kontrami, jednocześnie pozwalając bardziej niezawodnie kontrolować dodatnie i ujemne szczęście. Ta kategoria obejmuje także moduł **Magiczne zwierciadło**, który może współpracować z reworkiem **Magicznego zwierciadła** z kategorii czarów, pozwalając szczęściu wpływać na szansę odbicia zaklęcia, gdy odpowiednie moduły są włączone.\n\n* **Zdolności jednostek — szczęście** — dodają **skalowanie szczęściem** do wybranych zdolności jednostek. Niektóre jednostki **zyskują nową** szansę aktywacji przy dodatnim szczęściu, a inne mają istniejące zdolności modyfikowane przez dodatnie i ujemne szczęście.\n\n* **Obiekty szczęścia** — dodają opcjonalne skalowanie nagród z obiektów mapy przygody, banków stworzeń i Piramidy. Dokładne obiekty, tabele nagród, szanse oraz zachowane elementy natywne są opisane w czterech modułach podrzędnych.",
+    "translations": [
+      "translation/polish.json"
+    ]
+  },
+  "czech": {
+    "translations": [
+      "translation/czech.json"
+    ]
+  }
 }

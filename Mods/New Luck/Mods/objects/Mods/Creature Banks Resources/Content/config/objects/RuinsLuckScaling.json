@@ -1,0 +1,1903 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"ruins": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 20,
+								"type": "skeleton"
+							},
+							{
+								"amount": 3,
+								"type": "wight"
+							},
+							{
+								"amount": 3,
+								"type": "wraith"
+							},
+							{
+								"amount": 10,
+								"type": "skeletonWarrior"
+							},
+							{
+								"amount": 1,
+								"type": "powerLich"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 1000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 30,
+								"type": "skeleton"
+							},
+							{
+								"amount": 5,
+								"type": "wight"
+							},
+							{
+								"amount": 5,
+								"type": "wraith"
+							},
+							{
+								"amount": 10,
+								"type": "skeletonWarrior"
+							},
+							{
+								"amount": 1,
+								"type": "powerLich"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 2000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 40,
+								"type": "skeleton"
+							},
+							{
+								"amount": 7,
+								"type": "wight"
+							},
+							{
+								"amount": 7,
+								"type": "wraith"
+							},
+							{
+								"amount": 20,
+								"type": "skeletonWarrior"
+							},
+							{
+								"amount": 2,
+								"type": "powerLich"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 50,
+								"type": "skeleton"
+							},
+							{
+								"amount": 9,
+								"type": "wight"
+							},
+							{
+								"amount": 9,
+								"type": "wraith"
+							},
+							{
+								"amount": 20,
+								"type": "skeletonWarrior"
+							},
+							{
+								"amount": 3,
+								"type": "powerLich"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 4000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"revealTiles": {
+							"radius": 12,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": "@creatureBanksResources.ruins.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

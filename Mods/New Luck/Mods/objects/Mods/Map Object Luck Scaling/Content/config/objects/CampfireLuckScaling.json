@@ -1,0 +1,571 @@
+{
+  "core:campfire": {
+    "types": {
+      "campfire": {
+        "selectMode": "selectFirst",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 27
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 5,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 500,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 27,
+              "max": 85
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 6,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 600,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 85,
+              "max": 92
+            },
+            "mapDice": 0,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 92,
+              "max": 98
+            },
+            "mapDice": 1,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 98,
+              "max": 100
+            },
+            "mapDice": 2,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "MAJOR"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 10
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 4,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 400,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 10,
+              "max": 44
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 5,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 500,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 44,
+              "max": 90
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 6,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 600,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 90,
+              "max": 96
+            },
+            "mapDice": 0,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 96,
+              "max": 99
+            },
+            "mapDice": 1,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 99,
+              "max": 100
+            },
+            "mapDice": 2,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "MAJOR"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 20
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 4,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 400,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 20,
+              "max": 59
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 5,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 500,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 59,
+              "max": 94
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 6,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 600,
+                "type": "gold"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 94,
+              "max": 99
+            },
+            "mapDice": 0,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 99,
+              "max": 100
+            },
+            "mapDice": 1,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 33
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 4,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 400,
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 33,
+              "max": 66
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 5,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 500,
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 66,
+              "max": 97
+            },
+            "mapDice": -1,
+            "message": 23,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": 6,
+                "anyOf": [
+                  "wood",
+                  "ore",
+                  "mercury",
+                  "gems",
+                  "sulfur",
+                  "crystal"
+                ]
+              },
+              {
+                "amount": 600,
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 97,
+              "max": 100
+            },
+            "mapDice": 0,
+            "message": "@mapObjectLuckScaling.campfire.artifact",
+            "removeObject": true,
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

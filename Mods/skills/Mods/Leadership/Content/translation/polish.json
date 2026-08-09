@@ -1,0 +1,6 @@
+{
+	"skill.core.leadership.name": "Dowodzenie",
+	"skill.core.leadership.description.basic": "{Dowodzenie - poziom podstawowy}\n\nZwiększa {morale} wszystkich jednostek w armii bohatera o {+1}.\n\n{Natchniony marsz}: odwiedzenie obiektu na mapie przygody, który przyznaje {dodatnią} premię do {morale} na następną bitwę, daje również {+100} punktów ruchu.",
+	"skill.core.leadership.description.advanced": "{Dowodzenie - poziom zaawansowany}\n\nZwiększa {morale} wszystkich jednostek w armii bohatera o {+2}.\n\n{Natchniony marsz}: odwiedzenie obiektu na mapie przygody, który przyznaje {dodatnią} premię do {morale} na następną bitwę, daje również {+200} punktów ruchu.",
+	"skill.core.leadership.description.expert": "{Dowodzenie - poziom mistrzowski}\n\nZwiększa {morale} wszystkich jednostek w armii bohatera o {+3}.\n\n{Natchniony marsz}: odwiedzenie obiektu na mapie przygody, który przyznaje {dodatnią} premię do {morale} na następną bitwę, daje również {+300} punktów ruchu."
+}

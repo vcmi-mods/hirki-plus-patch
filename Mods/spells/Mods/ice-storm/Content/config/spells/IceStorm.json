@@ -1,0 +1,251 @@
+{
+  "iceStorm": {
+    "name": "Ice Storm",
+    "type": "combat",
+    "targetType": "CREATURE",
+    "school": {
+      "water": true
+    },
+    "level": 4,
+    "power": 40,
+    "defaultGainChance": 0,
+    "gainChance": {
+      "hota.bulwark:bulwark": 10,
+      "tower": 10,
+      "hota.cove:cove": 5,
+      "conflux": 5
+    },
+    "flags": {
+      "damage": true,
+      "negative": true
+    },
+    "sounds": {
+      "cast": "hota/bulwark/spells/FREEZE"
+    },
+    "animation": {
+      "hit": [
+        "HPISFULL"
+      ],
+      "affect": [
+        {
+          "effectName": "freezingShot",
+          "transparency": 0.5
+        }
+      ]
+    },
+    "graphics": {
+      "iconBook": "ice_storm_book.png",
+      "iconEffect": "ice_storm_effect.png",
+      "iconScroll": "ice_storm_scroll.png"
+    },
+    "levels": {
+      "base": {
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "description": "{Ice Storm}\n\nSummons a violent ice storm over the battlefield, damaging all creatures present.\n\nOn {Snow} terrain, each affected stack for which Snow is not native terrain has a {10%} chance before each of its turns for {2} turns to freeze and skip that turn entirely.",
+        "battleEffects": {
+          "directDamage": {
+            "type": "core:damage"
+          },
+          "iceStormFreezeChance": {
+            "type": "core:timed",
+            "optional": true,
+            "cumulative": false,
+            "bonus": {
+              "fearfulFreezeChance": {
+                "type": "FEARFUL",
+                "val": 10,
+                "duration": "N_TURNS",
+                "turns": 2,
+                "limiters": [
+                  "allOf",
+                  {
+                    "type": "TERRAIN_LIMITER",
+                    "terrain": "snow"
+                  },
+                  [
+                    "noneOf",
+                    "CREATURE_NATIVE_TERRAIN"
+                  ],
+                  [
+                    "noneOf",
+                    {
+                      "type": "HAS_ANOTHER_BONUS_LIMITER",
+                      "bonusType": "SIEGE_WEAPON"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      },
+      "none": {
+        "cost": 24,
+        "power": 30,
+        "battleEffects": {
+          "directDamage": {
+            "type": "core:damage"
+          },
+          "iceStormFreezeChance": {
+            "type": "core:timed",
+            "optional": true,
+            "cumulative": false,
+            "bonus": {
+              "fearfulFreezeChance": {
+                "type": "FEARFUL",
+                "val": 10,
+                "duration": "N_TURNS",
+                "turns": 2,
+                "limiters": [
+                  "allOf",
+                  {
+                    "type": "TERRAIN_LIMITER",
+                    "terrain": "snow"
+                  },
+                  [
+                    "noneOf",
+                    "CREATURE_NATIVE_TERRAIN"
+                  ],
+                  [
+                    "noneOf",
+                    {
+                      "type": "HAS_ANOTHER_BONUS_LIMITER",
+                      "bonusType": "SIEGE_WEAPON"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "description": "{Ice Storm}\n\nSummons a violent ice storm over the battlefield, damaging all creatures present.\n\nOn {Snow} terrain, each affected stack for which Snow is not native terrain has a {10%} chance before each of its turns for {2} turns to freeze and skip that turn entirely."
+      },
+      "basic": {
+        "cost": 20,
+        "power": 30,
+        "battleEffects": {
+          "directDamage": {
+            "type": "core:damage"
+          },
+          "iceStormFreezeChance": {
+            "type": "core:timed",
+            "optional": true,
+            "cumulative": false,
+            "bonus": {
+              "fearfulFreezeChance": {
+                "type": "FEARFUL",
+                "val": 20,
+                "duration": "N_TURNS",
+                "turns": 2,
+                "limiters": [
+                  "allOf",
+                  {
+                    "type": "TERRAIN_LIMITER",
+                    "terrain": "snow"
+                  },
+                  [
+                    "noneOf",
+                    "CREATURE_NATIVE_TERRAIN"
+                  ],
+                  [
+                    "noneOf",
+                    {
+                      "type": "HAS_ANOTHER_BONUS_LIMITER",
+                      "bonusType": "SIEGE_WEAPON"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "description": "{Ice Storm - Basic level}\n\nSummons a violent ice storm over the battlefield, damaging all creatures present.\n\nOn {Snow} terrain, each affected stack for which Snow is not native terrain has a {20%} chance before each of its turns for {2} turns to freeze and skip that turn entirely."
+      },
+      "advanced": {
+        "cost": 20,
+        "power": 60,
+        "battleEffects": {
+          "directDamage": {
+            "type": "core:damage"
+          },
+          "iceStormFreezeChance": {
+            "type": "core:timed",
+            "optional": true,
+            "cumulative": false,
+            "bonus": {
+              "fearfulFreezeChance": {
+                "type": "FEARFUL",
+                "val": 25,
+                "duration": "N_TURNS",
+                "turns": 2,
+                "limiters": [
+                  "allOf",
+                  {
+                    "type": "TERRAIN_LIMITER",
+                    "terrain": "snow"
+                  },
+                  [
+                    "noneOf",
+                    "CREATURE_NATIVE_TERRAIN"
+                  ],
+                  [
+                    "noneOf",
+                    {
+                      "type": "HAS_ANOTHER_BONUS_LIMITER",
+                      "bonusType": "SIEGE_WEAPON"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "description": "{Ice Storm - Advanced level}\n\nSummons a violent ice storm over the battlefield, damaging all creatures present.\n\nOn {Snow} terrain, each affected stack for which Snow is not native terrain has a {25%} chance before each of its turns for {2} turns to freeze and skip that turn entirely.\n\nDamage is increased by {30 points} compared with Ice Storm - Basic level."
+      },
+      "expert": {
+        "cost": 20,
+        "power": 120,
+        "battleEffects": {
+          "directDamage": {
+            "type": "core:damage"
+          },
+          "iceStormFreezeChance": {
+            "type": "core:timed",
+            "optional": true,
+            "cumulative": false,
+            "bonus": {
+              "fearfulFreezeChance": {
+                "type": "FEARFUL",
+                "val": 30,
+                "duration": "N_TURNS",
+                "turns": 2,
+                "limiters": [
+                  "allOf",
+                  {
+                    "type": "TERRAIN_LIMITER",
+                    "terrain": "snow"
+                  },
+                  [
+                    "noneOf",
+                    "CREATURE_NATIVE_TERRAIN"
+                  ],
+                  [
+                    "noneOf",
+                    {
+                      "type": "HAS_ANOTHER_BONUS_LIMITER",
+                      "bonusType": "SIEGE_WEAPON"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "description": "{Ice Storm - Expert level}\n\nSummons a violent ice storm over the battlefield, damaging all creatures present.\n\nOn {Snow} terrain, each affected stack for which Snow is not native terrain has a {30%} chance before each of its turns for {2} turns to freeze and skip that turn entirely.\n\nDamage is increased by {90 points} compared with Ice Storm - Basic level."
+      }
+    }
+  }
+}

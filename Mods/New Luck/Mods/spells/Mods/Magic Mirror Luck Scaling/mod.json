@@ -1,22 +1,22 @@
 {
-	"name" : "Magic Mirror Luck Scaling",
-	"description" : "Adds Luck-based scaling to the reflection chance of the Magic Mirror spell.\n\nThis module affects the Magic Mirror spell, not the native Magic Mirror ability of Faerie Dragons. Positive Luck increases the chance to reflect hostile spells, while negative Luck reduces it. The additional spell resistance from the Magic Mirror spell rework is not affected.\n\n## Spell Changes\n\n* **Magic Mirror** — its spell reflection chance is adjusted by the protected stack's current Luck.\n  * **-3 or lower Luck**: reflection chance is reduced by 10%.\n  * **-2 Luck**: reflection chance is reduced by 7%.\n  * **-1 Luck**: reflection chance is reduced by 3%.\n  * **+1 Luck**: reflection chance is increased by 10%.\n  * **+2 Luck**: reflection chance is increased by 20%.\n  * **+3 or higher Luck**: reflection chance is increased by 30%.\n\nThis module can work together with the Magic Mirror spell rework from the Spells category, applying these controlled Luck-based modifiers to the reworked spell.",
-	"polish" : {
-		"name" : "Magiczne zwierciadło — skalowanie szczęściem",
-		"description" : "Dodaje skalowanie szczęściem do szansy odbicia zaklęcia przez czar Magiczne zwierciadło.\n\nTen moduł dotyczy czaru Magiczne zwierciadło, a nie naturalnej zdolności Czarodziejskich smoków. Dodatnie szczęście zwiększa szansę odbicia wrogiego zaklęcia, a ujemne szczęście ją zmniejsza. Dodatkowa szansa na odparcie zaklęcia z reworku Magicznego zwierciadła nie jest modyfikowana.\n\n## Zmiany czaru\n\n* **Magiczne zwierciadło** — szansa odbicia zaklęcia jest dostosowywana przez aktualne szczęście chronionego oddziału.\n  * **-3 lub mniej szczęścia**: szansa odbicia jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa odbicia jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa odbicia jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa odbicia jest zwiększona o 10%.\n  * **+2 szczęścia**: szansa odbicia jest zwiększona o 20%.\n  * **+3 lub więcej szczęścia**: szansa odbicia jest zwiększona o 30%.\n\nTen moduł może współpracować z reworkiem Magicznego zwierciadła z kategorii czarów, nakładając na przebudowany czar kontrolowane modyfikatory zależne od szczęścia."
-	},
-	"author" : "bew_",
-	"version" : "1.0.0",
-	"modType" : "Spells",
-	"depends" : [
-		"hota"
-	],
-	"spells" : [
-		"config/spells/MagicMirrorLuckScaling.json"
-	],
-	"changelog" : {
-		"1.0.0" : [
-			"Initial release."
-		]
-	}
+  "name": "Magic Mirror Luck Scaling",
+  "description": "Adds Luck-based scaling to the reflection chance of the Magic Mirror spell.\n\nThis module affects the Magic Mirror spell, not the native Magic Mirror ability of Faerie Dragons. Positive Luck increases the chance to reflect hostile spells, while negative Luck reduces it. The additional spell resistance from the Magic Mirror spell rework is not affected.\n\n## Spell Changes\n\n* **Magic Mirror** — its spell reflection chance is adjusted by the protected stack's current Luck.\n  * **-3 or lower Luck**: reflection chance is reduced by 10%.\n  * **-2 Luck**: reflection chance is reduced by 7%.\n  * **-1 Luck**: reflection chance is reduced by 3%.\n  * **+1 Luck**: reflection chance is increased by 10%.\n  * **+2 Luck**: reflection chance is increased by 20%.\n  * **+3 or higher Luck**: reflection chance is increased by 30%.\n\nThis module can work together with the Magic Mirror spell rework from the Spells category, applying these controlled Luck-based modifiers to the reworked spell.",
+  "polish": {
+    "name": "Magiczne zwierciadło — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do szansy odbicia zaklęcia przez czar Magiczne zwierciadło.\n\nTen moduł dotyczy czaru Magiczne zwierciadło, a nie naturalnej zdolności Czarodziejskich smoków. Dodatnie szczęście zwiększa szansę odbicia wrogiego zaklęcia, a ujemne szczęście ją zmniejsza. Dodatkowa szansa na odparcie zaklęcia z reworku Magicznego zwierciadła nie jest modyfikowana.\n\n## Zmiany czaru\n\n* **Magiczne zwierciadło** — szansa odbicia zaklęcia jest dostosowywana przez aktualne szczęście chronionego oddziału.\n  * **-3 lub mniej szczęścia**: szansa odbicia jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa odbicia jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa odbicia jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa odbicia jest zwiększona o 10%.\n  * **+2 szczęścia**: szansa odbicia jest zwiększona o 20%.\n  * **+3 lub więcej szczęścia**: szansa odbicia jest zwiększona o 30%.\n\nTen moduł może współpracować z reworkiem Magicznego zwierciadła z kategorii czarów, nakładając na przebudowany czar kontrolowane modyfikatory zależne od szczęścia."
+  },
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Spells",
+  "depends": [
+    "hota"
+  ],
+  "spells": [
+    "config/spells/MagicMirrorLuckScaling.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
 }

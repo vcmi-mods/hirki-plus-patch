@@ -1,13 +1,13 @@
 {
-	"core:luck" : {
-		"basic" : {
-			"description" : "{Basic Luck}\n\nIncreases the Luck of all hero's creatures by 1, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+	"core:luck": {
+		"basic": {
+			"description": "{Basic Luck}\n\nIncreases the Luck of all hero's creatures by {1}, improving their chance to deal double damage with lucky strikes.\n\n{Positive Luck} can grant or improve chance-based creature abilities. {Negative Luck} can weaken such abilities.\n\nAdditionally, it increases the chance of better rewards from adventure map objects. In creature banks, at this level it provides a {25%} chance for an upgraded reward. In the Pyramid, it provides a {25%} chance to discover an additional random level 4 spell if the hero has {Expert Wisdom}."
 		},
-		"advanced" : {
-			"description" : "{Advanced Luck}\n\nIncreases the Luck of all hero's creatures by 2, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+		"advanced": {
+			"description": "{Advanced Luck}\n\nIncreases the Luck of all hero's creatures by {2}, improving their chance to deal double damage with lucky strikes.\n\n{Positive Luck} can grant or improve chance-based creature abilities. {Negative Luck} can weaken such abilities.\n\nAdditionally, it increases the chance of better rewards from adventure map objects. In creature banks, at this level it provides a {50%} chance for an upgraded reward. In the Pyramid, it provides a {50%} chance to discover an additional random level 4 spell if the hero has {Expert Wisdom}."
 		},
-		"expert" : {
-			"description" : "{Expert Luck}\n\nIncreases the Luck of all hero's creatures by 3, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+		"expert": {
+			"description": "{Expert Luck}\n\nIncreases the Luck of all hero's creatures by {3}, improving their chance to deal double damage with lucky strikes.\n\n{Positive Luck} can grant or improve chance-based creature abilities. {Negative Luck} can weaken such abilities.\n\nAdditionally, it increases the chance of better rewards from adventure map objects. In creature banks, at this level it provides a {75%} chance for an upgraded reward. In the Pyramid, it provides a {75%} chance to discover an additional random level 4 spell if the hero has {Expert Wisdom}."
 		}
 	}
 }

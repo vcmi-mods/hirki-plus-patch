@@ -1,10 +1,12 @@
 {
-	"spell.core.fortune.description.advanced" : "{Advanced Fortune}\n\nIncreases Luck of target allied unit by +2.\n\nWhile Fortune lasts, Luck penalties cannot reduce that unit below +2 Luck.",
-	"spell.core.fortune.description.basic" : "{Basic Fortune}\n\nIncreases Luck of target allied unit by +1.\n\nWhile Fortune lasts, Luck penalties cannot reduce that unit below +1 Luck.",
-	"spell.core.fortune.description.expert" : "{Expert Fortune}\n\nIncreases Luck of all allied units by +2.\n\nWhile Fortune lasts, Luck penalties cannot reduce affected units below +2 Luck.",
-	"spell.core.fortune.description.none" : "{Fortune}\n\nIncreases Luck of target allied unit by +1.\n\nWhile Fortune lasts, Luck penalties cannot reduce that unit below +1 Luck.",
-	"spell.core.misfortune.description.advanced" : "{Advanced Misfortune}\n\nDecreases Luck of target enemy unit by -2.\n\nWhile Misfortune lasts, Luck bonuses cannot raise that unit above -2 Luck.",
-	"spell.core.misfortune.description.basic" : "{Basic Misfortune}\n\nDecreases Luck of target enemy unit by -1.\n\nWhile Misfortune lasts, Luck bonuses cannot raise that unit above -1 Luck.",
-	"spell.core.misfortune.description.expert" : "{Expert Misfortune}\n\nDecreases Luck of all enemy units by -2.\n\nWhile Misfortune lasts, Luck bonuses cannot raise affected units above -2 Luck.",
-	"spell.core.misfortune.description.none" : "{Misfortune}\n\nDecreases Luck of target enemy unit by -1.\n\nWhile Misfortune lasts, Luck bonuses cannot raise that unit above -1 Luck."
+	"spell.core.fortune.name" : "Fortune",
+	"spell.core.misfortune.name" : "Misfortune",
+"spell.core.fortune.description.advanced" : "{Advanced Fortune}\n\nIncreases {Luck} of {target allied unit} by {+2}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+2 Luck}.",
+	"spell.core.fortune.description.basic" : "{Basic Fortune}\n\nIncreases {Luck} of {target allied unit} by {+1}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+1 Luck}.",
+	"spell.core.fortune.description.expert" : "{Expert Fortune}\n\nIncreases {Luck} of {all allied units} by {+2}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce affected units below {+2 Luck}.",
+	"spell.core.fortune.description.none" : "{Fortune}\n\nIncreases {Luck} of {target allied unit} by {+1}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+1 Luck}.",
+	"spell.core.misfortune.description.advanced" : "{Advanced Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-2}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-2 Luck}.",
+	"spell.core.misfortune.description.basic" : "{Basic Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-1}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-1 Luck}.",
+	"spell.core.misfortune.description.expert" : "{Expert Misfortune}\n\nDecreases {Luck} of {all enemy units} by {-2}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise affected units above {-2 Luck}.",
+	"spell.core.misfortune.description.none" : "{Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-1}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-1 Luck}."
 }

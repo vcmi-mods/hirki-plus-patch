@@ -1,0 +1,223 @@
+{
+	"core:corpse": {
+		"types": {
+			"corpse": {
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 3,
+							"min": 0,
+							"max": 50
+						},
+						"mapDice": 0,
+						"message": 38,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 3,
+							"min": 50,
+							"max": 65
+						},
+						"artifacts": [
+							"@gainedArtifact"
+						],
+						"mapDice": 1,
+						"message": 37,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 3,
+							"min": 65,
+							"max": 100
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"mapDice": 2,
+						"message": 37,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 2,
+							"min": 0,
+							"max": 60
+						},
+						"mapDice": 0,
+						"message": 38,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 2,
+							"min": 60,
+							"max": 75
+						},
+						"artifacts": [
+							"@gainedArtifact"
+						],
+						"mapDice": 1,
+						"message": 37,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 2,
+							"min": 75,
+							"max": 100
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"mapDice": 2,
+						"message": 37,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 1,
+							"min": 0,
+							"max": 70
+						},
+						"mapDice": 0,
+						"message": 38,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 1,
+							"min": 70,
+							"max": 85
+						},
+						"artifacts": [
+							"@gainedArtifact"
+						],
+						"mapDice": 1,
+						"message": 37,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 1,
+							"min": 85,
+							"max": 100
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"mapDice": 2,
+						"message": 37,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 80
+						},
+						"mapDice": 0,
+						"message": 38
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 80,
+							"max": 90
+						},
+						"artifacts": [
+							"@gainedArtifact"
+						],
+						"mapDice": 1,
+						"message": 37
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"mapDice": 2,
+						"message": 37
+					}
+				]
+			}
+		}
+	}
+}

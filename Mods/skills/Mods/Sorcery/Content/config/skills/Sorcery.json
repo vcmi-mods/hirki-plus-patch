@@ -19,7 +19,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Sorcery}\n\nBasic Sorcery increases the hero's Spell Power by 10% in combat.",
+			"description" : "{Basic Sorcery}\n\nBasic Sorcery increases the hero's {Spell Power} by {10% in combat}.",
 			"effects" : {
 				"main" : {
 					"val" : 10
@@ -27,7 +27,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Sorcery}\n\nAdvanced Sorcery increases the hero's Spell Power by 20% in combat.",
+			"description" : "{Advanced Sorcery}\n\nAdvanced Sorcery increases the hero's {Spell Power} by {20% in combat}.",
 			"effects" : {
 				"main" : {
 					"val" : 20
@@ -35,7 +35,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Sorcery}\n\nExpert Sorcery increases the hero's Spell Power by 30% in combat.",
+			"description" : "{Expert Sorcery}\n\nExpert Sorcery increases the hero's {Spell Power} by {30% in combat}.",
 			"effects" : {
 				"main" : {
 					"val" : 30

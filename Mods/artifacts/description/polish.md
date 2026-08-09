@@ -11,3 +11,4 @@ Szczegółowe mechaniki, wymagania i informacje o kompatybilności znajdują si�
 - **Buty Odsieczy** — nowy czteroelementowy artefakt klasy **Relikt**, skupiony na logistyce armii i mobilności na mapie przygody, wraz z własnym czarem **Odsiecz**.
 - **Złota Gęś** — przebudowuje Złotą Gęś i jej artefakty składowe generujące złoto, zapewniając dochód nosicielowi oraz kumulującą się synergię z każdym sprzymierzonym bohaterem posiadającym {Finanse}.
 - **Miasto dobrobytu** — rozszerza Miasto dobrobytu o kumulującą się synergię z każdym sprzymierzonym {specjalistą w produkcji rzadkich surowców}.
+- **Skórzana Zbroja Szybkości** — nowy trzyczęściowy artefakt klasy **Relikt**, łączący **Naszyjnik Przyspieszenia**, **Pierścień Wędrowca** i **Płaszcz Zwinności**, zapewniający dodatkową szybkość armii noszącego oraz mniejszą drużynową premię do szybkości dla sprzymierzonych bohaterów.

@@ -1,7 +1,7 @@
 {
-	"hpp.objects.magicSpringArcaneTransmutation.archMageOgre": "{Magic Spring}\n\nThe magical waters double your hero's mana, transform your Arch Mages into Enchanters, and awaken your Ogres as Ogre Magi.",
-	"hpp.objects.magicSpringArcaneTransmutation.archMage": "{Magic Spring}\n\nThe magical waters double your hero's mana and transform your Arch Mages into Enchanters.",
-	"hpp.objects.magicSpringArcaneTransmutation.mageOgre": "{Magic Spring}\n\nThe magical waters double your hero's mana, transform your Mages into Arch Mages, and awaken your Ogres as Ogre Magi.",
-	"hpp.objects.magicSpringArcaneTransmutation.mage": "{Magic Spring}\n\nThe magical waters double your hero's mana and transform your Mages into Arch Mages.",
-	"hpp.objects.magicSpringArcaneTransmutation.ogre": "{Magic Spring}\n\nThe magical waters double your hero's mana and awaken your Ogres as Ogre Magi."
+	"hpp.objects.magicSpringArcaneTransmutation.archMageOgre": "{Magic Spring}\n\nThe magical waters {double your hero's mana}, transform your {Arch Mages} into {Enchanters}, and awaken your {Ogres} as {Ogre Magi}.",
+	"hpp.objects.magicSpringArcaneTransmutation.archMage": "{Magic Spring}\n\nThe magical waters {double your hero's mana} and transform your {Arch Mages} into {Enchanters}.",
+	"hpp.objects.magicSpringArcaneTransmutation.mageOgre": "{Magic Spring}\n\nThe magical waters {double your hero's mana}, transform your {Mages} into {Arch Mages}, and awaken your {Ogres} as {Ogre Magi}.",
+	"hpp.objects.magicSpringArcaneTransmutation.mage": "{Magic Spring}\n\nThe magical waters {double your hero's mana} and transform your {Mages} into {Arch Mages}.",
+	"hpp.objects.magicSpringArcaneTransmutation.ogre": "{Magic Spring}\n\nThe magical waters {double your hero's mana} and awaken your {Ogres} as {Ogre Magi}."
 }

@@ -53,7 +53,7 @@
 			},
 			"siegeWeapon" : {
 				"type" : "SIEGE_WEAPON",
-				"description" : "{Ammo Cart}\nIts artifact supplies allied ranged units with +5 total ammo for the current battle."
+				"description" : "{Ammo Cart}\nIts artifact supplies allied ranged units with {+5 total ammo} for the current battle."
 			}
 		},
 		"graphics" : {

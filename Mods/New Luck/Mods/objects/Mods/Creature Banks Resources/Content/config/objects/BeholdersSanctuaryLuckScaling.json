@@ -1,0 +1,1803 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"beholderSanctuary": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"guards": [
+							{
+								"amount": 10,
+								"type": "beholder"
+							},
+							{
+								"amount": 10,
+								"type": "beholder"
+							},
+							{
+								"amount": 10,
+								"type": "beholder",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 10,
+								"type": "beholder"
+							},
+							{
+								"amount": 10,
+								"type": "beholder"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"guards": [
+							{
+								"amount": 15,
+								"type": "beholder"
+							},
+							{
+								"amount": 15,
+								"type": "beholder"
+							},
+							{
+								"amount": 15,
+								"type": "beholder",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 15,
+								"type": "beholder"
+							},
+							{
+								"amount": 15,
+								"type": "beholder"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 5000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"guards": [
+							{
+								"amount": 20,
+								"type": "beholder"
+							},
+							{
+								"amount": 20,
+								"type": "beholder"
+							},
+							{
+								"amount": 20,
+								"type": "beholder",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 20,
+								"type": "beholder"
+							},
+							{
+								"amount": 20,
+								"type": "beholder"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 6000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"guards": [
+							{
+								"amount": 30,
+								"type": "beholder"
+							},
+							{
+								"amount": 30,
+								"type": "beholder"
+							},
+							{
+								"amount": 30,
+								"type": "beholder",
+								"upgradeChance": 50
+							},
+							{
+								"amount": 30,
+								"type": "beholder"
+							},
+							{
+								"amount": 30,
+								"type": "beholder"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 0,
+						"resources": {
+							"gold": 9000
+						},
+						"artifacts": [
+							{
+								"class": "RELIC"
+							}
+						],
+						"message": "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

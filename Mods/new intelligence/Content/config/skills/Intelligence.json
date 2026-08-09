@@ -14,7 +14,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Intelligence}\n\nIncreases the hero's maximum mana by 20% and grants 5 combat mana.\n\nCombat mana is available only during combat. Some allied creatures can further increase combat mana based on their stack size if the hero has Intelligence.",
+			"description" : "{Basic Intelligence}\n\nIncreases the hero's maximum mana by {20%} and grants {5 combat mana}.\n\n{Combat mana} is available {only during combat}. Some allied creatures can further increase {combat mana} based on their {stack size} if the hero has {Intelligence}.",
 			"effects" : {
 				"main" : {
 					"val" : 20
@@ -25,7 +25,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Intelligence}\n\nIncreases the hero's maximum mana by 35% and grants 10 combat mana.\n\nCombat mana is available only during combat. Some allied creatures can further increase combat mana based on their stack size if the hero has Intelligence.",
+			"description" : "{Advanced Intelligence}\n\nIncreases the hero's maximum mana by {35%} and grants {10 combat mana}.\n\n{Combat mana} is available {only during combat}. Some allied creatures can further increase {combat mana} based on their {stack size} if the hero has {Intelligence}.",
 			"effects" : {
 				"main" : {
 					"val" : 35
@@ -36,7 +36,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Intelligence}\n\nIncreases the hero's maximum mana by 50% and grants 15 combat mana.\n\nCombat mana is available only during combat. Some allied creatures can further increase combat mana based on their stack size if the hero has Intelligence.",
+			"description" : "{Expert Intelligence}\n\nIncreases the hero's maximum mana by {50%} and grants {15 combat mana}.\n\n{Combat mana} is available {only during combat}. Some allied creatures can further increase {combat mana} based on their {stack size} if the hero has {Intelligence}.",
 			"effects" : {
 				"main" : {
 					"val" : 50

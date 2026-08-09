@@ -1,43 +1,43 @@
 {
-	"name" : "Gold Specialist Halls",
-	"description" : "Adds a weekly **City Hall** reward for heroes specialized in generating gold.\n\nEach **City Hall** can automatically grant **4000 gold** once per week to the first eligible hero visiting the town.\n\nEligible heroes:\n\n**+350 gold specialists:**\n- **Octavia**\n- **Nagash**\n- **Jenova**\n- **Grindan**\n- **Gelare**\n- **Damacon**\n- **Clavius**\n- **Caitlin**\n- **Aine**\n- **Leena**\n- **Bertram**\n- **Vehr**\n\n**Exception:**\n- **Lord Haart** — as the only hero in the game specialized in **Estates**, he can also receive this reward.",
-	"author" : "bew_",
-	"version" : "1.0.1",
-	"modType" : "Town",
-	"depends" : [
+	"name": "Gold Specialist Halls",
+	"description": "Adds a weekly **City Hall** reward for heroes specialized in generating gold.\n\nEach **City Hall** can automatically grant **4000 gold** once per week to the first eligible hero visiting the town.\n\nEligible heroes:\n\n**+350 gold specialists:**\n- **Octavia**\n- **Nagash**\n- **Jenova**\n- **Grindan**\n- **Gelare**\n- **Damacon**\n- **Clavius**\n- **Caitlin**\n- **Aine**\n- **Leena**\n- **Bertram**\n- **Vehr**\n\n**Exception:**\n- **Lord Haart** — as the only hero in the game specialized in **Estates**, he can also receive this reward.",
+	"author": "bew_",
+	"version": "1.0.1",
+	"modType": "Town",
+	"depends": [
 		"hota",
 		"hota.cove",
 		"hota.factory",
 		"hota.bulwark"
 	],
-	"compatibility" : {
-		"min" : "1.7.4"
+	"compatibility": {
+		"min": "1.7.4"
 	},
-	"factions" : [
+	"factions": [
 		"config/factions/GoldSpecialistHalls.json"
 	],
-	"heroes" : [
+	"heroes": [
 		"config/heroes/GoldSpecialistHeroTexts.json"
 	],
-	"english" : {
-		"translations" : [
+	"english": {
+		"translations": [
 			"translation/english.json",
 			"config/translation/hpp/english/game.json"
 		]
 	},
-	"polish" : {
-		"name" : "Specjaliści złota i Ratusze",
-		"description" : "Dodaje tygodniową nagrodę z **Ratusza** dla bohaterów wyspecjalizowanych w zdobywaniu złota.\n\nKażdy **Ratusz** może raz w tygodniu automatycznie przyznać **4000 sztuk złota** pierwszemu uprawnionemu bohaterowi odwiedzającemu miasto.\n\nUprawnieni bohaterowie:\n\n**Specjaliści +350 złota dziennie:**\n- **Octavia**\n- **Nagash**\n- **Jenova**\n- **Grindan**\n- **Gelare**\n- **Damacon**\n- **Clavius**\n- **Caitlin**\n- **Aine**\n- **Leena**\n- **Bertram**\n- **Vehr**\n\n**Wyjątek:**\n- **Lord Haart** — jako jedyny w grze specjalista w **Finansach** również może otrzymać tę nagrodę.",
-		"translations" : [
+	"polish": {
+		"name": "Specjaliści złota i Ratusze",
+		"description": "Dodaje tygodniową nagrodę z **Ratusza** dla bohaterów wyspecjalizowanych w zdobywaniu złota.\n\nKażdy **Ratusz** może raz w tygodniu automatycznie przyznać **4000 sztuk złota** pierwszemu uprawnionemu bohaterowi odwiedzającemu miasto.\n\nUprawnieni bohaterowie:\n\n**Specjaliści +350 złota dziennie:**\n- **Octavia**\n- **Nagash**\n- **Jenova**\n- **Grindan**\n- **Gelare**\n- **Damacon**\n- **Clavius**\n- **Caitlin**\n- **Aine**\n- **Leena**\n- **Bertram**\n- **Vehr**\n\n**Wyjątek:**\n- **Lord Haart** — jako jedyny w grze specjalista w **Finansach** również może otrzymać tę nagrodę.",
+		"translations": [
 			"translation/polish.json",
 			"config/translation/hpp/polish/game.json"
 		]
 	},
-	"changelog" : {
-		"1.0.1" : [
+	"changelog": {
+		"1.0.1": [
 			"Fixed unresolved and empty City Hall fallback messages."
 		],
-		"1.0.0" : [
+		"1.0.0": [
 			"Initial release."
 		]
 	}

@@ -4,7 +4,7 @@
 		"value" : 20000,
 		"text" : {
 			"name" : "Pendant of Courage",
-			"description" : "{Pendant of Courage}\n\nWhen worn, this item bestows +2 Luck and Morale to your hero's troops."
+			"description" : "{Pendant of Courage}\n\nWhen worn, this item bestows {+2 Luck} and {+2 Morale} to your hero's troops."
 		},
 		"bonuses" : {
 			"luckBonus" : {

@@ -1,0 +1,462 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"churchyard": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 15,
+								"type": "zombieLord"
+							},
+							{
+								"amount": 15,
+								"type": "zombieLord"
+							},
+							{
+								"amount": 15,
+								"type": "zombieLord"
+							},
+							{
+								"amount": 15,
+								"type": "zombieLord"
+							},
+							{
+								"amount": 15,
+								"type": "zombieLord"
+							},
+							{
+								"amount": 15,
+								"type": "zombieLord"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.base",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 100
+						},
+						"mapDice": 0,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						],
+						"resources": {
+							"gold": 2500
+						},
+						"message": "@creatureBanksResources.churchyard.t1.success",
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,260 @@
+{
+  "core:waterWheel": {
+    "types": {
+      "waterWheel": {
+        "selectMode": "selectFirst",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 75
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 75,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 75
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 75,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "resources": {
+              "gold": 500
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 50
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 50,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 50
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 50,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            },
+            "resources": {
+              "gold": 500
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 25
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1500
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 25,
+              "max": 100
+            },
+            "limiter": {
+              "daysPassed": 8,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 25
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 25,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            },
+            "resources": {
+              "gold": 500
+            },
+            "message": 164
+          },
+          {
+            "limiter": {
+              "daysPassed": 8
+            },
+            "resources": {
+              "gold": 1000
+            },
+            "message": 164
+          },
+          {
+            "resources": {
+              "gold": 500
+            },
+            "message": 164
+          }
+        ]
+      }
+    }
+  }
+}

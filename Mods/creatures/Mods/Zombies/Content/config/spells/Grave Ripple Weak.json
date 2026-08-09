@@ -27,7 +27,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "Sends a weaker wave of grave-born death across the battlefield that damages all living units except undead and other non-living targets.",
+				"description" : "{Grave Ripple}\n\nSends a weaker wave of grave-born death across the battlefield that damages all living units except undead and other non-living targets.",
 				"cost" : 0,
 				"targetModifier" : {
 					"smart" : false,

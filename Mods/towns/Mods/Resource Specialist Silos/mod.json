@@ -1,43 +1,43 @@
 {
-	"name" : "Resource Specialist Silos",
-	"description" : "Adds a weekly **Resource Silo** reward for heroes specialized in producing rare resources.\n\nEach **Resource Silo** can automatically grant **+5 of each resource produced by that Resource Silo** once per week to the first eligible hero visiting the town.\n\nEligible heroes:\n\n**Rare resource specialists:**\n- **Calid** — sulfur\n- **Rissa** — mercury\n- **Saurug** — gems\n- **Sephinroth** — crystals\n- **Andal** — crystals",
-	"author" : "bew_",
-	"version" : "1.0.1",
-	"modType" : "Town",
-	"depends" : [
+	"name": "Resource Specialist Silos",
+	"description": "Adds a weekly **Resource Silo** reward for heroes specialized in producing rare resources.\n\nEach **Resource Silo** can automatically grant **+5 of each resource produced by that Resource Silo** once per week to the first eligible hero visiting the town.\n\nEligible heroes:\n\n**Rare resource specialists:**\n- **Calid** — sulfur\n- **Rissa** — mercury\n- **Saurug** — gems\n- **Sephinroth** — crystals\n- **Andal** — crystals",
+	"author": "bew_",
+	"version": "1.0.1",
+	"modType": "Town",
+	"depends": [
 		"hota",
 		"hota.cove",
 		"hota.factory",
 		"hota.bulwark"
 	],
-	"compatibility" : {
-		"min" : "1.7.4"
+	"compatibility": {
+		"min": "1.7.4"
 	},
-	"factions" : [
+	"factions": [
 		"config/factions/ResourceSpecialistSilos.json"
 	],
-	"heroes" : [
+	"heroes": [
 		"config/heroes/ResourceSpecialistHeroTexts.json"
 	],
-	"english" : {
-		"translations" : [
+	"english": {
+		"translations": [
 			"translation/english.json",
 			"config/translation/hpp/english/game.json"
 		]
 	},
-	"polish" : {
-		"name" : "Specjaliści rzadkich surowców i Magazyny zasobów",
-		"description" : "Dodaje tygodniową nagrodę z **Magazynu zasobów** dla bohaterów wyspecjalizowanych w produkcji rzadkich surowców.\n\nKażdy **Magazyn zasobów** może raz w tygodniu automatycznie przyznać **+5 każdego zasobu produkowanego przez ten Magazyn zasobów** pierwszemu uprawnionemu bohaterowi odwiedzającemu miasto.\n\nUprawnieni bohaterowie:\n\n**Specjaliści rzadkich surowców:**\n- **Calid** — siarka\n- **Rissa** — rtęć\n- **Saurug** — klejnoty\n- **Sephinroth** — kryształy\n- **Andal** — kryształy",
-		"translations" : [
+	"polish": {
+		"name": "Specjaliści rzadkich surowców i Magazyny zasobów",
+		"description": "Dodaje tygodniową nagrodę z **Magazynu zasobów** dla bohaterów wyspecjalizowanych w produkcji rzadkich surowców.\n\nKażdy **Magazyn zasobów** może raz w tygodniu automatycznie przyznać **+5 każdego zasobu produkowanego przez ten Magazyn zasobów** pierwszemu uprawnionemu bohaterowi odwiedzającemu miasto.\n\nUprawnieni bohaterowie:\n\n**Specjaliści rzadkich surowców:**\n- **Calid** — siarka\n- **Rissa** — rtęć\n- **Saurug** — klejnoty\n- **Sephinroth** — kryształy\n- **Andal** — kryształy",
+		"translations": [
 			"translation/polish.json",
 			"config/translation/hpp/polish/game.json"
 		]
 	},
-	"changelog" : {
-		"1.0.1" : [
+	"changelog": {
+		"1.0.1": [
 			"Fixed unresolved and empty Resource Silo fallback messages."
 		],
-		"1.0.0" : [
+		"1.0.0": [
 			"Initial release."
 		]
 	}

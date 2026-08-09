@@ -1,25 +1,25 @@
 {
-	"name" : "Towns",
-	"description" : "Town modules for Hirki Plus Patch.\n\nThis parent module groups optional changes related to **town buildings**, **faction identity** and town-based rewards. These modules may expand existing buildings, add new reward logic or create additional town interactions while preserving the original role of each town whenever possible.\n\nDetailed requirements, rewards and rules are described in the individual child modules.\n\n## Current Town Modules\n\n* **Elemental Ritual** — lets heroes sacrifice complete creature sets in selected towns in exchange for thematic rewards.\n\n* **Resource Specialist Silos** — gives rare-resource specialists a weekly reward from visited Resource Silos.\n\n* **Gold Specialist Halls** — gives gold-focused heroes a weekly City Hall reward, with Lord Haart included as a unique Estates-themed exception.",
-	"author" : "bew_",
-	"version" : "1.0.1",
-	"modType" : "Town",
-	"depends" : [
+	"name": "Towns",
+	"description": "Town modules for Hirki Plus Patch.\n\nThis parent module groups optional changes related to **town buildings**, **faction identity** and town-based rewards. These modules may expand existing buildings, add new reward logic or create additional town interactions while preserving the original role of each town whenever possible.\n\nDetailed requirements, rewards and rules are described in the individual child modules.\n\n## Current Town Modules\n\n* **Elemental Ritual** — lets heroes sacrifice complete creature sets in selected towns in exchange for thematic rewards.\n\n* **Resource Specialist Silos** — gives rare-resource specialists a weekly reward from visited Resource Silos.\n\n* **Gold Specialist Halls** — gives gold-focused heroes a weekly City Hall reward, with Lord Haart included as a unique Estates-themed exception.",
+	"author": "bew_",
+	"version": "1.0.1",
+	"modType": "Town",
+	"depends": [
 		"hota"
 	],
-	"compatibility" : {
-		"min" : "1.7.4"
+	"compatibility": {
+		"min": "1.7.4"
 	},
-	"changelog" : {
-		"1.0.1" : [
+	"changelog": {
+		"1.0.1": [
 			"Fixed unresolved and empty fallback messages in town reward modules."
 		],
-		"1.0.0" : [
+		"1.0.0": [
 			"Initial release."
 		]
 	},
-	"polish" : {
-		"name" : "Miasta",
-		"description" : "Moduły miast dla Hirki Plus Patch.\n\nTen moduł nadrzędny grupuje opcjonalne zmiany dotyczące **budynków miast**, **tożsamości frakcji** i nagród powiązanych z miastami. Moduły te mogą rozwijać istniejące budynki, dodawać nową logikę nagród albo tworzyć dodatkowe interakcje miejskie, zachowując pierwotną rolę każdego miasta, gdy tylko jest to możliwe.\n\nSzczegółowe wymagania, nagrody i zasady działania są opisane w modułach podrzędnych.\n\n## Aktualne moduły miast\n\n* **Rytuał żywiołów** — pozwala bohaterom poświęcać kompletne sety jednostek w wybranych miastach w zamian za tematyczne nagrody.\n\n* **Specjaliści rzadkich surowców i Magazyny zasobów** — dodaje specjalistom rzadkich surowców tygodniową nagrodę z odwiedzanego Magazynu zasobów.\n\n* **Specjaliści złota i Ratusze** — dodaje bohaterom związanym ze złotem tygodniową nagrodę z Ratusza, z Lordem Haartem jako unikalnym wyjątkiem powiązanym z Finansami."
+	"polish": {
+		"name": "Miasta",
+		"description": "Moduły miast dla Hirki Plus Patch.\n\nTen moduł nadrzędny grupuje opcjonalne zmiany dotyczące **budynków miast**, **tożsamości frakcji** i nagród powiązanych z miastami. Moduły te mogą rozwijać istniejące budynki, dodawać nową logikę nagród albo tworzyć dodatkowe interakcje miejskie, zachowując pierwotną rolę każdego miasta, gdy tylko jest to możliwe.\n\nSzczegółowe wymagania, nagrody i zasady działania są opisane w modułach podrzędnych.\n\n## Aktualne moduły miast\n\n* **Rytuał żywiołów** — pozwala bohaterom poświęcać kompletne sety jednostek w wybranych miastach w zamian za tematyczne nagrody.\n\n* **Specjaliści rzadkich surowców i Magazyny zasobów** — dodaje specjalistom rzadkich surowców tygodniową nagrodę z odwiedzanego Magazynu zasobów.\n\n* **Specjaliści złota i Ratusze** — dodaje bohaterom związanym ze złotem tygodniową nagrodę z Ratusza, z Lordem Haartem jako unikalnym wyjątkiem powiązanym z Finansami."
 	}
 }

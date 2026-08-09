@@ -1,5 +1,6 @@
 {
 	"core:sorrow" : {
+		"name" : "Sorrow",
 		"targetType" : "CREATURE",
 		"animation" : {
 			"affect" : [
@@ -38,7 +39,7 @@
 						"val" : -1
 					}
 				},
-				"description" : "{Sorrow}\n\nDecreases Morale of target enemy unit by -1.\n\nWhile Sorrow lasts, Morale bonuses cannot raise that unit above -1 Morale."
+				"description" : "{Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-1}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-1 Morale}."
 			},
 			"basic" : {
 				"cost" : 9,
@@ -50,7 +51,7 @@
 						"val" : -1
 					}
 				},
-				"description" : "{Basic Sorrow}\n\nDecreases Morale of target enemy unit by -1.\n\nWhile Sorrow lasts, Morale bonuses cannot raise that unit above -1 Morale."
+				"description" : "{Basic Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-1}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-1 Morale}."
 			},
 			"advanced" : {
 				"cost" : 7,
@@ -62,7 +63,7 @@
 						"val" : -2
 					}
 				},
-				"description" : "{Advanced Sorrow}\n\nDecreases Morale of target enemy unit by -2.\n\nWhile Sorrow lasts, Morale bonuses cannot raise that unit above -2 Morale."
+				"description" : "{Advanced Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-2}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-2 Morale}."
 			},
 			"expert" : {
 				"cost" : 5,
@@ -75,7 +76,7 @@
 						"val" : -2
 					}
 				},
-				"description" : "{Expert Sorrow}\n\nDecreases Morale of all enemy units by -2.\n\nWhile Sorrow lasts, Morale bonuses cannot raise affected units above -2 Morale."
+				"description" : "{Expert Sorrow}\n\nDecreases {Morale} of {all enemy units} by {-2}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise affected units above {-2 Morale}."
 			}
 		},
 		"counters" : {

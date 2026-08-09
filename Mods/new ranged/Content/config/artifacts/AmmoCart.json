@@ -10,7 +10,7 @@
 		"value" : 2000,
 		"text" : {
 			"name" : "Ammo Cart",
-			"description" : "{Ammo Cart}\n\nWhen equipped, this war machine supplies allied ranged units with +5 total ammo for the current battle.",
+			"description" : "{Ammo Cart}\n\nWhen equipped, this war machine supplies allied ranged units with {+5 total ammo} for the current battle.",
 			"event" : "You find an Ammo Cart. It can supply your ranged units with extra ammunition, so you take it with you."
 		},
 		"warMachine" : "hirkyAmmoCart",

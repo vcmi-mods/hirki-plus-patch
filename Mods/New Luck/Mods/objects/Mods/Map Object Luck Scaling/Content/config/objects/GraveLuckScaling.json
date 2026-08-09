@@ -1,0 +1,349 @@
+{
+  "hota.wastelandterrain:grave": {
+    "types": {
+      "grave": {
+        "selectMode": "selectFirst",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 0,
+              "max": 10
+            },
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldExpert",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 3,
+              "min": 10,
+              "max": 100
+            },
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldExpert",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 0,
+              "max": 25
+            },
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldAdvanced",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 2,
+              "min": 25,
+              "max": 100
+            },
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldAdvanced",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 0,
+              "max": 40
+            },
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldBasic",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 1,
+              "min": 40,
+              "max": 100
+            },
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100,
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldBasic",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 50
+            },
+            "artifacts": [
+              {
+                "class": "TREASURE"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldNone",
+                "type": "gold"
+              }
+            ]
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 50,
+              "max": 100
+            },
+            "artifacts": [
+              {
+                "class": "MINOR"
+              }
+            ],
+            "bonuses": [
+              {
+                "description": "Grave Digging",
+                "duration": "ONE_BATTLE",
+                "stacking": "GraveDigging",
+                "type": "MORALE",
+                "val": -3
+              }
+            ],
+            "limiter": {
+              "movePercentage": 100
+            },
+            "message": "@mapObjectLuckScaling.grave.reward",
+            "movePercentage": 0,
+            "removeObject": true,
+            "resources": [
+              {
+                "amount": "@graveGoldNone",
+                "type": "gold"
+              }
+            ]
+          }
+        ],
+        "variables": {
+          "number": {
+            "graveGoldNone": {
+              "amount": [
+                1500,
+                2000,
+                2500,
+                3000,
+                3500,
+                4000
+              ]
+            },
+            "graveGoldBasic": {
+              "amount": [
+                2000,
+                2500,
+                3000,
+                3500,
+                4000
+              ]
+            },
+            "graveGoldAdvanced": {
+              "amount": [
+                2500,
+                3000,
+                3500,
+                4000
+              ]
+            },
+            "graveGoldExpert": {
+              "amount": [
+                3000,
+                3500,
+                4000
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

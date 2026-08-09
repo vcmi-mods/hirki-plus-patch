@@ -24,7 +24,7 @@
 					"val" : 40
 				}
 			},
-			"description" : "{Basic First Aid}\n\nAllows manual control of the First Aid Tent and increases its healing to up to 50 Health.\n\nWhile the First Aid Tent remains active, allied creatures gain +5% maximum Health.\n\nThe First Aid Tent cannot lose more than 40% of its maximum Health from a single attack."
+			"description" : "{Basic First Aid}\n\nAllows {manual control} of the {First Aid Tent} and increases its healing to up to {50 Health}.\n\n{While the First Aid Tent remains active}, allied creatures gain {+5% maximum Health}.\n\nThe {First Aid Tent} cannot lose more than {40%} of its maximum Health from a {single attack}."
 		},
 		"advanced" : {
 			"effects" : {
@@ -32,7 +32,7 @@
 					"val" : 30
 				}
 			},
-			"description" : "{Advanced First Aid}\n\nAllows manual control of the First Aid Tent and increases its healing to up to 75 Health.\n\nWhile the First Aid Tent remains active, allied creatures gain +10% maximum Health.\n\nThe First Aid Tent cannot lose more than 30% of its maximum Health from a single attack."
+			"description" : "{Advanced First Aid}\n\nAllows {manual control} of the {First Aid Tent} and increases its healing to up to {75 Health}.\n\n{While the First Aid Tent remains active}, allied creatures gain {+10% maximum Health}.\n\nThe {First Aid Tent} cannot lose more than {30%} of its maximum Health from a {single attack}."
 		},
 		"expert" : {
 			"effects" : {
@@ -52,7 +52,7 @@
 					]
 				}
 			},
-			"description" : "{Expert First Aid}\n\nAllows manual control of the First Aid Tent and increases its healing to up to 100 Health.\n\nWhile the First Aid Tent remains active, allied creatures gain +15% maximum Health.\n\nThe First Aid Tent and Ammo Cart cannot lose more than 20% of their maximum Health from a single attack."
+			"description" : "{Expert First Aid}\n\nAllows {manual control} of the {First Aid Tent} and increases its healing to up to {100 Health}.\n\n{While the First Aid Tent remains active}, allied creatures gain {+15% maximum Health}.\n\nThe {First Aid Tent} and {Ammo Cart} cannot lose more than {20%} of their maximum Health from a {single attack}."
 		}
 	}
 }

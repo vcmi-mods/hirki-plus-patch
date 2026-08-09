@@ -1,5 +1,6 @@
 {
 	"core:fortune" : {
+		"name" : "Fortune",
 		"targetType" : "CREATURE",
 		"animation" : {
 			"affect" : [
@@ -38,7 +39,7 @@
 						"val" : 1
 					}
 				},
-				"description" : "{Fortune}\n\nIncreases Luck of target allied unit by +1.\n\nWhile Fortune lasts, Luck penalties cannot reduce that unit below +1 Luck."
+				"description" : "{Fortune}\n\nIncreases {Luck} of {target allied unit} by {+1}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+1 Luck}."
 			},
 			"basic" : {
 				"cost" : 4,
@@ -50,7 +51,7 @@
 						"val" : 1
 					}
 				},
-				"description" : "{Basic Fortune}\n\nIncreases Luck of target allied unit by +1.\n\nWhile Fortune lasts, Luck penalties cannot reduce that unit below +1 Luck."
+				"description" : "{Basic Fortune}\n\nIncreases {Luck} of {target allied unit} by {+1}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+1 Luck}."
 			},
 			"advanced" : {
 				"cost" : 3,
@@ -62,7 +63,7 @@
 						"val" : 2
 					}
 				},
-				"description" : "{Advanced Fortune}\n\nIncreases Luck of target allied unit by +2.\n\nWhile Fortune lasts, Luck penalties cannot reduce that unit below +2 Luck."
+				"description" : "{Advanced Fortune}\n\nIncreases {Luck} of {target allied unit} by {+2}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+2 Luck}."
 			},
 			"expert" : {
 				"cost" : 2,
@@ -75,7 +76,7 @@
 						"val" : 2
 					}
 				},
-				"description" : "{Expert Fortune}\n\nIncreases Luck of all allied units by +2.\n\nWhile Fortune lasts, Luck penalties cannot reduce affected units below +2 Luck."
+				"description" : "{Expert Fortune}\n\nIncreases {Luck} of {all allied units} by {+2}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce affected units below {+2 Luck}."
 			}
 		},
 		"counters" : {

@@ -1,5 +1,5 @@
 {
-	"hpp.objects.trailblazerWastelandTraining.both": "{Trailblazer}\n\nThe trailblazer shows your army the hidden paths of the wasteland. Your Shamans learn to command harsher spirits and become Great Shamans, while your Ogres are initiated into battle magic as Ogre Magi.",
-	"hpp.objects.trailblazerWastelandTraining.shaman": "{Trailblazer}\n\nThe trailblazer shows your army the hidden paths of the wasteland. Your Shamans learn to command harsher spirits and become Great Shamans.",
-	"hpp.objects.trailblazerWastelandTraining.ogre": "{Trailblazer}\n\nThe trailblazer shows your army the hidden paths of the wasteland. Your Ogres are initiated into battle magic and become Ogre Magi."
+	"hpp.objects.trailblazerWastelandTraining.both": "{Trailblazer}\n\nThe trailblazer shows your army the hidden paths of the wasteland. Your {Shamans} learn to command harsher spirits and become {Great Shamans}, while your {Ogres} are initiated into battle magic as {Ogre Magi}.",
+	"hpp.objects.trailblazerWastelandTraining.shaman": "{Trailblazer}\n\nThe trailblazer shows your army the hidden paths of the wasteland. Your {Shamans} learn to command harsher spirits and become {Great Shamans}.",
+	"hpp.objects.trailblazerWastelandTraining.ogre": "{Trailblazer}\n\nThe trailblazer shows your army the hidden paths of the wasteland. Your {Ogres} are initiated into battle magic and become {Ogre Magi}."
 }

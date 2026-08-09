@@ -1,4 +1,4 @@
 {
-	"hpp.objects.redwoodObservatoryElvenSharpshooterTraining.grandElf": "{Redwood Observatory}\n\nThe observatory reveals the surrounding lands. From this high vantage point, your Grand Elves master unmatched precision and become Sharpshooters.",
-	"hpp.objects.redwoodObservatoryElvenSharpshooterTraining.woodElf": "{Redwood Observatory}\n\nThe observatory reveals the surrounding lands. From this high vantage point, your Wood Elves refine their discipline and rise as Grand Elves."
+	"hpp.objects.redwoodObservatoryElvenSharpshooterTraining.grandElf": "{Redwood Observatory}\n\nThe observatory reveals the surrounding lands. From this high vantage point, your {Grand Elves} master unmatched precision and become {Sharpshooters}.",
+	"hpp.objects.redwoodObservatoryElvenSharpshooterTraining.woodElf": "{Redwood Observatory}\n\nThe observatory reveals the surrounding lands. From this high vantage point, your {Wood Elves} refine their discipline and rise as {Grand Elves}."
 }

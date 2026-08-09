@@ -1,4 +1,4 @@
 {
-	"hpp.objects.sanctuaryMonkConsecration.monk": "{Sanctuary}\n\nYou enter the sanctuary and immediately feel as if a great weight has been lifted off your shoulders. You feel safe here.\n\nThe holiness of this place consecrates your Monks into Zealots.",
+	"hpp.objects.sanctuaryMonkConsecration.monk": "{Sanctuary}\n\nYou enter the sanctuary and immediately feel as if a great weight has been lifted off your shoulders. You feel safe here.\n\nThe holiness of this place consecrates your {Monks} into {Zealots}.",
 	"hpp.objects.sanctuaryMonkConsecration.protection": "{Sanctuary}\n\nYou enter the sanctuary and immediately feel as if a great weight has been lifted off your shoulders. You feel safe here."
 }

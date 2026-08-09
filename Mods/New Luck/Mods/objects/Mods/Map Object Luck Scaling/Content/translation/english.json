@@ -1,0 +1,19 @@
+{
+  "mapObjectLuckScaling.campfire.artifact": "{Campfire}\n\nSearching the abandoned camp, you find a forgotten artifact: %s.",
+  "mapObjectLuckScaling.grave.reward": "{Grave}\n\nYou take up the shovel, cover your nose with a handkerchief and extract something valuable from the ground: %s.",
+  "mapObjectLuckScaling.jetsam.empty": "{Jetsam}\n\nYou inspect the jettisoned cargo. Nothing of value can be found.",
+  "mapObjectLuckScaling.jetsam.ore5": "{Jetsam}\n\nYou inspect the jettisoned cargo. Most of it is spoilt by sea water, but you are able to salvage some ore.",
+  "mapObjectLuckScaling.jetsam.ore5Gold200": "{Jetsam}\n\nYou inspect the jettisoned cargo. Some ore and gold go into your coffers.",
+  "mapObjectLuckScaling.jetsam.ore10Gold500": "{Jetsam}\n\nYou inspect the jettisoned cargo. Considerable amounts of ore and gold are found within.",
+  "mapObjectLuckScaling.seaBarrel.empty": "{Sea Barrel}\n\nThis barrel is full of sea water. You have no idea why it is still afloat.",
+  "mapObjectLuckScaling.seaBarrel.goods": "{Sea Barrel}\n\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+  "mapObjectLuckScaling.warehouseCrystal.default": "{Warehouse of Crystal}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all crystals from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.warehouseGems.default": "{Warehouse of Gem}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gems from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.warehouseGold.default": "{Warehouse of Gold}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gold from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.warehouseMercury.default": "{Warehouse of Mercury}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all mercury from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.warehouseOre.default": "{Warehouse of Ore}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all ore from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.warehouseSulfur.default": "{Warehouse of Sulfur}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all sulfur from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.warehouseWood.default": "{Warehouse of Wood}\n\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all wood from the nearby production points for you. Come next week for the new portion!'",
+  "mapObjectLuckScaling.derrick.default": "{Derrick}\n\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time - come for your share in a week.\"",
+  "mapObjectLuckScaling.prospector.default": "{Prospector}\n\nThe tired prospector makes an effort to look tough, but you can see he is afraid of you after all. He is willing to pay you a small sum regularly for the permission to continue mining here."
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Luck-Enhanced Pyramid Reward",
+  "description": "Enhances the **Pyramid reward** according to the visiting hero's **secondary skill Luck**.\n\nThe native **random level 5 spell**, guards, one-time visit rule and empty-Pyramid penalty remain unchanged. If the hero can learn the level 5 spell, **Basic / Advanced / Expert Luck** provides a **25% / 50% / 75% chance** to discover an **additional random level 4 spell**.\n\nOnly the hero's **Luck skill mastery** affects this reward. Luck from artifacts, spells, adventure map objects and temporary effects does not apply.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Objects",
+  "compatibility": {
+    "min": "1.7.4"
+  },
+  "depends": [
+    "hota"
+  ],
+  "softDepends": [
+    "hota.gamebalance.objects"
+  ],
+  "objects": [
+    "config/objects/PyramidSpellReward.json"
+  ],
+  "english": {
+    "translations": [
+      "translation/english.json"
+    ]
+  },
+  "polish": {
+    "name": "Nagroda Piramidy wzmocniona przez Szczęście",
+    "description": "Wzmacnia **nagrodę Piramidy** zależnie od poziomu umiejętności dodatkowej **Szczęście** odwiedzającego bohatera.\n\nNatywny **losowy czar 5. poziomu**, strażnicy, jednorazowa wizyta oraz kara za wejście do pustej Piramidy pozostają bez zmian. Jeżeli bohater może nauczyć się czaru 5. poziomu, **podstawowe / zaawansowane / mistrzowskie Szczęście** zapewnia **25% / 50% / 75% szansy** na odkrycie **dodatkowego losowego czaru 4. poziomu**.\n\nNa tę nagrodę wpływa wyłącznie **poziom umiejętności Szczęście** bohatera. Szczęście z artefaktów, czarów, obiektów mapy i efektów tymczasowych nie jest uwzględniane.",
+    "translations": [
+      "translation/polish.json"
+    ]
+  },
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

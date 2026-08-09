@@ -1,0 +1,673 @@
+{
+  "hota.wastelandterrain:prospector": {
+    "types": {
+      "prospector": {
+        "selectMode": "selectRandom",
+        "rewards": [
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 7
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 1
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 7
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 7
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 2
+                }
+              ],
+              "noneOf": [
+                {
+                  "secondary": [
+                    {
+                      "type": "luck",
+                      "amount": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 5
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 7
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 7
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "sulfur": 7
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 500
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 1000
+            }
+          },
+          {
+            "appearChance": {
+              "dice": 0,
+              "min": 0,
+              "max": 100
+            },
+            "limiter": {
+              "secondary": [
+                {
+                  "type": "luck",
+                  "amount": 3
+                }
+              ]
+            },
+            "message": "@mapObjectLuckScaling.prospector.default",
+            "resources": {
+              "gold": 1000
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Creature Banks Units",
+  "description": "Optional Luck module for creature banks that reward troops. Native bank tiers, guard compositions, the 30% / 30% / 30% / 10% tier distribution, layouts, visit behavior and RMG settings remain unchanged. Luck affects only the number of creatures granted after victory. Only the visiting hero's secondary skill Luck is checked; artifacts, spells and temporary Luck modifiers do not affect these rewards.\n\n## Reward scaling\n\n* **Dragon Fly Hive** — 4 / 6 / 8 / 12 Wyverns can become 6 / 8 / 10 / 14.\n* **Griffin Conservatory** — 1 / 2 / 3 / 4 Angels can become 2 / 3 / 4 / 5.\n* **Experimental Shop** — 1 / 2 / 3 / 4 Giants can become 2 / 3 / 4 / 5.\n* **Ivory Tower** — 3 / 6 / 9 / 12 Enchanters can become 4 / 7 / 11 / 14.\n* **Pirate Cavern** — 1 / 2 / 3 / 4 Sea Serpents can become 2 / 3 / 4 / 5.\n* **Red Tower** — 1 / 2 / 3 / 4 Firebirds can become 2 / 3 / 4 / 5.\n* **Wolf Raider Picket** — 4 / 6 / 8 / 12 Cyclops can become 6 / 8 / 10 / 14.\n\nUpgrade chances are **25% / 50% / 75%** for Basic / Advanced / Expert Luck. No Luck keeps the native creature reward. Spit is intentionally excluded.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Objects",
+  "compatibility": {
+    "min": "1.7.4"
+  },
+  "depends": [
+    "hota",
+    "hota.mapobjects",
+    "hota.neutralcreatures",
+    "hota.cove"
+  ],
+  "objects": [
+    "config/objects/DragonFlyHiveLuckScaling.json",
+    "config/objects/GriffinConservatoryLuckScaling.json",
+    "config/objects/ExperimentalShopLuckScaling.json",
+    "config/objects/IvoryTowerLuckScaling.json",
+    "config/objects/PirateCavernLuckScaling.json",
+    "config/objects/RedTowerLuckScaling.json",
+    "config/objects/WolfRaiderPicketLuckScaling.json"
+  ],
+  "english": {
+    "translations": [
+      "translation/english.json"
+    ]
+  },
+  "polish": {
+    "name": "Banki stworzeń — jednostki",
+    "description": "Opcjonalny moduł Szczęścia dla banków stworzeń przyznających jednostki. Natywne poziomy banków, składy strażników, rozkład 30% / 30% / 30% / 10%, układy, zasady wizyt i ustawienia RMG pozostają bez zmian. Szczęście wpływa wyłącznie na liczbę jednostek otrzymywanych po zwycięstwie. Sprawdzany jest wyłącznie poziom umiejętności dodatkowej Szczęście odwiedzającego bohatera; artefakty, czary i tymczasowe modyfikatory Szczęścia nie wpływają na te nagrody.\n\n## Skalowanie nagród\n\n* **Rój ważek** — 4 / 6 / 8 / 12 Wyvern może wzrosnąć do 6 / 8 / 10 / 14.\n* **Konserwatorium gryfów** — 1 / 2 / 3 / 4 Angel może wzrosnąć do 2 / 3 / 4 / 5.\n* **Warsztat eksperymentalny** — 1 / 2 / 3 / 4 Giant może wzrosnąć do 2 / 3 / 4 / 5.\n* **Wieża z kości słoniowej** — 3 / 6 / 9 / 12 Enchanter może wzrosnąć do 4 / 7 / 11 / 14.\n* **Jaskinia piratów** — 1 / 2 / 3 / 4 Sea Serpent może wzrosnąć do 2 / 3 / 4 / 5.\n* **Czerwona wieża** — 1 / 2 / 3 / 4 Firebird może wzrosnąć do 2 / 3 / 4 / 5.\n* **Posterunek wilczych rycerzy** — 4 / 6 / 8 / 12 Cyclop może wzrosnąć do 6 / 8 / 10 / 14.\n\nSzanse ulepszenia wynoszą **25% / 50% / 75%** dla podstawowego / zaawansowanego / mistrzowskiego Szczęścia. Brak Szczęścia zachowuje natywną nagrodę jednostkową. Barłóg jest celowo pominięty.",
+    "translations": [
+      "translation/polish.json"
+    ]
+  },
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

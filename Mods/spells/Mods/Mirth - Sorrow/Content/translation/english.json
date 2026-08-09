@@ -1,10 +1,12 @@
 {
-	"spell.core.mirth.description.advanced" : "{Advanced Mirth}\n\nIncreases Morale of target allied unit by +2.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +2 Morale.",
-	"spell.core.mirth.description.basic" : "{Basic Mirth}\n\nIncreases Morale of target allied unit by +1.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +1 Morale.",
-	"spell.core.mirth.description.expert" : "{Expert Mirth}\n\nIncreases Morale of all allied units by +2.\n\nWhile Mirth lasts, Morale penalties cannot reduce affected units below +2 Morale.",
-	"spell.core.mirth.description.none" : "{Mirth}\n\nIncreases Morale of target allied unit by +1.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +1 Morale.",
-	"spell.core.sorrow.description.advanced" : "{Advanced Sorrow}\n\nDecreases Morale of target enemy unit by -2.\n\nWhile Sorrow lasts, Morale bonuses cannot raise that unit above -2 Morale.",
-	"spell.core.sorrow.description.basic" : "{Basic Sorrow}\n\nDecreases Morale of target enemy unit by -1.\n\nWhile Sorrow lasts, Morale bonuses cannot raise that unit above -1 Morale.",
-	"spell.core.sorrow.description.expert" : "{Expert Sorrow}\n\nDecreases Morale of all enemy units by -2.\n\nWhile Sorrow lasts, Morale bonuses cannot raise affected units above -2 Morale.",
-	"spell.core.sorrow.description.none" : "{Sorrow}\n\nDecreases Morale of target enemy unit by -1.\n\nWhile Sorrow lasts, Morale bonuses cannot raise that unit above -1 Morale."
+	"spell.core.mirth.name" : "Mirth",
+	"spell.core.sorrow.name" : "Sorrow",
+"spell.core.mirth.description.advanced" : "{Advanced Mirth}\n\nIncreases {Morale} of the {target allied unit} by {+2}.\n\n{While Mirth lasts}, Morale penalties cannot reduce that unit below {+2 Morale}.",
+	"spell.core.mirth.description.basic" : "{Basic Mirth}\n\nIncreases {Morale} of the {target allied unit} by {+1}.\n\n{While Mirth lasts}, Morale penalties cannot reduce that unit below {+1 Morale}.",
+	"spell.core.mirth.description.expert" : "{Expert Mirth}\n\nIncreases {Morale} of {all allied units} by {+2}.\n\n{While Mirth lasts}, Morale penalties cannot reduce affected units below {+2 Morale}.",
+	"spell.core.mirth.description.none" : "{Mirth}\n\nIncreases {Morale} of the {target allied unit} by {+1}.\n\n{While Mirth lasts}, Morale penalties cannot reduce that unit below {+1 Morale}.",
+	"spell.core.sorrow.description.advanced" : "{Advanced Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-2}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-2 Morale}.",
+	"spell.core.sorrow.description.basic" : "{Basic Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-1}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-1 Morale}.",
+	"spell.core.sorrow.description.expert" : "{Expert Sorrow}\n\nDecreases {Morale} of {all enemy units} by {-2}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise affected units above {-2 Morale}.",
+	"spell.core.sorrow.description.none" : "{Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-1}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-1 Morale}."
 }

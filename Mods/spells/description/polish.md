@@ -14,4 +14,6 @@ Moduły z tej kategorii mają sprawić, że rzadziej używane albo zbyt wąskie 
 
 * **Żrący rozbryzg** — dodaje nowy osłabiający czar Magii Wody 4. poziomu przeznaczony do długich bitew. Wyższe poziomy biegłości wzmacniają jego działanie, aż do objęcia wszystkich wrogich oddziałów.
 
+* **Lodowa burza** — dodaje nowy czar Magii Wody 4. poziomu, który rani wszystkie jednostki na polu bitwy. Na terenie typu Śnieg oddziały, dla których nie jest on terenem natywnym, mogą zamarznąć przed swoją turą przez 2 tury, a szansa rośnie wraz z poziomem Magii Wody.
+
 Moduł **Pogromca** zawiera także poprawkę specjalizacji **Coroniusa**, odtwarzającą jej wzmocnioną wersję z HotA oraz aktualizującą jej opis.

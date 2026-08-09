@@ -2,13 +2,13 @@
 	"core:precision" : {
 		"levels" : {
 			"none" : {
-				"description" : "{Precision}\n\nIncreases the selected allied shooter's Attack by +3 for ranged attacks only."
+				"description" : "{Precision}\n\nIncreases the selected allied shooter's Attack by {+3} for ranged attacks only."
 			},
 			"basic" : {
-				"description" : "{Precision - Basic}\n\nIncreases the selected allied shooter's Attack by +3 for ranged attacks only."
+				"description" : "{Precision - Basic}\n\nIncreases the selected allied shooter's Attack by {+3} for ranged attacks only."
 			},
 			"advanced" : {
-				"description" : "{Precision - Advanced}\n\nIncreases the selected allied shooter's Attack by +6 for ranged attacks only.\n\nAdditionally, extends its full-damage shooting range by 1 hex, up to 11 hexes, and grants +1 Speed for spell duration.",
+				"description" : "{Precision - Advanced}\n\nIncreases the selected allied shooter's Attack by {+6} for ranged attacks only.\n\nAdditionally, extends its full-damage shooting range by {1 hex}, up to {11 hexes}, and grants {+1 Speed} for spell duration.",
 				"effects" : {
 					"hirkyFullDamageRange" : {
 						"type" : "LIMITED_SHOOTING_RANGE",
@@ -26,7 +26,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Precision - Expert}\n\nIncreases all allied shooters' Attack by +6 for ranged attacks only.\n\nAdditionally, extends their full-damage shooting range by 2 hexes, up to 12 hexes, and grants +1 Speed for spell duration.",
+				"description" : "{Precision - Expert}\n\nIncreases all allied shooters' Attack by {+6} for ranged attacks only.\n\nAdditionally, extends their full-damage shooting range by {2 hexes}, up to {12 hexes}, and grants {+1 Speed} for spell duration.",
 				"effects" : {
 					"hirkyFullDamageRange" : {
 						"type" : "LIMITED_SHOOTING_RANGE",

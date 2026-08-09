@@ -1,0 +1,19 @@
+{
+  "mapObjectLuckScaling.campfire.artifact": "{Obozowisko}\n\nPrzeszukując opuszczone obozowisko, odnajdujesz porzucony artefakt: %s.",
+  "mapObjectLuckScaling.grave.reward": "{Grób}\n\nChwytasz za łopatę, zasłaniasz nos chustą i wydobywasz z ziemi coś wartościowego: %s.",
+  "mapObjectLuckScaling.jetsam.empty": "{Jetsam}\n\nPrzeszukujesz wyrzucony za burtę ładunek. Nie znajdujesz niczego wartościowego.",
+  "mapObjectLuckScaling.jetsam.ore5": "{Jetsam}\n\nPrzeszukujesz wyrzucony za burtę ładunek. Większość została zniszczona przez wodę morską, ale udaje ci się odzyskać trochę rudy.",
+  "mapObjectLuckScaling.jetsam.ore5Gold200": "{Jetsam}\n\nPrzeszukujesz wyrzucony za burtę ładunek. Do twojego skarbca trafia trochę rudy i złota.",
+  "mapObjectLuckScaling.jetsam.ore10Gold500": "{Jetsam}\n\nPrzeszukujesz wyrzucony za burtę ładunek. Odnajdujesz znaczną ilość rudy i złota.",
+  "mapObjectLuckScaling.seaBarrel.empty": "{Beczka morska}\n\nBeczka jest pełna morskiej wody. Nie masz pojęcia, dlaczego nadal unosi się na powierzchni.",
+  "mapObjectLuckScaling.seaBarrel.goods": "{Beczka morska}\n\nBeczka nie zawiera ani wody, ani wina, lecz przemycone towary.",
+  "mapObjectLuckScaling.warehouseCrystal.default": "{Magazyn kryształów}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie wszystkie kryształy z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.warehouseGems.default": "{Magazyn klejnotów}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie wszystkie klejnoty z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.warehouseGold.default": "{Magazyn złota}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie całe złoto z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.warehouseMercury.default": "{Magazyn rtęci}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie całą rtęć z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.warehouseOre.default": "{Magazyn rudy}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie całą rudę z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.warehouseSulfur.default": "{Magazyn siarki}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie całą siarkę z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.warehouseWood.default": "{Magazyn drewna}\n\nWłaściciel magazynu spieszy z wieścią: „Mój Panie, zebrałem dla ciebie całe drewno z pobliskich punktów wydobycia. Wróć w przyszłym tygodniu po kolejną dostawę!”",
+  "mapObjectLuckScaling.derrick.default": "{Szyb wiertniczy}\n\nKierownik wierceń wytacza wózek pełen kosztowności. „Udało nam się sprzedać wydobycie z dużym zyskiem. Oby następnym razem wpływy były co najmniej równie dobre — wróć za tydzień po swoją część.”",
+  "mapObjectLuckScaling.prospector.default": "{Poszukiwacz}\n\nZmęczony poszukiwacz próbuje wyglądać groźnie, lecz widzisz, że mimo wszystko się ciebie obawia. Jest gotów regularnie płacić niewielką sumę za pozwolenie na dalsze wydobycie w tym miejscu."
+}

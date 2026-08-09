@@ -1,0 +1,1695 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"dragonFlyHive": {
+				"selectMode": "selectRandom",
+				"rewards": [
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"guards": [
+							{
+								"amount": 6,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 6,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 6,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 6,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 6,
+								"type": "fireDragonFly"
+							}
+						],
+						"mapDice": 0,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.t1.success",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.t1.success",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.t1.success",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 4,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.t1.success",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.t1.success",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 0,
+							"max": 30
+						},
+						"mapDice": 0,
+						"message": "@creatureBanksUnits.dragonFlyHive.t1.success",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"guards": [
+							{
+								"amount": 9,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 9,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 9,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 9,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 9,
+								"type": "fireDragonFly"
+							}
+						],
+						"mapDice": 1,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.t2.success",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.t2.success",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.t2.success",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 6,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.t2.success",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.t2.success",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 30,
+							"max": 60
+						},
+						"mapDice": 1,
+						"message": "@creatureBanksUnits.dragonFlyHive.t2.success",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"guards": [
+							{
+								"amount": 12,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 12,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 12,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 12,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 12,
+								"type": "fireDragonFly"
+							}
+						],
+						"mapDice": 2,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.t3.success",
+						"creatures": [
+							{
+								"amount": 10,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.t3.success",
+						"creatures": [
+							{
+								"amount": 10,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.t3.success",
+						"creatures": [
+							{
+								"amount": 10,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 8,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.t3.success",
+						"creatures": [
+							{
+								"amount": 10,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.t3.success",
+						"creatures": [
+							{
+								"amount": 10,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 60,
+							"max": 90
+						},
+						"mapDice": 2,
+						"message": "@creatureBanksUnits.dragonFlyHive.t3.success",
+						"creatures": [
+							{
+								"amount": 10,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"guards": [
+							{
+								"amount": 18,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 18,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 18,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 18,
+								"type": "fireDragonFly"
+							},
+							{
+								"amount": 18,
+								"type": "fireDragonFly"
+							}
+						],
+						"mapDice": 3,
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 1
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.t4.success",
+						"creatures": [
+							{
+								"amount": 14,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 1
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 2
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.t4.success",
+						"creatures": [
+							{
+								"amount": 14,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.t4.success",
+						"creatures": [
+							{
+								"amount": 14,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 2
+								}
+							],
+							"noneOf": [
+								{
+									"secondary": [
+										{
+											"type": "luck",
+											"amount": 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.base",
+						"creatures": [
+							{
+								"amount": 12,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.t4.success",
+						"creatures": [
+							{
+								"amount": 14,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.t4.success",
+						"creatures": [
+							{
+								"amount": 14,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance": {
+							"dice": 0,
+							"min": 90,
+							"max": 100
+						},
+						"mapDice": 3,
+						"message": "@creatureBanksUnits.dragonFlyHive.t4.success",
+						"creatures": [
+							{
+								"amount": 14,
+								"type": "wyvern"
+							}
+						],
+						"limiter": {
+							"secondary": [
+								{
+									"type": "luck",
+									"amount": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

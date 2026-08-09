@@ -38,8 +38,8 @@
 		"texts" : {
 			"specialty" : {
 				"name" : "Lady Luck",
-				"description" : "{Lady Luck}\n\nAll creatures in Melodia's army receive +1 Luck. Ordinary Luck penalties cannot reduce her army below +1 Luck, but the Misfortune spell can still overcome this protection, and effects that disable positive Luck can suppress this bonus.",
-				"tooltip" : "Melodia grants her army +1 Luck and helps maintain at least +1 Luck, unless stronger effects reduce it further."
+				"description" : "{Lady Luck}\n\nAll creatures in Melodia's army receive {+1} Luck. {Ordinary Luck penalties} cannot reduce her army below {+1} Luck, but the {Misfortune} spell can still overcome this protection, and {effects that disable positive Luck} can suppress this bonus.",
+				"tooltip" : "Melodia grants her army {+1} Luck and helps maintain at least {+1} Luck, unless stronger effects reduce it further."
 			}
 		}
 	}
