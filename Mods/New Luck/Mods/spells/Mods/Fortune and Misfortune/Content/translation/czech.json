@@ -1,10 +1,10 @@
 {
-  "spell.core.fortune.description.advanced": "{Lepší štěstí}\n\nZvýší štěstí vybraného spojeneckého oddílu o +2.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit tento oddíl pod +2 štěstí.",
-  "spell.core.fortune.description.basic": "{Základní štěstí}\n\nZvýší štěstí vybraného spojeneckého oddílu o +1.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit tento oddíl pod +1 štěstí.",
-  "spell.core.fortune.description.expert": "{Expert štěstí}\n\nZvýší štěstí všech spojeneckých oddílů o +2.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit ovlivněné oddíly pod +2 štěstí.",
-  "spell.core.fortune.description.none": "{Štěstí}\n\nZvýší štěstí vybraného spojeneckého oddílu o +1.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit tento oddíl pod +1 štěstí.",
-  "spell.core.misfortune.description.advanced": "{Lepší neštěstí}\n\nSníží štěstí vybraného nepřátelského oddílu o -2.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit tento oddíl nad -2 štěstí.",
-  "spell.core.misfortune.description.basic": "{Základní neštěstí}\n\nSníží štěstí vybraného nepřátelského oddílu o -1.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit tento oddíl nad -1 štěstí.",
-  "spell.core.misfortune.description.expert": "{Expert neštěstí}\n\nSníží štěstí všech nepřátelských oddílů o -2.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit ovlivněné oddíly nad -2 štěstí.",
-  "spell.core.misfortune.description.none": "{Neštěstí}\n\nSníží štěstí vybraného nepřátelského oddílu o -1.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit tento oddíl nad -1 štěstí."
+    "spell.core.fortune.description.advanced": "{Lepší štěstí}\n\nZvýší štěstí vybraného spojeneckého oddílu o +2.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit tento oddíl pod +2 štěstí.",
+    "spell.core.fortune.description.basic": "{Základní štěstí}\n\nZvýší štěstí vybraného spojeneckého oddílu o +1.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit tento oddíl pod +1 štěstí.",
+    "spell.core.fortune.description.expert": "{Expert štěstí}\n\nZvýší štěstí všech spojeneckých oddílů o +2.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit ovlivněné oddíly pod +2 štěstí.",
+    "spell.core.fortune.description.none": "{Štěstí}\n\nZvýší štěstí vybraného spojeneckého oddílu o +1.\n\nDokud Štěstí trvá, postihy ke štěstí nemohou snížit tento oddíl pod +1 štěstí.",
+    "spell.core.misfortune.description.advanced": "{Lepší neštěstí}\n\nSníží štěstí vybraného nepřátelského oddílu o -2.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit tento oddíl nad -2 štěstí.",
+    "spell.core.misfortune.description.basic": "{Základní neštěstí}\n\nSníží štěstí vybraného nepřátelského oddílu o -1.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit tento oddíl nad -1 štěstí.",
+    "spell.core.misfortune.description.expert": "{Expert neštěstí}\n\nSníží štěstí všech nepřátelských oddílů o -2.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit ovlivněné oddíly nad -2 štěstí.",
+    "spell.core.misfortune.description.none": "{Neštěstí}\n\nSníží štěstí vybraného nepřátelského oddílu o -1.\n\nDokud Neštěstí trvá, bonusy ke štěstí nemohou zvýšit tento oddíl nad -1 štěstí."
 }

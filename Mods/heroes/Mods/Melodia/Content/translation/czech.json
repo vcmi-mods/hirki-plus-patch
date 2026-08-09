@@ -1,5 +1,5 @@
 {
-  "hero.core.melodia.specialty.description": "{Štěstěna}\n\nVšechny jednotky v Melodiině armádě získají +1 štěstí. Běžné postihy ke štěstí nemohou její armádu snížit pod +1 štěstí, ale kouzlo Neštěstí může tuto ochranu překonat a účinky, které zakazují kladné štěstí, mohou tento bonus potlačit.",
-  "hero.core.melodia.specialty.name": "Štěstěna",
-  "hero.core.melodia.specialty.tooltip": "Melodia dává své armádě +1 štěstí a pomáhá udržet alespoň +1 štěstí, pokud ho silnější účinky nesníží ještě více."
+    "hero.core.melodia.specialty.description": "{Štěstěna}\n\nVšechny jednotky v Melodiině armádě získají +1 štěstí. Běžné postihy ke štěstí nemohou její armádu snížit pod +1 štěstí, ale kouzlo Neštěstí může tuto ochranu překonat a účinky, které zakazují kladné štěstí, mohou tento bonus potlačit.",
+    "hero.core.melodia.specialty.name": "Štěstěna",
+    "hero.core.melodia.specialty.tooltip": "Melodia dává své armádě +1 štěstí a pomáhá udržet alespoň +1 štěstí, pokud ho silnější účinky nesníží ještě více."
 }

@@ -1,6 +1,6 @@
 {
-  "spell.core.precision.description.advanced": "{Lepší přesnost}\n\nZvýší Útok vybraného spojeneckého střelce o +6 pouze pro střelecké útoky.\n\nNavíc prodlouží jeho dosah střelby bez postihu o 1 hex, až na 11 hexů, a po dobu trvání kouzla přidá +1 Rychlost.",
-  "spell.core.precision.description.basic": "{Základní přesnost}\n\nZvýší Útok vybraného spojeneckého střelce o +3 pouze pro střelecké útoky.",
-  "spell.core.precision.description.expert": "{Expert přesnost}\n\nZvýší Útok všech spojeneckých střelců o +6 pouze pro střelecké útoky.\n\nNavíc prodlouží jejich dosah střelby bez postihu o 2 hexy, až na 12 hexů, a po dobu trvání kouzla přidá +1 Rychlost.",
-  "spell.core.precision.description.none": "{Přesnost}\n\nZvýší Útok vybraného spojeneckého střelce o +3 pouze pro střelecké útoky."
+    "spell.core.precision.description.advanced": "{Lepší přesnost}\n\nZvýší Útok vybraného spojeneckého střelce o +6 pouze pro střelecké útoky.\n\nNavíc prodlouží jeho dosah střelby bez postihu o 1 hex, až na 11 hexů, a po dobu trvání kouzla přidá +1 Rychlost.",
+    "spell.core.precision.description.basic": "{Základní přesnost}\n\nZvýší Útok vybraného spojeneckého střelce o +3 pouze pro střelecké útoky.",
+    "spell.core.precision.description.expert": "{Expert přesnost}\n\nZvýší Útok všech spojeneckých střelců o +6 pouze pro střelecké útoky.\n\nNavíc prodlouží jejich dosah střelby bez postihu o 2 hexy, až na 12 hexů, a po dobu trvání kouzla přidá +1 Rychlost.",
+    "spell.core.precision.description.none": "{Přesnost}\n\nZvýší Útok vybraného spojeneckého střelce o +3 pouze pro střelecké útoky."
 }

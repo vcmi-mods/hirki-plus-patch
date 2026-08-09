@@ -1,10 +1,10 @@
 {
-  "spell.core.mirth.description.advanced": "{Lepší radost}\n\nZvýší morálku vybraného spojeneckého oddílu o +2.\n\nDokud Radost trvá, postihy k morálce nemohou snížit tento oddíl pod +2 morálky.",
-  "spell.core.mirth.description.basic": "{Základní radost}\n\nZvýší morálku vybraného spojeneckého oddílu o +1.\n\nDokud Radost trvá, postihy k morálce nemohou snížit tento oddíl pod +1 morálky.",
-  "spell.core.mirth.description.expert": "{Expert radost}\n\nZvýší morálku všech spojeneckých oddílů o +2.\n\nDokud Radost trvá, postihy k morálce nemohou snížit ovlivněné oddíly pod +2 morálky.",
-  "spell.core.mirth.description.none": "{Radost}\n\nZvýší morálku vybraného spojeneckého oddílu o +1.\n\nDokud Radost trvá, postihy k morálce nemohou snížit tento oddíl pod +1 morálky.",
-  "spell.core.sorrow.description.advanced": "{Lepší žal}\n\nSníží morálku vybraného nepřátelského oddílu o -2.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit tento oddíl nad -2 morálky.",
-  "spell.core.sorrow.description.basic": "{Základní žal}\n\nSníží morálku vybraného nepřátelského oddílu o -1.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit tento oddíl nad -1 morálky.",
-  "spell.core.sorrow.description.expert": "{Expert žal}\n\nSníží morálku všech nepřátelských oddílů o -2.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit ovlivněné oddíly nad -2 morálky.",
-  "spell.core.sorrow.description.none": "{Žal}\n\nSníží morálku vybraného nepřátelského oddílu o -1.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit tento oddíl nad -1 morálky."
+    "spell.core.mirth.description.advanced": "{Lepší radost}\n\nZvýší morálku vybraného spojeneckého oddílu o +2.\n\nDokud Radost trvá, postihy k morálce nemohou snížit tento oddíl pod +2 morálky.",
+    "spell.core.mirth.description.basic": "{Základní radost}\n\nZvýší morálku vybraného spojeneckého oddílu o +1.\n\nDokud Radost trvá, postihy k morálce nemohou snížit tento oddíl pod +1 morálky.",
+    "spell.core.mirth.description.expert": "{Expert radost}\n\nZvýší morálku všech spojeneckých oddílů o +2.\n\nDokud Radost trvá, postihy k morálce nemohou snížit ovlivněné oddíly pod +2 morálky.",
+    "spell.core.mirth.description.none": "{Radost}\n\nZvýší morálku vybraného spojeneckého oddílu o +1.\n\nDokud Radost trvá, postihy k morálce nemohou snížit tento oddíl pod +1 morálky.",
+    "spell.core.sorrow.description.advanced": "{Lepší žal}\n\nSníží morálku vybraného nepřátelského oddílu o -2.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit tento oddíl nad -2 morálky.",
+    "spell.core.sorrow.description.basic": "{Základní žal}\n\nSníží morálku vybraného nepřátelského oddílu o -1.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit tento oddíl nad -1 morálky.",
+    "spell.core.sorrow.description.expert": "{Expert žal}\n\nSníží morálku všech nepřátelských oddílů o -2.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit ovlivněné oddíly nad -2 morálky.",
+    "spell.core.sorrow.description.none": "{Žal}\n\nSníží morálku vybraného nepřátelského oddílu o -1.\n\nDokud Žal trvá, bonusy k morálce nemohou zvýšit tento oddíl nad -1 morálky."
 }
