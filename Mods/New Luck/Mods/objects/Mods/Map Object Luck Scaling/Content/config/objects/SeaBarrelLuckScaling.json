@@ -1,242 +1,242 @@
 {
-	"hota.mapobjects:seaBarrel": {
-		"types": {
-			"seaBarrel": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"hota.mapobjects:seaBarrel" : {
+		"types" : {
+			"seaBarrel" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 0,
-							"max": 100
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 6,
-								"type": "@gainedResource"
+								"amount" : 6,
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 0,
-							"max": 50
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 50
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 5,
-								"type": "@gainedResource"
+								"amount" : 5,
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 50,
-							"max": 100
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 50,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 6,
-								"type": "@gainedResource"
+								"amount" : 6,
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 0,
-							"max": 10
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 10
 						},
-						"mapDice": 1,
-						"message": "@mapObjectLuckScaling.seaBarrel.empty",
-						"removeObject": true,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 1,
+						"message" : "@mapObjectLuckScaling.seaBarrel.empty",
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 10,
-							"max": 40
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 10,
+							"max" : 40
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 4,
-								"type": "@gainedResource"
+								"amount" : 4,
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 40,
-							"max": 70
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 40,
+							"max" : 70
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 5,
-								"type": "@gainedResource"
+								"amount" : 5,
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 70,
-							"max": 100
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 70,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 6,
-								"type": "@gainedResource"
+								"amount" : 6,
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 20
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 20
 						},
-						"mapDice": 1,
-						"message": "@mapObjectLuckScaling.seaBarrel.empty",
-						"removeObject": true
+						"mapDice" : 1,
+						"message" : "@mapObjectLuckScaling.seaBarrel.empty",
+						"removeObject" : true
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 20,
-							"max": 40
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 20,
+							"max" : 40
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 3,
-								"type": "@gainedResource"
+								"amount" : 3,
+								"type" : "@gainedResource"
 							}
 						]
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 40,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 40,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 4,
-								"type": "@gainedResource"
+								"amount" : 4,
+								"type" : "@gainedResource"
 							}
 						]
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 80
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 80
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 5,
-								"type": "@gainedResource"
+								"amount" : 5,
+								"type" : "@gainedResource"
 							}
 						]
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 80,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 80,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"message": "@mapObjectLuckScaling.seaBarrel.goods",
-						"removeObject": true,
-						"resources": [
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.seaBarrel.goods",
+						"removeObject" : true,
+						"resources" : [
 							{
-								"amount": 6,
-								"type": "@gainedResource"
+								"amount" : 6,
+								"type" : "@gainedResource"
 							}
 						]
 					}

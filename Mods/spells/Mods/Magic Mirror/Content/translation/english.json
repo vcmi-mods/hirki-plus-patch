@@ -1,7 +1,7 @@
 {
-	"spell.core.magicMirror.name": "Magic Mirror",
-"spell.core.magicMirror.description.none": "{Magic Mirror}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {20%}.",
-	"spell.core.magicMirror.description.basic": "{Magic Mirror - Basic level}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {20%}.",
-	"spell.core.magicMirror.description.advanced": "{Magic Mirror - Advanced level}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {25%}. The stack also gains a {15% chance to resist a hostile spell}.",
-	"spell.core.magicMirror.description.expert": "{Magic Mirror - Expert level}\n\n{All allied stacks} reflect hostile spells, redirecting them toward a {random enemy unit}. The chance of success is {25%}. Allied stacks also gain a {20% chance to resist a hostile spell}."
+	"spell.core.magicMirror.description.advanced" : "{Magic Mirror - Advanced level}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {25%}. The stack also gains a {15% chance to resist a hostile spell}.",
+	"spell.core.magicMirror.description.basic" : "{Magic Mirror - Basic level}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {20%}.",
+	"spell.core.magicMirror.description.expert" : "{Magic Mirror - Expert level}\n\n{All allied stacks} reflect hostile spells, redirecting them toward a {random enemy unit}. The chance of success is {25%}. Allied stacks also gain a {20% chance to resist a hostile spell}.",
+	"spell.core.magicMirror.description.none" : "{Magic Mirror}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {20%}.",
+	"spell.core.magicMirror.name" : "Magic Mirror"
 }

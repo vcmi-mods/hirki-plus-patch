@@ -1,83 +1,83 @@
 {
-	"core:creatureBank": {
-		"types": {
-			"mansion": {
-				"variables": {
-					"artifact": {
-						"gainedArtifact": {
-							"anyOf": [
+	"core:creatureBank" : {
+		"types" : {
+			"mansion" : {
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : {
+							"anyOf" : [
 								{
-									"class": "MAJOR"
+									"class" : "MAJOR"
 								}
 							]
 						}
 					}
 				},
-				"selectMode": "selectRandom",
-				"rewards": [
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "vampireLord"
+								"amount" : 8,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 8,
-								"type": "vampireLord"
+								"amount" : 8,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 8,
-								"type": "vampireLord"
+								"amount" : 8,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 8,
-								"type": "vampireLord"
+								"amount" : 8,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 8,
-								"type": "vampireLord"
+								"amount" : 8,
+								"type" : "vampireLord"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -85,36 +85,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -122,36 +122,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -159,36 +159,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -196,36 +196,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -233,36 +233,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -270,36 +270,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -307,36 +307,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -344,36 +344,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -381,176 +381,176 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 2,
-							"gems": 2,
-							"gold": 2500,
-							"mercury": 2,
-							"sulfur": 2
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2
 						},
-						"message": "@creatureBanksResources.mansion.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 12,
-								"type": "vampireLord"
+								"amount" : 12,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 12,
-								"type": "vampireLord"
+								"amount" : 12,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 12,
-								"type": "vampireLord"
+								"amount" : 12,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 12,
-								"type": "vampireLord"
+								"amount" : 12,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 12,
-								"type": "vampireLord"
+								"amount" : 12,
+								"type" : "vampireLord"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -558,36 +558,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -595,36 +595,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -632,36 +632,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -669,36 +669,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -706,36 +706,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -743,36 +743,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -780,36 +780,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -817,36 +817,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -854,176 +854,176 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 3,
-							"gems": 3,
-							"gold": 5000,
-							"mercury": 3,
-							"sulfur": 3
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3
 						},
-						"message": "@creatureBanksResources.mansion.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 16,
-								"type": "vampireLord"
+								"amount" : 16,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 16,
-								"type": "vampireLord"
+								"amount" : 16,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 16,
-								"type": "vampireLord"
+								"amount" : 16,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 16,
-								"type": "vampireLord"
+								"amount" : 16,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 16,
-								"type": "vampireLord"
+								"amount" : 16,
+								"type" : "vampireLord"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1031,36 +1031,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1068,36 +1068,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1105,36 +1105,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1142,36 +1142,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1179,36 +1179,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1216,36 +1216,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1253,36 +1253,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1290,36 +1290,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1327,176 +1327,176 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"gold": 7500,
-							"mercury": 4,
-							"sulfur": 4
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4
 						},
-						"message": "@creatureBanksResources.mansion.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 20,
-								"type": "vampireLord"
+								"amount" : 20,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 20,
-								"type": "vampireLord"
+								"amount" : 20,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 20,
-								"type": "vampireLord"
+								"amount" : 20,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 20,
-								"type": "vampireLord"
+								"amount" : 20,
+								"type" : "vampireLord"
 							},
 							{
-								"amount": 20,
-								"type": "vampireLord"
+								"amount" : 20,
+								"type" : "vampireLord"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1504,36 +1504,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1541,36 +1541,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1578,36 +1578,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1615,36 +1615,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"gold": 12500,
-							"mercury": 6,
-							"sulfur": 6
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 12500,
+							"mercury" : 6,
+							"sulfur" : 6
 						},
-						"message": "@creatureBanksResources.mansion.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1652,36 +1652,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1689,36 +1689,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1726,36 +1726,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"gold": 12500,
-							"mercury": 6,
-							"sulfur": 6
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 12500,
+							"mercury" : 6,
+							"sulfur" : 6
 						},
-						"message": "@creatureBanksResources.mansion.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1763,36 +1763,36 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"gold": 12500,
-							"mercury": 6,
-							"sulfur": 6
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 12500,
+							"mercury" : 6,
+							"sulfur" : 6
 						},
-						"message": "@creatureBanksResources.mansion.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1800,109 +1800,109 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 5,
-							"gems": 5,
-							"gold": 10000,
-							"mercury": 5,
-							"sulfur": 5
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5
 						},
-						"message": "@creatureBanksResources.mansion.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"gold": 12500,
-							"mercury": 6,
-							"sulfur": 6
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 12500,
+							"mercury" : 6,
+							"sulfur" : 6
 						},
-						"message": "@creatureBanksResources.mansion.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"gold": 12500,
-							"mercury": 6,
-							"sulfur": 6
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 12500,
+							"mercury" : 6,
+							"sulfur" : 6
 						},
-						"message": "@creatureBanksResources.mansion.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"gold": 12500,
-							"mercury": 6,
-							"sulfur": 6
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 12500,
+							"mercury" : 6,
+							"sulfur" : 6
 						},
-						"message": "@creatureBanksResources.mansion.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.mansion.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

@@ -1,22 +1,22 @@
 {
-  "name": "Luck Objects",
-  "description": "Adventure map object modules tied to the reworked Luck system in Hirki Plus Patch (H.P.P.).\n\nThese optional modules let the visiting hero's secondary skill **Luck** improve supported rewards while preserving native guards, visit rules, reset behavior and penalties unless a child module explicitly states otherwise. Luck from artifacts, spells, adventure map objects and temporary effects does not affect these reward tables.\n\n## Included Modules\n\n* **Luck Scaling for Adventure Map Objects** — adjusts reward tables for supported adventure map objects and weekly resource locations.\n\n* **Creature Banks Resources** — upgrades resource and artifact rewards from supported creature banks without changing the generated guards.\n\n* **Creature Banks Units** — increases troop rewards from supported creature banks without changing the generated bank tier or guards.\n\n* **Luck-Enhanced Pyramid Reward** — preserves the native level 5 spell and adds a Luck-based chance to discover an additional level 4 spell.",
-  "author": "bew_",
-  "version": "1.0.0",
-  "modType": "Objects",
-  "depends": [
-    "hota"
-  ],
-  "compatibility": {
-    "min": "1.7.4"
-  },
-  "polish": {
-    "name": "Obiekty szczęścia",
-    "description": "Moduły obiektów mapy przygody powiązane z przebudowanym systemem Szczęścia w Hirki Plus Patch (H.P.P.).\n\nTe opcjonalne moduły pozwalają, aby poziom umiejętności dodatkowej **Szczęście** odwiedzającego bohatera ulepszał obsługiwane nagrody, przy zachowaniu natywnych strażników, zasad wizyty, resetów i kar, o ile opis modułu podrzędnego nie stanowi inaczej. Szczęście z artefaktów, czarów, obiektów mapy przygody i efektów tymczasowych nie wpływa na te tabele nagród.\n\n## Zawarte moduły\n\n* **Skalowanie obiektów mapy przygody przez Szczęście** — dostosowuje tabele nagród obsługiwanych obiektów mapy przygody i cotygodniowych źródeł zasobów.\n\n* **Banki stworzeń — zasoby** — ulepsza nagrody w zasobach i artefaktach z obsługiwanych banków stworzeń bez zmiany wylosowanych strażników.\n\n* **Banki stworzeń — jednostki** — zwiększa nagrody w jednostkach z obsługiwanych banków stworzeń bez zmiany wylosowanego poziomu banku ani strażników.\n\n* **Nagroda Piramidy wzmocniona przez Szczęście** — zachowuje natywny czar 5. poziomu i dodaje zależną od Szczęścia szansę na odkrycie dodatkowego czaru 4. poziomu."
-  },
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  }
+	"name" : "Luck Objects",
+	"description" : "Adventure map object modules tied to the reworked Luck system in Hirki Plus Patch (H.P.P.).\n\nThese optional modules let the visiting hero's secondary skill **Luck** improve supported rewards while preserving native guards, visit rules, reset behavior and penalties unless a child module explicitly states otherwise. Luck from artifacts, spells, adventure map objects and temporary effects does not affect these reward tables.\n\n## Included Modules\n\n* **Luck Scaling for Adventure Map Objects** — adjusts reward tables for supported adventure map objects and weekly resource locations.\n\n* **Creature Banks Resources** — upgrades resource and artifact rewards from supported creature banks without changing the generated guards.\n\n* **Creature Banks Units** — increases troop rewards from supported creature banks without changing the generated bank tier or guards.\n\n* **Luck-Enhanced Pyramid Reward** — preserves the native level 5 spell and adds a Luck-based chance to discover an additional level 4 spell.",
+	"author" : "bew_",
+	"version" : "1.0.0",
+	"modType" : "Objects",
+	"depends" : [
+		"hota"
+	],
+	"compatibility" : {
+		"min" : "1.7.4"
+	},
+	"polish" : {
+		"name" : "Obiekty szczęścia",
+		"description" : "Moduły obiektów mapy przygody powiązane z przebudowanym systemem Szczęścia w Hirki Plus Patch (H.P.P.).\n\nTe opcjonalne moduły pozwalają, aby poziom umiejętności dodatkowej **Szczęście** odwiedzającego bohatera ulepszał obsługiwane nagrody, przy zachowaniu natywnych strażników, zasad wizyty, resetów i kar, o ile opis modułu podrzędnego nie stanowi inaczej. Szczęście z artefaktów, czarów, obiektów mapy przygody i efektów tymczasowych nie wpływa na te tabele nagród.\n\n## Zawarte moduły\n\n* **Skalowanie obiektów mapy przygody przez Szczęście** — dostosowuje tabele nagród obsługiwanych obiektów mapy przygody i cotygodniowych źródeł zasobów.\n\n* **Banki stworzeń — zasoby** — ulepsza nagrody w zasobach i artefaktach z obsługiwanych banków stworzeń bez zmiany wylosowanych strażników.\n\n* **Banki stworzeń — jednostki** — zwiększa nagrody w jednostkach z obsługiwanych banków stworzeń bez zmiany wylosowanego poziomu banku ani strażników.\n\n* **Nagroda Piramidy wzmocniona przez Szczęście** — zachowuje natywny czar 5. poziomu i dodaje zależną od Szczęścia szansę na odkrycie dodatkowego czaru 4. poziomu."
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release."
+		]
+	}
 }

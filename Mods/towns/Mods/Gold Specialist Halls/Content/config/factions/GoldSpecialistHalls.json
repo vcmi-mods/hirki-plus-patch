@@ -1,21 +1,21 @@
 {
-	"core:castle": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:castle" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -31,9 +31,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -42,23 +42,23 @@
 			}
 		}
 	},
-	"core:rampart": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:rampart" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -74,9 +74,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -85,23 +85,23 @@
 			}
 		}
 	},
-	"core:tower": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:tower" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -117,9 +117,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -128,23 +128,23 @@
 			}
 		}
 	},
-	"core:inferno": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:inferno" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -160,9 +160,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -171,23 +171,23 @@
 			}
 		}
 	},
-	"core:necropolis": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:necropolis" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -203,9 +203,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -214,23 +214,23 @@
 			}
 		}
 	},
-	"core:dungeon": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:dungeon" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -246,9 +246,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -257,23 +257,23 @@
 			}
 		}
 	},
-	"core:stronghold": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:stronghold" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -289,9 +289,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -300,23 +300,23 @@
 			}
 		}
 	},
-	"core:fortress": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:fortress" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -332,9 +332,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -343,23 +343,23 @@
 			}
 		}
 	},
-	"core:conflux": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"core:conflux" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -375,9 +375,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -386,23 +386,23 @@
 			}
 		}
 	},
-	"hota.cove:cove": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"hota.cove:cove" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -418,9 +418,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -429,23 +429,23 @@
 			}
 		}
 	},
-	"hota.factory:factory": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"hota.factory:factory" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -461,9 +461,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]
@@ -472,23 +472,23 @@
 			}
 		}
 	},
-	"hota.bulwark:bulwark": {
-		"town": {
-			"buildings": {
-				"cityHall": {
-					"configuration": {
-						"visitMode": "once",
-						"selectMode": "selectFirst",
-						"resetParameters": {
-							"period": 7,
-							"visitors": true
+	"hota.bulwark:bulwark" : {
+		"town" : {
+			"buildings" : {
+				"cityHall" : {
+					"configuration" : {
+						"visitMode" : "once",
+						"selectMode" : "selectFirst",
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
 						},
-						"onEmptyMessage": "",
-						"onVisitedMessage": "",
-						"rewards": [
+						"onEmptyMessage" : "",
+						"onVisitedMessage" : "",
+						"rewards" : [
 							{
-								"limiter": {
-									"heroes": [
+								"limiter" : {
+									"heroes" : [
 										"octavia",
 										"nagash",
 										"jenova",
@@ -504,9 +504,9 @@
 										"lordHaart"
 									]
 								},
-								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
-								"resources": {
-									"gold": 4000
+								"message" : "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources" : {
+									"gold" : 4000
 								}
 							}
 						]

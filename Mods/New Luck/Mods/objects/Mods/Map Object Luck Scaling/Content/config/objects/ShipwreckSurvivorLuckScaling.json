@@ -1,339 +1,339 @@
 {
-  "core:shipwreckSurvivor": {
-    "types": {
-      "shipwreckSurvivor": {
-        "selectMode": "selectFirst",
-        "rewards": [
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 0,
-              "max": 25
-            },
-            "artifacts": [
-              "@gainedArtifact"
-            ],
-            "mapDice": 0,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 25,
-              "max": 55
-            },
-            "artifacts": [
-              {
-                "class": "MINOR"
-              }
-            ],
-            "mapDice": 1,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 55,
-              "max": 85
-            },
-            "artifacts": [
-              {
-                "class": "MAJOR"
-              }
-            ],
-            "mapDice": 2,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 85,
-              "max": 100
-            },
-            "artifacts": [
-              {
-                "class": "RELIC"
-              }
-            ],
-            "mapDice": 3,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 0,
-              "max": 35
-            },
-            "artifacts": [
-              "@gainedArtifact"
-            ],
-            "mapDice": 0,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 35,
-              "max": 65
-            },
-            "artifacts": [
-              {
-                "class": "MINOR"
-              }
-            ],
-            "mapDice": 1,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 65,
-              "max": 90
-            },
-            "artifacts": [
-              {
-                "class": "MAJOR"
-              }
-            ],
-            "mapDice": 2,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 90,
-              "max": 100
-            },
-            "artifacts": [
-              {
-                "class": "RELIC"
-              }
-            ],
-            "mapDice": 3,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 0,
-              "max": 45
-            },
-            "artifacts": [
-              "@gainedArtifact"
-            ],
-            "mapDice": 0,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 45,
-              "max": 70
-            },
-            "artifacts": [
-              {
-                "class": "MINOR"
-              }
-            ],
-            "mapDice": 1,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 70,
-              "max": 92
-            },
-            "artifacts": [
-              {
-                "class": "MAJOR"
-              }
-            ],
-            "mapDice": 2,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 92,
-              "max": 100
-            },
-            "artifacts": [
-              {
-                "class": "RELIC"
-              }
-            ],
-            "mapDice": 3,
-            "message": 125,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 55
-            },
-            "artifacts": [
-              "@gainedArtifact"
-            ],
-            "mapDice": 0,
-            "message": 125,
-            "removeObject": true
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 55,
-              "max": 75
-            },
-            "artifacts": [
-              {
-                "class": "MINOR"
-              }
-            ],
-            "mapDice": 1,
-            "message": 125,
-            "removeObject": true
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 75,
-              "max": 95
-            },
-            "artifacts": [
-              {
-                "class": "MAJOR"
-              }
-            ],
-            "mapDice": 2,
-            "message": 125,
-            "removeObject": true
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 95,
-              "max": 100
-            },
-            "artifacts": [
-              {
-                "class": "RELIC"
-              }
-            ],
-            "mapDice": 3,
-            "message": 125,
-            "removeObject": true
-          }
-        ]
-      }
-    }
-  }
+	"core:shipwreckSurvivor" : {
+		"types" : {
+			"shipwreckSurvivor" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 25
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						],
+						"mapDice" : 0,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 25,
+							"max" : 55
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						],
+						"mapDice" : 1,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 55,
+							"max" : 85
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							}
+						],
+						"mapDice" : 2,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 85,
+							"max" : 100
+						},
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							}
+						],
+						"mapDice" : 3,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 35
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						],
+						"mapDice" : 0,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 35,
+							"max" : 65
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						],
+						"mapDice" : 1,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 65,
+							"max" : 90
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							}
+						],
+						"mapDice" : 2,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 90,
+							"max" : 100
+						},
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							}
+						],
+						"mapDice" : 3,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 45
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						],
+						"mapDice" : 0,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 45,
+							"max" : 70
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						],
+						"mapDice" : 1,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 70,
+							"max" : 92
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							}
+						],
+						"mapDice" : 2,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 92,
+							"max" : 100
+						},
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							}
+						],
+						"mapDice" : 3,
+						"message" : 125,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 55
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						],
+						"mapDice" : 0,
+						"message" : 125,
+						"removeObject" : true
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 55,
+							"max" : 75
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						],
+						"mapDice" : 1,
+						"message" : 125,
+						"removeObject" : true
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 75,
+							"max" : 95
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							}
+						],
+						"mapDice" : 2,
+						"message" : 125,
+						"removeObject" : true
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 95,
+							"max" : 100
+						},
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							}
+						],
+						"mapDice" : 3,
+						"message" : 125,
+						"removeObject" : true
+					}
+				]
+			}
+		}
+	}
 }

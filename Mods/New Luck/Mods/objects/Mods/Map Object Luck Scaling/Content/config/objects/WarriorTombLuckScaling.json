@@ -1,448 +1,448 @@
 {
-	"core:warriorTomb": {
-		"types": {
-			"warriorTomb": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:warriorTomb" : {
+		"types" : {
+			"warriorTomb" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 0,
-							"max": 15
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 15
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 0,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 15,
-							"max": 55
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 15,
+							"max" : 55
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 1,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 1,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 55,
-							"max": 85
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 55,
+							"max" : 85
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 2,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 2,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 85,
-							"max": 100
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 85,
+							"max" : 100
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 3,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 3,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 0,
-							"max": 20
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 20
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 0,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 20,
-							"max": 65
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 20,
+							"max" : 65
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 1,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 1,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 65,
-							"max": 90
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 65,
+							"max" : 90
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 2,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 2,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 90,
+							"max" : 100
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 3,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 3,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 0,
-							"max": 25
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 25
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 0,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 25,
-							"max": 70
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 25,
+							"max" : 70
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 1,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 1,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 70,
-							"max": 90
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 70,
+							"max" : 90
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 2,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 2,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 90,
+							"max" : 100
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 3,
-						"message": 162,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 3,
+						"message" : 162,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 0,
-						"message": 162
+						"mapDice" : 0,
+						"message" : 162
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 80
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 80
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 1,
-						"message": 162
+						"mapDice" : 1,
+						"message" : 162
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 80,
-							"max": 95
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 80,
+							"max" : 95
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 2,
-						"message": 162
+						"mapDice" : 2,
+						"message" : 162
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 95,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 95,
+							"max" : 100
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 104,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": -3
+								"description" : 104,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : -3
 							}
 						],
-						"mapDice": 3,
-						"message": 162
+						"mapDice" : 3,
+						"message" : 162
 					}
 				]
 			}

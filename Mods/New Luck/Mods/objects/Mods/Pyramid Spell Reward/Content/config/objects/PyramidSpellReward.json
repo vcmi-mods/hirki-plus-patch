@@ -1,240 +1,240 @@
 {
-  "core:pyramid": {
-    "types": {
-      "pyramid": {
-        "selectMode": "selectAll",
-        "variables": {
-          "spell": {
-            "gainedSpell": {
-              "level": 5
-            },
-            "bonusSpell": {
-              "level": 4
-            }
-          }
-        },
-        "rewards": [
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 100
-            },
-            "guards": [
-              {
-                "amount": 40,
-                "type": "goldGolem"
-              },
-              {
-                "amount": 10,
-                "type": "diamondGolem"
-              },
-              {
-                "amount": 10,
-                "type": "diamondGolem"
-              }
-            ],
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 4
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 100
-            },
-            "limiter": {
-              "canLearnSpells": [
-                "@gainedSpell"
-              ]
-            },
-            "message": [
-              106,
-              "{%s}."
-            ],
-            "spells": [
-              "@gainedSpell"
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 100
-            },
-            "limiter": {
-              "noneOf": [
-                {
-                  "canLearnSpells": [
-                    "@gainedSpell"
-                  ]
-                }
-              ]
-            },
-            "message": "@pyramidSpellReward.insufficientKnowledge"
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 0,
-              "max": 75
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ],
-              "canLearnSpells": [
-                "@gainedSpell",
-                "@bonusSpell"
-              ]
-            },
-            "message": "@pyramidSpellReward.bonusSpell",
-            "spells": [
-              "@bonusSpell"
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 75,
-              "max": 100
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 0,
-              "max": 50
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ],
-              "noneOf": [
-                {
-                  "secondary": [
-                    {
-                      "type": "luck",
-                      "amount": 3
-                    }
-                  ]
-                }
-              ],
-              "canLearnSpells": [
-                "@gainedSpell",
-                "@bonusSpell"
-              ]
-            },
-            "message": "@pyramidSpellReward.bonusSpell",
-            "spells": [
-              "@bonusSpell"
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 50,
-              "max": 100
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ],
-              "noneOf": [
-                {
-                  "secondary": [
-                    {
-                      "type": "luck",
-                      "amount": 3
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 0,
-              "max": 25
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ],
-              "noneOf": [
-                {
-                  "secondary": [
-                    {
-                      "type": "luck",
-                      "amount": 2
-                    }
-                  ]
-                }
-              ],
-              "canLearnSpells": [
-                "@gainedSpell",
-                "@bonusSpell"
-              ]
-            },
-            "message": "@pyramidSpellReward.bonusSpell",
-            "spells": [
-              "@bonusSpell"
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 25,
-              "max": 100
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ],
-              "noneOf": [
-                {
-                  "secondary": [
-                    {
-                      "type": "luck",
-                      "amount": 2
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    }
-  }
+	"core:pyramid" : {
+		"types" : {
+			"pyramid" : {
+				"selectMode" : "selectAll",
+				"variables" : {
+					"spell" : {
+						"gainedSpell" : {
+							"level" : 5
+						},
+						"bonusSpell" : {
+							"level" : 4
+						}
+					}
+				},
+				"rewards" : [
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 40,
+								"type" : "goldGolem"
+							},
+							{
+								"amount" : 10,
+								"type" : "diamondGolem"
+							},
+							{
+								"amount" : 10,
+								"type" : "diamondGolem"
+							}
+						],
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 4
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 100
+						},
+						"limiter" : {
+							"canLearnSpells" : [
+								"@gainedSpell"
+							]
+						},
+						"message" : [
+							106,
+							"{%s}."
+						],
+						"spells" : [
+							"@gainedSpell"
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 100
+						},
+						"limiter" : {
+							"noneOf" : [
+								{
+									"canLearnSpells" : [
+										"@gainedSpell"
+									]
+								}
+							]
+						},
+						"message" : "@pyramidSpellReward.insufficientKnowledge"
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 75
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							],
+							"canLearnSpells" : [
+								"@gainedSpell",
+								"@bonusSpell"
+							]
+						},
+						"message" : "@pyramidSpellReward.bonusSpell",
+						"spells" : [
+							"@bonusSpell"
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 75,
+							"max" : 100
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 50
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							],
+							"noneOf" : [
+								{
+									"secondary" : [
+										{
+											"type" : "luck",
+											"amount" : 3
+										}
+									]
+								}
+							],
+							"canLearnSpells" : [
+								"@gainedSpell",
+								"@bonusSpell"
+							]
+						},
+						"message" : "@pyramidSpellReward.bonusSpell",
+						"spells" : [
+							"@bonusSpell"
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 50,
+							"max" : 100
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							],
+							"noneOf" : [
+								{
+									"secondary" : [
+										{
+											"type" : "luck",
+											"amount" : 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 25
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							],
+							"noneOf" : [
+								{
+									"secondary" : [
+										{
+											"type" : "luck",
+											"amount" : 2
+										}
+									]
+								}
+							],
+							"canLearnSpells" : [
+								"@gainedSpell",
+								"@bonusSpell"
+							]
+						},
+						"message" : "@pyramidSpellReward.bonusSpell",
+						"spells" : [
+							"@bonusSpell"
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 25,
+							"max" : 100
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							],
+							"noneOf" : [
+								{
+									"secondary" : [
+										{
+											"type" : "luck",
+											"amount" : 2
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
 }

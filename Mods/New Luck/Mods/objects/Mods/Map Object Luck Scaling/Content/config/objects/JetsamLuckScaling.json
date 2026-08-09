@@ -1,293 +1,293 @@
 {
-  "hota.mapobjects:jetsam": {
-    "types": {
-      "jetsam": {
-        "selectMode": "selectFirst",
-        "rewards": [
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 0,
-              "max": 15
-            },
-            "mapDice": 1,
-            "message": "@mapObjectLuckScaling.jetsam.ore5",
-            "removeObject": true,
-            "resources": {
-              "ore": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 15,
-              "max": 50
-            },
-            "mapDice": 2,
-            "message": "@mapObjectLuckScaling.jetsam.ore5Gold200",
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "ore": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 50,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": "@mapObjectLuckScaling.jetsam.ore10Gold500",
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "ore": 10
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 0,
-              "max": 5
-            },
-            "mapDice": 0,
-            "message": "@mapObjectLuckScaling.jetsam.empty",
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 5,
-              "max": 25
-            },
-            "mapDice": 1,
-            "message": "@mapObjectLuckScaling.jetsam.ore5",
-            "removeObject": true,
-            "resources": {
-              "ore": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 25,
-              "max": 60
-            },
-            "mapDice": 2,
-            "message": "@mapObjectLuckScaling.jetsam.ore5Gold200",
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "ore": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 60,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": "@mapObjectLuckScaling.jetsam.ore10Gold500",
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "ore": 10
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 0,
-              "max": 15
-            },
-            "mapDice": 0,
-            "message": "@mapObjectLuckScaling.jetsam.empty",
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 15,
-              "max": 40
-            },
-            "mapDice": 1,
-            "message": "@mapObjectLuckScaling.jetsam.ore5",
-            "removeObject": true,
-            "resources": {
-              "ore": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 40,
-              "max": 70
-            },
-            "mapDice": 2,
-            "message": "@mapObjectLuckScaling.jetsam.ore5Gold200",
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "ore": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 70,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": "@mapObjectLuckScaling.jetsam.ore10Gold500",
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "ore": 10
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 25
-            },
-            "mapDice": 0,
-            "message": "@mapObjectLuckScaling.jetsam.empty",
-            "removeObject": true
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 25,
-              "max": 50
-            },
-            "mapDice": 1,
-            "message": "@mapObjectLuckScaling.jetsam.ore5",
-            "removeObject": true,
-            "resources": {
-              "ore": 5
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 50,
-              "max": 75
-            },
-            "mapDice": 2,
-            "message": "@mapObjectLuckScaling.jetsam.ore5Gold200",
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "ore": 5
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 75,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": "@mapObjectLuckScaling.jetsam.ore10Gold500",
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "ore": 10
-            }
-          }
-        ]
-      }
-    }
-  }
+	"hota.mapobjects:jetsam" : {
+		"types" : {
+			"jetsam" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 15
+						},
+						"mapDice" : 1,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5",
+						"removeObject" : true,
+						"resources" : {
+							"ore" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 15,
+							"max" : 50
+						},
+						"mapDice" : 2,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5Gold200",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"ore" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 50,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : "@mapObjectLuckScaling.jetsam.ore10Gold500",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"ore" : 10
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 5
+						},
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.jetsam.empty",
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 5,
+							"max" : 25
+						},
+						"mapDice" : 1,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5",
+						"removeObject" : true,
+						"resources" : {
+							"ore" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 25,
+							"max" : 60
+						},
+						"mapDice" : 2,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5Gold200",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"ore" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 60,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : "@mapObjectLuckScaling.jetsam.ore10Gold500",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"ore" : 10
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 15
+						},
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.jetsam.empty",
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 15,
+							"max" : 40
+						},
+						"mapDice" : 1,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5",
+						"removeObject" : true,
+						"resources" : {
+							"ore" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 40,
+							"max" : 70
+						},
+						"mapDice" : 2,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5Gold200",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"ore" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 70,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : "@mapObjectLuckScaling.jetsam.ore10Gold500",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"ore" : 10
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 25
+						},
+						"mapDice" : 0,
+						"message" : "@mapObjectLuckScaling.jetsam.empty",
+						"removeObject" : true
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 25,
+							"max" : 50
+						},
+						"mapDice" : 1,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5",
+						"removeObject" : true,
+						"resources" : {
+							"ore" : 5
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 50,
+							"max" : 75
+						},
+						"mapDice" : 2,
+						"message" : "@mapObjectLuckScaling.jetsam.ore5Gold200",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"ore" : 5
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 75,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : "@mapObjectLuckScaling.jetsam.ore10Gold500",
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"ore" : 10
+						}
+					}
+				]
+			}
+		}
+	}
 }

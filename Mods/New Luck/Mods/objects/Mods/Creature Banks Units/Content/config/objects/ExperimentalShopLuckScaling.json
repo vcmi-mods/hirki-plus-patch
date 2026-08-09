@@ -1,68 +1,68 @@
 {
-	"core:creatureBank": {
-		"types": {
-			"experimentalShop": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:creatureBank" : {
+		"types" : {
+			"experimentalShop" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 4,
-								"type": "steelGolem"
+								"amount" : 4,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 4,
-								"type": "steelGolem"
+								"amount" : 4,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 4,
-								"type": "steelGolem"
+								"amount" : 4,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 4,
-								"type": "steelGolem"
+								"amount" : 4,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 4,
-								"type": "steelGolem"
+								"amount" : 4,
+								"type" : "steelGolem"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"noneOf": [
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -70,32 +70,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -103,32 +103,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -136,32 +136,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -169,32 +169,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.t1.success",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.t1.success",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -202,32 +202,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -235,32 +235,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -268,32 +268,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.t1.success",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.t1.success",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -301,32 +301,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.t1.success",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.t1.success",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -334,156 +334,156 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 1,
-								"type": "giant"
+								"amount" : 1,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.t1.success",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.t1.success",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.t1.success",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.t1.success",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"message": "@creatureBanksUnits.experimentalShop.t1.success",
-						"creatures": [
+						"mapDice" : 0,
+						"message" : "@creatureBanksUnits.experimentalShop.t1.success",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "steelGolem"
+								"amount" : 8,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 8,
-								"type": "steelGolem"
+								"amount" : 8,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 8,
-								"type": "steelGolem"
+								"amount" : 8,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 8,
-								"type": "steelGolem"
+								"amount" : 8,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 8,
-								"type": "steelGolem"
+								"amount" : 8,
+								"type" : "steelGolem"
 							}
 						],
-						"mapDice": 1,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 1,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"noneOf": [
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -491,32 +491,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -524,32 +524,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -557,32 +557,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -590,32 +590,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.t2.success",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.t2.success",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -623,32 +623,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -656,32 +656,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -689,32 +689,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.t2.success",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.t2.success",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -722,32 +722,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.t2.success",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.t2.success",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -755,156 +755,156 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "giant"
+								"amount" : 2,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.t2.success",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.t2.success",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.t2.success",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.t2.success",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"message": "@creatureBanksUnits.experimentalShop.t2.success",
-						"creatures": [
+						"mapDice" : 1,
+						"message" : "@creatureBanksUnits.experimentalShop.t2.success",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 12,
-								"type": "steelGolem"
+								"amount" : 12,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 12,
-								"type": "steelGolem"
+								"amount" : 12,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 12,
-								"type": "steelGolem"
+								"amount" : 12,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 12,
-								"type": "steelGolem"
+								"amount" : 12,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 12,
-								"type": "steelGolem"
+								"amount" : 12,
+								"type" : "steelGolem"
 							}
 						],
-						"mapDice": 2,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 2,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"noneOf": [
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -912,32 +912,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -945,32 +945,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -978,32 +978,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1011,32 +1011,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.t3.success",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.t3.success",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1044,32 +1044,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1077,32 +1077,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1110,32 +1110,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.t3.success",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.t3.success",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1143,32 +1143,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.t3.success",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.t3.success",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1176,156 +1176,156 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 3,
-								"type": "giant"
+								"amount" : 3,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.t3.success",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.t3.success",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.t3.success",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.t3.success",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"message": "@creatureBanksUnits.experimentalShop.t3.success",
-						"creatures": [
+						"mapDice" : 2,
+						"message" : "@creatureBanksUnits.experimentalShop.t3.success",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 16,
-								"type": "steelGolem"
+								"amount" : 16,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 16,
-								"type": "steelGolem"
+								"amount" : 16,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 16,
-								"type": "steelGolem"
+								"amount" : 16,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 16,
-								"type": "steelGolem"
+								"amount" : 16,
+								"type" : "steelGolem"
 							},
 							{
-								"amount": 16,
-								"type": "steelGolem"
+								"amount" : 16,
+								"type" : "steelGolem"
 							}
 						],
-						"mapDice": 3,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 3,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"noneOf": [
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1333,32 +1333,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1366,32 +1366,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1399,32 +1399,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1432,32 +1432,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.t4.success",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.t4.success",
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "giant"
+								"amount" : 5,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1465,32 +1465,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1498,32 +1498,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1531,32 +1531,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.t4.success",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.t4.success",
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "giant"
+								"amount" : 5,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1564,32 +1564,32 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.t4.success",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.t4.success",
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "giant"
+								"amount" : 5,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1597,93 +1597,93 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.base",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.base",
+						"creatures" : [
 							{
-								"amount": 4,
-								"type": "giant"
+								"amount" : 4,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.t4.success",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.t4.success",
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "giant"
+								"amount" : 5,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.t4.success",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.t4.success",
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "giant"
+								"amount" : 5,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"message": "@creatureBanksUnits.experimentalShop.t4.success",
-						"creatures": [
+						"mapDice" : 3,
+						"message" : "@creatureBanksUnits.experimentalShop.t4.success",
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "giant"
+								"amount" : 5,
+								"type" : "giant"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

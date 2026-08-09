@@ -1,293 +1,293 @@
 {
-  "core:flotsam": {
-    "types": {
-      "flotsam": {
-        "selectMode": "selectFirst",
-        "rewards": [
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 0,
-              "max": 15
-            },
-            "mapDice": 1,
-            "message": 52,
-            "removeObject": true,
-            "resources": {
-              "wood": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 15,
-              "max": 50
-            },
-            "mapDice": 2,
-            "message": 53,
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "wood": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 50,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": 54,
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "wood": 10
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 0,
-              "max": 5
-            },
-            "mapDice": 0,
-            "message": 51,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 5,
-              "max": 25
-            },
-            "mapDice": 1,
-            "message": 52,
-            "removeObject": true,
-            "resources": {
-              "wood": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 25,
-              "max": 60
-            },
-            "mapDice": 2,
-            "message": 53,
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "wood": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 60,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": 54,
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "wood": 10
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 0,
-              "max": 15
-            },
-            "mapDice": 0,
-            "message": 51,
-            "removeObject": true,
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 15,
-              "max": 40
-            },
-            "mapDice": 1,
-            "message": 52,
-            "removeObject": true,
-            "resources": {
-              "wood": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 40,
-              "max": 70
-            },
-            "mapDice": 2,
-            "message": 53,
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "wood": 5
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 70,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": 54,
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "wood": 10
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 25
-            },
-            "mapDice": 0,
-            "message": 51,
-            "removeObject": true
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 25,
-              "max": 50
-            },
-            "mapDice": 1,
-            "message": 52,
-            "removeObject": true,
-            "resources": {
-              "wood": 5
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 50,
-              "max": 75
-            },
-            "mapDice": 2,
-            "message": 53,
-            "removeObject": true,
-            "resources": {
-              "gold": 200,
-              "wood": 5
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 75,
-              "max": 100
-            },
-            "mapDice": 3,
-            "message": 54,
-            "removeObject": true,
-            "resources": {
-              "gold": 500,
-              "wood": 10
-            }
-          }
-        ]
-      }
-    }
-  }
+	"core:flotsam" : {
+		"types" : {
+			"flotsam" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 15
+						},
+						"mapDice" : 1,
+						"message" : 52,
+						"removeObject" : true,
+						"resources" : {
+							"wood" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 15,
+							"max" : 50
+						},
+						"mapDice" : 2,
+						"message" : 53,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"wood" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 50,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : 54,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"wood" : 10
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 5
+						},
+						"mapDice" : 0,
+						"message" : 51,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 5,
+							"max" : 25
+						},
+						"mapDice" : 1,
+						"message" : 52,
+						"removeObject" : true,
+						"resources" : {
+							"wood" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 25,
+							"max" : 60
+						},
+						"mapDice" : 2,
+						"message" : 53,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"wood" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 60,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : 54,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"wood" : 10
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 15
+						},
+						"mapDice" : 0,
+						"message" : 51,
+						"removeObject" : true,
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 15,
+							"max" : 40
+						},
+						"mapDice" : 1,
+						"message" : 52,
+						"removeObject" : true,
+						"resources" : {
+							"wood" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 40,
+							"max" : 70
+						},
+						"mapDice" : 2,
+						"message" : 53,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"wood" : 5
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 70,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : 54,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"wood" : 10
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 25
+						},
+						"mapDice" : 0,
+						"message" : 51,
+						"removeObject" : true
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 25,
+							"max" : 50
+						},
+						"mapDice" : 1,
+						"message" : 52,
+						"removeObject" : true,
+						"resources" : {
+							"wood" : 5
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 50,
+							"max" : 75
+						},
+						"mapDice" : 2,
+						"message" : 53,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 200,
+							"wood" : 5
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 75,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"message" : 54,
+						"removeObject" : true,
+						"resources" : {
+							"gold" : 500,
+							"wood" : 10
+						}
+					}
+				]
+			}
+		}
+	}
 }

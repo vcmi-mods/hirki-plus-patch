@@ -1,31 +1,31 @@
 {
-	"name": "Leadership",
-	"description": "Expands **Leadership** into a Morale and adventure-map momentum skill.\n\nLeadership keeps its original Morale bonuses and adds **Inspired March**. After visiting an adventure map object that grants positive Morale for the next battle, the hero immediately receives additional movement points. This bonus is added on top of any native movement reward from the object.\n\n## Skill Effects\n\n* **Basic Leadership:** +1 Morale; Inspired March grants +100 movement points\n* **Advanced Leadership:** +2 Morale; Inspired March grants +200 movement points\n* **Expert Leadership:** +3 Morale; Inspired March grants +300 movement points\n\n## Supported Objects\n\n* **Buoy**\n* **Fountain of Youth**\n* **Idol of Fortune**\n* **Oasis**\n* **Rally Flag**\n* **Temple**\n* **Watering Hole**\n\nIdol of Fortune grants Inspired March movement only on days when it provides Morale.\n\n## Specialist Interaction\n\nInspired March movement bonuses depend only on Leadership mastery and are not increased by Leadership specialties.",
-	"author": "bew_",
-	"version": "1.0.0",
-	"modType": "Skills",
-	"changelog": {
-		"1.0.0": [
+	"name" : "Leadership",
+	"description" : "Expands **Leadership** into a Morale and adventure-map momentum skill.\n\nLeadership keeps its original Morale bonuses and adds **Inspired March**. After visiting an adventure map object that grants positive Morale for the next battle, the hero immediately receives additional movement points. This bonus is added on top of any native movement reward from the object.\n\n## Skill Effects\n\n* **Basic Leadership:** +1 Morale; Inspired March grants +100 movement points\n* **Advanced Leadership:** +2 Morale; Inspired March grants +200 movement points\n* **Expert Leadership:** +3 Morale; Inspired March grants +300 movement points\n\n## Supported Objects\n\n* **Buoy**\n* **Fountain of Youth**\n* **Idol of Fortune**\n* **Oasis**\n* **Rally Flag**\n* **Temple**\n* **Watering Hole**\n\nIdol of Fortune grants Inspired March movement only on days when it provides Morale.\n\n## Specialist Interaction\n\nInspired March movement bonuses depend only on Leadership mastery and are not increased by Leadership specialties.",
+	"author" : "bew_",
+	"version" : "1.0.0",
+	"modType" : "Skills",
+	"changelog" : {
+		"1.0.0" : [
 			"Initial release."
 		]
 	},
-	"depends": [
+	"depends" : [
 		"hota"
 	],
-	"softDepends": [
+	"softDepends" : [
 		"hota.gamebalance.objects",
 		"hota.mapdecorations"
 	],
-	"skills": [
+	"skills" : [
 		"config/skills/Leadership.json"
 	],
-	"objects": [
+	"objects" : [
 		"config/objects/LeadershipMoraleObjects.json"
 	],
-	"polish": {
-		"name": "Dowodzenie",
-		"description": "Rozwija **Dowodzenie** jako umiejętność morale i utrzymywania tempa na mapie przygody.\n\nDowodzenie zachowuje oryginalne premie do morale i dodaje **Natchniony marsz**. Po odwiedzeniu obiektu na mapie przygody, który przyznaje dodatnią premię do morale na następną bitwę, bohater natychmiast otrzymuje dodatkowe punkty ruchu. Premia jest dodawana ponad natywną nagrodę ruchu danego obiektu.\n\n## Efekty umiejętności\n\n* **Podstawowe Dowodzenie:** +1 do morale; Natchniony marsz daje +100 punktów ruchu\n* **Zaawansowane Dowodzenie:** +2 do morale; Natchniony marsz daje +200 punktów ruchu\n* **Mistrzowskie Dowodzenie:** +3 do morale; Natchniony marsz daje +300 punktów ruchu\n\n## Obsługiwane obiekty\n\n* **Boja**\n* **Fontanna młodości**\n* **Bożek fortuny**\n* **Oaza**\n* **Pobojowisko**\n* **Świątynia**\n* **Źródło**\n\nBożek fortuny przyznaje ruch z Natchnionego marszu wyłącznie w dniach, w których zapewnia morale.\n\n## Interakcja ze specjalistami\n\nPremia ruchu z Natchnionego marszu wynosi +100, +200 lub +300 punktów, zależnie od poziomu Dowodzenia. Specjalność bohatera nie zwiększa tych wartości.",
-		"translations": [
+	"polish" : {
+		"name" : "Dowodzenie",
+		"description" : "Rozwija **Dowodzenie** jako umiejętność morale i utrzymywania tempa na mapie przygody.\n\nDowodzenie zachowuje oryginalne premie do morale i dodaje **Natchniony marsz**. Po odwiedzeniu obiektu na mapie przygody, który przyznaje dodatnią premię do morale na następną bitwę, bohater natychmiast otrzymuje dodatkowe punkty ruchu. Premia jest dodawana ponad natywną nagrodę ruchu danego obiektu.\n\n## Efekty umiejętności\n\n* **Podstawowe Dowodzenie:** +1 do morale; Natchniony marsz daje +100 punktów ruchu\n* **Zaawansowane Dowodzenie:** +2 do morale; Natchniony marsz daje +200 punktów ruchu\n* **Mistrzowskie Dowodzenie:** +3 do morale; Natchniony marsz daje +300 punktów ruchu\n\n## Obsługiwane obiekty\n\n* **Boja**\n* **Fontanna młodości**\n* **Bożek fortuny**\n* **Oaza**\n* **Pobojowisko**\n* **Świątynia**\n* **Źródło**\n\nBożek fortuny przyznaje ruch z Natchnionego marszu wyłącznie w dniach, w których zapewnia morale.\n\n## Interakcja ze specjalistami\n\nPremia ruchu z Natchnionego marszu wynosi +100, +200 lub +300 punktów, zależnie od poziomu Dowodzenia. Specjalność bohatera nie zwiększa tych wartości.",
+		"translations" : [
 			"translation/polish.json"
 		]
 	}

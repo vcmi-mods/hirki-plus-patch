@@ -1,835 +1,835 @@
 {
-	"core:buoy": {
-		"types": {
-			"buoy": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:buoy" : {
+		"types" : {
+			"buoy" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 94,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 94,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							]
 						},
-						"message": 21,
-						"movePoints": 300
+						"message" : 21,
+						"movePoints" : 300
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 94,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 94,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							]
 						},
-						"message": 21,
-						"movePoints": 200
+						"message" : 21,
+						"movePoints" : 200
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 94,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 94,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							]
 						},
-						"message": 21,
-						"movePoints": 100
+						"message" : 21,
+						"movePoints" : 100
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 94,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 94,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"message": 21
+						"message" : 21
 					}
 				]
 			}
 		}
 	},
-	"core:fountainOfYouth": {
-		"types": {
-			"fountainOfYouth": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:fountainOfYouth" : {
+		"types" : {
+			"fountainOfYouth" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 103,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 103,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							]
 						},
-						"message": 57,
-						"movePoints": 700
+						"message" : 57,
+						"movePoints" : 700
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 103,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 103,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							]
 						},
-						"message": 57,
-						"movePoints": 600
+						"message" : 57,
+						"movePoints" : 600
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 103,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 103,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							]
 						},
-						"message": 57,
-						"movePoints": 500
+						"message" : 57,
+						"movePoints" : 500
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 103,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 103,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"message": 57,
-						"movePoints": 400
+						"message" : 57,
+						"movePoints" : 400
 					}
 				]
 			}
 		}
 	},
-	"core:oasis": {
-		"types": {
-			"oasis": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:oasis" : {
+		"types" : {
+			"oasis" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 95,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 95,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							]
 						},
-						"message": 95,
-						"movePoints": 1100
+						"message" : 95,
+						"movePoints" : 1100
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 95,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 95,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							]
 						},
-						"message": 95,
-						"movePoints": 1000
+						"message" : 95,
+						"movePoints" : 1000
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 95,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 95,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							]
 						},
-						"message": 95,
-						"movePoints": 900
+						"message" : 95,
+						"movePoints" : 900
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 95,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 95,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"message": 95,
-						"movePoints": 800
+						"message" : 95,
+						"movePoints" : 800
 					}
 				]
 			}
 		}
 	},
-	"core:wateringHole": {
-		"types": {
-			"wateringHole": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:wateringHole" : {
+		"types" : {
+			"wateringHole" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 100,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 100,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							]
 						},
-						"message": 166,
-						"movePoints": 700
+						"message" : 166,
+						"movePoints" : 700
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 100,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 100,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							]
 						},
-						"message": 166,
-						"movePoints": 600
+						"message" : 166,
+						"movePoints" : 600
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 100,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 100,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							]
 						},
-						"message": 166,
-						"movePoints": 500
+						"message" : 166,
+						"movePoints" : 500
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 100,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 100,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"message": 166,
-						"movePoints": 400
+						"message" : 166,
+						"movePoints" : 400
 					}
 				]
 			}
 		}
 	},
-	"core:rallyFlag": {
-		"types": {
-			"rallyFlag": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:rallyFlag" : {
+		"types" : {
+			"rallyFlag" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							]
 						},
-						"message": 111,
-						"movePoints": 700
+						"message" : 111,
+						"movePoints" : 700
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							]
 						},
-						"message": 111,
-						"movePoints": 600
+						"message" : 111,
+						"movePoints" : 600
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							]
 						},
-						"message": 111,
-						"movePoints": 500
+						"message" : 111,
+						"movePoints" : 500
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 102,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 102,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"message": 111,
-						"movePoints": 400
+						"message" : 111,
+						"movePoints" : 400
 					}
 				]
 			}
 		}
 	},
-	"core:temple": {
-		"types": {
-			"temple": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:temple" : {
+		"types" : {
+			"temple" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 97,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 2
+								"description" : 97,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 2
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							],
-							"dayOfWeek": 7
+							"dayOfWeek" : 7
 						},
-						"message": 140,
-						"movePoints": 300
+						"message" : 140,
+						"movePoints" : 300
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 97,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 2
+								"description" : 97,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 2
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							],
-							"dayOfWeek": 7
+							"dayOfWeek" : 7
 						},
-						"message": 140,
-						"movePoints": 200
+						"message" : 140,
+						"movePoints" : 200
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 97,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 2
+								"description" : 97,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 2
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							],
-							"dayOfWeek": 7
+							"dayOfWeek" : 7
 						},
-						"message": 140,
-						"movePoints": 100
+						"message" : 140,
+						"movePoints" : 100
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 96,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 96,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							]
 						},
-						"message": 140,
-						"movePoints": 300
+						"message" : 140,
+						"movePoints" : 300
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 96,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 96,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							]
 						},
-						"message": 140,
-						"movePoints": 200
+						"message" : 140,
+						"movePoints" : 200
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 96,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 96,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							]
 						},
-						"message": 140,
-						"movePoints": 100
+						"message" : 140,
+						"movePoints" : 100
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 97,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 2
+								"description" : 97,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 2
 							}
 						],
-						"limiter": {
-							"dayOfWeek": 7
+						"limiter" : {
+							"dayOfWeek" : 7
 						},
-						"message": 140
+						"message" : 140
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 96,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 96,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"message": 140
+						"message" : 140
 					}
 				]
 			}
 		}
 	},
-	"core:idolOfFortune": {
-		"types": {
-			"idolOfFortune": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:idolOfFortune" : {
+		"types" : {
+			"idolOfFortune" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"anyOf": [
+						"limiter" : {
+							"anyOf" : [
 								{
-									"dayOfWeek": 1
+									"dayOfWeek" : 1
 								},
 								{
-									"dayOfWeek": 3
+									"dayOfWeek" : 3
 								},
 								{
-									"dayOfWeek": 5
+									"dayOfWeek" : 5
 								}
 							]
 						},
-						"message": 62
+						"message" : 62
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							],
-							"dayOfWeek": 7
+							"dayOfWeek" : 7
 						},
-						"message": 62,
-						"movePoints": 300
+						"message" : 62,
+						"movePoints" : 300
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							],
-							"dayOfWeek": 7
+							"dayOfWeek" : 7
 						},
-						"message": 62,
-						"movePoints": 200
+						"message" : 62,
+						"movePoints" : 200
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							],
-							"dayOfWeek": 7
+							"dayOfWeek" : 7
 						},
-						"message": 62,
-						"movePoints": 100
+						"message" : 62,
+						"movePoints" : 100
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 3
+									"type" : "leadership",
+									"amount" : 3
 								}
 							],
-							"anyOf": [
+							"anyOf" : [
 								{
-									"dayOfWeek": 2
+									"dayOfWeek" : 2
 								},
 								{
-									"dayOfWeek": 4
+									"dayOfWeek" : 4
 								},
 								{
-									"dayOfWeek": 6
+									"dayOfWeek" : 6
 								}
 							]
 						},
-						"message": 62,
-						"movePoints": 300
+						"message" : 62,
+						"movePoints" : 300
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 2
+									"type" : "leadership",
+									"amount" : 2
 								}
 							],
-							"anyOf": [
+							"anyOf" : [
 								{
-									"dayOfWeek": 2
+									"dayOfWeek" : 2
 								},
 								{
-									"dayOfWeek": 4
+									"dayOfWeek" : 4
 								},
 								{
-									"dayOfWeek": 6
+									"dayOfWeek" : 6
 								}
 							]
 						},
-						"message": 62,
-						"movePoints": 200
+						"message" : 62,
+						"movePoints" : 200
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "leadership",
-									"amount": 1
+									"type" : "leadership",
+									"amount" : 1
 								}
 							],
-							"anyOf": [
+							"anyOf" : [
 								{
-									"dayOfWeek": 2
+									"dayOfWeek" : 2
 								},
 								{
-									"dayOfWeek": 4
+									"dayOfWeek" : 4
 								},
 								{
-									"dayOfWeek": 6
+									"dayOfWeek" : 6
 								}
 							]
 						},
-						"message": 62,
-						"movePoints": 100
+						"message" : 62,
+						"movePoints" : 100
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"anyOf": [
+						"limiter" : {
+							"anyOf" : [
 								{
-									"dayOfWeek": 2
+									"dayOfWeek" : 2
 								},
 								{
-									"dayOfWeek": 4
+									"dayOfWeek" : 4
 								},
 								{
-									"dayOfWeek": 6
+									"dayOfWeek" : 6
 								}
 							]
 						},
-						"message": 62
+						"message" : 62
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "MORALE",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "MORALE",
+								"val" : 1
 							},
 							{
-								"description": 68,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 68,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"limiter": {
-							"dayOfWeek": 7
+						"limiter" : {
+							"dayOfWeek" : 7
 						},
-						"message": 62
+						"message" : 62
 					}
 				]
 			}

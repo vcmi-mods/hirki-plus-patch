@@ -1,54 +1,54 @@
 {
-	"core:creatureBank": {
-		"types": {
-			"blackTower": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:creatureBank" : {
+		"types" : {
+			"blackTower" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 1,
-								"type": "greenDragon"
+								"amount" : 1,
+								"type" : "greenDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -56,34 +56,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -91,34 +91,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -126,34 +126,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -161,34 +161,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -196,34 +196,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -231,34 +231,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -266,34 +266,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -301,34 +301,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -336,150 +336,150 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2000
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.blackTower.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 1,
-								"type": "redDragon"
+								"amount" : 1,
+								"type" : "redDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -487,34 +487,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -522,34 +522,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -557,34 +557,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -592,34 +592,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -627,34 +627,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -662,34 +662,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -697,34 +697,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -732,34 +732,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -767,150 +767,150 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 2250
+						"resources" : {
+							"gold" : 2250
 						},
-						"message": "@creatureBanksResources.blackTower.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 1,
-								"type": "goldDragon"
+								"amount" : 1,
+								"type" : "goldDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -918,34 +918,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -953,34 +953,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -988,34 +988,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1023,34 +1023,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1058,34 +1058,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1093,34 +1093,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1128,34 +1128,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1163,34 +1163,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1198,150 +1198,150 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3500
+						"resources" : {
+							"gold" : 3500
 						},
-						"message": "@creatureBanksResources.blackTower.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 1,
-								"type": "blackDragon"
+								"amount" : 1,
+								"type" : "blackDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1349,34 +1349,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1384,34 +1384,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1419,34 +1419,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1454,34 +1454,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1489,34 +1489,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1524,34 +1524,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1559,34 +1559,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1594,34 +1594,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1629,101 +1629,101 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"artifacts": [
+						"mapDice" : 0,
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"resources": {
-							"gold": 3750
+						"resources" : {
+							"gold" : 3750
 						},
-						"message": "@creatureBanksResources.blackTower.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

@@ -1,5 +1,5 @@
 {
-	"skill.core.leadership.description.basic": "{Basic Leadership}\n\nIncreases the {Morale} of all creatures in the hero's army by {+1}.\n\n{Inspired March}: visiting an adventure map object that grants a {positive} {Morale} bonus for the next battle also grants {+100} movement points.",
-	"skill.core.leadership.description.advanced": "{Advanced Leadership}\n\nIncreases the {Morale} of all creatures in the hero's army by {+2}.\n\n{Inspired March}: visiting an adventure map object that grants a {positive} {Morale} bonus for the next battle also grants {+200} movement points.",
-	"skill.core.leadership.description.expert": "{Expert Leadership}\n\nIncreases the {Morale} of all creatures in the hero's army by {+3}.\n\n{Inspired March}: visiting an adventure map object that grants a {positive} {Morale} bonus for the next battle also grants {+300} movement points."
+	"skill.core.leadership.description.advanced" : "{Advanced Leadership}\n\nIncreases the {Morale} of all creatures in the hero's army by {+2}.\n\n{Inspired March}: visiting an adventure map object that grants a {positive} {Morale} bonus for the next battle also grants {+200} movement points.",
+	"skill.core.leadership.description.basic" : "{Basic Leadership}\n\nIncreases the {Morale} of all creatures in the hero's army by {+1}.\n\n{Inspired March}: visiting an adventure map object that grants a {positive} {Morale} bonus for the next battle also grants {+100} movement points.",
+	"skill.core.leadership.description.expert" : "{Expert Leadership}\n\nIncreases the {Morale} of all creatures in the hero's army by {+3}.\n\n{Inspired March}: visiting an adventure map object that grants a {positive} {Morale} bonus for the next battle also grants {+300} movement points."
 }

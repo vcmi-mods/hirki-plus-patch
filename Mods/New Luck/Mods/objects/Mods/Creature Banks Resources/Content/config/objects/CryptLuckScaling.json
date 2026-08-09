@@ -1,65 +1,65 @@
 {
-	"core:crypt": {
-		"types": {
-			"crypt": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:crypt" : {
+		"types" : {
+			"crypt" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 10,
-								"type": "skeleton"
+								"amount" : 10,
+								"type" : "skeleton"
 							},
 							{
-								"amount": 10,
-								"type": "walkingDead"
+								"amount" : 10,
+								"type" : "walkingDead"
 							},
 							{
-								"amount": 10,
-								"type": "walkingDead"
+								"amount" : 10,
+								"type" : "walkingDead"
 							},
 							{
-								"amount": 10,
-								"type": "skeleton"
+								"amount" : 10,
+								"type" : "skeleton"
 							},
 							{
-								"amount": 10,
-								"type": "skeleton"
+								"amount" : 10,
+								"type" : "skeleton"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -67,29 +67,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -97,29 +97,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -127,29 +127,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -157,29 +157,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -187,29 +187,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -217,29 +217,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -247,29 +247,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -277,29 +277,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -307,141 +307,141 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 1500
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 1500
 						},
-						"message": "@creatureBanksResources.crypt.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 13,
-								"type": "skeleton"
+								"amount" : 13,
+								"type" : "skeleton"
 							},
 							{
-								"amount": 10,
-								"type": "walkingDead"
+								"amount" : 10,
+								"type" : "walkingDead"
 							},
 							{
-								"amount": 5,
-								"type": "wight"
+								"amount" : 5,
+								"type" : "wight"
 							},
 							{
-								"amount": 10,
-								"type": "walkingDead"
+								"amount" : 10,
+								"type" : "walkingDead"
 							},
 							{
-								"amount": 12,
-								"type": "skeleton"
+								"amount" : 12,
+								"type" : "skeleton"
 							}
 						],
-						"mapDice": 1,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 1,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -449,29 +449,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -479,29 +479,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -509,29 +509,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -539,34 +539,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -574,29 +574,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -604,29 +604,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -634,34 +634,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -669,34 +669,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -704,157 +704,157 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.crypt.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 1,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 1,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 20,
-								"type": "skeleton"
+								"amount" : 20,
+								"type" : "skeleton"
 							},
 							{
-								"amount": 20,
-								"type": "walkingDead"
+								"amount" : 20,
+								"type" : "walkingDead"
 							},
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							},
 							{
-								"amount": 5,
-								"type": "vampire"
+								"amount" : 5,
+								"type" : "vampire"
 							}
 						],
-						"mapDice": 2,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 2,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -862,34 +862,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -897,34 +897,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -932,34 +932,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -967,34 +967,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1002,34 +1002,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1037,34 +1037,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1072,34 +1072,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1107,34 +1107,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1142,162 +1142,162 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 2500
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 2,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 2,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 20,
-								"type": "skeleton"
+								"amount" : 20,
+								"type" : "skeleton"
 							},
 							{
-								"amount": 20,
-								"type": "walkingDead"
+								"amount" : 20,
+								"type" : "walkingDead"
 							},
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							},
 							{
-								"amount": 10,
-								"type": "vampire"
+								"amount" : 10,
+								"type" : "vampire"
 							}
 						],
-						"mapDice": 3,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 3,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1305,34 +1305,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1340,34 +1340,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1375,34 +1375,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1410,34 +1410,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1445,34 +1445,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1480,34 +1480,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1515,34 +1515,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1550,34 +1550,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1585,101 +1585,101 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 3,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 3,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.crypt.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.crypt.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

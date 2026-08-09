@@ -1,33 +1,33 @@
 {
-  "name": "Ice Storm",
-  "description": "Adds **Ice Storm**, a level 4 Water Magic spell that summons a violent storm over the entire battlefield.\n\nThe spell damages every creature present. On **Snow** terrain, each affected stack for which Snow is not native terrain has a chance before each of its turns for 2 turns to freeze and skip that turn entirely. The chance is **10% / 20% / 25% / 30%** at no, Basic, Advanced and Expert Water Magic mastery.\n\nWar machines receive the spell's damage but are excluded from the freezing effect. Water Elementals, Ice Elementals, Nymphs and Oceanids are fully immune to Ice Storm.\n\nIce Storm can appear in level 4 Mage Guilds of Bulwark and Tower with gainChance 10, and Cove and Conflux with gainChance 5. Other towns remain at 0.",
-  "author": "bew_",
-  "version": "1.0.0",
-  "modType": "Spells",
-  "compatibility": {
-    "min": "1.7.4"
-  },
-  "depends": [
-    "hota",
-    "hota.bulwark",
-    "hota.cove"
-  ],
-  "spells": [
-    "config/spells/IceStorm.json"
-  ],
-  "creatures": [
-    "config/creatures/IceStormImmunities.json"
-  ],
-  "polish": {
-    "name": "Lodowa burza",
-    "description": "Dodaje **Lodową burzę**, czar Magii Wody 4. poziomu, który przywołuje gwałtowną burzę nad całym polem bitwy.\n\nCzar rani wszystkie znajdujące się na polu bitwy jednostki. Na terenie typu **Śnieg** każdy trafiony oddział, dla którego Śnieg nie jest terenem natywnym, przez 2 tury ma przed każdą swoją turą szansę na zamarznięcie i całkowite pominięcie tej tury. Szansa wynosi **10% / 20% / 25% / 30%** przy braku, podstawowej, zaawansowanej i mistrzowskiej Magii Wody.\n\nMachiny wojenne otrzymują obrażenia od czaru, ale nie podlegają efektowi zamarznięcia. Żywiołaki wody, żywiołaki lodu, nimfy i oceanidy są całkowicie odporne na Lodową burzę.\n\nLodowa burza może pojawić się w Gildiach Magów 4. poziomu Warowni i Fortecy z gainChance 10 oraz Przystani i Wrót Żywiołów z gainChance 5. W pozostałych miastach wartość pozostaje równa 0.",
-    "translations": [
-      "translation/polish.json"
-    ]
-  },
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  }
+	"name" : "Ice Storm",
+	"description" : "Adds **Ice Storm**, a level 4 Water Magic spell that summons a violent storm over the entire battlefield.\n\nThe spell damages every creature present. On **Snow** terrain, each affected stack for which Snow is not native terrain has a chance before each of its turns for 2 turns to freeze and skip that turn entirely. The chance is **10% / 20% / 25% / 30%** at no, Basic, Advanced and Expert Water Magic mastery.\n\nWar machines receive the spell's damage but are excluded from the freezing effect. Water Elementals, Ice Elementals, Nymphs and Oceanids are fully immune to Ice Storm.\n\nIce Storm can appear in level 4 Mage Guilds of Bulwark and Tower with gainChance 10, and Cove and Conflux with gainChance 5. Other towns remain at 0.",
+	"author" : "bew_",
+	"version" : "1.0.0",
+	"modType" : "Spells",
+	"compatibility" : {
+		"min" : "1.7.4"
+	},
+	"depends" : [
+		"hota",
+		"hota.bulwark",
+		"hota.cove"
+	],
+	"spells" : [
+		"config/spells/IceStorm.json"
+	],
+	"creatures" : [
+		"config/creatures/IceStormImmunities.json"
+	],
+	"polish" : {
+		"name" : "Lodowa burza",
+		"description" : "Dodaje **Lodową burzę**, czar Magii Wody 4. poziomu, który przywołuje gwałtowną burzę nad całym polem bitwy.\n\nCzar rani wszystkie znajdujące się na polu bitwy jednostki. Na terenie typu **Śnieg** każdy trafiony oddział, dla którego Śnieg nie jest terenem natywnym, przez 2 tury ma przed każdą swoją turą szansę na zamarznięcie i całkowite pominięcie tej tury. Szansa wynosi **10% / 20% / 25% / 30%** przy braku, podstawowej, zaawansowanej i mistrzowskiej Magii Wody.\n\nMachiny wojenne otrzymują obrażenia od czaru, ale nie podlegają efektowi zamarznięcia. Żywiołaki wody, żywiołaki lodu, nimfy i oceanidy są całkowicie odporne na Lodową burzę.\n\nLodowa burza może pojawić się w Gildiach Magów 4. poziomu Warowni i Fortecy z gainChance 10 oraz Przystani i Wrót Żywiołów z gainChance 5. W pozostałych miastach wartość pozostaje równa 0.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release."
+		]
+	}
 }

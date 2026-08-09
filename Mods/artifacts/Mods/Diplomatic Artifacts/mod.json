@@ -1,36 +1,36 @@
 {
-	"name": "Diplomatic Artifacts",
-	"description": "Reworks diplomatic artifacts and their interaction with Shackles of War.\n\n## Artifact Changes\n\n* **Statesman's Medal**, **Diplomat's Ring** and **Ambassador's Sash** now each reduce surrender cost by **15%**.\n* **Diplomat's Cloak** is now a fused artifact: its components are consumed during assembly and cannot be recovered.\n* The completed cloak keeps a **50% surrender discount**.\n* The completed cloak increases the chance that neutral creatures will join the hero's army.\n* The completed cloak acts as **Expert Disguise** on the adventure map.\n* **Diplomacy** surrender discounts are rebalanced to **15% / 25% / 50%**.\n* **Shackles of War** still prevent retreat and surrender, but a hero with **Expert Diplomacy** or **Diplomat's Cloak** neutralizes that effect in battles where retreat or surrender is normally available.\n\nThis module does not implement the HotA siege-surrender effect for defending towns.",
-	"author": "bew_",
-	"version": "1.0.0",
-	"modType": "Artifacts",
-	"depends": [
+	"name" : "Diplomatic Artifacts",
+	"description" : "Reworks diplomatic artifacts and their interaction with Shackles of War.\n\n## Artifact Changes\n\n* **Statesman's Medal**, **Diplomat's Ring** and **Ambassador's Sash** now each reduce surrender cost by **15%**.\n* **Diplomat's Cloak** is now a fused artifact: its components are consumed during assembly and cannot be recovered.\n* The completed cloak keeps a **50% surrender discount**.\n* The completed cloak increases the chance that neutral creatures will join the hero's army.\n* The completed cloak acts as **Expert Disguise** on the adventure map.\n* **Diplomacy** surrender discounts are rebalanced to **15% / 25% / 50%**.\n* **Shackles of War** still prevent retreat and surrender, but a hero with **Expert Diplomacy** or **Diplomat's Cloak** neutralizes that effect in battles where retreat or surrender is normally available.\n\nThis module does not implement the HotA siege-surrender effect for defending towns.",
+	"author" : "bew_",
+	"version" : "1.0.0",
+	"modType" : "Artifacts",
+	"depends" : [
 		"hota",
 		"hota.artifacts"
 	],
-	"compatibility": {
-		"min": "1.7.4"
+	"compatibility" : {
+		"min" : "1.7.4"
 	},
-	"artifacts": [
+	"artifacts" : [
 		"config/artifacts/DiplomaticArtifacts.json"
 	],
-	"skills": [
+	"skills" : [
 		"config/skills/Diplomacy.json"
 	],
-	"english": {
-		"translations": [
+	"english" : {
+		"translations" : [
 			"translation/english.json"
 		]
 	},
-	"polish": {
-		"name": "Artefakty dyplomatyczne",
-		"description": "Przebudowuje artefakty dyplomatyczne i ich interakcję z Kajdanami Wojny.\n\n## Zmiany artefaktów\n\n* **Medal męża stanu**, **Pierścień dyplomaty** i **Szarfa ambasadora** zmniejszają teraz koszt poddania się po **15%** każdy.\n* **Płaszcz Dyplomaty** jest teraz scalonym artefaktem: komponenty zostają zużyte podczas złożenia i nie można ich odzyskać.\n* Ukończony płaszcz zachowuje **50% zniżkę kosztu poddania się**.\n* Ukończony płaszcz zwiększa szansę, że neutralne stworzenia przyłączą się do armii bohatera.\n* Ukończony płaszcz działa na mapie przygody jak czar **Ukrycie** na poziomie mistrzowskim.\n* Zniżki kosztu poddania się z **Dyplomacji** zostają zmienione na **15% / 25% / 50%**.\n* **Kajdany Wojny** nadal uniemożliwiają ucieczkę i poddanie się, ale bohater z **Mistrzowską Dyplomacją** albo **Płaszczem Dyplomaty** neutralizuje ten efekt w bitwach, w których ucieczka lub poddanie się są normalnie dostępne.\n\nTen moduł nie implementuje efektu HotA pozwalającego poddać się podczas obrony miasta.",
-		"translations": [
+	"polish" : {
+		"name" : "Artefakty dyplomatyczne",
+		"description" : "Przebudowuje artefakty dyplomatyczne i ich interakcję z Kajdanami Wojny.\n\n## Zmiany artefaktów\n\n* **Medal męża stanu**, **Pierścień dyplomaty** i **Szarfa ambasadora** zmniejszają teraz koszt poddania się po **15%** każdy.\n* **Płaszcz Dyplomaty** jest teraz scalonym artefaktem: komponenty zostają zużyte podczas złożenia i nie można ich odzyskać.\n* Ukończony płaszcz zachowuje **50% zniżkę kosztu poddania się**.\n* Ukończony płaszcz zwiększa szansę, że neutralne stworzenia przyłączą się do armii bohatera.\n* Ukończony płaszcz działa na mapie przygody jak czar **Ukrycie** na poziomie mistrzowskim.\n* Zniżki kosztu poddania się z **Dyplomacji** zostają zmienione na **15% / 25% / 50%**.\n* **Kajdany Wojny** nadal uniemożliwiają ucieczkę i poddanie się, ale bohater z **Mistrzowską Dyplomacją** albo **Płaszczem Dyplomaty** neutralizuje ten efekt w bitwach, w których ucieczka lub poddanie się są normalnie dostępne.\n\nTen moduł nie implementuje efektu HotA pozwalającego poddać się podczas obrony miasta.",
+		"translations" : [
 			"translation/polish.json"
 		]
 	},
-	"changelog": {
-		"1.0.0": [
+	"changelog" : {
+		"1.0.0" : [
 			"Initial release."
 		]
 	}

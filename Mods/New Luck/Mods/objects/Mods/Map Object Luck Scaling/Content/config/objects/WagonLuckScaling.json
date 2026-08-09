@@ -1,270 +1,270 @@
 {
-	"core:wagon": {
-		"types": {
-			"wagon": {
-				"selectMode": "selectFirst",
-				"rewards": [
+	"core:wagon" : {
+		"types" : {
+			"wagon" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 0,
-							"max": 10
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 10
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"mapDice": 0,
-						"message": 155,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"message" : 155,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 10,
-							"max": 75
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 10,
+							"max" : 75
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"mapDice": -1,
-						"message": 155,
-						"limiter": {
-							"secondary": [
+						"mapDice" : -1,
+						"message" : 155,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 3,
-							"min": 75,
-							"max": 100
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 75,
+							"max" : 100
 						},
-						"mapDice": 1,
-						"message": 154,
-						"resources": [
+						"mapDice" : 1,
+						"message" : 154,
+						"resources" : [
 							{
-								"amount": "@gainedAmount",
-								"type": "@gainedResource"
+								"amount" : "@gainedAmount",
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 0,
-							"max": 15
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 15
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"mapDice": 0,
-						"message": 155,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"message" : 155,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 15,
-							"max": 65
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 15,
+							"max" : 65
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"mapDice": -1,
-						"message": 155,
-						"limiter": {
-							"secondary": [
+						"mapDice" : -1,
+						"message" : 155,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 2,
-							"min": 65,
-							"max": 100
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 65,
+							"max" : 100
 						},
-						"mapDice": 1,
-						"message": 154,
-						"resources": [
+						"mapDice" : 1,
+						"message" : 154,
+						"resources" : [
 							{
-								"amount": "@gainedAmount",
-								"type": "@gainedResource"
+								"amount" : "@gainedAmount",
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 0,
-							"max": 20
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 20
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"mapDice": 0,
-						"message": 155,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"message" : 155,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 20,
-							"max": 50
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 20,
+							"max" : 50
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"mapDice": -1,
-						"message": 155,
-						"limiter": {
-							"secondary": [
+						"mapDice" : -1,
+						"message" : 155,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 50,
-							"max": 95
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 50,
+							"max" : 95
 						},
-						"mapDice": 1,
-						"message": 154,
-						"resources": [
+						"mapDice" : 1,
+						"message" : 154,
+						"resources" : [
 							{
-								"amount": "@gainedAmount",
-								"type": "@gainedResource"
+								"amount" : "@gainedAmount",
+								"type" : "@gainedResource"
 							}
 						],
-						"limiter": {
-							"secondary": [
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 1,
-							"min": 95,
-							"max": 100
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 95,
+							"max" : 100
 						},
-						"mapDice": 2,
-						"message": 156,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 2,
+						"message" : 156,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 20
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 20
 						},
-						"artifacts": [
+						"artifacts" : [
 							"@gainedArtifact"
 						],
-						"mapDice": 0,
-						"message": 155
+						"mapDice" : 0,
+						"message" : 155
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 20,
-							"max": 40
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 20,
+							"max" : 40
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"mapDice": -1,
-						"message": 155
+						"mapDice" : -1,
+						"message" : 155
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 40,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 40,
+							"max" : 90
 						},
-						"mapDice": 1,
-						"message": 154,
-						"resources": [
+						"mapDice" : 1,
+						"message" : 154,
+						"resources" : [
 							{
-								"amount": "@gainedAmount",
-								"type": "@gainedResource"
+								"amount" : "@gainedAmount",
+								"type" : "@gainedResource"
 							}
 						]
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 2,
-						"message": 156
+						"mapDice" : 2,
+						"message" : 156
 					}
 				]
 			}

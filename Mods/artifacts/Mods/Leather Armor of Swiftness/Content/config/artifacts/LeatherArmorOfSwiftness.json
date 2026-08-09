@@ -1,38 +1,38 @@
 {
-	"hplusLeatherArmorOfSwiftness": {
-		"type": [
+	"hplusLeatherArmorOfSwiftness" : {
+		"type" : [
 			"HERO"
 		],
-		"class": "RELIC",
-		"slot": "TORSO",
-		"value": 30000,
-		"text": {
-			"name": "@hpp.artifacts.leatherArmorOfSwiftness.name",
-			"description": "@hpp.artifacts.leatherArmorOfSwiftness.description",
-			"event": "@hpp.artifacts.leatherArmorOfSwiftness.event"
+		"class" : "RELIC",
+		"slot" : "TORSO",
+		"value" : 30000,
+		"text" : {
+			"name" : "@hpp.artifacts.leatherArmorOfSwiftness.name",
+			"description" : "@hpp.artifacts.leatherArmorOfSwiftness.description",
+			"event" : "@hpp.artifacts.leatherArmorOfSwiftness.event"
 		},
-		"graphics": {
-			"image": "hplus/artifacts/leather_armor_of_swiftness.png",
-			"scenarioBonus": "hplus/artifacts/leather_armor_of_swiftness_large.png",
-			"map": "hplus/artifacts/leather_armor_of_swiftness_map.def"
+		"graphics" : {
+			"image" : "hplus/artifacts/leather_armor_of_swiftness.png",
+			"scenarioBonus" : "hplus/artifacts/leather_armor_of_swiftness_large.png",
+			"map" : "hplus/artifacts/leather_armor_of_swiftness_map.def"
 		},
-		"components": [
+		"components" : [
 			"core:necklaceOfSwiftness",
 			"core:ringOfTheWayfarer",
 			"core:capeOfVelocity"
 		],
-		"fusedComponents": true,
-		"bonuses": {
-			"hplusLeatherArmorOfSwiftnessTeamSpeed": {
-				"type": "STACKS_SPEED",
-				"val": 1,
-				"valueType": "BASE_NUMBER",
-				"propagator": "TEAM"
+		"fusedComponents" : true,
+		"bonuses" : {
+			"hplusLeatherArmorOfSwiftnessTeamSpeed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "TEAM"
 			},
-			"hplusLeatherArmorOfSwiftnessBearerSpeed": {
-				"type": "STACKS_SPEED",
-				"val": 2,
-				"valueType": "BASE_NUMBER"
+			"hplusLeatherArmorOfSwiftnessBearerSpeed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
 			}
 		}
 	}

@@ -1,136 +1,136 @@
 {
-  "hota.mapobjects:warehouses": {
-    "types": {
-      "mercuryWarehouse": {
-        "selectMode": "selectFirst",
-        "rewards": [
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 0,
-              "max": 75
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            },
-            "resources": {
-              "mercury": 8
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          },
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 75,
-              "max": 100
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            },
-            "resources": {
-              "mercury": 6
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 0,
-              "max": 50
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            },
-            "resources": {
-              "mercury": 8
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 50,
-              "max": 100
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            },
-            "resources": {
-              "mercury": 6
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 0,
-              "max": 25
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            },
-            "resources": {
-              "mercury": 8
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 25,
-              "max": 100
-            },
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            },
-            "resources": {
-              "mercury": 6
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 100
-            },
-            "resources": {
-              "mercury": 6
-            },
-            "message": "@mapObjectLuckScaling.warehouseMercury.default"
-          }
-        ]
-      }
-    }
-  }
+	"hota.mapobjects:warehouses" : {
+		"types" : {
+			"mercuryWarehouse" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 75
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						},
+						"resources" : {
+							"mercury" : 8
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					},
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 75,
+							"max" : 100
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						},
+						"resources" : {
+							"mercury" : 6
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 50
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						},
+						"resources" : {
+							"mercury" : 8
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 50,
+							"max" : 100
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						},
+						"resources" : {
+							"mercury" : 6
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 25
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						},
+						"resources" : {
+							"mercury" : 8
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 25,
+							"max" : 100
+						},
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						},
+						"resources" : {
+							"mercury" : 6
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 100
+						},
+						"resources" : {
+							"mercury" : 6
+						},
+						"message" : "@mapObjectLuckScaling.warehouseMercury.default"
+					}
+				]
+			}
+		}
+	}
 }

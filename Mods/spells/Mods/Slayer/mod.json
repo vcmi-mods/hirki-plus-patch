@@ -1,30 +1,30 @@
 {
-	"name": "Slayer",
-	"description": "A focused rework of Slayer designed to make the spell a more practical anti-elite combat tool.\n\nThis module keeps Slayer situational, but makes each level of Fire Magic meaningfully improve how the spell performs against the strongest creatures in battle.\n\n## Spell Changes\n\n* **Slayer** — increases damage against level 7 and higher creatures.\n  * **No mastery**: keeps the original Slayer behavior, 16 mana.\n  * **Basic**: affects all level 7 and higher creatures, 14 mana.\n  * **Advanced**: affects all level 7 and higher creatures; repeated casts on the same stack stack the effect, 12 mana.\n  * **Expert**: affects all allied stacks; repeated casts stack the effect, 10 mana.",
-	"polish": {
-		"name": "Pogromca",
-		"description": "Skupiona przebudowa Pogromcy, która czyni ten czar praktyczniejszym narzędziem przeciw najpotężniejszym jednostkom.\n\nModuł zachowuje sytuacyjny charakter Pogromcy, ale sprawia, że każdy poziom Magii Ognia wyraźnie poprawia działanie czaru przeciw najsilniejszym jednostkom w walce.\n\n## Zmiany czaru\n\n* **Pogromca** — zwiększa obrażenia przeciw jednostkom 7. poziomu i wyższym.\n  * **Brak biegłości**: zachowuje oryginalne działanie Pogromcy, 16 many.\n  * **Podstawowa**: działa przeciw wszystkim jednostkom 7. poziomu i wyższym, 14 many.\n  * **Zaawansowana**: działa przeciw wszystkim jednostkom 7. poziomu i wyższym; kolejne rzucenia na ten sam oddział kumulują efekt, 12 many.\n  * **Mistrzowska**: działa na wszystkie sojusznicze oddziały; kolejne rzucenia kumulują efekt, 10 many.",
-		"translations": [
+	"name" : "Slayer",
+	"description" : "A focused rework of Slayer designed to make the spell a more practical anti-elite combat tool.\n\nThis module keeps Slayer situational, but makes each level of Fire Magic meaningfully improve how the spell performs against the strongest creatures in battle.\n\n## Spell Changes\n\n* **Slayer** — increases damage against level 7 and higher creatures.\n  * **No mastery**: keeps the original Slayer behavior, 16 mana.\n  * **Basic**: affects all level 7 and higher creatures, 14 mana.\n  * **Advanced**: affects all level 7 and higher creatures; repeated casts on the same stack stack the effect, 12 mana.\n  * **Expert**: affects all allied stacks; repeated casts stack the effect, 10 mana.",
+	"polish" : {
+		"name" : "Pogromca",
+		"description" : "Skupiona przebudowa Pogromcy, która czyni ten czar praktyczniejszym narzędziem przeciw najpotężniejszym jednostkom.\n\nModuł zachowuje sytuacyjny charakter Pogromcy, ale sprawia, że każdy poziom Magii Ognia wyraźnie poprawia działanie czaru przeciw najsilniejszym jednostkom w walce.\n\n## Zmiany czaru\n\n* **Pogromca** — zwiększa obrażenia przeciw jednostkom 7. poziomu i wyższym.\n  * **Brak biegłości**: zachowuje oryginalne działanie Pogromcy, 16 many.\n  * **Podstawowa**: działa przeciw wszystkim jednostkom 7. poziomu i wyższym, 14 many.\n  * **Zaawansowana**: działa przeciw wszystkim jednostkom 7. poziomu i wyższym; kolejne rzucenia na ten sam oddział kumulują efekt, 12 many.\n  * **Mistrzowska**: działa na wszystkie sojusznicze oddziały; kolejne rzucenia kumulują efekt, 10 many.",
+		"translations" : [
 			"translation/polish.json"
 		]
 	},
-	"author": "bew_",
-	"version": "1.0.1",
-	"modType": "Spells",
-	"depends": [
+	"author" : "bew_",
+	"version" : "1.0.1",
+	"modType" : "Spells",
+	"depends" : [
 		"hota"
 	],
-	"spells": [
+	"spells" : [
 		"config/spells/Slayer.json"
 	],
-	"heroes": [
+	"heroes" : [
 		"config/heroes/Coronius.json"
 	],
-	"changelog": {
-		"1.0.1": [
+	"changelog" : {
+		"1.0.1" : [
 			"Fixed English and Polish runtime localization separation for Slayer and Coronius."
 		],
-		"1.0.0": [
+		"1.0.0" : [
 			"Initial release."
 		]
 	}

@@ -1,697 +1,697 @@
 {
-	"core:firebird": {
-		"abilities": {
-			"hppElementalRitualFireMarker_firebird": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.fireWall",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_firebird",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:firebird",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 2
+	"core:firebird" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_firebird" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.fireWall",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_firebird",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:firebird",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 2
 				}
 			}
 		}
 	},
-	"core:phoenix": {
-		"abilities": {
-			"hppElementalRitualFireMarker_phoenix": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.protectFire",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_phoenix",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:phoenix",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 2
+	"core:phoenix" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_phoenix" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.protectFire",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_phoenix",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:phoenix",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 2
 				}
 			}
 		}
 	},
-	"core:efreet": {
-		"abilities": {
-			"hppElementalRitualFireMarker_efreet": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.fireball",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_efreet",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:efreet",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 4
+	"core:efreet" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_efreet" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.fireball",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_efreet",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:efreet",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 4
 				}
 			}
 		}
 	},
-	"core:efreetSultan": {
-		"abilities": {
-			"hppElementalRitualFireMarker_efreetSultan": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.fireShield",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_efreetSultan",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:efreetSultan",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 4
+	"core:efreetSultan" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_efreetSultan" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.fireShield",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_efreetSultan",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:efreetSultan",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 4
 				}
 			}
 		}
 	},
-	"core:fireElemental": {
-		"abilities": {
-			"hppElementalRitualFireMarker_fireElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.frenzy",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_fireElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:fireElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 10
+	"core:fireElemental" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_fireElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.frenzy",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_fireElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:fireElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 10
 				}
 			}
 		}
 	},
-	"core:energyElemental": {
-		"abilities": {
-			"hppElementalRitualFireMarker_energyElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.inferno",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_energyElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:energyElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 10
+	"core:energyElemental" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_energyElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.inferno",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_energyElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:energyElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 10
 				}
 			}
 		}
 	},
-	"core:magicElemental": {
-		"abilities": {
-			"hppElementalRitualFireMarker_magicElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.armageddon",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualFireMarker_magicElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:magicElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 1
+	"core:magicElemental" : {
+		"abilities" : {
+			"hppElementalRitualFireMarker_magicElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.armageddon",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualFireMarker_magicElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:magicElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 1
 				}
 			},
-			"hppElementalRitualWaterMarker_magicElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.prayer",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_magicElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:magicElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 1
+			"hppElementalRitualWaterMarker_magicElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.prayer",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_magicElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:magicElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 1
 				}
 			},
-			"hppElementalRitualAirMarker_magicElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.protectAir",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_magicElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:magicElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 1
+			"hppElementalRitualAirMarker_magicElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.protectAir",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_magicElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:magicElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 1
 				}
 			},
-			"hppElementalRitualFireSpellbook": {
-				"type": "SPELLS_OF_SCHOOL",
-				"subtype": "spellSchool.fire",
-				"propagator": "HERO",
-				"stacking": "hppElementalRitualFireSpellbook",
-				"limiters": [
+			"hppElementalRitualFireSpellbook" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "spellSchool.fire",
+				"propagator" : "HERO",
+				"stacking" : "hppElementalRitualFireSpellbook",
+				"limiters" : [
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fireWall",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fireWall",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.protectFire",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.protectFire",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fireball",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fireball",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fireShield",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fireShield",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.frenzy",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.frenzy",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.inferno",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.inferno",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.armageddon",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.armageddon",
+						"bonusMinValue" : 1
 					}
 				]
 			},
-			"hppElementalRitualAdvancedFireMagic": {
-				"type": "MAGIC_SCHOOL_SKILL",
-				"subtype": "spellSchool.fire",
-				"val": 2,
-				"valueType": "INDEPENDENT_MAX",
-				"propagator": "HERO",
-				"stacking": "hppElementalRitualAdvancedFireMagic",
-				"limiters": [
+			"hppElementalRitualAdvancedFireMagic" : {
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "spellSchool.fire",
+				"val" : 2,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO",
+				"stacking" : "hppElementalRitualAdvancedFireMagic",
+				"limiters" : [
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fireWall",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fireWall",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.protectFire",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.protectFire",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fireball",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fireball",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fireShield",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fireShield",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.frenzy",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.frenzy",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.inferno",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.inferno",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.armageddon",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.armageddon",
+						"bonusMinValue" : 1
 					}
 				]
 			},
-			"hppElementalRitualWaterSpellbook": {
-				"type": "SPELLS_OF_SCHOOL",
-				"subtype": "spellSchool.water",
-				"propagator": "HERO",
-				"stacking": "hppElementalRitualWaterSpellbook",
-				"limiters": [
+			"hppElementalRitualWaterSpellbook" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "spellSchool.water",
+				"propagator" : "HERO",
+				"stacking" : "hppElementalRitualWaterSpellbook",
+				"limiters" : [
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.iceBolt",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.iceBolt",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.frostRing",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.frostRing",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.bless",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.bless",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.cure",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.cure",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.teleport",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.teleport",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.clone",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.clone",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.prayer",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.prayer",
+						"bonusMinValue" : 1
 					}
 				]
 			},
-			"hppElementalRitualAdvancedWaterMagic": {
-				"type": "MAGIC_SCHOOL_SKILL",
-				"subtype": "spellSchool.water",
-				"val": 2,
-				"valueType": "INDEPENDENT_MAX",
-				"propagator": "HERO",
-				"stacking": "hppElementalRitualAdvancedWaterMagic",
-				"limiters": [
+			"hppElementalRitualAdvancedWaterMagic" : {
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "spellSchool.water",
+				"val" : 2,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO",
+				"stacking" : "hppElementalRitualAdvancedWaterMagic",
+				"limiters" : [
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.iceBolt",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.iceBolt",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.frostRing",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.frostRing",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.bless",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.bless",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.cure",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.cure",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.teleport",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.teleport",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.clone",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.clone",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.prayer",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.prayer",
+						"bonusMinValue" : 1
 					}
 				]
 			},
-			"hppElementalRitualAirSpellbook": {
-				"type": "SPELLS_OF_SCHOOL",
-				"subtype": "spellSchool.air",
-				"propagator": "HERO",
-				"stacking": "hppElementalRitualAirSpellbook",
-				"limiters": [
+			"hppElementalRitualAirSpellbook" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "spellSchool.air",
+				"propagator" : "HERO",
+				"stacking" : "hppElementalRitualAirSpellbook",
+				"limiters" : [
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.haste",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.haste",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.lightningBolt",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.lightningBolt",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.disruptingRay",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.disruptingRay",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fortune",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fortune",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.precision",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.precision",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.chainLightning",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.chainLightning",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.protectAir",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.protectAir",
+						"bonusMinValue" : 1
 					}
 				]
 			},
-			"hppElementalRitualAdvancedAirMagic": {
-				"type": "MAGIC_SCHOOL_SKILL",
-				"subtype": "spellSchool.air",
-				"val": 2,
-				"valueType": "INDEPENDENT_MAX",
-				"propagator": "HERO",
-				"stacking": "hppElementalRitualAdvancedAirMagic",
-				"limiters": [
+			"hppElementalRitualAdvancedAirMagic" : {
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "spellSchool.air",
+				"val" : 2,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO",
+				"stacking" : "hppElementalRitualAdvancedAirMagic",
+				"limiters" : [
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.haste",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.haste",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.lightningBolt",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.lightningBolt",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.disruptingRay",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.disruptingRay",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.fortune",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.fortune",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.precision",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.precision",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.chainLightning",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.chainLightning",
+						"bonusMinValue" : 1
 					},
 					{
-						"type": "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType": "SPECIFIC_SPELL_POWER",
-						"bonusSubtype": "spell.protectAir",
-						"bonusMinValue": 1
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SPECIFIC_SPELL_POWER",
+						"bonusSubtype" : "spell.protectAir",
+						"bonusMinValue" : 1
 					}
 				]
 			}
 		}
 	},
-	"core:waterElemental": {
-		"abilities": {
-			"hppElementalRitualWaterMarker_waterElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.iceBolt",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_waterElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:waterElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 12
+	"core:waterElemental" : {
+		"abilities" : {
+			"hppElementalRitualWaterMarker_waterElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.iceBolt",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_waterElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:waterElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 12
 				}
 			}
 		}
 	},
-	"core:iceElemental": {
-		"abilities": {
-			"hppElementalRitualWaterMarker_iceElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.frostRing",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_iceElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:iceElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 12
+	"core:iceElemental" : {
+		"abilities" : {
+			"hppElementalRitualWaterMarker_iceElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.frostRing",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_iceElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:iceElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 12
 				}
 			}
 		}
 	},
-	"hota.cove:nymph": {
-		"abilities": {
-			"hppElementalRitualWaterMarker_nymph": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.bless",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_nymph",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "hota.cove:nymph",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 32
+	"hota.cove:nymph" : {
+		"abilities" : {
+			"hppElementalRitualWaterMarker_nymph" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.bless",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_nymph",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "hota.cove:nymph",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 32
 				}
 			}
 		}
 	},
-	"hota.cove:oceanid": {
-		"abilities": {
-			"hppElementalRitualWaterMarker_oceanid": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.cure",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_oceanid",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "hota.cove:oceanid",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 32
+	"hota.cove:oceanid" : {
+		"abilities" : {
+			"hppElementalRitualWaterMarker_oceanid" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.cure",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_oceanid",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "hota.cove:oceanid",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 32
 				}
 			}
 		}
 	},
-	"hota.bulwark:jotunn": {
-		"abilities": {
-			"hppElementalRitualWaterMarker_jotunn": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.teleport",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_jotunn",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "hota.bulwark:jotunn",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 2
+	"hota.bulwark:jotunn" : {
+		"abilities" : {
+			"hppElementalRitualWaterMarker_jotunn" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.teleport",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_jotunn",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "hota.bulwark:jotunn",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 2
 				}
 			}
 		}
 	},
-	"hota.bulwark:jotunnWarlord": {
-		"abilities": {
-			"hppElementalRitualWaterMarker_jotunnWarlord": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.clone",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualWaterMarker_jotunnWarlord",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "hota.bulwark:jotunnWarlord",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 2
+	"hota.bulwark:jotunnWarlord" : {
+		"abilities" : {
+			"hppElementalRitualWaterMarker_jotunnWarlord" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.clone",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualWaterMarker_jotunnWarlord",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "hota.bulwark:jotunnWarlord",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 2
 				}
 			}
 		}
 	},
-	"core:airElemental": {
-		"abilities": {
-			"hppElementalRitualAirMarker_airElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.haste",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_airElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:airElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 12
+	"core:airElemental" : {
+		"abilities" : {
+			"hppElementalRitualAirMarker_airElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.haste",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_airElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:airElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 12
 				}
 			}
 		}
 	},
-	"core:stormElemental": {
-		"abilities": {
-			"hppElementalRitualAirMarker_stormElemental": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.lightningBolt",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_stormElemental",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:stormElemental",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 12
+	"core:stormElemental" : {
+		"abilities" : {
+			"hppElementalRitualAirMarker_stormElemental" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_stormElemental",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:stormElemental",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 12
 				}
 			}
 		}
 	},
-	"core:angel": {
-		"abilities": {
-			"hppElementalRitualAirMarker_angel": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.disruptingRay",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_angel",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:angel",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 2
+	"core:angel" : {
+		"abilities" : {
+			"hppElementalRitualAirMarker_angel" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_angel",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:angel",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 2
 				}
 			}
 		}
 	},
-	"core:archangel": {
-		"abilities": {
-			"hppElementalRitualAirMarker_archangel": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.fortune",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_archangel",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:archangel",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 2
+	"core:archangel" : {
+		"abilities" : {
+			"hppElementalRitualAirMarker_archangel" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.fortune",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_archangel",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:archangel",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 2
 				}
 			}
 		}
 	},
-	"core:roc": {
-		"abilities": {
-			"hppElementalRitualAirMarker_roc": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.precision",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_roc",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:roc",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 6
+	"core:roc" : {
+		"abilities" : {
+			"hppElementalRitualAirMarker_roc" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.precision",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_roc",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:roc",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 6
 				}
 			}
 		}
 	},
-	"core:thunderbird": {
-		"abilities": {
-			"hppElementalRitualAirMarker_thunderbird": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.chainLightning",
-				"val": 1,
-				"propagator": "HERO",
-				"hidden": true,
-				"stacking": "hppElementalRitualAirMarker_thunderbird",
-				"updater": {
-					"type": "TIMES_ARMY_SIZE",
-					"filteredCreature": "core:thunderbird",
-					"minimum": 0,
-					"maximum": 1,
-					"stepSize": 6
+	"core:thunderbird" : {
+		"abilities" : {
+			"hppElementalRitualAirMarker_thunderbird" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.chainLightning",
+				"val" : 1,
+				"propagator" : "HERO",
+				"hidden" : true,
+				"stacking" : "hppElementalRitualAirMarker_thunderbird",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "core:thunderbird",
+					"minimum" : 0,
+					"maximum" : 1,
+					"stepSize" : 6
 				}
 			}
 		}

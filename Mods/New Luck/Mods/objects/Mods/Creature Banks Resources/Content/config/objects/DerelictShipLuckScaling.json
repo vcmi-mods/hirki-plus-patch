@@ -1,65 +1,65 @@
 {
-	"core:derelictShip": {
-		"types": {
-			"derelictShip": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:derelictShip" : {
+		"types" : {
+			"derelictShip" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 4,
-								"type": "waterElemental"
+								"amount" : 4,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 4,
-								"type": "waterElemental"
+								"amount" : 4,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 4,
-								"type": "waterElemental"
+								"amount" : 4,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 4,
-								"type": "waterElemental"
+								"amount" : 4,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 4,
-								"type": "waterElemental"
+								"amount" : 4,
+								"type" : "waterElemental"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -67,29 +67,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -97,29 +97,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -127,29 +127,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -157,34 +157,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -192,29 +192,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -222,29 +222,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -252,34 +252,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -287,34 +287,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -322,161 +322,161 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.derelictShip.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 6,
-								"type": "waterElemental"
+								"amount" : 6,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 6,
-								"type": "waterElemental"
+								"amount" : 6,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 6,
-								"type": "waterElemental"
+								"amount" : 6,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 6,
-								"type": "waterElemental"
+								"amount" : 6,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 6,
-								"type": "waterElemental"
+								"amount" : 6,
+								"type" : "waterElemental"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -484,34 +484,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -519,34 +519,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -554,34 +554,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -589,34 +589,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -624,34 +624,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -659,34 +659,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -694,34 +694,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -729,34 +729,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -764,166 +764,166 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "waterElemental"
+								"amount" : 8,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 8,
-								"type": "waterElemental"
+								"amount" : 8,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 8,
-								"type": "waterElemental"
+								"amount" : 8,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 8,
-								"type": "waterElemental"
+								"amount" : 8,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 8,
-								"type": "waterElemental"
+								"amount" : 8,
+								"type" : "waterElemental"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -931,34 +931,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -966,34 +966,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1001,34 +1001,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1036,34 +1036,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1071,34 +1071,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1106,34 +1106,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1141,34 +1141,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1176,34 +1176,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1211,166 +1211,166 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 12,
-								"type": "waterElemental"
+								"amount" : 12,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 12,
-								"type": "waterElemental"
+								"amount" : 12,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 12,
-								"type": "waterElemental"
+								"amount" : 12,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 12,
-								"type": "waterElemental"
+								"amount" : 12,
+								"type" : "waterElemental"
 							},
 							{
-								"amount": 12,
-								"type": "waterElemental"
+								"amount" : 12,
+								"type" : "waterElemental"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1378,34 +1378,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1413,34 +1413,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1448,34 +1448,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1483,34 +1483,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1518,34 +1518,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1553,34 +1553,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1588,34 +1588,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1623,34 +1623,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1658,101 +1658,101 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.derelictShip.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.derelictShip.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

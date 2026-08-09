@@ -1,33 +1,33 @@
 {
-	"name": "Artifacts",
-	"description": "Artifact modules for Hirki Plus Patch (H.P.P.).\n\nThis parent module groups optional artifact reworks and item-related gameplay improvements. These modules aim to make selected artifacts more useful, more thematic and more meaningful to equip, while preserving their original identity whenever possible.\n\nDetailed mechanics, requirements and compatibility notes are described in the individual child modules.\n\n## Current Artifact Modules\n\n- **Diplomatic Artifacts** — reworks Diplomat's Cloak, its components, Shackles of War and related Diplomacy interactions.\n- **Armageddon's Blade** — reworks Armageddon's Blade into a six-component combination artifact with a custom 0-mana Armageddon spell and strong protection from fire magic.\n- **Boots of Reinforcement** — a new four-component **Relic** artifact focused on army logistics and adventure-map mobility, together with its own **Reinforcements** spell.\n- **Golden Goose** — reworks Golden Goose and its gold-producing components, providing income to the bearer and a stacking per-hero synergy with allied heroes who have {Estates}.\n- **Cornucopia** — expands Cornucopia with a stacking per-hero synergy for allied {rare-resource production specialists}.\n- **Leather Armor of Swiftness** — a new three-component **Relic** combining **Necklace of Swiftness**, **Ring of the Wayfarer** and **Cape of Velocity**, granting additional Speed to the bearer’s army and a smaller team-wide Speed bonus to allied heroes.",
-	"author": "bew_",
-	"version": "1.2.0",
-	"modType": "Artifacts",
-	"depends": [
+	"name" : "Artifacts",
+	"description" : "Artifact modules for Hirki Plus Patch (H.P.P.).\n\nThis parent module groups optional artifact reworks and item-related gameplay improvements. These modules aim to make selected artifacts more useful, more thematic and more meaningful to equip, while preserving their original identity whenever possible.\n\nDetailed mechanics, requirements and compatibility notes are described in the individual child modules.\n\n## Current Artifact Modules\n\n- **Diplomatic Artifacts** — reworks Diplomat's Cloak, its components, Shackles of War and related Diplomacy interactions.\n- **Armageddon's Blade** — reworks Armageddon's Blade into a six-component combination artifact with a custom 0-mana Armageddon spell and strong protection from fire magic.\n- **Boots of Reinforcement** — a new four-component **Relic** artifact focused on army logistics and adventure-map mobility, together with its own **Reinforcements** spell.\n- **Golden Goose** — reworks Golden Goose and its gold-producing components, providing income to the bearer and a stacking per-hero synergy with allied heroes who have {Estates}.\n- **Cornucopia** — expands Cornucopia with a stacking per-hero synergy for allied {rare-resource production specialists}.\n- **Leather Armor of Swiftness** — a new three-component **Relic** combining **Necklace of Swiftness**, **Ring of the Wayfarer** and **Cape of Velocity**, granting additional Speed to the bearer’s army and a smaller team-wide Speed bonus to allied heroes.",
+	"author" : "bew_",
+	"version" : "1.2.0",
+	"modType" : "Artifacts",
+	"depends" : [
 		"hota"
 	],
-	"compatibility": {
-		"min": "1.7.4"
+	"compatibility" : {
+		"min" : "1.7.4"
 	},
-	"polish": {
-		"name": "Artefakty",
-		"description": "Moduły artefaktów dla Hirki Plus Patch (H.P.P.).\n\nTen moduł nadrzędny grupuje opcjonalne przebudowy artefaktów i powiązane usprawnienia rozgrywki. Zmiany mają zwiększać użyteczność, tematykę i sensowność wybranych artefaktów, zachowując ich pierwotną tożsamość.\n\nSzczegółowe mechaniki, wymagania i informacje o kompatybilności znajdują się w opisach modułów podrzędnych.\n\n## Aktualne moduły artefaktów\n\n- **Artefakty dyplomatyczne** — przebudowują Płaszcz Dyplomaty, jego komponenty, Kajdany Wojny oraz powiązane interakcje z Dyplomacją.\n- **Ostrze Armagedonu** — przebudowuje Ostrze Armagedonu jako artefakt składany z sześciu komponentów, z własnym Armagedonem za 0 many i silną ochroną przed magią ognia.\n- **Buty Odsieczy** — nowy czteroelementowy artefakt klasy **Relikt**, skupiony na logistyce armii i mobilności na mapie przygody, wraz z własnym czarem **Odsiecz**.\n- **Złota Gęś** — przebudowuje Złotą Gęś i jej artefakty składowe generujące złoto, zapewniając dochód nosicielowi oraz kumulującą się synergię z każdym sprzymierzonym bohaterem posiadającym {Finanse}.\n- **Miasto dobrobytu** — rozszerza Miasto dobrobytu o kumulującą się synergię z każdym sprzymierzonym {specjalistą w produkcji rzadkich surowców}.\n- **Skórzana Zbroja Szybkości** — nowy trzyczęściowy artefakt klasy **Relikt**, łączący **Naszyjnik Przyspieszenia**, **Pierścień Wędrowca** i **Płaszcz Zwinności**, zapewniający dodatkową szybkość armii noszącego oraz mniejszą drużynową premię do szybkości dla sprzymierzonych bohaterów."
+	"polish" : {
+		"name" : "Artefakty",
+		"description" : "Moduły artefaktów dla Hirki Plus Patch (H.P.P.).\n\nTen moduł nadrzędny grupuje opcjonalne przebudowy artefaktów i powiązane usprawnienia rozgrywki. Zmiany mają zwiększać użyteczność, tematykę i sensowność wybranych artefaktów, zachowując ich pierwotną tożsamość.\n\nSzczegółowe mechaniki, wymagania i informacje o kompatybilności znajdują się w opisach modułów podrzędnych.\n\n## Aktualne moduły artefaktów\n\n- **Artefakty dyplomatyczne** — przebudowują Płaszcz Dyplomaty, jego komponenty, Kajdany Wojny oraz powiązane interakcje z Dyplomacją.\n- **Ostrze Armagedonu** — przebudowuje Ostrze Armagedonu jako artefakt składany z sześciu komponentów, z własnym Armagedonem za 0 many i silną ochroną przed magią ognia.\n- **Buty Odsieczy** — nowy czteroelementowy artefakt klasy **Relikt**, skupiony na logistyce armii i mobilności na mapie przygody, wraz z własnym czarem **Odsiecz**.\n- **Złota Gęś** — przebudowuje Złotą Gęś i jej artefakty składowe generujące złoto, zapewniając dochód nosicielowi oraz kumulującą się synergię z każdym sprzymierzonym bohaterem posiadającym {Finanse}.\n- **Miasto dobrobytu** — rozszerza Miasto dobrobytu o kumulującą się synergię z każdym sprzymierzonym {specjalistą w produkcji rzadkich surowców}.\n- **Skórzana Zbroja Szybkości** — nowy trzyczęściowy artefakt klasy **Relikt**, łączący **Naszyjnik Przyspieszenia**, **Pierścień Wędrowca** i **Płaszcz Zwinności**, zapewniający dodatkową szybkość armii noszącego oraz mniejszą drużynową premię do szybkości dla sprzymierzonych bohaterów."
 	},
-	"changelog": {
-		"1.2.0": [
+	"changelog" : {
+		"1.2.0" : [
 			"Added Leather Armor of Swiftness module."
 		],
-		"1.1.1": [
+		"1.1.1" : [
 			"Updated Armageddon's Blade: Armag. Blade is now correctly treated as an artifact-only special spell."
 		],
-		"1.1.0": [
+		"1.1.0" : [
 			"Added Armageddon's Blade module.",
 			"Added Boots of Reinforcement module.",
 			"Added Golden Goose rework module.",
 			"Added Cornucopia rework module."
 		],
-		"1.0.0": [
+		"1.0.0" : [
 			"Initial release."
 		]
 	}

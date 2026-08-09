@@ -1,71 +1,71 @@
 {
-	"core:creatureBank": {
-		"types": {
-			"cyclopsStockpile": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:creatureBank" : {
+		"types" : {
+			"cyclopsStockpile" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 4,
-								"type": "cyclop"
+								"amount" : 4,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 4,
-								"type": "cyclop"
+								"amount" : 4,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 4,
-								"type": "cyclop",
-								"upgradeChance": 50
+								"amount" : 4,
+								"type" : "cyclop",
+								"upgradeChance" : 50
 							},
 							{
-								"amount": 4,
-								"type": "cyclop"
+								"amount" : 4,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 4,
-								"type": "cyclop"
+								"amount" : 4,
+								"type" : "cyclop"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -73,34 +73,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -108,34 +108,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -143,34 +143,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -178,34 +178,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -213,34 +213,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -248,34 +248,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -283,34 +283,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -318,34 +318,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -353,167 +353,167 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 4,
-							"gems": 4,
-							"mercury": 4,
-							"ore": 4,
-							"sulfur": 4,
-							"wood": 4
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 4,
+							"gems" : 4,
+							"mercury" : 4,
+							"ore" : 4,
+							"sulfur" : 4,
+							"wood" : 4
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 6,
-								"type": "cyclop"
+								"amount" : 6,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 6,
-								"type": "cyclop"
+								"amount" : 6,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 6,
-								"type": "cyclop",
-								"upgradeChance": 50
+								"amount" : 6,
+								"type" : "cyclop",
+								"upgradeChance" : 50
 							},
 							{
-								"amount": 6,
-								"type": "cyclop"
+								"amount" : 6,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 6,
-								"type": "cyclop"
+								"amount" : 6,
+								"type" : "cyclop"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -521,34 +521,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -556,34 +556,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -591,34 +591,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -626,34 +626,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -661,34 +661,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -696,34 +696,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -731,34 +731,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -766,34 +766,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -801,167 +801,167 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 6,
-							"gems": 6,
-							"mercury": 6,
-							"ore": 6,
-							"sulfur": 6,
-							"wood": 6
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"mercury" : 6,
+							"ore" : 6,
+							"sulfur" : 6,
+							"wood" : 6
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "cyclop"
+								"amount" : 8,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 8,
-								"type": "cyclop"
+								"amount" : 8,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 8,
-								"type": "cyclop",
-								"upgradeChance": 50
+								"amount" : 8,
+								"type" : "cyclop",
+								"upgradeChance" : 50
 							},
 							{
-								"amount": 8,
-								"type": "cyclop"
+								"amount" : 8,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 8,
-								"type": "cyclop"
+								"amount" : 8,
+								"type" : "cyclop"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -969,34 +969,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1004,34 +1004,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1039,34 +1039,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1074,34 +1074,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1109,34 +1109,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1144,34 +1144,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1179,34 +1179,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1214,34 +1214,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1249,167 +1249,167 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 8,
-							"gems": 8,
-							"mercury": 8,
-							"ore": 8,
-							"sulfur": 8,
-							"wood": 8
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 8,
+							"gems" : 8,
+							"mercury" : 8,
+							"ore" : 8,
+							"sulfur" : 8,
+							"wood" : 8
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 10,
-								"type": "cyclop"
+								"amount" : 10,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 10,
-								"type": "cyclop"
+								"amount" : 10,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 10,
-								"type": "cyclop",
-								"upgradeChance": 50
+								"amount" : 10,
+								"type" : "cyclop",
+								"upgradeChance" : 50
 							},
 							{
-								"amount": 10,
-								"type": "cyclop"
+								"amount" : 10,
+								"type" : "cyclop"
 							},
 							{
-								"amount": 10,
-								"type": "cyclop"
+								"amount" : 10,
+								"type" : "cyclop"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1417,34 +1417,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1452,34 +1452,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1487,34 +1487,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1522,34 +1522,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 12,
-							"gems": 12,
-							"mercury": 12,
-							"ore": 12,
-							"sulfur": 12,
-							"wood": 12
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 12,
+							"gems" : 12,
+							"mercury" : 12,
+							"ore" : 12,
+							"sulfur" : 12,
+							"wood" : 12
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1557,34 +1557,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1592,34 +1592,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1627,34 +1627,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 12,
-							"gems": 12,
-							"mercury": 12,
-							"ore": 12,
-							"sulfur": 12,
-							"wood": 12
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 12,
+							"gems" : 12,
+							"mercury" : 12,
+							"ore" : 12,
+							"sulfur" : 12,
+							"wood" : 12
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1662,34 +1662,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 12,
-							"gems": 12,
-							"mercury": 12,
-							"ore": 12,
-							"sulfur": 12,
-							"wood": 12
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 12,
+							"gems" : 12,
+							"mercury" : 12,
+							"ore" : 12,
+							"sulfur" : 12,
+							"wood" : 12
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1697,101 +1697,101 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 10,
-							"gems": 10,
-							"mercury": 10,
-							"ore": 10,
-							"sulfur": 10,
-							"wood": 10
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 10,
+							"gems" : 10,
+							"mercury" : 10,
+							"ore" : 10,
+							"sulfur" : 10,
+							"wood" : 10
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 12,
-							"gems": 12,
-							"mercury": 12,
-							"ore": 12,
-							"sulfur": 12,
-							"wood": 12
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 12,
+							"gems" : 12,
+							"mercury" : 12,
+							"ore" : 12,
+							"sulfur" : 12,
+							"wood" : 12
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 12,
-							"gems": 12,
-							"mercury": 12,
-							"ore": 12,
-							"sulfur": 12,
-							"wood": 12
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 12,
+							"gems" : 12,
+							"mercury" : 12,
+							"ore" : 12,
+							"sulfur" : 12,
+							"wood" : 12
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"crystal": 12,
-							"gems": 12,
-							"mercury": 12,
-							"ore": 12,
-							"sulfur": 12,
-							"wood": 12
+						"mapDice" : 0,
+						"resources" : {
+							"crystal" : 12,
+							"gems" : 12,
+							"mercury" : 12,
+							"ore" : 12,
+							"sulfur" : 12,
+							"wood" : 12
 						},
-						"message": "@creatureBanksResources.cyclopsStockpile.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.cyclopsStockpile.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

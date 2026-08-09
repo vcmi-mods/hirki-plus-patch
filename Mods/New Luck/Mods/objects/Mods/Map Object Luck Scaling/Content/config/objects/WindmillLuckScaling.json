@@ -1,231 +1,231 @@
 {
-  "core:windmill": {
-    "types": {
-      "windmill": {
-        "selectMode": "selectFirst",
-        "rewards": [
-          {
-            "appearChance": {
-              "dice": 3,
-              "min": 0,
-              "max": 100
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 8,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ],
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 3
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 2,
-              "min": 0,
-              "max": 100
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 6,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ],
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 2
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 0,
-              "max": 33
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 4,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ],
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 33,
-              "max": 66
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 5,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ],
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 1,
-              "min": 66,
-              "max": 100
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 6,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ],
-            "limiter": {
-              "secondary": [
-                {
-                  "type": "luck",
-                  "amount": 1
-                }
-              ]
-            }
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 0,
-              "max": 25
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 3,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 25,
-              "max": 50
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 4,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 50,
-              "max": 75
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 5,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ]
-          },
-          {
-            "appearChance": {
-              "dice": 0,
-              "min": 75,
-              "max": 100
-            },
-            "message": 170,
-            "resources": [
-              {
-                "amount": 6,
-                "anyOf": [
-                  "ore",
-                  "mercury",
-                  "gems",
-                  "sulfur",
-                  "crystal"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    }
-  }
+	"core:windmill" : {
+		"types" : {
+			"windmill" : {
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"appearChance" : {
+							"dice" : 3,
+							"min" : 0,
+							"max" : 100
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 8,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						],
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 3
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 2,
+							"min" : 0,
+							"max" : 100
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 6,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						],
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 0,
+							"max" : 33
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 4,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						],
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 33,
+							"max" : 66
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 5,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						],
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 1,
+							"min" : 66,
+							"max" : 100
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 6,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						],
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 1
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 25
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 3,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 25,
+							"max" : 50
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 4,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 50,
+							"max" : 75
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 5,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						]
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 75,
+							"max" : 100
+						},
+						"message" : 170,
+						"resources" : [
+							{
+								"amount" : 6,
+								"anyOf" : [
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	}
 }

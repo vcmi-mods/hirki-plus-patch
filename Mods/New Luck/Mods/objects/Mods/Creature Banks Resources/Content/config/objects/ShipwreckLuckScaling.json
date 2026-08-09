@@ -1,65 +1,65 @@
 {
-	"core:shipwreck": {
-		"types": {
-			"shipwreck": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:shipwreck" : {
+		"types" : {
+			"shipwreck" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 2,
-								"type": "wight"
+								"amount" : 2,
+								"type" : "wight"
 							},
 							{
-								"amount": 2,
-								"type": "wight"
+								"amount" : 2,
+								"type" : "wight"
 							},
 							{
-								"amount": 2,
-								"type": "wight"
+								"amount" : 2,
+								"type" : "wight"
 							},
 							{
-								"amount": 2,
-								"type": "wight"
+								"amount" : 2,
+								"type" : "wight"
 							},
 							{
-								"amount": 2,
-								"type": "wight"
+								"amount" : 2,
+								"type" : "wight"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -67,29 +67,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -97,29 +97,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -127,29 +127,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -157,29 +157,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -187,29 +187,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -217,29 +217,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -247,29 +247,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -277,29 +277,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -307,141 +307,141 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 2000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 2000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 3,
-								"type": "wight"
+								"amount" : 3,
+								"type" : "wight"
 							},
 							{
-								"amount": 3,
-								"type": "wight"
+								"amount" : 3,
+								"type" : "wight"
 							},
 							{
-								"amount": 3,
-								"type": "wight"
+								"amount" : 3,
+								"type" : "wight"
 							},
 							{
-								"amount": 3,
-								"type": "wight"
+								"amount" : 3,
+								"type" : "wight"
 							},
 							{
-								"amount": 3,
-								"type": "wight"
+								"amount" : 3,
+								"type" : "wight"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -449,29 +449,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -479,29 +479,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -509,29 +509,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -539,34 +539,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -574,29 +574,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -604,29 +604,29 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -634,34 +634,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -669,34 +669,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -704,161 +704,161 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 3000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 3000
 						},
-						"message": "@creatureBanksResources.shipwreck.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 5,
-								"type": "wight"
+								"amount" : 5,
+								"type" : "wight"
 							},
 							{
-								"amount": 5,
-								"type": "wight"
+								"amount" : 5,
+								"type" : "wight"
 							},
 							{
-								"amount": 5,
-								"type": "wight"
+								"amount" : 5,
+								"type" : "wight"
 							},
 							{
-								"amount": 5,
-								"type": "wight"
+								"amount" : 5,
+								"type" : "wight"
 							},
 							{
-								"amount": 5,
-								"type": "wight"
+								"amount" : 5,
+								"type" : "wight"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -866,34 +866,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -901,34 +901,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -936,34 +936,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -971,34 +971,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1006,34 +1006,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1041,34 +1041,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1076,34 +1076,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1111,34 +1111,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1146,166 +1146,166 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 4000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 4000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							},
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							},
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							},
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							},
 							{
-								"amount": 10,
-								"type": "wight"
+								"amount" : 10,
+								"type" : "wight"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1313,34 +1313,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1348,34 +1348,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1383,34 +1383,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1418,34 +1418,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1453,34 +1453,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1488,34 +1488,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1523,34 +1523,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1558,34 +1558,34 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1593,101 +1593,101 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 5000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 5000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 6000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 6000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							}
 						],
-						"message": "@creatureBanksResources.shipwreck.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}

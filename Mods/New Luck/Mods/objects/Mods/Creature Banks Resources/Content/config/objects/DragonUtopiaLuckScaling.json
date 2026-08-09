@@ -1,75 +1,75 @@
 {
-	"core:dragonUtopia": {
-		"types": {
-			"dragonUtopia": {
-				"selectMode": "selectRandom",
-				"rewards": [
+	"core:dragonUtopia" : {
+		"types" : {
+			"dragonUtopia" : {
+				"selectMode" : "selectRandom",
+				"rewards" : [
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "greenDragon"
+								"amount" : 8,
+								"type" : "greenDragon"
 							},
 							{
-								"amount": 5,
-								"type": "redDragon"
+								"amount" : 5,
+								"type" : "redDragon"
 							},
 							{
-								"amount": 2,
-								"type": "goldDragon"
+								"amount" : 2,
+								"type" : "goldDragon"
 							},
 							{
-								"amount": 1,
-								"type": "blackDragon"
+								"amount" : 1,
+								"type" : "blackDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -77,43 +77,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -121,43 +121,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -165,43 +165,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -209,43 +209,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -253,43 +253,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -297,43 +297,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -341,43 +341,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -385,43 +385,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -429,207 +429,207 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 20000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 20000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "TREASURE"
+								"class" : "TREASURE"
 							},
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 0,
-							"max": 30
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 0,
+							"max" : 30
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t1.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "greenDragon"
+								"amount" : 8,
+								"type" : "greenDragon"
 							},
 							{
-								"amount": 6,
-								"type": "redDragon"
+								"amount" : 6,
+								"type" : "redDragon"
 							},
 							{
-								"amount": 3,
-								"type": "goldDragon"
+								"amount" : 3,
+								"type" : "goldDragon"
 							},
 							{
-								"amount": 2,
-								"type": "blackDragon"
+								"amount" : 2,
+								"type" : "blackDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -637,43 +637,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -681,43 +681,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -725,43 +725,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -769,43 +769,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -813,43 +813,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -857,43 +857,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -901,43 +901,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -945,43 +945,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -989,207 +989,207 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 30000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 30000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MINOR"
+								"class" : "MINOR"
 							},
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 30,
-							"max": 60
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 30,
+							"max" : 60
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t2.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "greenDragon"
+								"amount" : 8,
+								"type" : "greenDragon"
 							},
 							{
-								"amount": 6,
-								"type": "redDragon"
+								"amount" : 6,
+								"type" : "redDragon"
 							},
 							{
-								"amount": 4,
-								"type": "goldDragon"
+								"amount" : 4,
+								"type" : "goldDragon"
 							},
 							{
-								"amount": 3,
-								"type": "blackDragon"
+								"amount" : 3,
+								"type" : "blackDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1197,43 +1197,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1241,43 +1241,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1285,43 +1285,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1329,43 +1329,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1373,43 +1373,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1417,43 +1417,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1461,43 +1461,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1505,43 +1505,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1549,207 +1549,207 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 40000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 40000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "MAJOR"
+								"class" : "MAJOR"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 60,
-							"max": 90
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 60,
+							"max" : 90
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t3.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 8,
-								"type": "greenDragon"
+								"amount" : 8,
+								"type" : "greenDragon"
 							},
 							{
-								"amount": 7,
-								"type": "redDragon"
+								"amount" : 7,
+								"type" : "redDragon"
 							},
 							{
-								"amount": 6,
-								"type": "goldDragon"
+								"amount" : 6,
+								"type" : "goldDragon"
 							},
 							{
-								"amount": 5,
-								"type": "blackDragon"
+								"amount" : 5,
+								"type" : "blackDragon"
 							}
 						],
-						"mapDice": 0,
-						"limiter": {
-							"secondary": [
+						"mapDice" : 0,
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 4
+									"type" : "luck",
+									"amount" : 4
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"noneOf": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 1
+											"type" : "luck",
+											"amount" : 1
 										}
 									]
 								}
@@ -1757,43 +1757,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1801,43 +1801,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1845,43 +1845,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1889,46 +1889,46 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 1
+									"type" : "luck",
+									"amount" : 1
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 2
+											"type" : "luck",
+											"amount" : 2
 										}
 									]
 								}
@@ -1936,43 +1936,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -1980,43 +1980,43 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -2024,46 +2024,46 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -2071,46 +2071,46 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 2
+									"type" : "luck",
+									"amount" : 2
 								}
 							],
-							"noneOf": [
+							"noneOf" : [
 								{
-									"secondary": [
+									"secondary" : [
 										{
-											"type": "luck",
-											"amount": 3
+											"type" : "luck",
+											"amount" : 3
 										}
 									]
 								}
@@ -2118,146 +2118,146 @@
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
 					},
 					{
-						"appearChance": {
-							"dice": 0,
-							"min": 90,
-							"max": 100
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
 						},
-						"mapDice": 0,
-						"resources": {
-							"gold": 50000
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
 						},
-						"artifacts": [
+						"artifacts" : [
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							},
 							{
-								"class": "RELIC"
+								"class" : "RELIC"
 							}
 						],
-						"message": "@creatureBanksResources.dragonUtopia.t4.success",
-						"limiter": {
-							"secondary": [
+						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"limiter" : {
+							"secondary" : [
 								{
-									"type": "luck",
-									"amount": 3
+									"type" : "luck",
+									"amount" : 3
 								}
 							]
 						}
