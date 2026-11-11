@@ -2,7 +2,9 @@
 	"core:phoenix" : {
 		"abilities" : {
 			"rebirth" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 20,
 				"limiters" : [
 					"noneOf",
@@ -19,7 +21,9 @@
 				]
 			},
 			"rebirth_luck_minus_1" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 17,
 				"limiters" : [
 					{
@@ -31,7 +35,9 @@
 				]
 			},
 			"rebirth_luck_minus_2" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 13,
 				"limiters" : [
 					{
@@ -43,7 +49,9 @@
 				]
 			},
 			"rebirth_luck_minus_3" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 10,
 				"limiters" : [
 					{
@@ -54,7 +62,9 @@
 				]
 			},
 			"rebirth_luck_1" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 22,
 				"limiters" : [
 					{
@@ -66,7 +76,9 @@
 				]
 			},
 			"rebirth_luck_2" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 25,
 				"limiters" : [
 					{
@@ -78,7 +90,9 @@
 				]
 			},
 			"rebirth_luck_3" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 30,
 				"limiters" : [
 					{

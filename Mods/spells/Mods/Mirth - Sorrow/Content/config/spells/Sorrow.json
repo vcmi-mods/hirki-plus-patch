@@ -16,51 +16,67 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"moraleAdd" : {
-						"type" : "MORALE",
-						"duration" : "N_TURNS",
-						"valueType" : "ADDITIVE_VALUE"
-					},
-					"moraleMax" : {
-						"type" : "MORALE",
-						"duration" : "N_TURNS",
-						"valueType" : "INDEPENDENT_MIN"
+				"battleEffects" : {
+					"sorrow" : {
+						"bonus" : {
+							"moraleAdd" : {
+								"type" : "MORALE",
+								"duration" : "N_TURNS",
+								"valueType" : "ADDITIVE_VALUE"
+							},
+							"moraleMax" : {
+								"type" : "MORALE",
+								"duration" : "N_TURNS",
+								"valueType" : "INDEPENDENT_MIN"
+							}
+						}
 					}
 				}
 			},
 			"none" : {
 				"cost" : 12,
-				"effects" : {
-					"moraleAdd" : {
-						"val" : -1
-					},
-					"moraleMax" : {
-						"val" : -1
+				"battleEffects" : {
+					"sorrow" : {
+						"bonus" : {
+							"moraleAdd" : {
+								"val" : -1
+							},
+							"moraleMax" : {
+								"val" : -1
+							}
+						}
 					}
 				},
 				"description" : "{Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-1}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-1 Morale}."
 			},
 			"basic" : {
 				"cost" : 9,
-				"effects" : {
-					"moraleAdd" : {
-						"val" : -1
-					},
-					"moraleMax" : {
-						"val" : -1
+				"battleEffects" : {
+					"sorrow" : {
+						"bonus" : {
+							"moraleAdd" : {
+								"val" : -1
+							},
+							"moraleMax" : {
+								"val" : -1
+							}
+						}
 					}
 				},
 				"description" : "{Basic Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-1}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-1 Morale}."
 			},
 			"advanced" : {
 				"cost" : 7,
-				"effects" : {
-					"moraleAdd" : {
-						"val" : -2
-					},
-					"moraleMax" : {
-						"val" : -2
+				"battleEffects" : {
+					"sorrow" : {
+						"bonus" : {
+							"moraleAdd" : {
+								"val" : -2
+							},
+							"moraleMax" : {
+								"val" : -2
+							}
+						}
 					}
 				},
 				"description" : "{Advanced Sorrow}\n\nDecreases {Morale} of the {target enemy unit} by {-2}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise that unit above {-2 Morale}."
@@ -68,12 +84,16 @@
 			"expert" : {
 				"cost" : 5,
 				"range" : "X",
-				"effects" : {
-					"moraleAdd" : {
-						"val" : -2
-					},
-					"moraleMax" : {
-						"val" : -2
+				"battleEffects" : {
+					"sorrow" : {
+						"bonus" : {
+							"moraleAdd" : {
+								"val" : -2
+							},
+							"moraleMax" : {
+								"val" : -2
+							}
+						}
 					}
 				},
 				"description" : "{Expert Sorrow}\n\nDecreases {Morale} of {all enemy units} by {-2}.\n\n{While Sorrow lasts}, Morale bonuses cannot raise affected units above {-2 Morale}."

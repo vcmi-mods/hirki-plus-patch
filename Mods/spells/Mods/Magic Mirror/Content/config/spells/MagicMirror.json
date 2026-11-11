@@ -21,11 +21,16 @@
 			"none" : {
 				"cost" : 25,
 				"description" : "{Magic Mirror}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {20%}.",
-				"effects" : {
+				"battleEffects" : {
 					"magicMirror" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"valueType" : "INDEPENDENT_MAX"
+						"bonus" : {
+							"spellReflect" : {
+								"val" : 20,
+								"duration" : "N_TURNS",
+								"type" : "MAGIC_MIRROR",
+								"valueType" : "INDEPENDENT_MAX"
+							}
+						}
 					}
 				},
 				"power" : 20,
@@ -37,11 +42,16 @@
 			"basic" : {
 				"cost" : 20,
 				"description" : "{Magic Mirror - Basic level}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {20%}.",
-				"effects" : {
+				"battleEffects" : {
 					"magicMirror" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"valueType" : "INDEPENDENT_MAX"
+						"bonus" : {
+							"spellReflect" : {
+								"val" : 20,
+								"duration" : "N_TURNS",
+								"type" : "MAGIC_MIRROR",
+								"valueType" : "INDEPENDENT_MAX"
+							}
+						}
 					}
 				},
 				"power" : 20,
@@ -53,17 +63,22 @@
 			"advanced" : {
 				"cost" : 18,
 				"description" : "{Magic Mirror - Advanced level}\n\n{Reflects hostile spells}, redirecting them toward a {random enemy unit}. The chance of success is {25%}. The stack also gains a {15% chance to resist a hostile spell}.",
-				"effects" : {
+				"battleEffects" : {
 					"magicMirror" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"valueType" : "INDEPENDENT_MAX"
-					},
-					"magicResistance" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_RESISTANCE",
-						"val" : 15,
-						"valueType" : "INDEPENDENT_MAX"
+						"bonus" : {
+							"spellReflect" : {
+								"val" : 25,
+								"duration" : "N_TURNS",
+								"type" : "MAGIC_MIRROR",
+								"valueType" : "INDEPENDENT_MAX"
+							},
+							"magicResistance" : {
+								"duration" : "N_TURNS",
+								"type" : "MAGIC_RESISTANCE",
+								"val" : 15,
+								"valueType" : "INDEPENDENT_MAX"
+							}
+						}
 					}
 				},
 				"power" : 25,
@@ -75,17 +90,22 @@
 			"expert" : {
 				"cost" : 24,
 				"description" : "{Magic Mirror - Expert level}\n\n{All allied stacks} reflect hostile spells, redirecting them toward a {random enemy unit}. The chance of success is {25%}. Allied stacks also gain a {20% chance to resist a hostile spell}.",
-				"effects" : {
+				"battleEffects" : {
 					"magicMirror" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_MIRROR",
-						"valueType" : "INDEPENDENT_MAX"
-					},
-					"magicResistance" : {
-						"duration" : "N_TURNS",
-						"type" : "MAGIC_RESISTANCE",
-						"val" : 20,
-						"valueType" : "INDEPENDENT_MAX"
+						"bonus" : {
+							"spellReflect" : {
+								"val" : 25,
+								"duration" : "N_TURNS",
+								"type" : "MAGIC_MIRROR",
+								"valueType" : "INDEPENDENT_MAX"
+							},
+							"magicResistance" : {
+								"duration" : "N_TURNS",
+								"type" : "MAGIC_RESISTANCE",
+								"val" : 20,
+								"valueType" : "INDEPENDENT_MAX"
+							}
+						}
 					}
 				},
 				"power" : 25,

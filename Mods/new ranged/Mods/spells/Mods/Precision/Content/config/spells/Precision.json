@@ -9,37 +9,45 @@
 			},
 			"advanced" : {
 				"description" : "{Precision - Advanced}\n\nIncreases the selected allied shooter's Attack by {+6} for ranged attacks only.\n\nAdditionally, extends its full-damage shooting range by {1 hex}, up to {11 hexes}, and grants {+1 Speed} for spell duration.",
-				"effects" : {
-					"hirkyFullDamageRange" : {
-						"type" : "LIMITED_SHOOTING_RANGE",
-						"val" : 99,
-						"addInfo" : 11,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					},
-					"hirkyShooterSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"precision" : {
+						"bonus" : {
+							"hirkyFullDamageRange" : {
+								"type" : "LIMITED_SHOOTING_RANGE",
+								"val" : 99,
+								"addInfo" : 11,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
+							"hirkyShooterSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 1,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Precision - Expert}\n\nIncreases all allied shooters' Attack by {+6} for ranged attacks only.\n\nAdditionally, extends their full-damage shooting range by {2 hexes}, up to {12 hexes}, and grants {+1 Speed} for spell duration.",
-				"effects" : {
-					"hirkyFullDamageRange" : {
-						"type" : "LIMITED_SHOOTING_RANGE",
-						"val" : 100,
-						"addInfo" : 12,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					},
-					"hirkyShooterSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"precision" : {
+						"bonus" : {
+							"hirkyFullDamageRange" : {
+								"type" : "LIMITED_SHOOTING_RANGE",
+								"val" : 100,
+								"addInfo" : 12,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
+							"hirkyShooterSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 1,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

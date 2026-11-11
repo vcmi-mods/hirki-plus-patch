@@ -8,51 +8,67 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"luckAdd" : {
-						"type" : "LUCK",
-						"duration" : "N_TURNS",
-						"valueType" : "ADDITIVE_VALUE"
-					},
-					"luckMax" : {
-						"type" : "LUCK",
-						"duration" : "N_TURNS",
-						"valueType" : "INDEPENDENT_MIN"
+				"battleEffects" : {
+					"misfortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"type" : "LUCK",
+								"duration" : "N_TURNS",
+								"valueType" : "ADDITIVE_VALUE"
+							},
+							"luckMax" : {
+								"type" : "LUCK",
+								"duration" : "N_TURNS",
+								"valueType" : "INDEPENDENT_MIN"
+							}
+						}
 					}
 				}
 			},
 			"none" : {
 				"cost" : 7,
-				"effects" : {
-					"luckAdd" : {
-						"val" : -1
-					},
-					"luckMax" : {
-						"val" : -1
+				"battleEffects" : {
+					"misfortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : -1
+							},
+							"luckMax" : {
+								"val" : -1
+							}
+						}
 					}
 				},
 				"description" : "{Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-1}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-1 Luck}."
 			},
 			"basic" : {
 				"cost" : 5,
-				"effects" : {
-					"luckAdd" : {
-						"val" : -1
-					},
-					"luckMax" : {
-						"val" : -1
+				"battleEffects" : {
+					"misfortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : -1
+							},
+							"luckMax" : {
+								"val" : -1
+							}
+						}
 					}
 				},
 				"description" : "{Basic Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-1}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-1 Luck}."
 			},
 			"advanced" : {
 				"cost" : 4,
-				"effects" : {
-					"luckAdd" : {
-						"val" : -2
-					},
-					"luckMax" : {
-						"val" : -2
+				"battleEffects" : {
+					"misfortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : -2
+							},
+							"luckMax" : {
+								"val" : -2
+							}
+						}
 					}
 				},
 				"description" : "{Advanced Misfortune}\n\nDecreases {Luck} of {target enemy unit} by {-2}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise that unit above {-2 Luck}."
@@ -60,12 +76,16 @@
 			"expert" : {
 				"cost" : 3,
 				"range" : "X",
-				"effects" : {
-					"luckAdd" : {
-						"val" : -2
-					},
-					"luckMax" : {
-						"val" : -2
+				"battleEffects" : {
+					"misfortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : -2
+							},
+							"luckMax" : {
+								"val" : -2
+							}
+						}
 					}
 				},
 				"description" : "{Expert Misfortune}\n\nDecreases {Luck} of {all enemy units} by {-2}.\n\n{While Misfortune lasts}, {Luck bonuses} cannot raise affected units above {-2 Luck}."

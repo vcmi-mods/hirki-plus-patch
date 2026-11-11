@@ -56,24 +56,29 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"inFrenzy" : {
-						"type" : "IN_FRENZY",
-						"duration" : "UNTIL_ATTACK",
-						"val" : 100
-					},
-					"immuneDispel" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispel",
-						"duration" : "UNTIL_ATTACK",
-						"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
-						"hidden" : true
-					},
-					"immuneDispelHelpful" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispelHelpful",
-						"duration" : "UNTIL_ATTACK",
-						"hidden" : true
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"inFrenzy" : {
+								"type" : "IN_FRENZY",
+								"duration" : "UNTIL_ATTACK",
+								"val" : 100
+							},
+							"immuneDispel" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispel",
+								"duration" : "UNTIL_ATTACK",
+								"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+								"hidden" : true
+							},
+							"immuneDispelHelpful" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispelHelpful",
+								"duration" : "UNTIL_ATTACK",
+								"hidden" : true
+							}
+						}
 					}
 				}
 			},
@@ -84,24 +89,29 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"inFrenzy" : {
-						"type" : "IN_FRENZY",
-						"duration" : "UNTIL_ATTACK",
-						"val" : 100
-					},
-					"immuneDispel" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispel",
-						"duration" : "UNTIL_ATTACK",
-						"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
-						"hidden" : true
-					},
-					"immuneDispelHelpful" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispelHelpful",
-						"duration" : "UNTIL_ATTACK",
-						"hidden" : true
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"inFrenzy" : {
+								"type" : "IN_FRENZY",
+								"duration" : "UNTIL_ATTACK",
+								"val" : 100
+							},
+							"immuneDispel" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispel",
+								"duration" : "UNTIL_ATTACK",
+								"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+								"hidden" : true
+							},
+							"immuneDispelHelpful" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispelHelpful",
+								"duration" : "UNTIL_ATTACK",
+								"hidden" : true
+							}
+						}
 					}
 				}
 			},
@@ -112,24 +122,29 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"inFrenzy" : {
-						"type" : "IN_FRENZY",
-						"duration" : "UNTIL_ATTACK",
-						"val" : 150
-					},
-					"immuneDispel" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispel",
-						"duration" : "UNTIL_ATTACK",
-						"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
-						"hidden" : true
-					},
-					"immuneDispelHelpful" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispelHelpful",
-						"duration" : "UNTIL_ATTACK",
-						"hidden" : true
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"inFrenzy" : {
+								"type" : "IN_FRENZY",
+								"duration" : "UNTIL_ATTACK",
+								"val" : 150
+							},
+							"immuneDispel" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispel",
+								"duration" : "UNTIL_ATTACK",
+								"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+								"hidden" : true
+							},
+							"immuneDispelHelpful" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispelHelpful",
+								"duration" : "UNTIL_ATTACK",
+								"hidden" : true
+							}
+						}
 					}
 				}
 			},
@@ -140,24 +155,29 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"inFrenzy" : {
-						"type" : "IN_FRENZY",
-						"duration" : "UNTIL_ATTACK",
-						"val" : 200
-					},
-					"immuneDispel" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispel",
-						"duration" : "UNTIL_ATTACK",
-						"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
-						"hidden" : true
-					},
-					"immuneDispelHelpful" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispelHelpful",
-						"duration" : "UNTIL_ATTACK",
-						"hidden" : true
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"inFrenzy" : {
+								"type" : "IN_FRENZY",
+								"duration" : "UNTIL_ATTACK",
+								"val" : 200
+							},
+							"immuneDispel" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispel",
+								"duration" : "UNTIL_ATTACK",
+								"description" : "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+								"hidden" : true
+							},
+							"immuneDispelHelpful" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispelHelpful",
+								"duration" : "UNTIL_ATTACK",
+								"hidden" : true
+							}
+						}
 					}
 				}
 			},

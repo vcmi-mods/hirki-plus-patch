@@ -156,8 +156,9 @@
 								]
 							},
 							"scheduleStageTwo" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage2",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage2" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -378,8 +379,9 @@
 								]
 							},
 							"scheduleStageTwo" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage2",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage2" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -600,8 +602,9 @@
 								]
 							},
 							"scheduleStageTwo" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage2",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage2" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -928,8 +931,9 @@
 								]
 							},
 							"scheduleStageTwo" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage2",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage2" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -1292,8 +1296,9 @@
 								]
 							},
 							"scheduleStage3" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage3",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage3" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -1615,8 +1620,9 @@
 								]
 							},
 							"scheduleStage3" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage3",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage3" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -1938,8 +1944,9 @@
 								]
 							},
 							"scheduleStage3" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage3",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage3" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -2261,8 +2268,9 @@
 								]
 							},
 							"scheduleStage3" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage3",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage3" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -2610,8 +2618,9 @@
 								]
 							},
 							"scheduleStage4" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage4",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage4" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -2903,8 +2912,9 @@
 								]
 							},
 							"scheduleStage4" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage4",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage4" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -3196,8 +3206,9 @@
 								]
 							},
 							"scheduleStage4" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage4",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage4" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -3489,8 +3500,9 @@
 								]
 							},
 							"scheduleStage4" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage4",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage4" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -3808,8 +3820,9 @@
 								]
 							},
 							"scheduleStage5" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage5",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage5" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -4071,8 +4084,9 @@
 								]
 							},
 							"scheduleStage5" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage5",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage5" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -4334,8 +4348,9 @@
 								]
 							},
 							"scheduleStage5" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage5",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage5" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -4597,8 +4612,9 @@
 								]
 							},
 							"scheduleStage5" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage5",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage5" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -4886,8 +4902,9 @@
 								]
 							},
 							"scheduleStage6" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage6",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage6" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -5119,8 +5136,9 @@
 								]
 							},
 							"scheduleStage6" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage6",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage6" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -5352,8 +5370,9 @@
 								]
 							},
 							"scheduleStage6" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage6",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage6" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -5585,8 +5604,9 @@
 								]
 							},
 							"scheduleStage6" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage6",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage6" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -5844,8 +5864,9 @@
 								]
 							},
 							"scheduleStage7" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage7",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage7" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -6047,8 +6068,9 @@
 								]
 							},
 							"scheduleStage7" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage7",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage7" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -6250,8 +6272,9 @@
 								]
 							},
 							"scheduleStage7" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage7",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage7" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -6453,8 +6476,9 @@
 								]
 							},
 							"scheduleStage7" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage7",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage7" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -6682,8 +6706,9 @@
 								]
 							},
 							"scheduleStage8" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage8",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage8" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -6855,8 +6880,9 @@
 								]
 							},
 							"scheduleStage8" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage8",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage8" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7028,8 +7054,9 @@
 								]
 							},
 							"scheduleStage8" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage8",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage8" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7201,8 +7228,9 @@
 								]
 							},
 							"scheduleStage8" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage8",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage8" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7400,8 +7428,9 @@
 								]
 							},
 							"scheduleStage9" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage9",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage9" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7543,8 +7572,9 @@
 								]
 							},
 							"scheduleStage9" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage9",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage9" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7686,8 +7716,9 @@
 								]
 							},
 							"scheduleStage9" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage9",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage9" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7829,8 +7860,9 @@
 								]
 							},
 							"scheduleStage9" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage9",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage9" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -7998,8 +8030,9 @@
 								]
 							},
 							"scheduleStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8111,8 +8144,9 @@
 								]
 							},
 							"scheduleStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8224,8 +8258,9 @@
 								]
 							},
 							"scheduleStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8337,8 +8372,9 @@
 								]
 							},
 							"scheduleStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8476,8 +8512,9 @@
 								]
 							},
 							"refreshStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8559,8 +8596,9 @@
 								]
 							},
 							"refreshStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8642,8 +8680,9 @@
 								]
 							},
 							"refreshStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
@@ -8725,8 +8764,9 @@
 								]
 							},
 							"refreshStage10" : {
-								"type" : "ENCHANTED",
-								"subtype" : "spell.acidBurstStage10",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "spell.acidBurstStage10" },
 								"val" : 1,
 								"duration" : "N_TURNS",
 								"turns" : 2,
