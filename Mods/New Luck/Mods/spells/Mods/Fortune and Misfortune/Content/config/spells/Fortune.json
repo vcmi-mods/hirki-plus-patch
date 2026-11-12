@@ -16,51 +16,67 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"luckAdd" : {
-						"type" : "LUCK",
-						"duration" : "N_TURNS",
-						"valueType" : "ADDITIVE_VALUE"
-					},
-					"luckMin" : {
-						"type" : "LUCK",
-						"duration" : "N_TURNS",
-						"valueType" : "INDEPENDENT_MAX"
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"type" : "LUCK",
+								"duration" : "N_TURNS",
+								"valueType" : "ADDITIVE_VALUE"
+							},
+							"luckMin" : {
+								"type" : "LUCK",
+								"duration" : "N_TURNS",
+								"valueType" : "INDEPENDENT_MAX"
+							}
+						}
 					}
 				}
 			},
 			"none" : {
 				"cost" : 5,
-				"effects" : {
-					"luckAdd" : {
-						"val" : 1
-					},
-					"luckMin" : {
-						"val" : 1
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : 1
+							},
+							"luckMin" : {
+								"val" : 1
+							}
+						}
 					}
 				},
 				"description" : "{Fortune}\n\nIncreases {Luck} of {target allied unit} by {+1}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+1 Luck}."
 			},
 			"basic" : {
 				"cost" : 4,
-				"effects" : {
-					"luckAdd" : {
-						"val" : 1
-					},
-					"luckMin" : {
-						"val" : 1
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : 1
+							},
+							"luckMin" : {
+								"val" : 1
+							}
+						}
 					}
 				},
 				"description" : "{Basic Fortune}\n\nIncreases {Luck} of {target allied unit} by {+1}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+1 Luck}."
 			},
 			"advanced" : {
 				"cost" : 3,
-				"effects" : {
-					"luckAdd" : {
-						"val" : 2
-					},
-					"luckMin" : {
-						"val" : 2
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : 2
+							},
+							"luckMin" : {
+								"val" : 2
+							}
+						}
 					}
 				},
 				"description" : "{Advanced Fortune}\n\nIncreases {Luck} of {target allied unit} by {+2}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce that unit below {+2 Luck}."
@@ -68,12 +84,16 @@
 			"expert" : {
 				"cost" : 2,
 				"range" : "X",
-				"effects" : {
-					"luckAdd" : {
-						"val" : 2
-					},
-					"luckMin" : {
-						"val" : 2
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luckAdd" : {
+								"val" : 2
+							},
+							"luckMin" : {
+								"val" : 2
+							}
+						}
 					}
 				},
 				"description" : "{Expert Fortune}\n\nIncreases {Luck} of {all allied units} by {+2}.\n\n{While Fortune lasts}, {Luck penalties} cannot reduce affected units below {+2 Luck}."

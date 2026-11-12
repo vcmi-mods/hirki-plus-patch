@@ -1,6 +1,8 @@
 {
 	"core:coronius" : {
 		"specialty" : {
+			// replaces vanilla Slayer enchant, which core now declares as a shortcut
+			"spellFixedAdditive" : null,
 			"bonuses" : {
 				"coroniusSlayerHatesKingLevel12" : {
 					"type" : "HATES_TRAIT",

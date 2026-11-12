@@ -65,7 +65,8 @@
 		"bonuses" : {
 			"noRetreat" : {
 				"propagator" : "BATTLE_WIDE",
-				"type" : "BATTLE_NO_FLEEING",
+				"type" : "BATTLE_CAN_FLEE",
+				"val" : -100,
 				"limiters" : [
 					"noneOf",
 					{

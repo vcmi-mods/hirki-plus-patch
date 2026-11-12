@@ -2,7 +2,9 @@
 	"core:mightyGorgon" : {
 		"abilities" : {
 			"death_stare_luck_minus_1" : {
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : -1,
 				"limiters" : [
 					{
@@ -14,7 +16,9 @@
 				]
 			},
 			"death_stare_luck_minus_2" : {
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : -2,
 				"limiters" : [
 					{
@@ -26,7 +30,9 @@
 				]
 			},
 			"death_stare_luck_minus_3" : {
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : -3,
 				"limiters" : [
 					{
@@ -37,7 +43,9 @@
 				]
 			},
 			"death_stare_luck_1" : {
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 1,
 				"limiters" : [
 					{
@@ -49,7 +57,9 @@
 				]
 			},
 			"death_stare_luck_2" : {
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 3,
 				"limiters" : [
 					{
@@ -61,7 +71,9 @@
 				]
 			},
 			"death_stare_luck_3" : {
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 5,
 				"limiters" : [
 					{

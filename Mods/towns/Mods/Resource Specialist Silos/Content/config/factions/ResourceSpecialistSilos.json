@@ -7,7 +7,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -43,7 +43,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -78,7 +78,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -113,7 +113,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -148,7 +148,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -184,7 +184,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -219,7 +219,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -255,7 +255,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -291,7 +291,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -326,7 +326,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -361,7 +361,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
@@ -396,7 +396,7 @@
 						"visitMode" : "once",
 						"selectMode" : "selectFirst",
 						"resetParameters" : {
-							"period" : 7,
+							"weeks" : 1,
 							"visitors" : true
 						},
 						"onEmptyMessage" : "",
