@@ -62,7 +62,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "{Dragon Utopia}\n\nAfter defeating the guards, you receive {20000 gold} and four artifacts (Treasure + Minor + Major + Relic): %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -100,7 +100,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -144,7 +144,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -188,7 +188,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -232,7 +232,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"message" : "{Dragon Utopia}\n\nLuck favors your search. You receive {30000 gold} and four artifacts (Minor + Major + Relic + Relic): %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -276,7 +276,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -320,7 +320,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -364,7 +364,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -408,7 +408,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -452,7 +452,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -486,7 +486,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -520,7 +520,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -554,7 +554,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t1.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -622,7 +622,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "{Dragon Utopia}\n\nAfter defeating the guards, you receive {30000 gold} and four artifacts (Minor + Major + Relic + Relic): %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -660,7 +660,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -704,7 +704,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -748,7 +748,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -792,7 +792,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"message" : "{Dragon Utopia}\n\nLuck favors your search. You receive {40000 gold} and four artifacts (Major + Relic + Relic + Relic): %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -836,7 +836,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -880,7 +880,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -924,7 +924,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -968,7 +968,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1012,7 +1012,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1046,7 +1046,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1080,7 +1080,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1114,7 +1114,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t2.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1182,7 +1182,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "{Dragon Utopia}\n\nAfter defeating the guards, you receive {40000 gold} and four artifacts (Major + Relic + Relic + Relic): %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1220,7 +1220,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1264,7 +1264,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1308,7 +1308,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1352,7 +1352,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"message" : "{Dragon Utopia}\n\nLuck favors your search. You receive {50000 gold} and four artifacts (Relic + Relic + Relic + Relic): %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1396,7 +1396,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1440,7 +1440,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1484,7 +1484,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1528,7 +1528,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1572,7 +1572,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1606,7 +1606,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1640,7 +1640,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1674,7 +1674,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t3.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1742,7 +1742,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"message" : "{Dragon Utopia}\n\nAfter defeating the guards, you receive {50000 gold} and four artifacts (Relic + Relic + Relic + Relic): %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1780,7 +1780,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1824,7 +1824,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1868,7 +1868,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1915,7 +1915,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"message" : "{Dragon Utopia}\n\nLuck favors your search. You receive {50000 gold} and five artifacts (Relic + Relic + Relic + Relic + Relic): %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1959,7 +1959,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -2003,54 +2003,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
-						"limiter" : {
-							"secondary" : [
-								{
-									"type" : "luck",
-									"amount" : 2
-								}
-							],
-							"noneOf" : [
-								{
-									"secondary" : [
-										{
-											"type" : "luck",
-											"amount" : 3
-										}
-									]
-								}
-							]
-						}
-					},
-					{
-						"appearChance" : {
-							"dice" : 0,
-							"min" : 90,
-							"max" : 100
-						},
-						"mapDice" : 0,
-						"resources" : {
-							"gold" : 50000
-						},
-						"artifacts" : [
-							{
-								"class" : "RELIC"
-							},
-							{
-								"class" : "RELIC"
-							},
-							{
-								"class" : "RELIC"
-							},
-							{
-								"class" : "RELIC"
-							},
-							{
-								"class" : "RELIC"
-							}
-						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -2097,7 +2050,54 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.47",
+						"limiter" : {
+							"secondary" : [
+								{
+									"type" : "luck",
+									"amount" : 2
+								}
+							],
+							"noneOf" : [
+								{
+									"secondary" : [
+										{
+											"type" : "luck",
+											"amount" : 3
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"appearChance" : {
+							"dice" : 0,
+							"min" : 90,
+							"max" : 100
+						},
+						"mapDice" : 0,
+						"resources" : {
+							"gold" : 50000
+						},
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						],
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -2141,7 +2141,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.base",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -2178,7 +2178,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -2215,7 +2215,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -2252,7 +2252,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.dragonUtopia.t4.success",
+						"message" : "@mapObject.core.dragonUtopia.dragonUtopia.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{

@@ -54,7 +54,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "{Imp Cache}\n\nAfter defeating the guards, you receive {1000 gold and 2 mercury}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -79,7 +79,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -110,7 +110,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -141,7 +141,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -172,7 +172,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t1.success",
+						"message" : "{Imp Cache}\n\nLuck favors your search. You receive {1500 gold and 3 mercury}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -203,7 +203,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -234,7 +234,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -265,7 +265,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t1.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -296,7 +296,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t1.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -327,7 +327,7 @@
 							"gold" : 1000,
 							"mercury" : 2
 						},
-						"message" : "@creatureBanksResources.impCache.t1.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -348,7 +348,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t1.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -369,7 +369,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t1.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -390,7 +390,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t1.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -450,7 +450,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "{Imp Cache}\n\nAfter defeating the guards, you receive {1500 gold and 3 mercury}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -475,7 +475,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -506,7 +506,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -537,7 +537,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -568,7 +568,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t2.success",
+						"message" : "{Imp Cache}\n\nLuck favors your search. You receive {2000 gold and 4 mercury}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -599,7 +599,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -630,7 +630,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -661,7 +661,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t2.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -692,7 +692,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t2.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -723,7 +723,7 @@
 							"gold" : 1500,
 							"mercury" : 3
 						},
-						"message" : "@creatureBanksResources.impCache.t2.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -744,7 +744,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t2.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -765,7 +765,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t2.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -786,7 +786,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t2.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -846,7 +846,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "{Imp Cache}\n\nAfter defeating the guards, you receive {2000 gold and 4 mercury}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -871,7 +871,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -902,7 +902,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -933,7 +933,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -964,7 +964,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t3.success",
+						"message" : "{Imp Cache}\n\nLuck favors your search. You receive {3000 gold and 6 mercury}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -995,7 +995,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1026,7 +1026,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1057,7 +1057,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t3.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1088,7 +1088,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t3.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1119,7 +1119,7 @@
 							"gold" : 2000,
 							"mercury" : 4
 						},
-						"message" : "@creatureBanksResources.impCache.t3.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1140,7 +1140,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t3.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1161,7 +1161,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t3.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1182,7 +1182,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t3.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1242,7 +1242,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "{Imp Cache}\n\nAfter defeating the guards, you receive {3000 gold and 6 mercury}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1267,7 +1267,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1298,7 +1298,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1329,7 +1329,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1360,7 +1360,7 @@
 							"gold" : 4000,
 							"mercury" : 8
 						},
-						"message" : "@creatureBanksResources.impCache.t4.success",
+						"message" : "{Imp Cache}\n\nLuck favors your search. You receive {4000 gold and 8 mercury}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1391,7 +1391,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1422,7 +1422,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1453,7 +1453,7 @@
 							"gold" : 4000,
 							"mercury" : 8
 						},
-						"message" : "@creatureBanksResources.impCache.t4.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1484,7 +1484,7 @@
 							"gold" : 4000,
 							"mercury" : 8
 						},
-						"message" : "@creatureBanksResources.impCache.t4.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1515,7 +1515,7 @@
 							"gold" : 3000,
 							"mercury" : 6
 						},
-						"message" : "@creatureBanksResources.impCache.t4.base",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1536,7 +1536,7 @@
 							"gold" : 4000,
 							"mercury" : 8
 						},
-						"message" : "@creatureBanksResources.impCache.t4.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1557,7 +1557,7 @@
 							"gold" : 4000,
 							"mercury" : 8
 						},
-						"message" : "@creatureBanksResources.impCache.t4.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1578,7 +1578,7 @@
 							"gold" : 4000,
 							"mercury" : 8
 						},
-						"message" : "@creatureBanksResources.impCache.t4.success",
+						"message" : "@mapObject.core.creatureBank.impCache.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{

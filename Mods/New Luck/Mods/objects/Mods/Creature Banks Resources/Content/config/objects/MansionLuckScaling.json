@@ -70,7 +70,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "{Mansion}\n\nAfter defeating the guards, you receive {2500 gold, 2 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -101,7 +101,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -138,7 +138,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -175,7 +175,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -212,7 +212,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t1.success",
+						"message" : "{Mansion}\n\nLuck favors your search. You receive {5000 gold, 3 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -249,7 +249,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -286,7 +286,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -323,7 +323,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -360,7 +360,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -397,7 +397,7 @@
 							"mercury" : 2,
 							"sulfur" : 2
 						},
-						"message" : "@creatureBanksResources.mansion.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -424,7 +424,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -451,7 +451,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -478,7 +478,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -543,7 +543,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "{Mansion}\n\nAfter defeating the guards, you receive {5000 gold, 3 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -574,7 +574,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -611,7 +611,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -648,7 +648,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -685,7 +685,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t2.success",
+						"message" : "{Mansion}\n\nLuck favors your search. You receive {7500 gold, 4 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -722,7 +722,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -759,7 +759,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -796,7 +796,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -833,7 +833,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -870,7 +870,7 @@
 							"mercury" : 3,
 							"sulfur" : 3
 						},
-						"message" : "@creatureBanksResources.mansion.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -897,7 +897,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -924,7 +924,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -951,7 +951,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1016,7 +1016,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "{Mansion}\n\nAfter defeating the guards, you receive {7500 gold, 4 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1047,7 +1047,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1084,7 +1084,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1121,7 +1121,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1158,7 +1158,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t3.success",
+						"message" : "{Mansion}\n\nLuck favors your search. You receive {10000 gold, 5 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1195,7 +1195,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1232,7 +1232,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1269,7 +1269,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1306,7 +1306,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1343,7 +1343,7 @@
 							"mercury" : 4,
 							"sulfur" : 4
 						},
-						"message" : "@creatureBanksResources.mansion.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1370,7 +1370,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1397,7 +1397,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1424,7 +1424,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1489,7 +1489,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "{Mansion}\n\nAfter defeating the guards, you receive {10000 gold, 5 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1520,7 +1520,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1557,7 +1557,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1594,7 +1594,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1631,7 +1631,7 @@
 							"mercury" : 6,
 							"sulfur" : 6
 						},
-						"message" : "@creatureBanksResources.mansion.t4.success",
+						"message" : "{Mansion}\n\nLuck favors your search. You receive {12500 gold, 6 each of mercury, sulfur, crystals and gems, and a Major-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1668,7 +1668,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1705,7 +1705,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1742,7 +1742,7 @@
 							"mercury" : 6,
 							"sulfur" : 6
 						},
-						"message" : "@creatureBanksResources.mansion.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1779,7 +1779,7 @@
 							"mercury" : 6,
 							"sulfur" : 6
 						},
-						"message" : "@creatureBanksResources.mansion.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1816,7 +1816,7 @@
 							"mercury" : 5,
 							"sulfur" : 5
 						},
-						"message" : "@creatureBanksResources.mansion.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1843,7 +1843,7 @@
 							"mercury" : 6,
 							"sulfur" : 6
 						},
-						"message" : "@creatureBanksResources.mansion.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1870,7 +1870,7 @@
 							"mercury" : 6,
 							"sulfur" : 6
 						},
-						"message" : "@creatureBanksResources.mansion.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1897,7 +1897,7 @@
 							"mercury" : 6,
 							"sulfur" : 6
 						},
-						"message" : "@creatureBanksResources.mansion.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.mansion.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{

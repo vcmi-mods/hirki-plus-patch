@@ -41,7 +41,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "{Black Tower}\n\nAfter defeating the guards, you receive {2000 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -70,7 +70,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -105,7 +105,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -140,7 +140,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -175,7 +175,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"message" : "{Black Tower}\n\nLuck favors your search. You receive {2250 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -210,7 +210,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -245,7 +245,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -280,7 +280,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -315,7 +315,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -350,7 +350,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -375,7 +375,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -400,7 +400,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -425,7 +425,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -472,7 +472,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "{Black Tower}\n\nAfter defeating the guards, you receive {2250 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -501,7 +501,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -536,7 +536,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -571,7 +571,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -606,7 +606,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"message" : "{Black Tower}\n\nLuck favors your search. You receive {3500 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -641,7 +641,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -676,7 +676,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -711,7 +711,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -746,7 +746,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -781,7 +781,7 @@
 						"resources" : {
 							"gold" : 2250
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -806,7 +806,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -831,7 +831,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -856,7 +856,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -903,7 +903,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "{Black Tower}\n\nAfter defeating the guards, you receive {3500 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -932,7 +932,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -967,7 +967,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1002,7 +1002,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1037,7 +1037,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"message" : "{Black Tower}\n\nLuck favors your search. You receive {3750 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1072,7 +1072,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1107,7 +1107,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1142,7 +1142,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1177,7 +1177,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1212,7 +1212,7 @@
 						"resources" : {
 							"gold" : 3500
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1237,7 +1237,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1262,7 +1262,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1287,7 +1287,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1334,7 +1334,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "{Black Tower}\n\nAfter defeating the guards, you receive {3750 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1363,7 +1363,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1398,7 +1398,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1433,7 +1433,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1468,7 +1468,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"message" : "{Black Tower}\n\nLuck favors your search. You receive {3750 gold} and {a Major-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1503,7 +1503,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1538,7 +1538,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1573,7 +1573,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1608,7 +1608,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1643,7 +1643,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1668,7 +1668,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1693,7 +1693,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1718,7 +1718,7 @@
 						"resources" : {
 							"gold" : 3750
 						},
-						"message" : "@creatureBanksResources.blackTower.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.blackTower.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
