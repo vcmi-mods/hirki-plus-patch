@@ -58,7 +58,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "{Beholders' Sanctuary}\n\nAfter defeating the guards, you receive {3000 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -87,7 +87,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -122,7 +122,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -157,7 +157,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -192,7 +192,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"message" : "{Beholders' Sanctuary}\n\nLuck favors your search. You receive {5000 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -227,7 +227,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -262,7 +262,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -297,7 +297,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -332,7 +332,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -367,7 +367,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -392,7 +392,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -417,7 +417,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -442,7 +442,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t1.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -506,7 +506,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "{Beholders' Sanctuary}\n\nAfter defeating the guards, you receive {5000 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -535,7 +535,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -570,7 +570,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -605,7 +605,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -640,7 +640,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"message" : "{Beholders' Sanctuary}\n\nLuck favors your search. You receive {6000 gold} and {a Major-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -675,7 +675,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -710,7 +710,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -745,7 +745,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -780,7 +780,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -815,7 +815,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -840,7 +840,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -865,7 +865,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -890,7 +890,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t2.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -954,7 +954,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "{Beholders' Sanctuary}\n\nAfter defeating the guards, you receive {6000 gold} and {a Major-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -983,7 +983,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1018,7 +1018,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1053,7 +1053,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1088,7 +1088,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"message" : "{Beholders' Sanctuary}\n\nLuck favors your search. You receive {6000 gold} and {a Relic-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1123,7 +1123,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1158,7 +1158,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1193,7 +1193,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1228,7 +1228,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1263,7 +1263,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1288,7 +1288,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1313,7 +1313,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1338,7 +1338,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t3.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1402,7 +1402,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "{Beholders' Sanctuary}\n\nAfter defeating the guards, you receive {9000 gold} and {a Major-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1431,7 +1431,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1466,7 +1466,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1501,7 +1501,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1536,7 +1536,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"message" : "{Beholders' Sanctuary}\n\nLuck favors your search. You receive {9000 gold} and {a Relic-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1571,7 +1571,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1606,7 +1606,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1641,7 +1641,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1676,7 +1676,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1711,7 +1711,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.base",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1736,7 +1736,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1761,7 +1761,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1786,7 +1786,7 @@
 								"class" : "RELIC"
 							}
 						],
-						"message" : "@creatureBanksResources.beholdersSanctuary.t4.success",
+						"message" : "@mapObject.hota.mapobjects.creatureBank.beholderSanctuary.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{

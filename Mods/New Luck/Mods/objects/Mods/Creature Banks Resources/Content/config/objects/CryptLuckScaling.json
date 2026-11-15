@@ -52,7 +52,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "{Crypt}\n\nAfter defeating the undead guards, you find {1500 gold}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -76,7 +76,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -106,7 +106,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -136,7 +136,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -166,7 +166,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t1.success",
+						"message" : "{Crypt}\n\nLuck favors your search. After defeating the undead guards, you find {2000 gold}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -196,7 +196,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -226,7 +226,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -256,7 +256,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t1.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -286,7 +286,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t1.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -316,7 +316,7 @@
 						"resources" : {
 							"gold" : 1500
 						},
-						"message" : "@creatureBanksResources.crypt.t1.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -336,7 +336,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t1.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -356,7 +356,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t1.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -376,7 +376,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t1.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -434,7 +434,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "{Crypt}\n\nAfter defeating the undead guards, you find {2000 gold}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -458,7 +458,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -488,7 +488,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -518,7 +518,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -553,7 +553,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t2.success",
+						"message" : "{Crypt}\n\nLuck favors your search. You find {2500 gold} and {a Treasure-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -583,7 +583,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -613,7 +613,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -648,7 +648,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t2.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -683,7 +683,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t2.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -713,7 +713,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.crypt.t2.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -738,7 +738,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t2.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -763,7 +763,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t2.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -788,7 +788,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t2.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -847,7 +847,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "{Crypt}\n\nAfter defeating the undead guards, you find {2500 gold} and {a Treasure-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -876,7 +876,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -911,7 +911,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -946,7 +946,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -981,7 +981,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.success",
+						"message" : "{Crypt}\n\nLuck favors your search. You find {5000 gold} and {a Treasure-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1016,7 +1016,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1051,7 +1051,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1086,7 +1086,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1121,7 +1121,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1156,7 +1156,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1181,7 +1181,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1206,7 +1206,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1231,7 +1231,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t3.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1290,7 +1290,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "{Crypt}\n\nAfter defeating the undead guards, you find {5000 gold} and {a Treasure-class artifact}: %s.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1319,7 +1319,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1354,7 +1354,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1389,7 +1389,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1424,7 +1424,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.success",
+						"message" : "{Crypt}\n\nLuck favors your search. You find {5000 gold} and {a Minor-class artifact}: %s.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1459,7 +1459,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1494,7 +1494,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1529,7 +1529,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1564,7 +1564,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1599,7 +1599,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.base",
+						"message" : "@mapObject.core.crypt.crypt.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1624,7 +1624,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1649,7 +1649,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1674,7 +1674,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.crypt.t4.success",
+						"message" : "@mapObject.core.crypt.crypt.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{

@@ -52,7 +52,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "{Shipwreck}\n\nAfter defeating the guards, you receive {2000 gold}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -76,7 +76,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -106,7 +106,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -136,7 +136,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -166,7 +166,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"message" : "{Shipwreck}\n\nLuck favors your search. You receive {3000 gold}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -196,7 +196,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -226,7 +226,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -256,7 +256,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -286,7 +286,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -316,7 +316,7 @@
 						"resources" : {
 							"gold" : 2000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.1",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -336,7 +336,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -356,7 +356,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -376,7 +376,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t1.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.5",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -434,7 +434,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "{Shipwreck}\n\nAfter defeating the guards, you receive {3000 gold}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -458,7 +458,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -488,7 +488,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -518,7 +518,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -553,7 +553,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"message" : "{Shipwreck}\n\nLuck favors your search. You receive {4000 gold and a Treasure-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -583,7 +583,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -613,7 +613,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -648,7 +648,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -683,7 +683,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -713,7 +713,7 @@
 						"resources" : {
 							"gold" : 3000
 						},
-						"message" : "@creatureBanksResources.shipwreck.t2.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.15",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -738,7 +738,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -763,7 +763,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -788,7 +788,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t2.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.19",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -851,7 +851,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "{Shipwreck}\n\nAfter defeating the guards, you receive {4000 gold and a Treasure-class artifact}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -880,7 +880,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -915,7 +915,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -950,7 +950,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -985,7 +985,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"message" : "{Shipwreck}\n\nLuck favors your search. You receive {5000 gold and a Minor-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1020,7 +1020,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1055,7 +1055,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1090,7 +1090,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1125,7 +1125,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1160,7 +1160,7 @@
 								"class" : "TREASURE"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.29",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1185,7 +1185,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1210,7 +1210,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1235,7 +1235,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t3.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.33",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1298,7 +1298,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "{Shipwreck}\n\nAfter defeating the guards, you receive {5000 gold and a Minor-class artifact}.",
 						"limiter" : {
 							"noneOf" : [
 								{
@@ -1327,7 +1327,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1362,7 +1362,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1397,7 +1397,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1432,7 +1432,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"message" : "{Shipwreck}\n\nLuck favors your search. You receive {6000 gold and a Major-class artifact}.",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1467,7 +1467,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1502,7 +1502,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1537,7 +1537,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1572,7 +1572,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1607,7 +1607,7 @@
 								"class" : "MINOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.base",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.43",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1632,7 +1632,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1657,7 +1657,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
@@ -1682,7 +1682,7 @@
 								"class" : "MAJOR"
 							}
 						],
-						"message" : "@creatureBanksResources.shipwreck.t4.success",
+						"message" : "@mapObject.core.shipwreck.shipwreck.rewards.47",
 						"limiter" : {
 							"secondary" : [
 								{
